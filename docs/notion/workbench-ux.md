@@ -112,3 +112,11 @@ Notion [TEST 補助工作台](https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b
 
 ## 2026-10-24｜UX v4.2 介面驗收完成
 使用者確認第2題A/PASS，保留第1、3、4題PASS；UX v4.2四項全通過。免週報公式未啟用，本次沒有修改Notion資料或View。
+
+## 2026-10-24｜青壯完成核定次數但未結案：預約提醒應改為轉自費或結案
+- **[USER CONFIRMED REQUIREMENT]** 使用者要求青壯方案完成3次但Care Episode仍在進行中時，個案與服務歷程管理頁不得繼續顯示一般「預約下次」，而應提醒「轉自費或結案」。僅是對提醒流程的明確需求；不得擅自結案、改會談收費方案或直接按未核實的「青壯轉自費」資料庫按鈕。既有UX v4.2四項人工PASS保留。
+- **[LIVE CAUSE]** 重新Fetch實際TEST `02_Cases and Care Episodes` https://app.notion.com/p/a188ca66aa4d82c69764810ab99f8663 及其linked DB `https://app.notion.com/p/68f8ca66aa4d83deb2060154fbc3a052`：原 `view://0128ca66-aa4d-83a6-8711-08f23fa15fce`「未預約下次會談」以Episode狀態進行／待辦群組AND`下次會談預約_自動`=`未安排`判斷，完全**沒有補助已完成達上限排除條件**（當次Saved View 32筆）。Cases還有`下次會談預約_自動(顯示)`、Episodes有`歷程摘要_自動(顯示)`共享公式；需同時核對文字呈現，不可只改View但保留其他地方的錯誤提醒。
+- **[ACTUAL TEST COHORT]** 現行115青壯Price Plan的每案上限=3，當期22筆青壯Care Episodes匿名連結41筆Sessions；`有效已完成≥3且仍進行中`為**0筆**，已完成2＋已預約1有3筆。因此找出結構風險不代表「完成3的提醒」已具Notion原生PASS；不得改真實會談狀態做測試。
+- **[PROPOSED SCOPE AND PRIORITY]** 最小實作預計僅在Care Episodes按**實際Price Plan實例**取該期每案上限並計對應`已完成`的Sessions（取消、改期、no-show、一般自費與僅預約不計），若Episode未結案且已完成≥核定上限，優先提示`補助次數已完成｜轉自費或結案`，從普通`未預約下次`排除；同時若已預約下次則加獨立超額預約核對提示。不滿額者仍走原流程，已轉自費者依自費規則，已結案者不提示。外部未知不得被當0，但已在本所確認完成滿額時應顯示處置提醒，外部待核對可另列；跨方案／期別各自算。
+- **[HARD STOP AND TEST]** Episode與Cases原Formula `formulaCode://`皆無完整原文、`青壯轉自費` Button現有Action也不可從連接器驗證；不能猜測覆蓋共享Formula，更不能改`💲收費方案`關聯導致已完成歷史補助紀錄統計消失。實作前先取得可回復的原Formula／按鈕配置與完整依賴、核對設計前後及獨立TEST隔離，重要結構/公式修改另須精確核准。本輪僅唯讀＋離線**11/11決策案例PASS**，不是Notion本機Formula、UI或週限驗收；無Notion資料、Schema、View、Formula、角色權限、正式GAS改動。
+- **[SPEC & BACKUP]** [跨期方案UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)已以revision guard追加第27節，回讀第26/27節；[新增前備份](https://docs.google.com/document/d/1lT4mzcL4lVhvIBIePxdiFNCRUcXCIypSzwTFY6wVw3o/edit)回讀沒有第27節。本輪沒有Notion變更需回復；要撤銷本輪文件變更精確撤去第27節／GitHub本段並保留其他同步修改。角色權限維持DEFERRED，免週回報Formula仍NOT LIVE。
