@@ -187,3 +187,9 @@
 - [CENTRAL PASS / LOCAL CONTRACT PENDING] 衛福部115年公開公告明示15–45歲本國籍或持健保卡外籍人士；桃園115年公告明示當期期間與三次個別心理諮商。桃園當年計畫書PDF附件仍無法完整檢閱、已連接Drive未找到已簽汐予115年契約全文；因此最短7天、最長1個月、連續2次無故缺席的具體桃園合約處置，仍待核對後才可把前輪文字差異改成正式修正。
 - [LIVE NOTION READBACK / NUMERIC BLOCKED] Price Plans、Sessions、Care Episodes Schema、當期啟用方案原頁及政府方案View重讀；1個政府方案啟用，公式／Rollup仍只返回參照非原生數值。未重新逐筆檢查全部295筆Sessions，保留先前41/41及8筆差異歷史驗收。
 - [NO BUSINESS WRITE] 僅GitHub匿名來源／驗收紀錄更新；Notion備註、方案、Session、Relation、Formula、View、權限、Google Docs及正式程式均不動。後續最小備註修正候選與回復程序見當日完整稽核。
+
+## 2026-10-24｜中央115青壯連續缺席裁量條文已核對：備註仍未修、額度仍受阻
+- **[CENTRAL RULE TEXT PASS]** 桃園公部門託管衛福部115年計畫書的可搜尋條文片段＋我的E政府115年FAQ相互印證，連續兩次無故未到的中央措辭是「合作機構得拒絕提供服務」，不是現行Notion備註的「將取消資格」；至少7天、至多1個月與總3個月之原則亦有中央115年FAQ依據；衛福部115年公告已包含持健保卡外籍人士。這是**中央層級規則文字確認**，非合約附款全文驗收。
+- **[LOCAL CONTRACT PENDING / PDF LIMIT]** 桃園115年官方公告版計畫書與另一桃園公部門託管中央計畫PDF可定位，但Web閱讀工具下載cache miss，未完成附件全文逐頁閱讀；未核實汐予115年實際簽署契約的補充條文。部分其他縣市可能另有暫停規定，不假定桃園也有或必然沒有。
+- **[LIVE NOTION READBACK]** 啟用115年Price Plan原始備註仍寫「>7天」「連續兩次未到將取消資格」，官方文字差異確認；政府View仍1筆且無後頁；已占用、剩餘及核定額度仍為不可直接驗收的Formula/Rollup參照，NUMERIC BLOCKED。
+- **[NO NOTION WRITE]** 本輪沒有變更現行Price Plan備註、Sessions、Episodes、Staff、Formula/Relation/View、角色權限、Google Docs或正式系統；僅GitHub匿名驗收及來源記錄。8筆既有不同收費方案會談仍保留，前輪關聯回歸不冒稱本輪重跑。詳見[相依稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
