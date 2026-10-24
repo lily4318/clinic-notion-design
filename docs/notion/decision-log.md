@@ -261,3 +261,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[INTEGRATION GATE]** 必須先取得當前Staff `青壯本週他處顯示_自動`、`青壯本週額度狀態_v2_自動`兩份Formula完整原文（在Notion屬性→編輯公式複製），再核對依賴的週回報公式完整原文、製作**可回復的原始表達式備份**及最小差異，才能在確實隔離的TEST驗證免回報、已確認0、未知、期滿、週中異動、衝突、週日換週、跨方案期別，切勿把本輪視為功能已啟用。
 - **[UNCHANGED/TEST]** 本輪Notion全部零寫入，Staff新增3欄保持先前已完成狀態、原共享Formula／View／Relations/Rows及本期Price Plan不變；未啟用自動免週回報，角色權限DEFERRED，未進行真人效能測試。回復僅涉及本回合文件增補；本輪不需Notion資料回復。
 - **[DOCS VERIFIED]** [Google Docs現行青壯額度UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit) 已以revision guard追加第二十一節，寫後回讀確認第二十、二十一節存在；[修改前備份](https://docs.google.com/document/d/16pDQkusnEuRsqLMct8-R1eU4HnzRsv0ni5uSm2sr-dQ/edit) 回讀無第二十一節。精準回復僅撤銷新增文字，保留其他編輯。
+
+## 2026-10-24｜使用者要求學習成果實際活用：補助工作台UX v3獨立預覽（待真人確認）
+- **[USER UX GATE]** 使用者明確反映Notion版面仍醜且難用，質疑學習成果是否真的被活用，要求先確認實際設計成果再繼續其他功能。這是修正設計優先順序的要求，**不是對UX v3最終版面的審美核准**；青壯免週報Formula工作線維持暫緩，角色權限依原決定DEFERRED。
+- **[LIVE TEST PREVIEW]** 原[政府補助工作台](https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf)未覆蓋，在TEST行政管理下建立[UX v3獨立預覽](https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f)。首屏3種額度入口（治療所／個案／心理師），接著2張日常任務卡，歷史備查收合，底部3張精簡Linked Views；使用者可真實開啟並比較，不是靜態概念圖。
+- **[LEARNING TRANSFER]** 對照Notion官方「閱讀者導向＋Callout／Columns／Toggle」、「減少首頁Inline DB與顯示屬性」、「各View獨立配置」及Business OS／Company OS／營運Dashboard範本之Quick Actions。實施成果：同一用途原頁7個Inline DB→預覽3個；治療所顯示欄11→7、心理師5→5、個案11→8；不新增假KPI、黃色警示或資格工作流，亦不宣稱完成過去要求1,000／10,000篇模板研究。
+- **[HUMAN/PERFORMANCE PENDING]** 操作入口可見、配置與資料範圍PASS，**未**證明視覺舒適度、真人1-click體驗、手機排版或實際網頁載入變快。待使用者真實比較完成三任務：首屏找到三額度並點入、開始個案選方案、辨識免週回報公式仍未啟用。未獲認可不覆蓋原工作台、不續作公式。回復僅精準撤銷新預覽與其3個Linked Views，原頁已保留。
+- **[EVIDENCE & DOCS]** 實際來源→設計→原生Notion實作及回查詳見[專項稽核](audits/subsidy-ux-v3-learning-applied-2026-10-24.md)；[Google Docs跨年額度UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)新增第二十二節並回讀，已建立[增補前備份](https://docs.google.com/document/d/1J3Z9zhvjtb53Ik06_JxTXobQ1s0oKsR1eyAc5WxYcpQ/edit)。
