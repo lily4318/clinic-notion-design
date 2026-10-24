@@ -26,3 +26,13 @@
 目標至少10,000篇與 Notion 資料庫架構、工作台／UX、官方文件、實務範本、外部教學相關的資料。**目前尚未達成逐篇閱讀目標。**
 
 未來清冊需記：標題、URL、作者／來源、發表或更新日期、來源類別、主題分類、檢索日期、去重 ID、已實讀？、深入分析？、適用設計原則、採用與否、版本／限制。分開統計候選數、去重數、已讀數、深入分析數、採用數。不能用搜尋引擎命中數或範本總數冒充已讀數。
+
+
+## 2026-10-24｜首屏提示最小修正｜證據位置
+
+- Notion TEST 工作台（僅改此頁提醒文字）：https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf
+- TEST 驗收紀錄： https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d
+- Google Docs 現行 UX 規格第十二節（保留原 v3.4＋v3.5 設計補充）：https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit
+- 本次 Google Docs 追加前備份：https://docs.google.com/document/d/1c3s1KL_xDzZDQ61uzq82ZWi6nnsZe2bbOSDwJNPWWh8/edit
+
+提醒：此回合只做低風險 TEST 首屏提示，沒有改 Schema 或關聯；仍需 10,000 篇研究，未達成不得冒稱完成。
