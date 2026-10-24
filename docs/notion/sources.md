@@ -45,3 +45,14 @@
 - Google Docs 第十三節追加前完整備份：https://docs.google.com/document/d/1_fSh-0emKNx_pB_1UNouT8C8IeOnQlA1pHFbDHLULuY/edit
 
 第十二節與先前 GitHub「已加入黃色提醒」只代表歷史；**現行 Notion TEST 頁面並無黃色提醒**。
+
+## 2026-10-24｜政府補助工作台 vNext 一次性改版｜最新來源
+
+- 改版後 TEST 工作台：https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf
+- 修改前的 Notion 原生備份：https://app.notion.com/p/4038ca66aa4d816480bad8a54db6aeab
+- 已寫入 TEST 驗收紀錄：https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d
+- Google Docs UX 規格第十四節：https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit
+- 第十四節前 Google Docs 備份：https://docs.google.com/document/d/1omZ3a5AKHkIG0CZRXXm0Tffd49-u_MCtG4a0hQh56Uc/edit
+- Notion 官方資料庫效能：https://www.notion.com/zh-tw/help/optimize-database-load-times-and-performance；資料庫檢視：https://www.notion.com/help/views-filters-and-sorts；Linked views：https://www.notion.com/help/notion-academy/lesson/linked-views；Relation/Rollup：https://www.notion.com/zh-tw/help/relations-and-rollups；Formula 深度：https://www.notion.com/help/common-formula-errors。
+
+以上僅為本輪直接查閱官方資料，不可充作10,000篇已讀成果；完整 View 設計請見 workbench-vnext-2026-10-24.md。
