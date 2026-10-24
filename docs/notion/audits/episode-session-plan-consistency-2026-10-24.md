@@ -162,3 +162,11 @@
 **數值阻擋同時重驗**：原生 Price Plan 頁面「已占用_自動」「剩餘額度_自動」依然是 `formulaResult://`，核定總額度、完成與預約計數仍是 `rollupResult://`，無法用本次工具判定數值正確。未重新跑295會談全集；此前41/41與8筆差異保留前次回歸證據。
 
 **處置**：列為 **RULE TEXT REVIEW REQUIRED／NUMERIC BLOCKED**。沒有擅自更動 Notion 業務記錄、備註、Formula、Relation、View、權限、Google Docs、正式GAS／Cloud Run／Session或部署；僅更新匿名 GitHub 驗收與來源。方案說明的B級小修正仍應先查核實際115核定補充，經使用者確認後再做原始頁備註最小修正，並重新讀回。任何共享 Formula 自動規則修改為C級，必須前後比對、備份及明確核准。
+
+## 2026-10-24｜桃園主管機關範圍核對與最小備註修正候選
+**範圍：Notion TEST、唯讀。** 汐予心理治療所的桃園八德所在地已由[官方治療所名錄](https://mental.tycg.gov.tw/cp.aspx?n=531)及[機構官網](https://www.xiyupsyclinic.com/contact)確認，並在[桃園市115年青壯合作機構清單](https://mental.tycg.gov.tw/cp.aspx?n=19932)公開檢索中有列名。依據應由前一輪跨縣市公告對照，縮小為**衛福部115年度規定＋桃園市衛生局115年度實施規則＋汐予實際適用合作契約**。
+**已確定：** [衛福部115年公告](https://www.mohw.gov.tw/cp-16-85046-1.html)明示15至45歲本國籍或持有健保卡外籍人士；現行Price Plan僅稱「國民」不完整。[桃園115公告](https://mental.tycg.gov.tw/News_Content.aspx?Create=1&ccms_cs=1&n=515&s=1336657&sms=8118&state=1C5D152DDF4F3ED0)明示115/1/1至12/31及每人3次個別心理諮商，並列公告版計畫書附件。
+**待確定：** 桃園當年計畫書PDF在目前網頁讀取環境無法完整開啟，Drive關鍵字查詢未定位汐予已簽約全文；[臺北115公告](https://mental-health.gov.taipei/News_Content.aspx?n=FAB9374F6BCE2D48&s=1CAF0520811909A9&sms=EEA94C26A90DD864)的「不小於7天、原則上不超過1個月、連續2次無故未到機構得拒絕」不應直接視為桃園合約的唯一處置。其他縣市可能另有暫停條款，未查桃園契約前不定稿、不自動變更資格。
+**最小文字修正候選（未寫入）：** 僅在本115年青壯Price Plan的既有備註中，將對象補全「15至45歲本國籍民眾或持有健保卡的外籍人士」；將「間隔需 >7天」改為「以至少7天為原則；兩次間隔原則上不超過1個月」（前提：桃園計畫核對一致）；「連續2次無故未到」先維持人工依當期主管機關計畫與適用合約核定，不在欄位寫死必然終身取消資格。維持3次、每次1600、當年度期間、三個月總期程及原有補助／行政規費區別。115年專用文字不可擴散為通用規則。
+**影響與回復：** 啟用中的方案不是隔離資料。若後續獲使用者確認、取得契約並核實Schema後才允許B級備註最小修改；先備份原欄位，僅修改該頁備註，Fetch核對其他欄位、Relation與View保持不變，必要時只恢復原備註。共享Formula、Relation、計數規則均為C級，另須明確核准。該步尚未執行。
+**本輪唯讀回查：** Price Plans（30欄）、Sessions（67欄）、Care Episodes（50欄）Schema再Fetch；原115青壯啟用方案備註未變，政府方案View僅1筆無後續頁；剩餘／已占用仍只有formulaResult參照，數值驗收BLOCKED。Google Docs v3.4第十五節的人工核對→Care Episodes選方案決策不變；此前8筆不同方案Session不改。本輪無Notion、GAS、Cloud Run、Google Docs、角色權限、效能資料寫入或實測。
