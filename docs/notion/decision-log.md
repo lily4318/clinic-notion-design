@@ -238,3 +238,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[UX LINK STRUCTURE PASS / PERFORMANCE PENDING]** 原工作台及個案與歷程入口可Fetch；青壯人工資格核對→Care Episodes選Price Plan→方案、個案、心理師額度Views的連結存在，沒有回復已撤回黃色警示。此為路徑結構驗證，不是使用者實際點擊、任務時間、操作步數或Notion網頁載入速度測量；連接器往返時間不等於前端效能。人工畫面額度數值的 USER CONFIRMED PASS 保留。
 - **[SAFE STOP / SCOPE]** 不建立第二個政府補助／年度方案、不改已啟用青壯Price Plan、Sessions、Episodes、Staff、週回報及其 Schema／Formula／Relation／View／權限；不改正式GAS／Cloud Run／Session。精確`00.config_notion`仍未定位，TEST字首不保證與啟用資料隔離；新增核心結構與真正隔離多方案端到端驗收須先提供前後比較並取得明確核可。此回合僅更新版本化驗收／規格，保留可回復性。
 - **[GOOGLE DOCS VERIFIED]** [跨年度額度模型與UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit) 已用 revision guard 追加第十九節，修改後原第十八節與第十九節均回讀存在；[修改前備份](https://docs.google.com/document/d/1X0X71wtOR0Nw3RD-DdrGvVOxR9BfbhjiB4W0m1BTiew/edit) 回查未含第十九節。可保留並行修改後精準撤銷新增段落；本輪無Notion業務資料需回復。
+
+## 2026-10-24｜他處無接案心理師免每週回報：已確認需求與待核可設計
+- **[USER-APPROVED OPERATIONAL REQUIREMENT]** 使用者明確要求：**確定沒有在其他地方接案的心理師，不需每週確認他處使用次數**。這取代「所有在職心理師無當週回報一律待回報」的過度一體化操作要求；不意味未確認者皆可視為0，亦未核可現在直接重寫公式或批量套用現有員工。
+- **[LIVE SCHEMA READ / CAUSE]** 重新讀Staff 55欄、心理師補助週額度19欄、Price Plans 30欄及在職心理師週額度View；Staff現有「執業類型」Select只有「本所執業／支援報備／不適用」，不能推導出該心理師是否在本所以外接案、是否在他處參與青壯。Staff既有`青壯本週他處顯示_自動`及`青壯本週額度狀態_v2_自動`是共享Formula，原碼僅`formulaCode://`參照未可驗證；現有週回報的`他處回報已確認`＋`他處已占用`仍是每週資料來源。
+- **[PROPOSED MINIMAL DESIGN / NOT YET APPROVED]** 初期以Staff增加3個小欄位為候選：「他處接案情形」Select＝未確認／已確認無他處接案／有或可能有他處接案；「確認日期」Date；「免週回報有效至」Date（經確認且不可自動跨核定期別承接）。絕不直接借用`執業類型=本所執業`作免週報。已有外部接案者維持原週回報；確認全無外部接案者在聲明有效期間不須新建每週0次資料，使用本所Sessions計數並由週額度公式將「本所外」視為已確認0；其他未知、逾期、相矛盾、有外部案件而未回報時fail-closed。
+- **[SCHEME SAFETY]** Staff「在其他地方完全沒有接案」是跨方案皆成立的更嚴格事實聲明，不把特定青壯115數值、週6次或自然年底寫死到共用欄位。若將來要讓「其他場所有自費案件、但本期不提供指定政府方案」的人也免週回報，須另以Staff＋Price Plan實例ID管理本期聲明，不能僅憑Staff單一全域旗標替不同方案推定0；本次不新增資料庫或專年旗標。
+- **[COMPARISON / ROLLBACK / SCOPE]** 現況每週所有人員皆可能被當成缺他處回報；建議改成僅已核實無外部接案者免週報，減少重複記錄與人工確認。風險是人員變更未申報或聲明逾期、原Formula依賴不明；須先備份Staff Schema及涉及的Formula/View／原值、驗證再最小修改，失敗時精準恢復3欄所涉設定／公式舊版本，保留並行改動及業務列。此輪**純設計＋唯讀核對，未寫Notion或Google Docs、未改正式系統**；因涉及新增Staff欄位及共用Formula，分級C，**尚待使用者對候選實作明確核准**。
