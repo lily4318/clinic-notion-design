@@ -232,3 +232,8 @@
 - **[SESSION COMPLETE READ PASS]** 重新分頁取得Notion Sessions ALL **295/295筆**，用Price Plan實際Relation找出青壯**41筆**；2026/10/25～10/31關聯該方案會談**0筆**（其中已預約0筆）；10/18～10/24共11筆，10筆是已預約有效候選，本所兩人各6／4；此為當前日期快照，不代表核銷。
 - **[SUNDAY RESET FORMULA STILL NOT LIVE VERIFIED]** 10/25進入週日至週六的新週時，無當週有效外部回報應繼續顯示**待回報／待核對**，不能繼承前週或認定外部0而自動顯示可安排。該日尚未到來，連接器目前只能回傳原生公式結果參照，故**這項換週顯示並未測試通過**；過去2026/10/23的v2隔離PASS仍保留，不可冒稱是10/25實測。
 - **[NO WRITES]** 無Notion業務資料、Staff／Sessions／Price Plans／週回報、Schema／Formula／View／權限、Google Docs、GAS及部署異動；本回合只把新的無敏感資料時間邊界驗收事實寫入GitHub，權限與效能未真人實測。[詳見專項稽核](audits/youth-weekly-allowance-2026-10-24.md)。
+
+## 2026-10-24｜115方案備註B級最小修正已完成差異設計，未執行寫入
+- **[LIVE PAGE READBACK PASS]** 本輪重新Fetch啟用115青壯Price Plan「備註」原文；對照衛福部115公告及政府FAQ確認4項文字修正需求：國籍／健保外籍、至少7日（非>7）、原則最多1個月、連續2次無故缺席僅為合作機構「得拒絕」，非自動取消資格。
+- **[CONTRACT SOURCE BLOCKED]** 已在連結的3個Google Drive帳號依名稱與內容找汐予青壯簽約資料，未見可核對的115桃園個別合作契約；另找到名稱似官方青壯方案PDF，實為當前Notion方案資料匯出且含同樣舊錯句，不能視為獨立政府依據。Gmail兩帳號相關搜尋未找到簽約函，另一帳號搜尋失敗；**僅稱目前未取得，不能聲稱不存在**。
+- **[B CHANGE NOT APPROVED / NO NOTION WRITE]** 已在[原有方案一致性稽核](audits/episode-session-plan-consistency-2026-10-24.md)列出單一「備註」欄位四處替換、保持不變、回查／單欄回復。契約及使用者核准前**不修改啟用Price Plan**，不更動Staff、Sessions、Care Episodes、公式／關聯／View、權限、Google Docs及正式系統。原生公式數值與2026/10/25實際換週結果亦維持未驗收。
