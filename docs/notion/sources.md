@@ -143,3 +143,7 @@
 - [桃園市衛生局115年合作機構清單](https://mental.tycg.gov.tw/cp.aspx?n=19932)：本輪可搜尋最新版網頁有汐予心理治療所，當期「核准執行通訊心理諮商或指定通訊診察醫療機構」欄列「否」，並標示機構另收掛號費。網頁資料可更新，**不是汐予個別契約全文或任何長期永久性許可證明**。
 - [桃園市政府託管之衛福部115年方案計畫書](https://ws.tycg.gov.tw/Download.ashx?n=MTE15bm05bqmMTUtNDXmrbLpnZLlo6%2FkuJbku6Plv4PnkIblgaXlurfmlK%2FmjIHmlrnmoYjoqIjnlavmm7go5YWs5ZGK54mIKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMTQvcmVsZmlsZS84MTE4LzE1OTk4MDQvYWFlZmU4OWItZWU0ZC00MDZiLTlmNTUtNDNlM2Y3ZDVmNDc2LnBkZg%3D%3D)：可搜尋的附件2同意書片段載明跨機構已使用次數須據實告知、連續2次無故缺席「合作機構得拒絕提供其服務」等項；但現有網頁端完整PDF下載仍cache miss，不冒稱全文審閱。
 - [我的E政府115年方案Q&A](https://www.gov.tw/News_Content_26_826198)：可核跨機構合計3次與缺席、間隔問答。正式同意書／使用次數核對的行政義務須與使用者核准的「人工確認→Care Episodes選Price Plan、不另建青壯資格清單」區分；前者不是建立額外Notion參與記錄的授權。
+
+## 2026-10-24｜衛福部115年3月25日心理師每週核銷上限補充函
+- [衛生福利部函1151760792號逐字轉載（含PDF）](https://www.twtcpa.org.tw/news/3110)：週日～週六、同一心理師跨執業登記與報備支援地點合計六人次、自2026-04-12中央系統實施每週六筆維護與核銷上限；此為115青壯方案專屬已公告版本。原函PDF文字可讀、網頁Screenshot取得失敗；公會頁面逐字轉載可查。
+- [Notion TEST現行Staff View](https://www.notion.so/c698ca66aa4d826baa8f8773b5c2cfe6?v=3f78ca66aa4d817581c9000c3420b577)與週回報 `collection://fc0ff3b7-04c7-41ff-8efd-deac8f8202e4`，本輪採匿名唯讀分類。全部證據與風險見[本輪專項稽核](audits/youth-weekly-allowance-2026-10-24.md)。
