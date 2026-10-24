@@ -379,3 +379,9 @@
 - **[ACCEPTANCE]** 按當次真實方案資料，青壯115每案上限3，22筆青壯Care Episodes關聯41筆Sessions；目前已完成3且尚未結案的案例為0，不能宣稱新增滿額分支已通過原生Notion回歸。前輪離線決策規則11/11為設計測試，**不是新功能實測**。此項標記`APPROVED / BLOCKED BY MISSING EXACT FORMULA & BUTTON ACTION / NOT IMPLEMENTED`，角色權限DEFERRED，免每週回報的Formula也仍NOT LIVE。
 - **[RESUME & ROLLBACK]** 可安全繼續前必須讀取**現行**Care Episodes的`下次會談預約_自動`、`歷程摘要_自動(顯示)`、Cases的`下次會談預約_自動(顯示)`完整公式，以及`青壯轉自費` Button動作，再比對已完成Session與Price Plan上限／原方案Relation、備份原始定義、隔離TEST。不可用歷史猜測或要求Token；本輪無Notion寫入、無Notion回復作業，文件更新可精準撤回，不覆蓋並行修改。
 - **[DOCS]** Google Docs[青壯方案額度UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)已追加第28節並實際讀回確認27／28共存；[本節前原生備份](https://docs.google.com/document/d/1ZgskUXhRdIGGjSV315csgl762xoMxyCQo1DC6f1gQ90/edit)已讀回不含28節。
+
+## 2026-10-24｜滿額轉自費／結案提醒續查：原文仍不可讀、直查額度暫時耗盡
+- **本輪僅查證，Notion零寫入。** 已重新Fetch TEST Care Episodes Data Source 50欄、Cases 49欄、Sessions 67欄、Price Plans 30欄，以及原`未預約下次會談` Saved View及UX v4.2。Care Episodes `下次會談預約_自動`、`歷程摘要_自動(顯示)`及Cases `下次會談預約_自動(顯示)`依舊只提供`formulaCode://`、沒有expression；`青壯轉自費`只返回button類型，沒有action。無可驗證原始設定及回復基準，**按已核准硬停止，未修改Formula／Button／原View／資料。**
+- **新的唯讀觀察：** 使用`mode=view`重新查Saved View，青壯115服務歷程現有22筆、全為進行中；原「未預約下次會談」現為33筆（前輪32筆），當期方案額度View為1筆。這只代表本次View現況，不推定特定個案或已完成3次狀態變更；公式回傳`formulaResult://`參照，不能冒稱原生數值已直接取回。原UX v4.2六個Linked DB及最後一次提醒仍在，先前四題真人PASS保留。
+- **查詢阻擋：** Notion connector回應此工作區`query_data_sources`的`rows/sql`額度已用盡、約一小時內重置，要求不要立刻重試；此次rows查詢未執行，無副作用。`mode=view`仍可使用；工具的套餐選項不是更換方案或必須付費才能讀Formula完整expression的證據。已停止嘗試直接查詢，未驗證新的Sessions逐筆狀態。
+- **後續必要條件：** 從Notion現行公式編輯器或可授權且直接返回`formula.expression`／Button action的正式能力，取得完整原文與設定並建立可回復基準；沒有這些不能對共享Reminder作推定式修改。此輪沒有Notion schema/業務資料/權限/效能影響，免週報公式亦仍未啟用。
