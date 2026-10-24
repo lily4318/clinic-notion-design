@@ -177,3 +177,11 @@
 **間隔與資格：** 上述中央115年FAQ明列自首次諮商起3次總期程原則上不逾3個月，任兩次間隔不小於7天、不超過1個月；[衛福部115年公告](https://www.mohw.gov.tw/cp-16-85046-1.html)明示符合年齡的本國籍民眾或持健保卡外籍人士。故既有啟用Price Plan備註的「>7天」、「國民」、「連續2次無故未到將取消資格」、未寫一個月間隔上限，均列**中央公開說明之文字落差已確認**，而**地方簽署契約及實際系統程式碼仍待核對**。
 **本輪原生資料現況：** 唯讀重新Fetch啟用中的青壯115 Price Plan、Price Plans Schema及政府Saved View；原備註仍維持舊文字、啟用狀態仍為YES且View恰1筆。已占用與剩餘仍只有formulaResult，核定額度則rollupResult；NUMERIC BLOCKED。Google Docs既有人工核對後於Care Episodes選Price Plan規格未作修改。
 **決策與影響**：縮小前輪對中央no-show文字的未決範圍，但不因此自動寫入正在使用的Price Plan，也不宣稱契約已查完；依使用者對重大改動之授權界線，備註僅為後續單頁B級最小修改候選，且先確認汐予適用的115年地方合約補充。8筆異方案Sessions、計次Formula、Staff週額度、Price Plans/Sessions/Care Episodes其他資料、Schema/Relation/View及分享權限保持不變。未做原生UI人工值、效能或角色驗收；如後續修改備註須單欄位備份、驗證與可單欄還原。
+
+## 2026-10-24｜汐予服務方式及補助前同意義務：額外兩項唯讀驗收依據
+**目前工作線：Notion TEST，未修改活躍資料。** 重新查看GitHub main全部必要基準、Notion Price Plans/Sessions/Care Episodes Schema與已啟用115青壯Price Plan原頁、政府方案View（1筆且has_more=false）；原頁仍為 `>7天`、僅稱「國民」及「連續兩次無故未到將取消資格」舊文字；額度只有formulaResult/rollupResult參照，**NUMERIC BLOCKED**。Google Docs既有「人工資格核對後在Care Episodes選Price Plan」流程亦已唯讀讀回。
+- **[SERVICE MODE]** 桃園市衛生局[115年合作機構網頁](https://mental.tycg.gov.tw/cp.aspx?n=19932)的本輪可搜尋內容確實列出汐予，通訊心理諮商核准欄位「否」。不得自行認定汐予可將**115青壯補助**用在遠距通訊諮商；此判斷不同於是否能提供其他一般通訊服務。網站更新及個別新核准要再查，非永久判斷。
+- **[PERSON-COST DISCLOSURE]** 該合作機構網頁標示民眾另有掛號費；Notion目前備註提醒補助不含行政規費，故概念方向未直接相反，但尚未逐項檢查對外告知與收據實際金額。未擅自把網站公開費用寫入業務表，也未新增欄位。
+- **[CONSENT & CROSS-PROVIDER]** 桃園政府託管[115中央方案同意書索引片段](https://ws.tycg.gov.tw/Download.ashx?n=MTE15bm05bqmMTUtNDXmrbLpnZLlo6%2FkuJbku6Plv4PnkIblgaXlurfmlK%2FmjIHmlrnmoYjoqIjnlavmm7go5YWs5ZGK54mIKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMTQvcmVsZmlsZS84MTE4LzE1OTk4MDQvYWFlZmU4OWItZWU0ZC00MDZiLTlmNTUtNDNlM2Y3ZDVmNDc2LnBkZg%3D%3D)明列跨合作機構已使用補助次數須誠實告知，累計不得超過3次，且連續無故缺席的處置是「得拒絕」；[我的E政府FAQ](https://www.gov.tw/News_Content_26_826198)交叉確認跨機構合計3次。這是既有政府行政規範，不代表獲授權新增單獨青壯Notion資格工作流；實際同意書取得、保存及政府平台查核尚未真人驗收。
+- **[NEXT TEST GATES]** 接受青壯補助前須確認「適用該方案的當期機構可提供方式」、「人工核對政府／跨機構已使用次數」、「當期方案同意程序已按正式規定完成」，然後在現有Care Episodes選正確Price Plan；不得把新驗收條件改造成對使用者額外必填的Notion參與DB。不同政府方案仍需依各自期別規則處理。
+- **[LIMIT]** 桃園公告版PDF及個別已簽契約本輪尚未讀得全文，沒有驗證真人遠距核准/收據/實際簽同意；未重新跑295 Sessions關聯回歸。無Notion資料／Schema／Formula／Relation／View／分享權限、Google Docs、正式GAS或Cloud Run/Session/部署寫入，沒有使用者操作效能實測。若需撤回此工作回合僅撤回GitHub本節，保護其他並行更動。
