@@ -53,3 +53,9 @@
 - **[OPEN DATE CONSISTENCY PASS]** Saved View 的22筆 Care Episodes 中，20筆 `開案日期` 非空、2筆空白；比對 `😶 個案` Relation 確認兩筆空白者正是同一個案的兩筆標記 [TEST] 重複歷程，與前次稽核「該兩筆開案日期皆空」一致，**不存在先前誤記的『全部22筆開案日空白』衝突**。22筆結案日仍全空白，未改任何歷程狀態、日期或關聯。
 - **[NUMERIC BLOCKED]** 同一 Price Plan 的核定總額、已完成、已預約為 `rollupResult://` 參照，已占用／剩餘為 `formulaResult://` 參照；Care Episodes 的完成／預約／剩餘與 Staff 本週有效占用／他處／狀態亦僅返回 Rollup / Formula 結果參照。另用 Price Plans 最小 `rows` 查詢回傳相同參照。無原生可核算數值、公式原碼，不能以22筆歷程或歷史Sessions狀態推定實際額度通過。
 - **[SCOPE/NO NOTION WRITE]** 本次僅唯讀驗證，Notion原業務列／Schema／Formula／Relation／View／分享權限、Google Docs、Billing、GAS、Cloud Run／Session／部署完全未改；新增GitHub匿名驗收紀錄。`00.config_notion` 以名稱搜尋仍未精確定位；真人UX、載入效能、角色權限、計數與本地契約逐人截止日尚未實測。GitHub追加文字可由版本紀錄精準撤回，任何 Notion 資料無須回復。
+
+## 2026-10-24｜青壯115使用額度畫面數值：使用者人工驗收 PASS
+- **[USER CONFIRMED / VISUAL NUMERIC PASS]** 使用者檢視本輪呈現的三個 Notion TEST 額度 View 後，明確回覆「數值正確」。本所青壯115治療所政府補助使用額度、單一 Care Episode 個案使用額度、心理師本週使用額度的**目前畫面顯示數值**，列為使用者人工確認 PASS；「請使用者查看畫面數字」這一步完成，不因無法透過連接器直接取得原生數值而重做 View／公式。
+- **[TECHNICAL LIMIT STILL OPEN]** 使用者的畫面人工確認**不是**本助手獨立取得 Notion Formula／Rollup 原生數字、逐筆公式驗算、不同核定期別／方案回歸、政府核銷、角色權限或效能 PASS。先前連接器僅回傳 formulaResult://／rollupResult:// 參照的客觀限制仍適用；留存既有技術 PENDING，而不是覆蓋成全部通過。
+- **[SCOPE / NO NOTION DATA EDIT]** 本回合不修改 Notion Price Plans、Care Episodes、Sessions、Staff 任何資料列／Schema／Formula／Relation／View、權限，也未修改 Billing、正式 GAS／Cloud Run／Session／部署；原 TEST 重複歷程、屆期結案及其他政府方案的未驗項仍保留。
+- **[GOOGLE DOCS READBACK]** 已在既有 [青壯跨年額度模型與 UX 規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit) 以 revision guard 追加第十八節使用者人工驗收，寫後回讀第十六、十七節與新第十八節均存在；[追加前原生備份](https://docs.google.com/document/d/1JTAtf8jUvvaE8rrvevDdhokkvAM9a3owdmXUhMS-Olw/edit) 亦已驗證無第十八節。回復只應精準撤銷該次新增段落，並保留並行修改；GitHub 亦可沿 commit 歷史還原新增節。
