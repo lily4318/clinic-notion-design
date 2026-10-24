@@ -220,3 +220,9 @@
 - **[CURRENT WEEK HOLD EXPECTED; NOT NATIVE PASS]** 10/18～10/24的兩位心理師他處回報都未確認、次數未知；與前輪本所已預約6及4筆搭配，**應維持待核對，不應自行核准有剩餘額度**。目前只能驗證資料源，無法讀原生週額度Formula值，不能宣稱其已實作fail-closed。
 - **[CONNECTOR LIMIT]** 普通Staff Select rows篩選可用，Formula文字篩選遭schema拒絕，另有validation_error；隨後Query Data Source的SQL／rows模式**配額用盡且該次查詢未執行**，但Saved View查詢仍可用。採View完成上述核對，未寫入任何Notion資料。原生Formula結果、政府跨地人次、真人權限及效能仍**BLOCKED/NOT TESTED**。
 - **[NO BUSINESS WRITE]** 本回合只將新集合與配額邊界匿名同步GitHub；沒有修改Staff、週回報、Sessions、Price Plans、Schema／Formula／Relation／View、權限或Google Docs／正式服務。詳見[專項稽核](audits/youth-weekly-allowance-2026-10-24.md)。
+
+## 2026-10-24｜補齊歷史v2週額度隔離PASS及當前Staff顯示覆蓋2／2
+- **[HISTORICAL ISOLATION PASS / NOT RERUN]** 新回查[2026-10-23精簡前23章設計備份](https://docs.google.com/document/d/1gqI_lPdW9z1-mLIOUQFu5c0thjMXZUe07-DUd6bzyfY/edit)第八節：既有Sessions跨週六／週日、Staff v2週占用及狀態，曾在隔離TEST人員測出「超額」「已滿」「重複／取消確認轉待核對」「已確認5＋本所0剩餘」並記PASS。**應保留已發生的歷史隔離通過記錄，不可再說v2公式完全從未測過**，也不能冒稱本輪重新實測。
+- **[CURRENT VIEW FILTER / FULL STAFF COVERAGE PASS]** 該備份第九節所述舊版「要求週回報Relation非空才能顯示」門檻，**現行**青壯週額度View已不再使用；本輪從TEST Backend Staff原始資料庫Default View完整讀4筆，其中在職臨床心理師2筆，週額度View也正確列這2筆，**0人被漏列、0人多列**。此為目前View/人員集合PASS，非未來沒有週回報的真人情境驗收。
+- **[CURRENT LIVE FORMULA STILL BLOCKED]** 現行2名心理師本週10/18～10/24他處占用仍未核實，前輪6／4筆本所已預約不是政府已核銷；連接器的原生Formula值／原始碼仍無法讀，本週「青壯本週額度狀態_v2_自動」是否呈待核對尚不能標記PASS。不得由歷史v2隔離通過直接宣稱真實跨機構核銷及正式授權已驗。
+- **[NO BUSINESS WRITES]** 本回合僅GitHub來源／專項稽核／驗收及決策修訂，Notion Schema/View/Formula/關聯/業務列及Google Docs/正式GAS、Cloud Run、Session、部署不動；未做真人操作、權限和效能實測。[詳情](audits/youth-weekly-allowance-2026-10-24.md)。
