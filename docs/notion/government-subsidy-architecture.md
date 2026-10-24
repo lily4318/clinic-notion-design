@@ -32,3 +32,7 @@
 ## 改動門檻
 
 非青壯舊功能以最小修正為原則；任何核心 Schema、Relation、共享 Formula、大量資料遷移或重大 UX 流程改造，須先提出變更分析與回復方式，經使用者同意。
+
+
+## 2026-10-24｜政府補助 TEST 唯讀隔離與資料完整性｜隔離注意事項
+歷史TEST參與列即使被View排除，仍可能連到啟用Price Plan及會談；不得將VIEW分類視為計算層隔離。必須在真正獨立的TEST來源驗證各種會談狀態、原生計次及跨期規則，才可考慮經核准修改共用Relation／Formula。[唯讀證據](audits/subsidy-readonly-integrity-2026-10-24.md)。

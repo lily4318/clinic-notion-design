@@ -45,3 +45,7 @@
 
 ## 2026-10-24｜行政任務工作台 11 情境路徑驗收
 新增 [11項Notion TEST驗收子頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)。11條導覽及對應頁可 Fetch；**真人操作0/11未完成**，部分舊頁存在截斷/未知區塊，權限與速度未測。只新增 TEST 子頁、原資料與公式不變。完整 [驗收報告](audits/administrative-task-path-acceptance-2026-10-24.md)。
+
+
+## 2026-10-24｜政府補助 TEST 唯讀隔離與資料完整性
+完成唯讀核查：補助參與資料源23筆、總覽22筆，隔離分類1筆與啟用補助方案及3筆會談有共同關聯；實際計數影響未驗證。真人操作仍0/11。無Notion寫入。[稽核報告](audits/subsidy-readonly-integrity-2026-10-24.md)。

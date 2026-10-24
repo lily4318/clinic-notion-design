@@ -94,3 +94,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 
 ## 2026-10-24｜行政任務工作台 11 情境路徑驗收（非真人驗收核准）
 依長期目標 G1 新建 TEST v2 [11項任務驗收子頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)。工作台11個目標入口與目的頁均可 Fetch；部分關鍵 View 實際篩選已回查（活動進行中 OR、未完成 Done=false、文件待更新＋草稿、收據待審核／處理失敗）。真人0/11，角色、時間及真實業務流程未測；既有行政頁、Schema、Formula、Relation、財務病歷、正式GAS均不改。完整 [路徑稽核](audits/administrative-task-path-acceptance-2026-10-24.md)。
+
+
+## 2026-10-24｜政府補助 TEST 唯讀隔離與資料完整性
+最新唯讀來源顯示：TEST管理分類只在View隱藏一筆紀錄，該列仍連到啟用補助方案及3筆Sessions。一般22筆缺參與會談Relation、期限及他處使用次數；尚不能自動核准或把空白當0。Formula真值未取回、未改原資料。下次須先取得00.config_notion及真正隔離的測試環境，再依核准方案驗收。[詳報](audits/subsidy-readonly-integrity-2026-10-24.md)。

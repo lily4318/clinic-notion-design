@@ -107,3 +107,10 @@
 - **TEST寫後回查 PASS**：新[11項驗收子頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)有11個情境、11個未勾選人工測試方框；父頁原活動TEST DB存在且無黃色提示。
 - **真人0/11／速度／權限 PENDING**：不接觸業務資料、不改Schema、View、Relation、Formula或GAS，保留原權限。
 - 回復先檢查子頁有無後續人工測試紀錄及並行修改，不自動刪除。詳見 [本輪驗收](audits/administrative-task-path-acceptance-2026-10-24.md)。
+
+
+## 2026-10-24｜政府補助 TEST 唯讀隔離與資料完整性｜唯讀查核完成，計算及隔離未通過
+- 來源23筆／工作台總覽22筆；另1筆隔離分類仍與啟用方案和3筆會談有共同關聯。
+- 一般22筆中21待核對、1不符合；會談Relation／期限／他處次數皆未填，確認checkbox未勾，不等於確認0。
+- 11項真人UX測試目前0完成；原生Formula額度影響、跨期規則、角色權限及效能均未驗證。
+- 本輪Notion唯讀、未變動Schema／Relation／View／Formula及原始資料。00.config_notion尚未定位。[報告](audits/subsidy-readonly-integrity-2026-10-24.md)。

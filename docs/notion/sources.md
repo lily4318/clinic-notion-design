@@ -95,3 +95,9 @@
 - [TEST 11情境原生驗收頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)
 - [TEST 行政工作台 v2](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)
 - [稽核／回復與限制](audits/administrative-task-path-acceptance-2026-10-24.md)
+
+
+## 2026-10-24｜政府補助 TEST 唯讀隔離與資料完整性｜取證索引
+- [政府補助TEST工作台](https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf)，及既有Price Plans／補助參與Data Source的最新Schema、Rows、View。
+- [原11項任務驗收頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)仍0/11人工完成。
+- [安全彙總與未驗收限制](audits/subsidy-readonly-integrity-2026-10-24.md)。
