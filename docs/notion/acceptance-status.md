@@ -176,3 +176,8 @@
 - **[BLOCKED：公式結果值]** `rows` 與 Saved View 仍僅回傳額度的 `formulaResult://`、計數的 `rollupResult://`，不是原生數字。針對 Formula number 的自訂 rows 篩選候選均遭連接器參數 schema 拒絕，未實際完成原生公式精確值比對；Formula 算式亦未取得。不得以41筆關聯、23完成＋13預約推定政府額度占用／剩餘或核准啟用。
 - **[KEEP]** 先前57筆歷程、295筆會談、41/41與8筆方案差異的完整回歸維持前一輪已驗紀錄；本輪沒有重新逐筆執行，不自動修復差異。青壯資格人工核對後直接在 Care Episodes 選 Price Plan 的已確認流程不變。
 - **[NO NOTION WRITE]** 無業務資料、Schema、Formula、Relation、View、權限、Google Docs、GAS／Cloud Run／Session 或部署更動；沒有真人操作、效能與角色權限測試。詳細失敗邊界、回復與下次合法數值入口見 [當次完整稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+## 2026-10-24｜115青壯官方規則 vs 啟用方案備註：四項差異待確認
+- **[READBACK PASS]** 本輪重新 Fetch Notion「青壯世代心理健康支持方案｜115」原始頁、Price Plans Schema、政府方案 Saved View，確認方案啟用且 View 僅1筆；原始頁六個額度／計數相關 Formula、Rollup 均返回參照而非數字，**NUMERIC BLOCKED**。本輪沒有重做295筆會談全量回歸。
+- **[RULE TEXT REVIEW REQUIRED]** 現行 Price Plan「備註」有四項與115年政府公開規則不符或不完整：`>7天` vs 最短**不小於7天**；未寫原則上**不超過1個月**；「國民」少列**持健保卡之外籍人士**；連續2次無故未到「將取消資格」vs **機構得拒絕提供服務**。這只是原頁備註文字的驗證，不證明 Formula 或人工資格核對已錯。來源及限制見 [比對報告](audits/episode-session-plan-consistency-2026-10-24.md)／[來源索引](sources.md)。
+- **[SAFE HOLD]** 不自動修正啟用方案、所有8筆Session異方案、公式、跨期規則或資格核對流程；方案備註最小修正待確認本期地方執行細則，使用者確認後再寫回查；共享Formula需另申請C級核可。沒有本回合的Notion資料、View、Schema、分享權限、Google Docs或正式服務寫入，無真人操作、效能、角色權限實測。
