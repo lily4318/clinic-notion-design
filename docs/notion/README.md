@@ -19,3 +19,8 @@
 - [資料庫模型準則](research/database-design-principles.md)、[工作台 UX 準則](research/workbench-ux-principles.md)、[Free／效能／權限](research/performance-permissions-free-plan.md)、[全面稽核與下一步](research/audit-checklist-and-research-progress.md)。
 
 上述資料是**研究文件，不是 Notion 已實作／已驗收功能**；要修改 Schema、共用公式或舊模組仍須核准。
+
+
+## 2026-10-24｜十個既有行政模組完整唯讀稽核
+
+已完成十個原行政模組的**唯讀**資料結構與 View 盤點：76個 linked DB 區塊、177個 View 設定、23個去重來源，合計636欄（152 Formula、147 Relation、48 Rollup）。核心問題、十模組表、F-01～F-07風險、一次性 B 類改善方案與回復／限制，見 [完整稽核與整批提案](audits/ten-module-structure-ux-audit-2026-10-24.md)。**尚未修改任何 Notion View 或 Schema，C級更動仍需使用者批准**。

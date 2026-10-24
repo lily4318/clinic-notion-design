@@ -65,3 +65,11 @@
 - **研究取證進度**：16筆唯一 URL；14筆正文可取得並核對相關段落、2筆只有搜尋摘要；符合逐篇完整精讀標準：**0篇**；外部模板逐套比較：**0份**。使用者要求10,000篇目標**未達成**，不能冒充已研究完成。
 - **文件類 PASS 不等於業務 PASS**：GitHub blob SHA、Commit、遠端內容回讀通過後方標示文件同步完成；先前 Notion vNext 結構已驗收之結果不變，通用公式／跨政府方案計次／權限及真實 UX 測試仍未完成。
 - **後續研究／TEST**：參照 research/audit-checklist-and-research-progress.md，對舊十模組以現況 Schema／View 做唯讀完整盤點，再提出經使用者同意的改版比較。
+
+
+## 2026-10-24｜十個既有行政模組完整唯讀稽核｜唯讀取證 PASS；優化實作 PENDING
+
+- **[已完成／唯讀]** Notion 10個原管理頁、76個 unique database block IDs、177個 View 配置、23個不同 Data Source Schema；共636欄：152 Formula、147 Relation、48 Rollup。這些是配置盤點不是目前真人效能測試。
+- **[高優先發現，非實作]** Events「報名中」View 實際使用 `狀態 status_is_not 開放報名`；「進行中活動」只排除 Complete 群組；Projects頁「本週會議」區塊內有全部 Projects 檢視；多個名為「ALL」的 View 具有固定篩選。改法已列入整批 B 級改善提案，待 TEST、備份及核准；當前未修復。
+- **[尚未驗收]** 00.config_notion 的全域設定頁搜尋未精確取得；公式原生求值、前後載入時間、同意書 checkbox NULL 語義、活動狀態 TEST、各角色隔離和現場操作尚未驗收。無修改 Notion、資料、Schema、View、角色或權限；青壯既有歷史 TEST 驗收狀態不變。
+- 完整證據與各模組建議：[audits/ten-module-structure-ux-audit-2026-10-24.md](audits/ten-module-structure-ux-audit-2026-10-24.md)。
