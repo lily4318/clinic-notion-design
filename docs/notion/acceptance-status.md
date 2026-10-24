@@ -437,3 +437,9 @@
 - **[SOURCES/UX PRESERVED]** 刪去21個過時頁面內Linked Views（不是源資料庫）。獨立Fetch確認Care Episodes50欄、Cases49欄、Staff58欄、Price Plans30欄仍存，沒有刪源Data Source；獲使用者4/4 UX真人通過的「政府補助｜額度與警示工作台」仍6 linked DB及兩種警示，原補助管理舊工作台仍7 linked DB；個案、會談、帳務資料、Formula、Relation、View底層、GAS、Cloud Run、權限均未寫入。效能沒有實際計時，不宣稱提速。
 - **[NEXT CLEANUP/SAFETY GATE]** Notion搜尋仍有7個標為`[BACKUP]`的活頁，包括兩份原補助管理備份與帳務／活動／排班／行政任務／工作文件；兩份補助備份均內含原生`<page>`的青壯驗收紀錄引用，UX v2也有11項任務路徑驗收子頁及1個TEST Linked DB，不能按標題直接刪。先核對子頁、原始資料與可用功能並依工具要求列出下一批確切受影響頁面取得核准，再移除；不將移動或隱藏當刪除。青壯115三Formula/三Rollup依賴清除和滿額後轉自費提醒，仍因Formula/按鈕原文缺漏BLOCKED。
 - **[DOCS/ROLLBACK]** [Google Docs青壯跨期UX規格第35節](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)以revision guard追加，重讀第34、35節及五ID、Notion垃圾桶限制。回復如有必要僅透過Notion垃圾桶恢復指定舊快照及原parent，先確認現行並行變動，禁止用全頁快照還原6個有效子頁。
+
+## 2026-10-24｜第一批刪除後第二批備份分類：七頁與UX v2待保護依賴
+- **已刪5頁回查**：TEST首頁11→6子頁、22Linked DB不變，五個指定頁均Notion`deleted`＋`blank-page`且搜尋不再顯示。Notion官方說明刪除後預設在垃圾桶保留30天；connector沒有永久purge，**不可把移入垃圾桶當不可逆永久清除**。
+- **另7份活躍`[BACKUP]`**：TEST首頁還有兩份補助舊備份（`4038ca66aa4d816480bad8a54db6aeab`、`4038ca66aa4d81c3a70bd4730fdba9fe`），分別含5與6 Linked Views、各含一個青壯設計驗收子頁引用。另5份位於Backend之下：帳務`4038ca66aa4d8145a3eec4c49740744f`（14 DB blocks）、活動`4038ca66aa4d81a890cacc9a997c6d91`（15）、排班`4038ca66aa4d81f58ffccad644e27a78`（14）、任務`4038ca66aa4d81249ff4d6b96f2ca812`（3）、文件`4038ca66aa4d81778fb9c13cc809fa85`（5）。其中多數內嵌Database blocks在Notion fetch **未標data-source-url**，未證明只是Linked View，不可直接刪以免誤傷原資料庫或模板。
+- **UX v2另有子頁**：TEST行政首頁`4038ca66aa4d814297a2dbe27e8d054d`包含驗收紀錄子頁`4038ca66aa4d81a0834efc417b08fd1b`及活動獨立測試資料庫引用，必須先保護獨立驗收紀錄與資料源再移除版面。
+- **下一批硬門檻**：盤清每個待刪頁及其嵌入DB所有權、子頁及實際存活業務依賴，針對精確清單由使用者確認後採Notion原生刪除、逐項查`deleted`並回驗來源；此回合只對上一批使用者具名核准5ID動手，不對此七頁或UX v2採取破壞性操作。
