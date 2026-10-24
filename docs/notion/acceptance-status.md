@@ -156,3 +156,11 @@
 - **[TEMPORARILY BLOCKED]** 本輪嘗試 `rows`，連接器回報 SQL／rows 工作區共享配額已用完，60 分鐘內重置；View 可讀但無法直接取原生數值。勿在同一個配額視窗重複嘗試並聲稱通過。
 - **[NOT AUTHORITATIVE]** 歷史青壯 Google Docs 與 2026-07 的 Sessions 收據公式文件不是目前補助占用公式版本；`00.config_notion` 仍未精確定位。
 - **[NEXT GATE]** 既有8筆青壯／自費切換只做受控唯讀數值驗證，需原生 Sessions Formula 結果及 Price Plan 額度後才核實計次歸屬；不改資料、不增加資格清單。操作、效能、跨期與權限仍待驗。詳見 [驗收協定](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+
+## 2026-10-24｜青壯方案啟用測試續作：現況唯讀前置核對
+- **[SCHEMA READBACK PASS]** 重新 Fetch 現行 Price Plans（30欄）、Sessions（67欄）、Care Episodes（50欄）Data Source：Price Plans「已完成_帶入」「已預約_帶入」「待確認_帶入」仍分別以 `sum` 沿方案↔Sessions Relation 加總 Sessions 同名計數 Formula；Care Episodes「💲收費方案」與 Sessions「💲 收費方案」均仍為 Relation。此結果只證實**直接 Rollup 相依結構**，不證實 Formula 內部條件或數值。
+- **[VIEW READBACK PASS]** Notion「補助方案管理｜TEST」有6個 linked database，沒有被使用者撤回的黃色提醒；原政府方案 View 本次回傳1筆已啟用、收費類型「補助」、服務類型「政府方案」的青壯方案，`has_more=false`。本輪沒有重新逐筆讀完295筆 Sessions，歷史8筆差異分類仍以先前已驗結果為準，不稱本輪已重驗。
+- **[NUMERIC BLOCKED]** 同一筆方案的「已完成_帶入」「已預約_帶入」仍僅有 `rollupResult://` 參照，「已占用_自動」「剩餘額度_自動」仍僅有 `formulaResult://` 參照；最新 Schema 將這些欄位列為 `notAvailableInQuerySql`。沒有取得原生數值、Formula 原始碼，也沒有重新嘗試尚在前次共享配額限制視窗內的 SQL/rows 查詢。不能把23完成＋13已預約推定為已占用36。
+- **[SCOPE/SAFETY]** 只做 Notion 原頁、Schema、View 與 GitHub 文件唯讀核對。Notion 搜尋尚未定位名稱精確吻合的 `00.config_notion`。不修改 Price Plans／Sessions／Care Episodes／Staff／參與紀錄、Formula、Relation、View、共享權限、Google Docs 或正式 GAS／Cloud Run／Session／部署；未做效能和角色操作實測。此記錄更新只影響 GitHub 文件，可在確認後續並行更新後單獨撤回。
+- **[NEXT GATE]** 待連接器共享配額恢復後，依既定受控協定僅用唯讀 formula 精確篩選／可信 Notion 原生值對照8筆青壯↔自費 Session，以及相同 Price Plan 的已占用、剩餘及核定額度；若只能返回參照，仍維持 BLOCKED，不寫入任何業務列。
