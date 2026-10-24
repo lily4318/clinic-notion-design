@@ -64,3 +64,13 @@
 完整可追蹤的 URL 清單已移至 [docs/notion/research/evidence-register-2026-10-24.md](research/evidence-register-2026-10-24.md)：首批16筆唯一網址、14筆取得正文並核對相關段落、2筆只有搜尋摘要；**深度精讀達標0篇**，10,000篇目標未達。每篇分別記來源、適用主題與取證等級，未經深入精讀的文獻不得宣稱已完成系統性研究。
 
 理論歸納、系統風險、實作與未驗收分別保存在 [research 索引](research/README.md) 下；不得把其中任何研究假說寫成 Notion 核定用量已實測通過。
+
+
+## 2026-10-24｜B1～B3 獨立 TEST 預覽與狀態驗證｜實際來源與測試標的
+
+- 新 TEST 整批優化預覽：https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d
+- 新獨立 TEST 活動狀態資料庫：https://app.notion.com/p/39f6c1322dd44106b32760a58246860e
+- 原活動管理頁（本輪未修改）：https://app.notion.com/p/d578ca66aa4d8303bebf017bdcf7904d
+- 原「報名中」View：`view://3b08ca66-aa4d-8216-8abf-08275d9b29bb`；原「進行中活動」View：`view://9768ca66-aa4d-82d2-8284-8840f61fd407`（仍使用原篩選）。
+- 新 TEST saved Views：可報名 `view://4038ca66-aa4d-8128-9c01-000c5a1d52b2`、進行中 `view://4038ca66-aa4d-8195-b024-000c073de3a8`、全部 `view://4038ca66-aa4d-81af-bf26-000c67fcdf50`。
+- 詳細安全與驗收報告：[B1～B3 TEST](audits/b1-b3-test-preview-2026-10-24.md)。此處都是可回查定位，不存任何真實資料列。

@@ -73,3 +73,12 @@
 - **[高優先發現，非實作]** Events「報名中」View 實際使用 `狀態 status_is_not 開放報名`；「進行中活動」只排除 Complete 群組；Projects頁「本週會議」區塊內有全部 Projects 檢視；多個名為「ALL」的 View 具有固定篩選。改法已列入整批 B 級改善提案，待 TEST、備份及核准；當前未修復。
 - **[尚未驗收]** 00.config_notion 的全域設定頁搜尋未精確取得；公式原生求值、前後載入時間、同意書 checkbox NULL 語義、活動狀態 TEST、各角色隔離和現場操作尚未驗收。無修改 Notion、資料、Schema、View、角色或權限；青壯既有歷史 TEST 驗收狀態不變。
 - 完整證據與各模組建議：[audits/ten-module-structure-ux-audit-2026-10-24.md](audits/ten-module-structure-ux-audit-2026-10-24.md)。
+
+
+## 2026-10-24｜B1～B3 獨立 TEST 預覽與狀態驗證｜NOTION TEST／PARTIAL
+
+- **[PASS]** 已建立 Notion [整批操作預覽頁](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d) 及一張4欄、**無 Relation** 的獨立 TEST 活動狀態 Data Source `collection://5864ca97-2ceb-4727-a52c-9b7cf749dcd9`，僅5筆完全合成資料；三個實際 View 回傳「可報名」1、「進行中」2、「全部」5，與預期完全相符且無查詢分頁。
+- **[原頁未變]** 兩個原 Events View 仍是反向／過寬狀態篩選；原 Events 頁15個 linked blocks 保留。原十個業務行政頁、原資料來源／公式／關聯／權限皆未修改。
+- **[PARTIAL]** B2／B3 的十模組任務導航已集中在 TEST 預覽，但未改原頁、尚無真人 UI／操作時間／效能／角色權限實測。B1 只在完全獨立 TEST Data Source 中驗證，不表示原業務 View 已修復。
+- **[待確認]** 原業務 View 的狀態語義、所有原頁 B 級修正套用、00.config_notion 全域映射、10,000篇學習目標。回復僅涉及新增 TEST 頁與獨立 DB，須經使用者同意後封存，不得觸動原資料。
+- 設計、所有 TEST View IDs、回復與對照見 [獨立 TEST 詳報](audits/b1-b3-test-preview-2026-10-24.md)。

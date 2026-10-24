@@ -128,3 +128,11 @@
 - **PASS**：10個頁面／76個 linked database blocks／其177個 View 配置可讀，23個去重 Data Source Schema 可 Fetch；GitHub 寫入後如 SHA／Commit 回讀成功，僅代表研究文件交付成功。
 - **FINDING**：F-01 的反向篩選、F-02 的過寬條件、F-03 的標題及範圍差異等為發現與修正提案；不是已驗收修復。
 - **PENDING**：原生 Notion Formula 真值、跨年度多方案、UI效能、角色權限、10,000篇研究與重大 Schema 重構，均不得標記通過。
+
+
+
+## 2026-10-24｜B1～B3 獨立 TEST 預覽與狀態驗證｜本報告後續實際執行狀態
+
+- B1 已在完全獨立的 Notion TEST 活動狀態資料庫使用5筆合成紀錄完成三個 View 查詢，**1/1、2/2、5/5 PASS**；原 Events「報名中」「進行中活動」業務 View **仍未改動**。不能混淆獨立 TEST PASS 與正式頁面修復。
+- B2/B3 已在[整批操作預覽](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)集中展示並保留原十模組連結，但尚未在原行政頁套用，不是進度100%。
+- 詳細 TEST Data Source ID、View IDs、安全、回復與後續核准門檻見 [B1～B3 獨立 TEST 報告](b1-b3-test-preview-2026-10-24.md)。原有任何待核准的改善建議均維持原狀。

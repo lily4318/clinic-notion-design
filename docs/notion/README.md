@@ -24,3 +24,8 @@
 ## 2026-10-24｜十個既有行政模組完整唯讀稽核
 
 已完成十個原行政模組的**唯讀**資料結構與 View 盤點：76個 linked DB 區塊、177個 View 設定、23個去重來源，合計636欄（152 Formula、147 Relation、48 Rollup）。核心問題、十模組表、F-01～F-07風險、一次性 B 類改善方案與回復／限制，見 [完整稽核與整批提案](audits/ten-module-structure-ux-audit-2026-10-24.md)。**尚未修改任何 Notion View 或 Schema，C級更動仍需使用者批准**。
+
+
+## 2026-10-24｜B1～B3 獨立 TEST 預覽與狀態驗證
+
+已在 Notion [TEST 行政管理] 下建立[十模組 B1～B3 整批操作預覽](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)，另建獨立[活動狀態篩選測試 DB](https://app.notion.com/p/39f6c1322dd44106b32760a58246860e)（4欄、0 Relation、5合成資料）。三組 TEST View 期望／實際為1/1、2/2、5/5，均已查詢 PASS。**原十頁和原 Events View 完全未更動；B2/B3 為整批預覽，不是已套用**。完整實作與回復：[TEST B1～B3 記錄](audits/b1-b3-test-preview-2026-10-24.md)。
