@@ -123,3 +123,14 @@
 6. 只有在 Formula 原始條件或可信原生結果可取得、案例可重現、套入結果與當期核定規則一致時，才標記 **NUMERIC PASS**。否則狀態持續 **BLOCKED／PENDING**。所有 TEST 參與與方案 Relation、業務 Session／Episode／Formula／Rollup／View 保持不變。任何 C 級變更先提出前後差異、依賴、權限及回復方案，另待使用者核可。
 
 本回合僅有外部唯讀連接器調查及 GitHub 文件追加，**沒有任何 Notion／GAS／Google Docs 寫入**。無新增效能負荷或權限變更；若需撤回文件，須對照當前 GitHub main 和他人並行 Commit，再只還原本節。
+
+## 2026-10-24｜再續作：295 筆會談完整 View 回歸及 41/41 雙向關聯
+
+**工作線**：僅 Notion TEST／唯讀回歸，無臨床或財務原始列另存。
+
+- **[LIVE SCHEMA PASS]** 重新讀取現有 Price Plans（30欄）、Sessions（67欄）、Care Episodes（50欄）Data Source 的指定 Relation／Rollup／Formula 型別；Price Plans 已完成、已預約、待確認三個 `sum` Rollup 仍直接關聯 Sessions 對應計數 Formula。公式內部條件仍無法從 `formulaCode://` 參照確知。
+- **[COMPLETE VIEW PASS]** 原既有 ALL Saved Views 本輪完整查得 Care Episodes 57筆（1頁）、Sessions 295筆（3頁），政府方案 View 1筆（1頁），各最後 `has_more=false`。295/295 會談皆指向存在的歷程且反向關聯包含該會談，295/295 會談均有收費方案；287筆會談與歷程主方案一致，8筆不同，仍分布4個歷程、3/3/1/1；方向為歷程青壯／Session其他4、Session青壯／歷程其他4。這是**本輪重新完整查詢**，不是沿用舊數字。
+- **[PLAN↔SESSION PASS]** 已啟用青壯 Price Plan 的「💬 關聯Sessions」有41筆，Sessions 側「💲 收費方案」實際選該方案的也有41筆；集合雙向完全相同（41/41），無遺漏或額外關聯；狀態已完成23、已預約13、已取消2、已改期2、no-show1。以上僅為**關聯與狀態分類**，不能推定實際占用次數。
+- **[NUMERIC BLOCKED]** 嘗試合法的最小無篩選 `query_data_sources(mode=rows, limit=2)` 時，連接器明確回報目前工作區 SQL/rows 共用 allowance 用盡、60分鐘內重置；未取得原生 Formula 真值。帶公式精確數值篩選的候選格式在工具 schema 驗證即遭拒絕，未執行成功，不可把候選篩選視為已驗。既有 Price Plans View 的「已占用／剩餘額度」仍只有 `formulaResult://`，完成／預約 Rollup 仍只有 `rollupResult://`。原生數值、8筆差異是否占用、跨方案跨期與核定規則驗證繼續 PENDING。
+- **[CONFIG / SAFETY]** Notion 名稱搜尋 `config_notion` 未精確定位 `00.config_notion`；用既有 live Schema 和 View 核對現況，並未依失效設定變更任何資料。此輪沒有改 Notion 業務列、Schema、Relation、Formula、View、角色權限、正式 GAS／Cloud Run／Session／部署；沒有 Google Docs 變更或效能實測。只有 GitHub 匿名驗收紀錄可單節撤回，撤回前應重查最新遠端版本保護並行更新。
+- **[NEXT GATE]** 配額恢復後先用受支援的合法唯讀路徑取得 Sessions 原生計數真值與 Price Plan 公式／Rollup 數值；仍只返回結果指標則保持 BLOCKED，不以23＋13宣稱36；任何共享 Formula 或關聯修改另需C級設計核可。
