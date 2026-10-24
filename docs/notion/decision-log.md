@@ -274,3 +274,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[TEST UX V3 CHECKLIST]** 本輪新預覽 https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f 。本次人工驗證四題：(1)開頁第一眼能否看到並區分「治療所／個案／心理師」三額度入口；(2)點「查看治療所本期額度」，能否看到正確的本期補助額度表；(3)回預覽點「開啟個案與服務歷程」，能否找到既有歷程／收費方案入口（只看不更動）；(4)點「查看心理師週額度」，能否看懂本週用量及狀態；(5)整頁字距／卡片／表格是否容易閱讀、視覺舒適。每題可選A/B/C，最後可選擇補充不順手部位。
 - **[ACCEPTANCE LEVEL]** 之前數值與Linked View範圍的結構PASS維持；上列5題尚待使用者真人作答，不能填PASS或猜測。只需在現有Notion UI導覽、不建立或修改實際個案／Staff／會談列；新TEST預覽與舊頁都連接原資料庫，標記TEST不構成隔離。原GAS、Cloud Run、Session、共享Formula、Role全部保持不變。
 - **[GENERAL RULE]** 以後所有需使用者驗證的 Notion／專案功能，每題給明確入口／操作／預期結果／選項，將「不用測」、「無法測」、「失敗」分開；只問此輪所需的最少題數，能用連接器自動驗證的不要轉嫁使用者。使用者提供簡碼後逐題記錄成功／不成功／未測，失敗先針對該題最小修改，沒有完成的驗證不假稱通過。
+
+## 2026-10-24｜使用者實測UX v3：1B～5B全部FAIL；同頁直顯v4已建立（待驗收）
+- **[USER CONFIRMED / UX v3 ALL FAIL]** 使用者逐題回覆 `1B 2B 3B 4B 5B`，5/5均不符合；第3題找不到先前指稱的「個案與服務歷程」操作。明確需求：**資料直接在目前頁面顯示，不要靠點擊跳別頁查看；大量說明文字應移除，一眼就能看懂**。v3原本資料範圍1／2／22的結構PASS不等於UX PASS，實際操作／視覺仍FAIL；先UX，後免週報Formula。
+- **[CAUSE / MINIMAL FIX]** 原TEST v3預覽頁先顯示介紹、3張額度跳頁卡、2張任務跳頁卡及長文字，3張真正資料表卻放在最底下。已將**同一個預覽頁** https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f 更名直接顯示UX v4，完全移除頂部卡片與跳頁說明，改為四段短標題後立即放4張**inline Linked DB Views**：治療所額度、心理師週額度、青壯個案額度、進行中服務歷程之「💲收費方案」可見且可在原生View直接編輯的欄位（驗收時只看不操作業務列）。歷史／他處待確認提醒保留在唯一收合區，不新增黃色警示。
+- **[BACKUP/ROLLBACK]** 已在編輯前原生Duplicate v3頁面並Fetch確認保有三張舊Linked DB與原卡片；備份 https://app.notion.com/p/4038ca66aa4d811eafe0c857a6394638 。原官方TEST工作台 https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf 未觸碰。僅v3預覽頁與其專用View顯示欄變動、新增一張同源Care Episodes Linked View；要回復先核對並行變更，以備份精準還原預覽頁與v3既有SHOW欄位，移除第四Linked View但不刪除原Care Episodes資料庫。
+- **[MANUAL RETEST GATE]** 請真人逐題驗證：①開頁是否立即看到「治療所本期額度」表，不點跳頁；②下捲是否直接看到心理師與個案兩表；③「服務歷程」表是否直接顯示「💲收費方案」並知道可在原頁操作（**勿更動真資料**）；④整頁是否少文字、容易閱讀。各題A符合／B不符合／C未測。使用者尚未回覆，不得將v4寫作UX PASS或直接覆蓋原工作台。
+- **[DOCS VERIFIED]** [現行Google Docs規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)新增第二十三節；讀回確認22/23並存，明示五題FAIL與v4。修改前原生Google Docs[備份](https://docs.google.com/document/d/1SKgodaTjbxWatRZB-nrQz0IyxptQ1Dh7__8jecQpmrU/edit)已讀回確認無第23節。
