@@ -226,3 +226,9 @@
 - **[CURRENT VIEW FILTER / FULL STAFF COVERAGE PASS]** 該備份第九節所述舊版「要求週回報Relation非空才能顯示」門檻，**現行**青壯週額度View已不再使用；本輪從TEST Backend Staff原始資料庫Default View完整讀4筆，其中在職臨床心理師2筆，週額度View也正確列這2筆，**0人被漏列、0人多列**。此為目前View/人員集合PASS，非未來沒有週回報的真人情境驗收。
 - **[CURRENT LIVE FORMULA STILL BLOCKED]** 現行2名心理師本週10/18～10/24他處占用仍未核實，前輪6／4筆本所已預約不是政府已核銷；連接器的原生Formula值／原始碼仍無法讀，本週「青壯本週額度狀態_v2_自動」是否呈待核對尚不能標記PASS。不得由歷史v2隔離通過直接宣稱真實跨機構核銷及正式授權已驗。
 - **[NO BUSINESS WRITES]** 本回合僅GitHub來源／專項稽核／驗收及決策修訂，Notion Schema/View/Formula/關聯/業務列及Google Docs/正式GAS、Cloud Run、Session、部署不動；未做真人操作、權限和效能實測。[詳情](audits/youth-weekly-allowance-2026-10-24.md)。
+
+## 2026-10-24｜隔日10/25新週缺回報：原始關聯／Sessions跨週回查PASS，Formula待驗
+- **[DATE / RELATION PASS]** 2026-10-24星期六重新回查週回報原始Saved View完整6筆；現有2名在職臨床心理師×啟用115 Price Plan的當週10/18～10/24回報**2筆均未確認他處使用**，前週10/11～10/17為**2筆已確認0**，**新週10/25～10/31不存在任何符合此兩人＋Price Plan的回報**。10/25的一筆另外方案／隔離TEST人員回報不可混用。
+- **[SESSION COMPLETE READ PASS]** 重新分頁取得Notion Sessions ALL **295/295筆**，用Price Plan實際Relation找出青壯**41筆**；2026/10/25～10/31關聯該方案會談**0筆**（其中已預約0筆）；10/18～10/24共11筆，10筆是已預約有效候選，本所兩人各6／4；此為當前日期快照，不代表核銷。
+- **[SUNDAY RESET FORMULA STILL NOT LIVE VERIFIED]** 10/25進入週日至週六的新週時，無當週有效外部回報應繼續顯示**待回報／待核對**，不能繼承前週或認定外部0而自動顯示可安排。該日尚未到來，連接器目前只能回傳原生公式結果參照，故**這項換週顯示並未測試通過**；過去2026/10/23的v2隔離PASS仍保留，不可冒稱是10/25實測。
+- **[NO WRITES]** 無Notion業務資料、Staff／Sessions／Price Plans／週回報、Schema／Formula／View／權限、Google Docs、GAS及部署異動；本回合只把新的無敏感資料時間邊界驗收事實寫入GitHub，權限與效能未真人實測。[詳見專項稽核](audits/youth-weekly-allowance-2026-10-24.md)。
