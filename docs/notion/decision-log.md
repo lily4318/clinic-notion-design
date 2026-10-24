@@ -84,3 +84,9 @@
 ## 2026-10-24｜B1–B3 行政頁整批 B 級修正與回查｜最新執行決策
 
 接續前次 B1 獨立 TEST 1／2／5 筆 PASS，在 TEST 行政管理的原工作頁一次做有證據的 B 級批次改善：Billing／Events／Staff 以小標區分相近資料庫工作階段；Tasks、Documents 把誤導的 `ALL` 改成精確名稱；Events 因 `CLEAR FILTER` 不會刪除現有 `simpleFilters`，未強行覆寫，而是在原 Linked DB 新增精確活動篩選的2個 View（原簡易篩選0、正確 advancedFilter），原2個錯誤 View 標「停用」保留供回復。五個原頁複本備份完成，原 DB block 數、同步選單、業務資料及權限不變。真實 Events 新 View 查到0筆，尚無業務案例驗收。**更正先前 F-03：會議與專案本來已有獨立 h3/h2 分區，無須修改 Projects 頁。** 具體差異／回復見 [本輪報告](audits/b1-b3-legacy-batch-2026-10-24.md)。
+
+## 2026-10-24｜研究成果完整性核對、TEST 工作台 v2 與長期目標修訂
+
+使用者要求再次確認先前的 Notion／資料庫／UX 學習都有存 GitHub，缺少的補入，並依研究設計實作 Notion 及**修正長期目標**。已重新核對全部六份既有研究文件、16筆去重來源清冊、政府補助多方案架構、10模組稽核、B1～B3驗收與備份記錄；其中確有文件，但缺乏「來源→決策→Notion實作／未驗收」的逐項追溯，故新增 research-to-implementation-matrix.md。歷史「至少1000份模板」與 GitHub 續寫「10,000篇跨範疇研究」互有範圍／數字差異，保留原需求未完成之事實，不冒稱已讀，也不自行把兩者等同。
+
+Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務工作台 v2](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)：工作先後、個案會談／帳務／補助、人員營運、驗收歷史四區，兩組左右欄及三個收合區；原獨立活動測試 DB 保留；原十行政頁及其業務資料、Schema／View／Formula／Relation／權限無改動。已建立原生頁備份並 Fetch 驗證。正式使用者工作步數、效能與角色隔離尚未測。長期目標改以**操作效率、正確性、安全、效能、可回復／可追溯**驗收，不以無證據篇數當作上線門檻；詳見 [long-term-goals.md](long-term-goals.md)。

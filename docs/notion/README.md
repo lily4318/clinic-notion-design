@@ -34,3 +34,10 @@
 ## 2026-10-24｜B1–B3 行政頁整批 B 級修正與回查
 
 已在 TEST 管理舊頁批次套用可驗證的 B 級改善（帳務／活動／薪資三個頁面任務標籤，任務與文件 View 精確命名）；活動採**2個新 View + 2個保留標停用的舊 View**，因 Notion `update_view` 無法清除原 `simpleFilters` 而未直接覆寫。五個原生頁面備份已回查，原業務資料／Schema／Formula／權限不變。完整 View ID、備份和驗收：[B 級批次修改紀錄](audits/b1-b3-legacy-batch-2026-10-24.md)。
+
+## 2026-10-24｜研究成果完整性核對、TEST 工作台 v2 與長期目標修訂
+
+- [**Notion 長期目標 v2（成果導向／可驗收）**](long-term-goals.md)：將研究數量要求獨立追蹤，不再當作可用性或安全的替代指標；仍保留歷史1,000／10,000篇口徑差異與未完成紀錄。
+- [**研究來源 → 設計 → 目前實作對照矩陣**](research/research-to-implementation-matrix.md)：逐項記錄已保存成果、官方依據、落地狀態、未驗收及缺漏；原有16來源不重複灌水。
+- [**行政任務工作台 v2 整體改版**](audits/task-workbench-ux-v2-2026-10-24.md)：只重排既有十模組的 TEST 預覽，任務導向且可回復。
+- [直接開啟 Notion TEST 工作台 v2](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)；原功能資料庫／權限／Formula 未修改。

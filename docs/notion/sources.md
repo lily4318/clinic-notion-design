@@ -81,3 +81,11 @@
 - [完整修改、回查與回復紀錄](audits/b1-b3-legacy-batch-2026-10-24.md)；Notion [TEST 預覽最新狀態](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)。
 - 原生備份頁： [帳務](https://app.notion.com/p/4038ca66aa4d8145a3eec4c49740744f)、[活動](https://app.notion.com/p/4038ca66aa4d81a890cacc9a997c6d91)、[人員](https://app.notion.com/p/4038ca66aa4d81f58ffccad644e27a78)、[任務](https://app.notion.com/p/4038ca66aa4d81249ff4d6b96f2ca812)、[文件](https://app.notion.com/p/4038ca66aa4d81778fb9c13cc809fa85)。
 - 新 B1 View IDs：`view://4038ca66-aa4d-81fd-bb28-000c6f1f92fa`（可報名）、`view://4038ca66-aa4d-819d-9082-000c961b50f5`（進行中）；舊停用 View IDs 及未消失的舊條件詳見完整報告。
+
+## 2026-10-24｜研究成果完整性核對、TEST 工作台 v2 與長期目標修訂｜最新位置與驗收依據
+
+- Notion 行政任務工作台 v2：https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d
+- 本次改版前 Notion 原生備份：https://app.notion.com/p/4038ca66aa4d81389417ca0faadf3492
+- [本次改版及回復紀錄](audits/task-workbench-ux-v2-2026-10-24.md)
+- [Notion 長期目標 v2](long-term-goals.md)；[研究逐項採用矩陣](research/research-to-implementation-matrix.md)
+- 原歷史研究16筆仍列於 [證據登錄表](research/evidence-register-2026-10-24.md)；本輪未新增其他唯一 URL 數字；今日重查的 Notion 官方資料庫效能／檢視／Linked Views 已包含在該來源清單中。
