@@ -36,3 +36,12 @@
 - 本次 Google Docs 追加前備份：https://docs.google.com/document/d/1c3s1KL_xDzZDQ61uzq82ZWi6nnsZe2bbOSDwJNPWWh8/edit
 
 提醒：此回合只做低風險 TEST 首屏提示，沒有改 Schema 或關聯；仍需 10,000 篇研究，未達成不得冒稱完成。
+
+## 2026-10-24｜依使用者要求移除黃色提醒｜證據／歷史規格定位
+
+- TEST 工作台現況：https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf
+- Notion TEST 驗收頁（已追加撤回記錄）：https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d
+- Google Docs 青壯 UX 正式設計（第十三節是最新的撤回決策）：https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit
+- Google Docs 第十三節追加前完整備份：https://docs.google.com/document/d/1_fSh-0emKNx_pB_1UNouT8C8IeOnQlA1pHFbDHLULuY/edit
+
+第十二節與先前 GitHub「已加入黃色提醒」只代表歷史；**現行 Notion TEST 頁面並無黃色提醒**。
