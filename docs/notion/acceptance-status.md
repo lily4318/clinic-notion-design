@@ -213,3 +213,10 @@
 - **[NO LOCAL >6 CANDIDATE FOUND]** 以單次Session日期（手動執行調整日期優先）及單一心理師Relation、週日到週六分組，對已完成／已預約／待確認之本所41筆青壯方案會談未見院內同人同週候選超過六筆；仍不代表官方跨處總額未超。
 - **[NATIVE FORMULA ACCESS BLOCKED]** 嘗試透過Notion.fetch對Staff及週回報Formula Code指標作唯讀存取，回傳INVALID_ARGUMENT；Staff/Price Plans原生Formula、Rollup仍僅結果指標，沒有真值／原始碼，**原生計數仍BLOCKED**，不能判定Staff v2公式是否fail-closed。
 - **[NO WRITE / TEST LIMIT]** 無Notion業務資料、Schema／Formula／Relation／View／權限及Google Docs／GAS／Cloud Run變更；未做真人權限、政府系統跨地核銷、效能實測。只在GitHub追加匿名驗收紀錄；下一步先在原有人工流程核實本週外部使用與官方額度，再取得真正的Notion原生顯示值交叉驗收。[專項稽核](audits/youth-weekly-allowance-2026-10-24.md)。
+
+## 2026-10-24｜週回報原始與工作台View 6／6一致；原生狀態仍待驗
+- **[VIEW CONSISTENCY PASS]** 找到「補助週額度紀錄」原始Saved View及TEST補助工作台嵌入View；View模式直接取得雙方**各6筆且集合6/6相等**，無分頁遺漏。6筆「心理師Relation＋Price Plan Relation＋週起始日」複合鍵**0筆重複**。
+- **[TEST SCOPE VERIFIED]** 6筆TEST週回報中4筆連現有啟用115青壯方案與工作台顯示2位在職心理師，其他2筆連不同Price Plan／未顯示之TEST人員。因此就這6筆特定關聯而言可分辨作用域，但TEST標籤仍不能當作完整資料隔離。
+- **[CURRENT WEEK HOLD EXPECTED; NOT NATIVE PASS]** 10/18～10/24的兩位心理師他處回報都未確認、次數未知；與前輪本所已預約6及4筆搭配，**應維持待核對，不應自行核准有剩餘額度**。目前只能驗證資料源，無法讀原生週額度Formula值，不能宣稱其已實作fail-closed。
+- **[CONNECTOR LIMIT]** 普通Staff Select rows篩選可用，Formula文字篩選遭schema拒絕，另有validation_error；隨後Query Data Source的SQL／rows模式**配額用盡且該次查詢未執行**，但Saved View查詢仍可用。採View完成上述核對，未寫入任何Notion資料。原生Formula結果、政府跨地人次、真人權限及效能仍**BLOCKED/NOT TESTED**。
+- **[NO BUSINESS WRITE]** 本回合只將新集合與配額邊界匿名同步GitHub；沒有修改Staff、週回報、Sessions、Price Plans、Schema／Formula／Relation／View、權限或Google Docs／正式服務。詳見[專項稽核](audits/youth-weekly-allowance-2026-10-24.md)。
