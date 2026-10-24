@@ -29,3 +29,8 @@
 ## 2026-10-24｜B1～B3 獨立 TEST 預覽與狀態驗證
 
 已在 Notion [TEST 行政管理] 下建立[十模組 B1～B3 整批操作預覽](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)，另建獨立[活動狀態篩選測試 DB](https://app.notion.com/p/39f6c1322dd44106b32760a58246860e)（4欄、0 Relation、5合成資料）。三組 TEST View 期望／實際為1/1、2/2、5/5，均已查詢 PASS。**原十頁和原 Events View 完全未更動；B2/B3 為整批預覽，不是已套用**。完整實作與回復：[TEST B1～B3 記錄](audits/b1-b3-test-preview-2026-10-24.md)。
+
+
+## 2026-10-24｜B1–B3 行政頁整批 B 級修正與回查
+
+已在 TEST 管理舊頁批次套用可驗證的 B 級改善（帳務／活動／薪資三個頁面任務標籤，任務與文件 View 精確命名）；活動採**2個新 View + 2個保留標停用的舊 View**，因 Notion `update_view` 無法清除原 `simpleFilters` 而未直接覆寫。五個原生頁面備份已回查，原業務資料／Schema／Formula／權限不變。完整 View ID、備份和驗收：[B 級批次修改紀錄](audits/b1-b3-legacy-batch-2026-10-24.md)。

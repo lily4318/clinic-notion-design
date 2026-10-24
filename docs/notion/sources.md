@@ -74,3 +74,10 @@
 - 原「報名中」View：`view://3b08ca66-aa4d-8216-8abf-08275d9b29bb`；原「進行中活動」View：`view://9768ca66-aa4d-82d2-8284-8840f61fd407`（仍使用原篩選）。
 - 新 TEST saved Views：可報名 `view://4038ca66-aa4d-8128-9c01-000c5a1d52b2`、進行中 `view://4038ca66-aa4d-8195-b024-000c073de3a8`、全部 `view://4038ca66-aa4d-81af-bf26-000c67fcdf50`。
 - 詳細安全與驗收報告：[B1～B3 TEST](audits/b1-b3-test-preview-2026-10-24.md)。此處都是可回查定位，不存任何真實資料列。
+
+
+## 2026-10-24｜B1–B3 行政頁整批 B 級修正與回查｜來源與備份
+
+- [完整修改、回查與回復紀錄](audits/b1-b3-legacy-batch-2026-10-24.md)；Notion [TEST 預覽最新狀態](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)。
+- 原生備份頁： [帳務](https://app.notion.com/p/4038ca66aa4d8145a3eec4c49740744f)、[活動](https://app.notion.com/p/4038ca66aa4d81a890cacc9a997c6d91)、[人員](https://app.notion.com/p/4038ca66aa4d81f58ffccad644e27a78)、[任務](https://app.notion.com/p/4038ca66aa4d81249ff4d6b96f2ca812)、[文件](https://app.notion.com/p/4038ca66aa4d81778fb9c13cc809fa85)。
+- 新 B1 View IDs：`view://4038ca66-aa4d-81fd-bb28-000c6f1f92fa`（可報名）、`view://4038ca66-aa4d-819d-9082-000c961b50f5`（進行中）；舊停用 View IDs 及未消失的舊條件詳見完整報告。

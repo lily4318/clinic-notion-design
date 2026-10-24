@@ -82,3 +82,13 @@
 - **[PARTIAL]** B2／B3 的十模組任務導航已集中在 TEST 預覽，但未改原頁、尚無真人 UI／操作時間／效能／角色權限實測。B1 只在完全獨立 TEST Data Source 中驗證，不表示原業務 View 已修復。
 - **[待確認]** 原業務 View 的狀態語義、所有原頁 B 級修正套用、00.config_notion 全域映射、10,000篇學習目標。回復僅涉及新增 TEST 頁與獨立 DB，須經使用者同意後封存，不得觸動原資料。
 - 設計、所有 TEST View IDs、回復與對照見 [獨立 TEST 詳報](audits/b1-b3-test-preview-2026-10-24.md)。
+
+
+## 2026-10-24｜B1–B3 行政頁整批 B 級修正與回查｜PARTIAL PASS／原頁有限 B 級修正
+
+- **PASS**：5個 Notion 原生 BACKUP 頁已確認與改前 block 數一致（Billing14、Events15、Staff14、Tasks3、Documents5）。原 Billing/Events/Staff 頁新增4/4/3個 H4 工作階段標籤，原 linked DB 數字不變；原共用導覽仍在。
+- **B1 特殊限制**：`update_view` 的 `CLEAR FILTER` 未能去掉既有 `simpleFilters`，故新增2個無舊 simpleFilters 的正確新 View，原2個舊 View 標停用且原篩選保留，未刪任何頁籤。新 View 即時查詢皆0筆且 has_more=false，**不能宣稱真實活動案例驗收通過**；隔離 TEST 1/2/5 的既有驗收保持有效。
+- **B3 PASS**：Tasks 的 ALL →「全部未完成｜依任務類型」，原 Done=false、分組保留，查詢3筆；Documents ALL →「待更新＋草稿｜總覽」，原僅待更新／草稿的選項集合保留，查詢4筆。
+- **修正稽核誤判**：Projects/Meetings 實際已分 h3「本週會議」與 h2「專案」兩個區域，沒有改該頁，原報告 F-03 不應再當作待修 BUG。
+- **未改動**：個案、會談、收費、收據、薪資或 Events 真實資料列；任何 Schema／Relation／Formula／權限／正式 GAS。未做真人操作、效能／角色驗證、完整十模組批次改造。
+- **驗收／回復證據**：[詳細 B 級修改紀錄](audits/b1-b3-legacy-batch-2026-10-24.md)。

@@ -79,3 +79,8 @@
 ## 2026-10-24｜B1～B3 獨立 TEST 預覽與狀態驗證（TEST 預覽／B1 已驗證，尚非正式管理 View 修改）
 
 接續十模組唯讀稽核，新增位於 TEST 行政管理下的「十模組 B1～B3 整批優化預覽」，以任務流程整合所有十模組的導覽提案，並保留所有原始行政頁。另建立四欄、零 Relation、五筆完全合成狀態的獨立 Notion TEST 資料庫：開放報名篩選1筆、進行中開放報名＋已額滿2筆、所有狀態5筆，與預期完全一致。此為**獨立 TEST 邏輯通過**；原 Events「報名中」仍是反向 filter、進行中仍排除 Complete 群組，均未改。B2、B3 僅預覽尚未在原頁落實，正式業務列、Schema、Formula、Relation、權限、GAS 與其他模組均未變更。不恢復黃色提醒。詳見 [TEST 報告](audits/b1-b3-test-preview-2026-10-24.md)。
+
+
+## 2026-10-24｜B1–B3 行政頁整批 B 級修正與回查｜最新執行決策
+
+接續前次 B1 獨立 TEST 1／2／5 筆 PASS，在 TEST 行政管理的原工作頁一次做有證據的 B 級批次改善：Billing／Events／Staff 以小標區分相近資料庫工作階段；Tasks、Documents 把誤導的 `ALL` 改成精確名稱；Events 因 `CLEAR FILTER` 不會刪除現有 `simpleFilters`，未強行覆寫，而是在原 Linked DB 新增精確活動篩選的2個 View（原簡易篩選0、正確 advancedFilter），原2個錯誤 View 標「停用」保留供回復。五個原頁複本備份完成，原 DB block 數、同步選單、業務資料及權限不變。真實 Events 新 View 查到0筆，尚無業務案例驗收。**更正先前 F-03：會議與專案本來已有獨立 h3/h2 分區，無須修改 Projects 頁。** 具體差異／回復見 [本輪報告](audits/b1-b3-legacy-batch-2026-10-24.md)。

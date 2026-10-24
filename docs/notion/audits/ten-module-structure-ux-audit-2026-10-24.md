@@ -136,3 +136,10 @@
 - B1 已在完全獨立的 Notion TEST 活動狀態資料庫使用5筆合成紀錄完成三個 View 查詢，**1/1、2/2、5/5 PASS**；原 Events「報名中」「進行中活動」業務 View **仍未改動**。不能混淆獨立 TEST PASS 與正式頁面修復。
 - B2/B3 已在[整批操作預覽](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)集中展示並保留原十模組連結，但尚未在原行政頁套用，不是進度100%。
 - 詳細 TEST Data Source ID、View IDs、安全、回復與後續核准門檻見 [B1～B3 獨立 TEST 報告](b1-b3-test-preview-2026-10-24.md)。原有任何待核准的改善建議均維持原狀。
+
+
+## 2026-10-24｜B1–B3 行政頁整批 B 級修正與回查｜修正舊報告與執行情況（最新有效狀態）
+
+- **F-03 更正（不是 BUG）**：再 Fetch 會議專案頁，實際 h3「本週會議」下對應 Meetings block，之後另立 h2「專案」對應 Projects block；先前「本週會議混入專案」判斷屬過度推論，**不要依 F-03 去重構或改名**。
+- **F-01/F-02**：TEST 五狀態篩選已 PASS，但更新舊 View 時無法清除 `simpleFilters`；已新增2個正確 View 並保留舊 View 標「停用」，原業務資料沒有符合狀態的實際案例，仍為部分驗收。
+- **F-04/F-05**：已在 Billing、Events、Staff 舊頁分出11個工作階段 H4 標籤；Tasks、Documents 的有限範圍 ALL View 已改名且保留原條件；其他未證實錯誤之 View 不改。詳見 [B 級批次實作紀錄](b1-b3-legacy-batch-2026-10-24.md)。
