@@ -268,3 +268,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[LEARNING TRANSFER]** 對照Notion官方「閱讀者導向＋Callout／Columns／Toggle」、「減少首頁Inline DB與顯示屬性」、「各View獨立配置」及Business OS／Company OS／營運Dashboard範本之Quick Actions。實施成果：同一用途原頁7個Inline DB→預覽3個；治療所顯示欄11→7、心理師5→5、個案11→8；不新增假KPI、黃色警示或資格工作流，亦不宣稱完成過去要求1,000／10,000篇模板研究。
 - **[HUMAN/PERFORMANCE PENDING]** 操作入口可見、配置與資料範圍PASS，**未**證明視覺舒適度、真人1-click體驗、手機排版或實際網頁載入變快。待使用者真實比較完成三任務：首屏找到三額度並點入、開始個案選方案、辨識免週回報公式仍未啟用。未獲認可不覆蓋原工作台、不續作公式。回復僅精準撤銷新預覽與其3個Linked Views，原頁已保留。
 - **[EVIDENCE & DOCS]** 實際來源→設計→原生Notion實作及回查詳見[專項稽核](audits/subsidy-ux-v3-learning-applied-2026-10-24.md)；[Google Docs跨年額度UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)新增第二十二節並回讀，已建立[增補前備份](https://docs.google.com/document/d/1J3Z9zhvjtb53Ik06_JxTXobQ1s0oKsR1eyAc5WxYcpQ/edit)。
+
+## 2026-10-24｜使用者驗收採逐題、具體操作、簡碼回覆（已確認）
+- **[USER CONFIRMED]** 使用者指出「請評估美觀、直覺、好不好用」太籠統，要求每次請使用者驗證時：**逐題明確列出要點什麼／看什麼／通過條件**，提供容易回覆的固定選項（A=符合、B=不符合、C=未測試），可只回「1A 2B 3C」等簡碼，遇B才選擇補一句原因；**不應要求自由敘述整體感想**。
+- **[TEST UX V3 CHECKLIST]** 本輪新預覽 https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f 。本次人工驗證四題：(1)開頁第一眼能否看到並區分「治療所／個案／心理師」三額度入口；(2)點「查看治療所本期額度」，能否看到正確的本期補助額度表；(3)回預覽點「開啟個案與服務歷程」，能否找到既有歷程／收費方案入口（只看不更動）；(4)點「查看心理師週額度」，能否看懂本週用量及狀態；(5)整頁字距／卡片／表格是否容易閱讀、視覺舒適。每題可選A/B/C，最後可選擇補充不順手部位。
+- **[ACCEPTANCE LEVEL]** 之前數值與Linked View範圍的結構PASS維持；上列5題尚待使用者真人作答，不能填PASS或猜測。只需在現有Notion UI導覽、不建立或修改實際個案／Staff／會談列；新TEST預覽與舊頁都連接原資料庫，標記TEST不構成隔離。原GAS、Cloud Run、Session、共享Formula、Role全部保持不變。
+- **[GENERAL RULE]** 以後所有需使用者驗證的 Notion／專案功能，每題給明確入口／操作／預期結果／選項，將「不用測」、「無法測」、「失敗」分開；只問此輪所需的最少題數，能用連接器自動驗證的不要轉嫁使用者。使用者提供簡碼後逐題記錄成功／不成功／未測，失敗先針對該題最小修改，沒有完成的驗證不假稱通過。
