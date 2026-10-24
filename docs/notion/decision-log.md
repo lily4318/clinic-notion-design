@@ -205,3 +205,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **新發現是現況，不是新核准需求**：原Price Plans中已存在並啟用**400元「掛號費」自費方案實例**；Sessions的`💲 附加收費方案`可加掛，Billing已分別記載向個案的掛號費（22筆，各400並標已收款）及向衛生局的本期青壯請款（23筆，待請款9／請款中14）。完整Sessions295/Billing203關聯驗證，所有45筆本類Billing都回指相應已完成青壯Session，22筆掛號費又符合Session附加方案。不得因青壯主方案本身沒有掛號費欄位就新增欄位或逕加400到1600補助額。
 - **一筆已完成青壯Session沒有附加掛號費／對應掛號費Billing**，另一筆已預約亦無附加，尚無合理減免或漏收證據；**不自行開收據或補帳**。Price Plans、Sessions與Billing的Formula原生數值、按鈕、政府撥款及真人權限未實測，維持BLOCKED。[詳細讀回及恢復界線](audits/episode-session-plan-consistency-2026-10-24.md)。
 - 原使用者核可青壯人工確認後於Care Episodes選方案、原8筆跨方案不同會談保留；本回合只在GitHub修正現況記錄，不改Notion Price Plans的備註草案或當前值，不改任何Finance/Schema/Formula/Relation/View或正式系統。
+
+## 2026-10-24｜使用者重申優先任務「建立額度 View」，已在 Notion TEST 執行
+- 使用者指出原本要求是建立**補助使用額度 View**，先前多回合追查收款屬於偏離主要任務。本回合依其既有要求直接作B級 View 最小建置，不再進行無關 Billing 分析，亦不需要等待掛號費契約問題才建立只讀檢視。
+- [補助方案使用額度 View 02](https://www.notion.so/3f68ca66aa4d8156bccfcc28f75cbb9a?v=4038ca66aa4d81278430000cd581b5e7)顯示原Price Plans的核定、已完成、已預約、待確認、已占用、剩餘、狀態，不覆蓋舊View01；[個案使用額度 View](https://www.notion.so/3f68ca66aa4d81cca3b4ee43b4bd8dcf?v=4038ca66aa4d81a3ab1a000ca3244dce)在本TEST工作台頁尾，現預選青壯115方案，以 Care Episodes單段歷程為資料列；心理師週額度沿用原115專用View。兩個新View查詢分別1／22筆且無後頁，新增1行主區快速入口。原核心資料、公式、關聯、View01、Staff／權限不動。
+- 這是**已發生的TEST最小UI/View修改**而非使用者核准「重構共享公式或所有舊模組」。原生額度數值、個案跨歷程累計、跨政府方案期別、權限／效能和真人UX仍未通過，未知不得當作0或可安排。同步原[Google Docs跨年 UX 規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)第十六節及[可回復的實施報告](audits/subsidy-usage-views-2026-10-24.md)。
