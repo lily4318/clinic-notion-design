@@ -343,3 +343,8 @@
 - **[SCOPE / PERF]** 沒有變更Price Plans、Care Episodes、Staff、Sessions、Billing、週回報等任何業務資料列、Formula、Schema、Relation、原營運Views或權限；角色權限仍DEFERRED，青壯免週回報公式仍NOT LIVE。v3只有3個inline資料庫，v4有4個，**可能增加載入量**，是否變快未知；用多一張直接可見服務歷程View換掉跳頁。
 - **[MANUAL RETEST GATE]** 請真人逐題驗證：①開頁是否立即看到「治療所本期額度」表，不點跳頁；②下捲是否直接看到心理師與個案兩表；③「服務歷程」表是否直接顯示「💲收費方案」並知道可在原頁操作（**勿更動真資料**）；④整頁是否少文字、容易閱讀。各題A符合／B不符合／C未測。使用者尚未回覆，不得將v4寫作UX PASS或直接覆蓋原工作台。
 - **[DOCS VERIFIED]** [現行Google Docs規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)新增第二十三節；讀回確認22/23並存，明示五題FAIL與v4。修改前原生Google Docs[備份](https://docs.google.com/document/d/1SKgodaTjbxWatRZB-nrQz0IyxptQ1Dh7__8jecQpmrU/edit)已讀回確認無第23節。
+
+## 2026-10-24｜UX v4使用者4/4 PASS；新增首頁異常與最後一次候選提醒（TEST待驗）
+- **使用者真人驗收**：UX v4 `1A 2A 3A 4A`，原四題4/4 PASS；補充提出異常提醒、最後一次候選提醒與資料庫解說，**新需求尚待真人驗收**。
+- **TEST 實作回查**：預覽頁頂端加入青壯待核對 View（開案日期缺漏或他處未確認）2筆、補助剩餘1次候選 View 11筆；保留原3額度View，38筆廣義歷程管理View移入底部Toggle；Notion Fetch確認6 linked views及排列。只是原有資料來源的Linked Views，未改Schema、Formula、資料列、原營運View或正式部署。剩餘1次不等於下一個已預約就是最後一次。
+- **回復**：Notion原生備份 https://app.notion.com/p/4038ca66aa4d8159b4e5daf90a4ae662 ；Google Docs第24節備份 https://docs.google.com/document/d/1kEm7zDMddObchiJfritf9b21TaIJPDsa7i8_uEYlgf4/edit 。免週報自動Formula仍未啟用，角色權限本階段DEFERRED；UX新警示需使用者另測。
