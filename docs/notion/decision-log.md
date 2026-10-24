@@ -123,3 +123,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 
 ## 2026-10-24｜原生公式數值驗收：替代唯讀入口與重試門檻｜取得原生數值前停止推論與寫入
 這一回合額外核實已啟用方案的原生 Notion 頁和 Saved View 仍只回傳 Formula/Rollup 結果參照；`rows/SQL` 暫時配額耗盡但可在一段時間後重置，不是永久不支援。Google Drive 中的歷史 Sessions 收據公式文件不可冒充當前補助計數公式。決策不變：青壯人工核對後於 Care Episodes 選主方案，現有8筆青壯／自費切換不自動同化；沒有可信原生數值前，不判定 Session 計數或 Price Plan 餘額正確，不操作既有業務資料或共享公式。已為配額恢復後整理 [最小數值驗收協定](audits/episode-session-plan-consistency-2026-10-24.md)，待實際讀值才能進行下一步。此次僅 GitHub 記錄，無 Notion 寫入。
+
+
+## 2026-10-24｜青壯額度原生數值續作前置核對（唯讀／非新決策）
+- 本輪依上次驗收停點只重驗 Price Plans／Sessions／Care Episodes Schema、Notion TEST 工作台與政府方案 View；三個 Price Plans 計數 Rollup 來源保持不變、工作台6個 linked database 與撤回黃色提醒的決策保持不變，現有啟用政府方案 View 僅1筆。
+- Price Plans「已占用_自動」「剩餘額度_自動」仍沒有原生數值，而是不可直接驗證的 `formulaResult://` 指標；計數 Rollup 也是指標。原生計數、8筆青壯／自費方案差異的計數影響、跨期／跨方案、真人權限及效能仍**未通過**。本輪沒有重新跑完整295筆會談對照，也沒有用狀態筆數冒充公式驗收。
+- **未形成新業務決策**，既有青壯人工核對→Care Episodes 先選方案與不得自動同化8筆差異的原則不變。沒有改 Notion Schema／資料／View、Google Docs 或正式服務；僅將這次前置回查記入 GitHub，詳見 [驗收紀錄](acceptance-status.md)。
