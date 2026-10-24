@@ -385,3 +385,10 @@
 - **新的唯讀觀察：** 使用`mode=view`重新查Saved View，青壯115服務歷程現有22筆、全為進行中；原「未預約下次會談」現為33筆（前輪32筆），當期方案額度View為1筆。這只代表本次View現況，不推定特定個案或已完成3次狀態變更；公式回傳`formulaResult://`參照，不能冒稱原生數值已直接取回。原UX v4.2六個Linked DB及最後一次提醒仍在，先前四題真人PASS保留。
 - **查詢阻擋：** Notion connector回應此工作區`query_data_sources`的`rows/sql`額度已用盡、約一小時內重置，要求不要立刻重試；此次rows查詢未執行，無副作用。`mode=view`仍可使用；工具的套餐選項不是更換方案或必須付費才能讀Formula完整expression的證據。已停止嘗試直接查詢，未驗證新的Sessions逐筆狀態。
 - **後續必要條件：** 從Notion現行公式編輯器或可授權且直接返回`formula.expression`／Button action的正式能力，取得完整原文與設定並建立可回復基準；沒有這些不能對共享Reminder作推定式修改。此輪沒有Notion schema/業務資料/權限/效能影響，免週報公式亦仍未啟用。
+
+## 2026-10-24｜已取得使用者提供的預約公式；截圖3個疑似舊Formula不可直接刪除（有Cases依賴）
+- **[NEW USER SOURCE]** 使用者貼出Care Episodes `下次會談預約_自動`完整Notion公式；精確原文已存入[Google Docs跨期UX規格第29節](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)，並以revision guard寫入、讀回，附[新增前備份](https://docs.google.com/document/d/1QRBOf06I9tbzf3lN5UdaDJyt05u1CC35Si9QZFs56JA/edit)。**這是使用者提供的現行公式原文、未由connector獨立取回expression**；寫回前仍需比對當下編輯器。
+- **[ROOT CAUSE]** 原公式只找`💬 關聯會談`中`預約時間>=now()`且不是`已改期/已取消`的下一筆預約，否則`style("未安排","red")`；並無政府Price Plan、每案完成次數、是否結案的先行分支，因此原`未預約下次會談`View會把已完成補助上限但未結案者錯誤列入。不可把`個案補助剩餘=0`直接等同已完成上限，因最後一次已預約也可能令剩餘0。
+- **[USER DELETE REQUEST / HARD STOP]** 使用者另要求刪除截圖中的3個Σ青壯115欄位。Fetch現行Care Episodes(50欄)與Cases(49欄)確認三個**仍被跨資料庫Rollup直接引用**：Care Episodes `青壯115他處使用數_自動`(V3dWRw)→Cases `青壯115他處已使用_自動`；`青壯115他處回報有效_自動`(UGhgdQ)→Cases `青壯115他處確認筆數_自動`；`青壯115方案歷程標記_自動`(Wj1cQw)→Cases `青壯115關聯歷程數_自動`。空白或0不表示無依賴；**沒有DROP**，先提出安全隱藏或完整汰換後移除的路徑。
+- **[SCOPE / BASELINE]** 目前已取得一段完整Formula作為候選修改基準，但Cases `下次會談預約_自動(顯示)`及Care Episodes `歷程摘要_自動(顯示)`仍僅formulaCode參照，`青壯轉自費` Button設定僅type=button、無動作詳情。依使用者「不知原文即停止覆寫」的核准條件，本回合不改任何Notion Schema、頁面排版、View、Formula、Button、業務資料；不自動結案、不覆寫既有補助Session歸屬。原UX v4.2 4/4 PASS保留，角色權限DEFERRED，免週報Formula未啟用。
+- **[VISIBILITY RISKS]** Notion Data Source目前Fetch未暴露custom page-layout；使用page_layout隱藏三個欄位會影響整個Care Episodes來源的所有紀錄頁，不能未經確認用全新layout覆蓋預設版面。單純從個別View HIDE也不保證頁面屬性區不出現。此輪沒有Notion寫入及新增效能負擔，也沒有Notion rollback必要；Google Docs修改可只撤回第29節並保留並行編輯。
