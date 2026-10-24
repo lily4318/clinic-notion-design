@@ -206,3 +206,10 @@
 - **[CURRENT WEEK FAIL-CLOSED]** 2026/10/18～10/24兩筆本週回報**均未確認他處使用，且次數為未知空白**；前週10/11～10/17兩筆均已確認他處使用0。未知不等於已確認0，不能自動宣稱本週有可用6次。
 - **[NATIVE NUMERIC STILL BLOCKED]** Staff週額度的Formula/Rollup及Sessions相關週次計數僅有參照，不能從「週起始日」欄位或關聯PASS推定真正演算法PASS；Price Plans占用及剩餘亦未驗收。沒有重新執行全部295筆Session回歸或真人跨地核銷測試。
 - **[NO DATA WRITE]** 本回合沒有修改Notion Staff、週紀錄、啟用方案、Sessions/Episodes、Schema/Formula/Relation/View、權限、Google Docs、GAS/Cloud Run/Session/部署，只新增GitHub匿名稽核與索引。[詳細檢查](audits/youth-weekly-allowance-2026-10-24.md)。
+
+## 2026-10-24｜青壯115本週跨機構額度：完整295筆Session再驗與6／4預約風險
+- **[FULL SESSIONS VIEW PASS]** 本輪真正完整分頁重新查詢Notion ALL Sessions共**295筆**，用啟用115青壯Price Plan實際關聯找出**41筆**，其中已完成23、已預約13、已取消2、已改期2、no-show1。**38筆實體、3筆形式未知、0筆線上**；缺心理師的3筆與形式未知3筆相同，均標記TEST且狀態各為已取消1、已改期1、no-show1，有服務歷程／日期；**不對其自動修復**。
+- **[THIS WEEK CONDITIONAL RISK]** 2026/10/18～10/24本所青壯已預約Session：在職2名心理師分別為**6筆與4筆**；這是排程數，不是完成／核銷數。對應兩人本週週回報**都未確認他處使用，次數未知**，故不能以本所預約不超六筆宣稱當週可再預約、亦不能推論政府最終核銷。
+- **[NO LOCAL >6 CANDIDATE FOUND]** 以單次Session日期（手動執行調整日期優先）及單一心理師Relation、週日到週六分組，對已完成／已預約／待確認之本所41筆青壯方案會談未見院內同人同週候選超過六筆；仍不代表官方跨處總額未超。
+- **[NATIVE FORMULA ACCESS BLOCKED]** 嘗試透過Notion.fetch對Staff及週回報Formula Code指標作唯讀存取，回傳INVALID_ARGUMENT；Staff/Price Plans原生Formula、Rollup仍僅結果指標，沒有真值／原始碼，**原生計數仍BLOCKED**，不能判定Staff v2公式是否fail-closed。
+- **[NO WRITE / TEST LIMIT]** 無Notion業務資料、Schema／Formula／Relation／View／權限及Google Docs／GAS／Cloud Run變更；未做真人權限、政府系統跨地核銷、效能實測。只在GitHub追加匿名驗收紀錄；下一步先在原有人工流程核實本週外部使用與官方額度，再取得真正的Notion原生顯示值交叉驗收。[專項稽核](audits/youth-weekly-allowance-2026-10-24.md)。
