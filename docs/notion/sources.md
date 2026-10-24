@@ -128,3 +128,8 @@
 - [臺北市政府衛生局：衛福部115年度15-45歲青壯方案公告](https://mental-health.gov.taipei/News_Content.aspx?n=FAB9374F6BCE2D48&s=1CAF0520811909A9&sms=EEA94C26A90DD864)：自首次服務日起總期程不超過3個月，兩次服務不小於7天且原則上不超過1個月；連續2次無故未到，機構「得拒絕」而非自動取消資格。
 - [我的E政府：115年青壯方案常見問答彙整](https://www.gov.tw/News_Content_26_826198)：115年5月28日更新；核對最短7天、最長1個月、首次資格年齡、連續2次 no-show 之處理。
 - [Notion現行啟用115青壯 Price Plan](https://app.notion.com/p/c748ca66aa4d83909393815a05b6030a)備註已唯讀核對。以上是**現行資料說明 vs 官方規定**比較，並非已讀取或驗收公式程式碼，更非自動修改授權。原生額度欄位數值仍無法透過現有 connector 取得。
+
+## 2026-10-24｜桃園115青壯正式來源與契約核對入口
+- [桃園市衛生局115年青壯合作機構及公告版計畫書入口](https://mental.tycg.gov.tw/News_Content.aspx?Create=1&ccms_cs=1&n=515&s=1336657&sms=8118&state=1C5D152DDF4F3ED0)；[桃園市115年合作機構清單](https://mental.tycg.gov.tw/cp.aspx?n=19932)：官方公開搜尋結果列有汐予心理治療所。
+- [衛福部115年方案公告](https://www.mohw.gov.tw/cp-16-85046-1.html)可驗證15–45歲本國籍民眾或持有健保卡之外籍人士及每人3次個別心理諮商；[臺北115公告](https://mental-health.gov.taipei/News_Content.aspx?n=FAB9374F6BCE2D48&s=1CAF0520811909A9&sms=EEA94C26A90DD864)僅用作7天／1個月／連續缺席條款的交叉參考，不是汐予的直接適用契約。
+- 本輪桃園計畫書PDF連結雖已確認但無法在可用網頁工具完整檢閱；已連接Drive關鍵字搜尋未定位汐予115年簽署的合作契約全文。地方契約是否另有暫停資格或特殊例外仍未驗證，不得直接抄臺北條文定稿。
