@@ -1,0 +1,28 @@
+# 來源定位、驗收依據與研究清冊規範
+
+本清單只儲存可公開於**私人設計儲存庫**的定位連結與非敏感摘要，並不表示連結資料被複製、持續同步或即時有效。
+
+## 真實基準與位置
+
+1. GitHub 決策總索引：https://github.com/lily4318/clinic-notion-design
+2. Notion TEST 行政首頁：https://app.notion.com/p/de78ca66aa4d82659e7181a66fa17220
+3. Notion TEST 政府補助管理工作台：https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf
+4. Notion TEST 年度補助參與資料庫：https://app.notion.com/p/133f0b4c49bc4c8d91bf2004525ce85f
+5. Notion 青壯設計與驗收紀錄：https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d
+6. Google Docs 現用「青壯跨年度資料模型及 UX 規格 v3.4」＋第十一節 v3.5設計補充：https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit
+7. 同份文件補充前備份：https://docs.google.com/document/d/1nMtwi1nXVsnF6tkZRIH2J5aWO7JGV7RyLpEQfDua6iI/edit
+
+更廣泛原始專案來源：《治療所行政前台網站需求規格書》《治療所行政前台UX頁面清單》《治療所前台_統一登入與系統責任分界規格》及 Stitch 設計素材。這些不應因當前 Notion-only 任務被擅改。
+
+## 每次取證步驟
+
+1. 先讀 GitHub README / AGENTS / 最新決策與驗收、確認此回合範圍。
+2. 讀最新 TEST Notion Database / Data Source Schema：Price Plans、Cases、Care Episodes、Sessions、Staff、週回報、額度調整、年度參與紀錄；驗證欄位型別、Relation 目標、Select / Status、Formula／View 設定及必要頁面實際存在。
+3. 讀當前 Notion 工作台及驗收紀錄、最新 Google Docs；判斷哪個是設計規格、哪個是當次測試數據。記錄不一致，不擅自覆蓋。
+4. 如准許寫入，確認真正隔離、備份、必要最小寫入與改後回查，再同步 GitHub / Google Docs。
+
+## 研究來源清冊的必要欄位
+
+目標至少10,000篇與 Notion 資料庫架構、工作台／UX、官方文件、實務範本、外部教學相關的資料。**目前尚未達成逐篇閱讀目標。**
+
+未來清冊需記：標題、URL、作者／來源、發表或更新日期、來源類別、主題分類、檢索日期、去重 ID、已實讀？、深入分析？、適用設計原則、採用與否、版本／限制。分開統計候選數、去重數、已讀數、深入分析數、採用數。不能用搜尋引擎命中數或範本總數冒充已讀數。
