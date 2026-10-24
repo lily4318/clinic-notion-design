@@ -286,3 +286,12 @@
 - **[TECHNICAL LIMIT STILL OPEN]** 使用者的畫面人工確認**不是**本助手獨立取得 Notion Formula／Rollup 原生數字、逐筆公式驗算、不同核定期別／方案回歸、政府核銷、角色權限或效能 PASS。先前連接器僅回傳 formulaResult://／rollupResult:// 參照的客觀限制仍適用；留存既有技術 PENDING，而不是覆蓋成全部通過。
 - **[SCOPE / NO NOTION DATA EDIT]** 本回合不修改 Notion Price Plans、Care Episodes、Sessions、Staff 任何資料列／Schema／Formula／Relation／View、權限，也未修改 Billing、正式 GAS／Cloud Run／Session／部署；原 TEST 重複歷程、屆期結案及其他政府方案的未驗項仍保留。
 - **[GOOGLE DOCS READBACK]** 已在既有 [青壯跨年額度模型與 UX 規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit) 以 revision guard 追加第十八節使用者人工驗收，寫後回讀第十六、十七節與新第十八節均存在；[追加前原生備份](https://docs.google.com/document/d/1JTAtf8jUvvaE8rrvevDdhokkvAM9a3owdmXUhMS-Olw/edit) 亦已驗證無第十八節。回復只應精準撤銷該次新增段落，並保留並行修改；GitHub 亦可沿 commit 歷史還原新增節。
+
+## 2026-10-24｜青壯啟用TEST：角色權限本階段暫緩、其餘驗收續作
+- **[USER DECISION / DEFERRED]** 使用者明確表示「角色權限目前無法設定，不需要處理，其他部分繼續完成」：本階段 Notion TEST 的角色權限設定與真人分角色驗收不再列為阻擋條件，狀態改 **DEFERRED（暫緩／不適用本階段）**，絕不標記 PASS，亦不更動任何分享設定。正式系統後端權限／fail-closed要求不因這項暫緩而解除。
+- **[LIVE SCHEMA + VIEW PASS]** 重新 Fetch Price Plans／Care Episodes／Sessions／Staff／心理師補助週額度 Schema 與政府補助工作台；政府總額、青壯單一歷程及心理師週額度 Views仍存在，工作台既有入口與無黃色提示維持。Price Plans非刪除來源完整取回7筆，只有1筆政府方案（青壯115）；因此「多政府方案同時使用、同方案不同年／核定期」**尚無獨立測試案例**，不得冒稱通用公式跨方案驗收 PASS。
+- **[WEEKLY KEYS / SCOPE PASS]** 心理師補助週額度原始 Saved View共6筆（無下一頁），以心理師 Relation＋Price Plan Relation＋週起始日匿名核查：6個不同鍵、重複0。4筆屬已啟用115青壯（10/11週2、10/18週2），另2筆連到一筆**目前 Notion Fetch 明示 deleted 的歷史隔離TEST方案**（10/18週1、10/25週1），不屬當前7筆可見Price Plans，不可當成新政府方案的有效跨期計算案例或現有心理師回報。
+- **[UNKNOWN VS ZERO PASS / TIME GATE]** 2026-10-18～24週的啟用方案×兩位在職臨床心理師各1筆回報均為他處未確認、數字空白（UNKNOWN）；2026-10-11～17週兩筆已確認0屬**上週**，不得帶入本週；2026-10-25～31新週目前2位心理師×啟用青壯115方案**0筆回報**，且歷史隔離TEST 10/25筆不符合此作用域。這是截至10/24的唯讀來源／Relation驗收，並非10/25當天Notion原生週額度狀態驗收。無回報不能視為0／可安排；10/25週日換週的UI行為需屆時驗證。
+- **[UX LINK STRUCTURE PASS / PERFORMANCE PENDING]** 原工作台及個案與歷程入口可Fetch；青壯人工資格核對→Care Episodes選Price Plan→方案、個案、心理師額度Views的連結存在，沒有回復已撤回黃色警示。此為路徑結構驗證，不是使用者實際點擊、任務時間、操作步數或Notion網頁載入速度測量；連接器往返時間不等於前端效能。人工畫面額度數值的 USER CONFIRMED PASS 保留。
+- **[SAFE STOP / SCOPE]** 不建立第二個政府補助／年度方案、不改已啟用青壯Price Plan、Sessions、Episodes、Staff、週回報及其 Schema／Formula／Relation／View／權限；不改正式GAS／Cloud Run／Session。精確`00.config_notion`仍未定位，TEST字首不保證與啟用資料隔離；新增核心結構與真正隔離多方案端到端驗收須先提供前後比較並取得明確核可。此回合僅更新版本化驗收／規格，保留可回復性。
+- **[GOOGLE DOCS VERIFIED]** [跨年度額度模型與UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit) 已用 revision guard 追加第十九節，修改後原第十八節與第十九節均回讀存在；[修改前備份](https://docs.google.com/document/d/1X0X71wtOR0Nw3RD-DdrGvVOxR9BfbhjiB4W0m1BTiew/edit) 回查未含第十九節。可保留並行修改後精準撤銷新增段落；本輪無Notion業務資料需回復。
