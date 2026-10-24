@@ -133,3 +133,8 @@
 - [桃園市衛生局115年青壯合作機構及公告版計畫書入口](https://mental.tycg.gov.tw/News_Content.aspx?Create=1&ccms_cs=1&n=515&s=1336657&sms=8118&state=1C5D152DDF4F3ED0)；[桃園市115年合作機構清單](https://mental.tycg.gov.tw/cp.aspx?n=19932)：官方公開搜尋結果列有汐予心理治療所。
 - [衛福部115年方案公告](https://www.mohw.gov.tw/cp-16-85046-1.html)可驗證15–45歲本國籍民眾或持有健保卡之外籍人士及每人3次個別心理諮商；[臺北115公告](https://mental-health.gov.taipei/News_Content.aspx?n=FAB9374F6BCE2D48&s=1CAF0520811909A9&sms=EEA94C26A90DD864)僅用作7天／1個月／連續缺席條款的交叉參考，不是汐予的直接適用契約。
 - 本輪桃園計畫書PDF連結雖已確認但無法在可用網頁工具完整檢閱；已連接Drive關鍵字搜尋未定位汐予115年簽署的合作契約全文。地方契約是否另有暫停資格或特殊例外仍未驗證，不得直接抄臺北條文定稿。
+
+## 2026-10-24｜補正115青壯no-show條文：桃園政府網站刊載之中央計畫原文片段
+- [桃園市政府官網所刊載之衛福部115年度計畫書（搜尋索引可辨認第3頁「陸、心理諮商費補助對象應配合事項及規範」）](https://ws.tycg.gov.tw/Download.ashx?n=MTE15bm05bqmMTUtNDXmrbLpnZLlo6%2FkuJbku6Plv4PnkIblgaXlurfmlK%2FmjIHmlrnmoYjoqIjnlavmm7go5YWs5ZGK54mIKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMTQvcmVsZmlsZS84MTE4LzE1OTk4MDQvYWFlZmU4OWItZWU0ZC00MDZiLTlmNTUtNDNlM2Y3ZDVmNDc2LnBkZg%3D%3D)；公開索引摘錄明列連續兩次無故缺席時「合作機構得拒絕提供服務」，非必然取消方案資格。直接下載PDF在本輪網頁檢視端出現 cache miss，**僅確認該已編入索引的條文片段，不宣稱附件全文均已逐頁檢閱**。
+- [我的E政府 115年方案 FAQ](https://www.gov.tw/News_Content_26_826198)明列任兩次諮商間隔原則為不小於7天及不超過1個月，總期程不超過3個月，且連續兩次無故未到「合作機構得拒絕提供服務」。[衛福部115年公告](https://www.mohw.gov.tw/cp-16-85046-1.html)明示本國籍或持健保卡外籍人士。
+- 本證據可將原No-show規範的**中央層級**文字由「尚待核對」提升為「已核對」，但尚不能取代汐予簽署之桃園115年個別合作契約與附款；部分縣市另有不同契約規定，不以其他縣市規定逕行推定桃園。
