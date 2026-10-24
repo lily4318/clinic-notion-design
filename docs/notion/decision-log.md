@@ -138,3 +138,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-24｜配額恢復後額度數值讀取仍受阻（唯讀驗收，非新業務核准）
 - Notion `query_data_sources(mode=rows)` 已恢復可讀，證實前輪 SQL/rows 配額阻擋非永久；惟原生 Price Plans 已占用與剩餘欄位依然僅返回 `formulaResult://`、計數 Rollup 為 `rollupResult://`，本輪 Formula 精確數值篩選尚無符合連接器參數 schema 的有效呼叫。現有政府方案 Saved View 回傳1筆已啟用政府方案，並非公式驗收。
 - 這是**讀取能力與驗收阻礙更新**，未形成新的方案計次／資格業務決策。既有人工確認→Care Episodes 選 Price Plan、8筆主方案差異保留、禁止錯誤宣稱額度已驗收，均不變。未修改 Notion／Google Docs／正式程式；詳見 [當次稽核](audits/episode-session-plan-consistency-2026-10-24.md) 和 [狀態](acceptance-status.md)。
+
+## 2026-10-24｜115青壯官方規則文字差異：記錄待修，尚非方案或公式修改決策
+- 本輪官方來源與原始 Notion Price Plan 備註唯讀比對，核實四項需澄清的文字差異：最短間隔 `>7天` vs 官方不小於7天；官方原則上最長1個月未註明；外籍持健保卡資格未列；連續2次無故未到「必然取消」與官方「機構得拒絕服務」不同。來源與影響詳見[匿名比對稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+- **此為驗收風險登錄，不是新業務核可或確認程式錯誤。** 115年當期規則不可外推跨期；先確認地方契約與原生Formula，再提出最小文字修正及驗收，不能擅改啟用方案或既有8筆異方案Session。原青壯人工確認資格→Care Episodes選Price Plan、不新增資格清單的使用者決策持續有效。數值驗收仍BLOCKED；本輪無Notion/Google Docs/正式服務寫入。
