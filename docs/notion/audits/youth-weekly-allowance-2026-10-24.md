@@ -123,3 +123,12 @@
 - **[SCHEME SAFETY]** Staff「在其他地方完全沒有接案」是跨方案皆成立的更嚴格事實聲明，不把特定青壯115數值、週6次或自然年底寫死到共用欄位。若將來要讓「其他場所有自費案件、但本期不提供指定政府方案」的人也免週回報，須另以Staff＋Price Plan實例ID管理本期聲明，不能僅憑Staff單一全域旗標替不同方案推定0；本次不新增資料庫或專年旗標。
 - **[CONTROL / ACCEPTANCE GATE]** 需有申報及管理員確認日期、有效截止與生效區間；開始他處接案前更新狀態，若在週中變動則當週改採完整他處用量核對；若歷史週回報已有非0或衝突資料，禁止用長期免回報覆蓋。須隔離TEST驗證：新週免回報0、正常他處回報、未知、過期、週中變動、衝突及週日切週、不同期別不沿用；真人驗收與角色權限仍按先前分級，權限本階段DEFERRED。
 - **[COMPARISON / ROLLBACK / SCOPE]** 現況每週所有人員皆可能被當成缺他處回報；建議改成僅已核實無外部接案者免週報，減少重複記錄與人工確認。風險是人員變更未申報或聲明逾期、原Formula依賴不明；須先備份Staff Schema及涉及的Formula/View／原值、驗證再最小修改，失敗時精準恢復3欄所涉設定／公式舊版本，保留並行改動及業務列。此輪**純設計＋唯讀核對，未寫Notion或Google Docs、未改正式系統**；因涉及新增Staff欄位及共用Formula，分級C，**尚待使用者對候選實作明確核准**。
+
+## 2026-10-24｜使用者核准免週回報三欄位：Notion TEST已建立，公式整合硬停止
+- **[USER APPROVAL]** 使用者回覆「同意繼續」，明確核准前一回合之三欄位方案：確實沒有在其他地點接案的心理師免每週重複確認；他處接案／可能有接案者按週回報。這是設計與最小實作核准，**不是**授權猜測現行共享公式、替現有心理師批次填零或覆蓋相關業務紀錄。
+- **[NOTION STAFF SCHEMA WRITE / READBACK PASS]** 經重新 Fetch，TEST Backend 的既有 Staff Data Source 原有55個欄位、無目標3欄；以一筆明確DDL新增 `他處接案情形` Select（未確認／已確認無他處接案／有或可能有他處接案）、`他處接案確認日` Date、`免週回報有效至` Date。寫後重新 Fetch 為 **58欄**，三欄型別／選項吻合；現有在職心理師週額度 Saved View仍 **2筆、has_more=false**，新欄對該兩筆皆留空，**未設定任何人的免回報資格**。
+- **[OLD VIEW/FORMULAS UNCHANGED]** 既有 Staff `青壯本週他處顯示_自動`、`青壯本週額度狀態_v2_自動`之Formula codeUrl與寫前相同，原心理師週額度View名稱、五個顯示欄完全一致。未修改Staff現存任何人員資料、週回報、Price Plans、Care Episodes、Sessions、Billing、其他Data Source Schema、Relation、Role、GAS或部署；暫無新增重算公式的運算負荷。
+- **[13 POLICY CASES PASS (OFF-SYSTEM ONLY)]** 已對純決策規則執行13例離線測試：有效無他處可免週報、他處已確認2／0、未知或空值、未確認、缺確認日期、有效期不到週末、週中才確認、週中接案異動、現有非零回報衝突、跨方案／期別尚未覆核、僅有未確認數字等；13/13符合預期。**這不是Notion原生公式／UI PASS**。候選公式須確保`確認日≤評估週首日`、`有效至≥評估週末`、覆蓋當期Price Plan實例且無衝突，否則fail-closed；禁止用`執業類型=本所執業`推定無他處。
+- **[FORMULA HARD STOP / FEATURE NOT LIVE]** 當前Notion Fetch仍只見Formula `formulaCode://`參照，直接Fetch參照回 `validation_error`，尚無全部現行公式**完整原文**、依賴、可驗證基準與隔離TEST；按專案硬停止規則**沒有更動共享公式**。因此目前「免週回報自動判斷」**尚未實際啟用**；人員填選「已確認無他處接案」也不會自動使本週額度放行，原有缺回報待核對規則仍適用。下一步需找出目前完整公式及對應回復基準，隔離測試再做最小公式整合，不能假稱全部完成。
+- **[BACKUP / ROLLBACK]** 寫入前已確認三欄皆不存在、原Staff55欄、原View五顯示欄及兩個既有Formula codeUrl。需回復時先重讀最新Schema、先確認無任何人已使用新欄和無並行修改，再僅移除這次新增的三欄（現均空白）；不得移除其他Staff欄位或覆蓋原Formula／Role／業務列。`00.config_notion`精確原件仍未定位，這次使用當次直接Fetch的實際Data Source而非GitHub舊ID。
+- **[GOOGLE DOCS VERIFIED]** [現用跨年額度UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit) 以revision guard追加第二十節，已重新讀回，第十九及二十節均存在，明確保留公式未啟用狀態；[修改前備份](https://docs.google.com/document/d/1XlRg7xVs1dV8Apey5V0EJLhHv2w-ikPP-c-bEZnETek/edit)重讀無第二十節。撤回時精準移除新增節，保留其他並行修改。
