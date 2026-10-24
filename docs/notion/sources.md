@@ -116,3 +116,9 @@
 - Sessions `collection://c2a8ca66-aa4d-82d2-bd6a-8772bb463796` ／ `view://1f08ca66-aa4d-83d1-a201-8864c13aa5de`。
 - Price Plans `collection://8b98ca66-aa4d-83b6-a9b0-8758b5f31f63` ／ `view://3f68ca66-aa4d-81d6-a376-000ce4ea92a2`。
 - [Notion TEST 內部驗收歷史](https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d)已追加當次唯讀結果；[完整匿名統計](audits/episode-session-plan-consistency-2026-10-24.md) 不含個案或會談原始列。
+
+
+## 2026-10-24｜政府補助計數 Rollup 直接相依驗證｜最新驗證來源
+- Notion Data Source Schema：Sessions `collection://c2a8ca66-aa4d-82d2-bd6a-8772bb463796`；Care Episodes `collection://6b68ca66-aa4d-8274-a691-07c605c5fb54`；Price Plans `collection://8b98ca66-aa4d-83b6-a9b0-8758b5f31f63`。
+- 現存 View：Price Plans 政府方案 `view://3f68ca66-aa4d-81d6-a376-000ce4ea92a2`；Sessions ALL `view://1f08ca66-aa4d-83d1-a201-8864c13aa5de`。
+- [本回合相依驗證](audits/episode-session-plan-consistency-2026-10-24.md)與 [Notion TEST 驗收歷史](https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d)。未將原始業務資料列、公式結果參照 URL、臨床／財務資料寫入 GitHub。

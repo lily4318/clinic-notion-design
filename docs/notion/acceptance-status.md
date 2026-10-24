@@ -142,3 +142,9 @@
 - **[PENDING／業務]** 對稱組合有刻意測試的可能，但沒有逐筆佐證，不得將8筆全列缺陷、亦不得以「測試資料符合使用」推論每筆已核准。Episode方案預設與Session個別改方案的權威關係需後續確認；不自動修復／同化。
 - **[PENDING／原生數值]** `formulaResult://`參照不支援直接Fetch（validation error），不能驗證政府額度占用或剩餘額度。沒有真實操作、權限或效能驗收。
 - **[NO DATA WRITE]** 本輪只在Notion TEST驗收歷史追加文字及GitHub紀錄；原 Sessions／Episodes／Price Plans資料列、Schema、Relation、Formula、View、GAS保持不變。證據見[原完整關聯報告及本輪追加](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+
+## 2026-10-24｜政府補助計數 Rollup 直接相依驗證｜Rollup 來源 PASS；Session 計數公式與額度 PENDING
+- **[SCHEMA PASS]** Price Plans「已完成_帶入」「已預約_帶入」「待確認_帶入」的 `sum` Rollup 透過該方案與 Sessions 的直接關聯，指向 Sessions 各自的已完成／已預約／待確認計數 Formula。Care Episodes 有自己的 `sum` Rollup（服務歷程↔Sessions），不得將兩種彙總混同。
+- **[FORMULA BLOCKED]** `formulaCode://` 參照無法以 Notion Fetch 讀取（validation error）；`formulaResult://` 和 `rollupResult://` 在 View 只作引用，無原生數值。Session 計數 Formula 是否額外引用 Episode 方案、Price Plans「已占用」內部算式與剩餘數字，**都未通過驗收**。
+- **[NO DATA CHANGE]** 原8筆青壯／自費切換與目前已啟用方案資料均不修改。TEST 驗收歷史追加文字已回查；其他既有業務資料、欄位、View、權限、GAS／部署及效能保持不變。下一步需經可信原生公式數值來源再核對，不得自行以狀態加總計次。詳見[完整相依性報告](audits/episode-session-plan-consistency-2026-10-24.md)。

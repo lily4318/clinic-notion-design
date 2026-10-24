@@ -50,3 +50,9 @@
 
 ## 2026-10-24｜青壯／自費 8 筆方案差異之情境分類回查｜Episode 預設方案與 Session 單次方案仍需界定
 現有8筆方案不一致分布於4個進行中的個別服務歷程，且只涉及青壯與自費兩種主方案，可能包含刻意的個別會談切換測試，不應強制每次 Session 方案等同 Episode 方案。**方案歸屬權威與例外邏輯尚未由使用者明確確認**；計數應待此項業務規則與 Notion 原生 Formula 真值均查核後再定稿，不把從歷程連動當作自動覆寫授權。沒有修改既有共享Schema、Formula、Relation。詳見[匿名狀態／收費分類核對](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+
+## 2026-10-24｜政府補助計數 Rollup 直接相依驗證｜實際 Rollup 路徑與未確定的公式權威
+當次最新 Notion Schema 顯示：Price Plans 的「已完成_帶入」「已預約_帶入」「待確認_帶入」均以 `sum` 沿自身與 Sessions 的關聯加總 Sessions 三個相應計數 Formula；Care Episodes 的「本歷程已完成_帶入」「本歷程已預約_帶入」則另沿歷程↔Sessions 加總。**兩條不同彙總鏈並存**，不可將 Episode 方案選擇與 Price Plans 方案總占用視為同一個欄位。
+
+然而上述 Sessions 計數 Formula 的程式碼與原生數值尚未可讀，不能只從 Rollup 關聯路徑確認它是否還有檢查 Episode 方案或其他條件。依使用者已確認的業務流程，先選 Care Episodes 的主收費方案，保留有必要時 Session 的個別收費方案差異；具體「個別 Session 變更方案是否計入政府額度」仍需原生值與真實規則核對，不能逕行硬編碼／批次同化。見[唯讀回查](audits/episode-session-plan-consistency-2026-10-24.md)。

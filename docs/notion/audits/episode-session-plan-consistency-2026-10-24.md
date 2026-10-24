@@ -81,3 +81,23 @@
 其中**1/8** Session 有附加收費方案 Relation，但其附加方案與歷程／會談的主方案差異不構成可直接判定的例外原因；在這8筆的 View 欄位中未取得備註或收據關聯可佐證每筆操作意圖。**對稱分布與使用者已確認測試情境符合使用狀況相容，但不能因此擅自確認「每筆切換都合法」**。應先明確定義：Episode「💲收費方案」是否是建立會談時的預設；何種情境可以讓 Session「💲 收費方案」與歷程不同；若允許，以何欄位及哪種可計入的執行狀態作實際補助額度歸屬。不得自動將8筆同化、刪除或斷開關聯。
 
 **原生數值仍受限**：Price Plan 的已占用／剩餘等欄位回傳 `formulaResult://` 參照，直接以 Notion fetch 查詢該參照得到 validation error，尚未取得可以逐筆核對的原生數值，**不宣稱額度公式通過**。本回合只追加 [Notion TEST 設計與驗收歷史](https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d) 文字並同步 GitHub，沒有寫入業務資料、Schema、Formula、Relation、View 或權限，沒有做效能量測。驗收文字若需回復，應先比對當時最新內容，只移除本次新增節，不動並行修改。
+
+
+## 2026-10-24｜政府補助計數 Rollup 直接相依驗證（最新 Schema；只驗證直接依賴，未讀得公式數值）
+
+本回合重新 Fetch 最新 Sessions／Price Plans／Care Episodes 的 Notion Data Source Schema，並用現有 Saved Views 唯讀回查目前啟用方案。與過去只比對 Session/Episode Price Plan ID 不同，本次進一步核實**實際 Rollup 來源**：
+
+| 來源資料庫欄位 | Notion Rollup 聚合 | 關聯路徑 | 直接指向的計數欄位 | 驗證結果 |
+|---|---|---|---|---|
+| Price Plans「已完成_帶入」 | sum | Price Plans ↔ Sessions | Sessions「已完成計數_自動」 | Schema 結構 PASS |
+| Price Plans「已預約_帶入」 | sum | Price Plans ↔ Sessions | Sessions「已預約計數_自動」 | Schema 結構 PASS |
+| Price Plans「待確認_帶入」 | sum | Price Plans ↔ Sessions | Sessions「待確認計數_自動」 | Schema 結構 PASS |
+| Care Episodes「本歷程已完成_帶入」 | sum | Care Episodes ↔ Sessions | Sessions「已完成計數_自動」 | Schema 結構 PASS |
+| Care Episodes「本歷程已預約_帶入」 | sum | Care Episodes ↔ Sessions | Sessions「已預約計數_自動」 | Schema 結構 PASS |
+
+這**直接證實** Price Plans 的三個 Session 計數 Rollup 不是從 Care Episodes 的「💲收費方案」欄位作直接 Rollup；但尚未得知 Sessions 的計數 Formula 是否另外檢查 Episode 收費方案，因此**不能據此推論 Session 欄位是唯一計次權威，亦不能直接按狀態自行加總**。
+
+- **公式內容讀取失敗**：對 Sessions「已完成計數_自動」「已預約計數_自動」「補助占用資格_自動」及 Price Plans「已占用_自動」的 `formulaCode://` 參照逐一嘗試 Notion Fetch，均回傳 `INVALID_ARGUMENT validation_error`，不是有效的公式原始碼。
+- **原生數值未提供**：啟用方案目前 Saved View 僅1筆；其三個 Session Rollup 為 `rollupResult://`，已占用及剩餘額度為 `formulaResult://`；會談原 View 計數亦為 `formulaResult://`，無可核對數字。無法對先前8筆青壯／自費切換情境驗證實際計次效果，也不得將歷史41筆方案會談或23完成／13預約逕行轉成額度占用。
+- **保持不變**：使用者已確認測試資料符合使用情境，青壯資格人工確認後於 Care Episodes 選方案。8筆不同 Session 主方案的情境不自動同步、刪除或修復；既有 TEST 隔離關聯風險未因此消除。
+- **本輪寫入**：僅在 [Notion TEST 驗收歷史](https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d) 追加一段可回復說明並同步 GitHub。無業務資料、Schema、Formula、Relation、View、分享權限、GAS／Cloud Run／Session 改動，無可宣稱的效能變化或真人操作通過。驗收歷史若需撤回，先 Fetch 最新文字，只移除本段，保護他人並行更新。

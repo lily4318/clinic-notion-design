@@ -114,3 +114,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 
 ## 2026-10-24｜青壯／自費 8 筆方案差異之情境分類回查｜保留個別會談方案差異，不擅自認定錯誤
 在使用者先前確認「測試資料符合使用狀況」前提下，進一步做即時Notion唯讀分類：8筆不同主方案的Sessions實際集中4筆服務歷程，且只有青壯政府方案與另一個已啟用的自費個別方案互換；方向各4筆，各有一組已預約／完成／改期3筆及另1筆已完成。這可能是在驗收個別會談採不同收費方案的場景，但意圖尚未有逐筆業務證據。**決議仍為不修改任何Session或Episode主方案，也不建立新審核清單**；僅整理待核對的Episode預設方案與Session單次方案有效性規則，避免把已有測試組合當成錯誤批次修正。原生Formula/rollup值尚未可讀，無額度驗收宣稱。Notion驗收歷史已追加並回查；詳見[驗證報告](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+
+## 2026-10-24｜政府補助計數 Rollup 直接相依驗證｜數值未取得，維持原業務決策
+已唯讀核實 Price Plans 三個計數 Rollup 使用 Price Plans ↔ Sessions Relation，直接加總 Sessions 已完成、已預約、待確認計數 Formula；Care Episodes 本歷程計數另外沿 Episode ↔ Sessions Relation 加總相同來源 Formula。因計數 Formula 定義與原生值無法從目前 Notion 連接器取回，**此依賴證據不是「以單次 Session Price Plan 為唯一計次權威」的核准，也不是政府額度已正確的驗收**。保留使用者的青壯人工確認→服務歷程選方案、符合使用情境的TEST資料，以及先前8筆青壯／自費切換差異；任何自動同步與共用 Formula 修改仍不授權。本輪只追加 Notion TEST 驗收文字及 GitHub 文件；詳見[結構與限制](audits/episode-session-plan-consistency-2026-10-24.md)。
