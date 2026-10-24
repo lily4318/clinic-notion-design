@@ -129,3 +129,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - 本輪依上次驗收停點只重驗 Price Plans／Sessions／Care Episodes Schema、Notion TEST 工作台與政府方案 View；三個 Price Plans 計數 Rollup 來源保持不變、工作台6個 linked database 與撤回黃色提醒的決策保持不變，現有啟用政府方案 View 僅1筆。
 - Price Plans「已占用_自動」「剩餘額度_自動」仍沒有原生數值，而是不可直接驗證的 `formulaResult://` 指標；計數 Rollup 也是指標。原生計數、8筆青壯／自費方案差異的計數影響、跨期／跨方案、真人權限及效能仍**未通過**。本輪沒有重新跑完整295筆會談對照，也沒有用狀態筆數冒充公式驗收。
 - **未形成新業務決策**，既有青壯人工核對→Care Episodes 先選方案與不得自動同化8筆差異的原則不變。沒有改 Notion Schema／資料／View、Google Docs 或正式服務；僅將這次前置回查記入 GitHub，詳見 [驗收紀錄](acceptance-status.md)。
+
+## 2026-10-24｜青壯方案測試續作：完整會談回歸（未新增業務決策）
+- 本輪再次完整核實現行57筆 Care Episodes、295筆 Sessions、啟用政府方案1筆之既存 View，與原生 Price Plans↔Sessions 41/41 完整雙向關聯；287筆主方案一致、8筆差異仍待業務確認，分布4個歷程。只更新匿名測試證據，未新增「一律以歷程／單次會談計次」決策。
+- Notion SQL/rows 共用配額仍用盡，Formula／Rollup 值只有參照，原生額度與跨期仍 BLOCKED；不可將狀態筆數當成扣額結果。保留原人工核對→Care Episodes選方案流程與禁止自行同化8筆差異。
+- 所有 Notion 資料、Schema、View、角色權限、Google Docs、正式 GAS／Cloud Run／Session／部署保持不變；本回合只同步 GitHub 驗收與稽核文件。詳見 [驗收狀態](acceptance-status.md) 與 [技術稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
