@@ -237,3 +237,7 @@
 - **[LIVE PAGE READBACK PASS]** 本輪重新Fetch啟用115青壯Price Plan「備註」原文；對照衛福部115公告及政府FAQ確認4項文字修正需求：國籍／健保外籍、至少7日（非>7）、原則最多1個月、連續2次無故缺席僅為合作機構「得拒絕」，非自動取消資格。
 - **[CONTRACT SOURCE BLOCKED]** 已在連結的3個Google Drive帳號依名稱與內容找汐予青壯簽約資料，未見可核對的115桃園個別合作契約；另找到名稱似官方青壯方案PDF，實為當前Notion方案資料匯出且含同樣舊錯句，不能視為獨立政府依據。Gmail兩帳號相關搜尋未找到簽約函，另一帳號搜尋失敗；**僅稱目前未取得，不能聲稱不存在**。
 - **[B CHANGE NOT APPROVED / NO NOTION WRITE]** 已在[原有方案一致性稽核](audits/episode-session-plan-consistency-2026-10-24.md)列出單一「備註」欄位四處替換、保持不變、回查／單欄回復。契約及使用者核准前**不修改啟用Price Plan**，不更動Staff、Sessions、Care Episodes、公式／關聯／View、權限、Google Docs及正式系統。原生公式數值與2026/10/25實際換週結果亦維持未驗收。
+
+## 2026-10-24｜青壯115備註全文候選無損差異測試PASS；寫入仍BLOCKED
+- **[READ ONLY NOTE ROUNDTRIP PASS]** 重新Fetch啟用115青壯Price Plan原生「備註」text完整欄位，產生可閱讀的**全文候選**；以**3處恰好一次的字串替換**解決**4項既有官方規則差異**（適用外籍、7日含第7天、1個月原則上限、無故缺席不自動取消資格），再反向替換與原值**完全相等**。期程、3次／1600元、行政費與3個月總期限均保持不變；原HTML文字排版需未來寫入時完整保留。[全文及回復檢查](audits/episode-session-plan-consistency-2026-10-24.md)。
+- **[NOTION WRITE NOT APPROVED]** 汐予115年個別合作契約／附款及此啟用Price Plan備註修正的使用者核准**尚未取得**；沒有修改Notion欄位、沒有真人UI寫後回查，不能標記正式文字修正PASS。已驗證的是候選文本差異及其可逆性。正式GAS／Cloud Run／權限與效能不在本輪工作界線。
