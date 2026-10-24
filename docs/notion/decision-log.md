@@ -102,3 +102,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 
 ## 青壯人工核對後於服務歷程選方案｜2026-10-24｜使用者已確認並實作 TEST UX
 使用者明確決定：青壯資格不複雜，人工核對後在 Care Episodes「💲收費方案」直接選適用 Price Plan，**不另建立資格核對清單、不把補助參與紀錄設為使用前置**。此決策覆蓋歷史「以青壯資格待核對 View 作日常操作入口」的設計，不覆蓋其他政府方案及額度計算規則。已查核既有 Care Episodes→Price Plans Relation；TEST 補助首頁新增服務歷程入口，原參與表收合成歷史備查、資格 View 更名但所有篩選保持原樣。修改前 Notion 已備份，Google Docs 第十五節及 Notion 驗收歷史已同步。**未修改任何原始資料、Schema、Relation、Formula、角色權限、GAS**。詳見 [本輪驗收](audits/youth-manual-eligibility-episode-plan-2026-10-24.md)。
+
+
+## 2026-10-24｜使用者確認青壯測試資料符合實際使用情境
+
+使用者明確表示「測試資料符合使用狀況」。此為使用者對**現有青壯 TEST 情境與實際工作需要相符**的確認，沿用既定「人工確認資格 → Care Episodes『💲收費方案』選擇對應 Price Plan」操作設計；**不要求重建測試資料或另外建立青壯資格核對清單**。此回覆不等於已由真人完成每個 UI 操作、驗證 Sessions 方案歸屬、Notion 原生 Formula／Rollup 占用、跨政府方案／核定期別及角色權限。沒有 Notion 頁面、Schema、Relation、Formula、真實資料或 GAS 寫入。詳見 [原 TEST 變更及本次確認](audits/youth-manual-eligibility-episode-plan-2026-10-24.md)。
