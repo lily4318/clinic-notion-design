@@ -170,3 +170,10 @@
 **最小文字修正候選（未寫入）：** 僅在本115年青壯Price Plan的既有備註中，將對象補全「15至45歲本國籍民眾或持有健保卡的外籍人士」；將「間隔需 >7天」改為「以至少7天為原則；兩次間隔原則上不超過1個月」（前提：桃園計畫核對一致）；「連續2次無故未到」先維持人工依當期主管機關計畫與適用合約核定，不在欄位寫死必然終身取消資格。維持3次、每次1600、當年度期間、三個月總期程及原有補助／行政規費區別。115年專用文字不可擴散為通用規則。
 **影響與回復：** 啟用中的方案不是隔離資料。若後續獲使用者確認、取得契約並核實Schema後才允許B級備註最小修改；先備份原欄位，僅修改該頁備註，Fetch核對其他欄位、Relation與View保持不變，必要時只恢復原備註。共享Formula、Relation、計數規則均為C級，另須明確核准。該步尚未執行。
 **本輪唯讀回查：** Price Plans（30欄）、Sessions（67欄）、Care Episodes（50欄）Schema再Fetch；原115青壯啟用方案備註未變，政府方案View僅1筆無後續頁；剩餘／已占用仍只有formulaResult參照，數值驗收BLOCKED。Google Docs v3.4第十五節的人工核對→Care Episodes選方案決策不變；此前8筆不同方案Session不改。本輪無Notion、GAS、Cloud Run、Google Docs、角色權限、效能資料寫入或實測。
+
+## 2026-10-24｜桃園公部門所刊載中央115計畫片段：缺席裁量規則已可直接核實
+**工作線：Notion TEST／唯讀規則及原頁核對。** 重新檢索桃園衛生局公告版PDF附件及桃園公部門託管衛福部115年計畫的公開搜尋索引。該PDF直接透過目前Web閱讀端打開仍出現cache miss，故**僅以可核對的原文件索引片段與中央官方FAQ作內容證據，未做PDF全文逐頁檢閱**。
+**新確認的中央條款：** [桃園公部門託管115年方案計畫](https://ws.tycg.gov.tw/Download.ashx?n=MTE15bm05bqmMTUtNDXmrbLpnZLlo6%2FkuJbku6Plv4PnkIblgaXlurfmlK%2FmjIHmlrnmoYjoqIjnlavmm7go5YWs5ZGK54mIKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMTQvcmVsZmlsZS84MTE4LzE1OTk4MDQvYWFlZmU4OWItZWU0ZC00MDZiLTlmNTUtNDNlM2Y3ZDVmNDc2LnBkZg%3D%3D)索引片段可辨認「陸、心理諮商費補助對象應配合事項及規範」第二項：連續2次無故未依約接受諮商，**合作機構得拒絕提供其服務**。此內容同[我的E政府115年常見問答](https://www.gov.tw/News_Content_26_826198)一致，不是臺北獨有的規範。中央方案並未在所核實的這段文字將之定義成「將取消資格」的必然結果。
+**間隔與資格：** 上述中央115年FAQ明列自首次諮商起3次總期程原則上不逾3個月，任兩次間隔不小於7天、不超過1個月；[衛福部115年公告](https://www.mohw.gov.tw/cp-16-85046-1.html)明示符合年齡的本國籍民眾或持健保卡外籍人士。故既有啟用Price Plan備註的「>7天」、「國民」、「連續2次無故未到將取消資格」、未寫一個月間隔上限，均列**中央公開說明之文字落差已確認**，而**地方簽署契約及實際系統程式碼仍待核對**。
+**本輪原生資料現況：** 唯讀重新Fetch啟用中的青壯115 Price Plan、Price Plans Schema及政府Saved View；原備註仍維持舊文字、啟用狀態仍為YES且View恰1筆。已占用與剩餘仍只有formulaResult，核定額度則rollupResult；NUMERIC BLOCKED。Google Docs既有人工核對後於Care Episodes選Price Plan規格未作修改。
+**決策與影響**：縮小前輪對中央no-show文字的未決範圍，但不因此自動寫入正在使用的Price Plan，也不宣稱契約已查完；依使用者對重大改動之授權界線，備註僅為後續單頁B級最小修改候選，且先確認汐予適用的115年地方合約補充。8筆異方案Sessions、計次Formula、Staff週額度、Price Plans/Sessions/Care Episodes其他資料、Schema/Relation/View及分享權限保持不變。未做原生UI人工值、效能或角色驗收；如後續修改備註須單欄位備份、驗證與可單欄還原。
