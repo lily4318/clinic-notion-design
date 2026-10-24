@@ -44,3 +44,10 @@
 - [ ] 僅在所有門檻通過後，執行最小正式刪除與寫後逐項回查。
 
 沒有變更Notion的50/49/67個原屬性、任何業務資料、View、公式、按鈕、版面、角色權限或部署。原政府補助工作台UX v4.2之4/4人工PASS保持。額外效能負載=無。此輪無Notion刪除，因此無Notion回復需求。新驗證同步Google Docs [規格第31節](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)及[修改前備份](https://docs.google.com/document/d/1EoOGkZ0WuX26u0KCKqVbqdhq-jCNrBuxD36pXs6_8M8/edit)。
+
+## 2026-10-24｜Notion TEST安全續作：清除已通過工作台的過時備份入口，滿額提醒13/13離線測試
+- **[ACTUAL UX CLEANUP]** 已重新Fetch使用者UX v4.2四項已驗收PASS的[Notion TEST補助工作台](https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f)，以精確單次`update_content`**真的移除**原收合區的`[UX v4 原生備份]`舊連結；回Fetch確認連結消失，原6個Linked DB、2個Toggle、上方異常／最後一次已預約提醒與3類額度表全部保留。備份頁本體暫作回復參照，尚未刪除此備份頁；不把移除入口冒稱備份頁刪除。
+- **[LIVE BASELINE / BLOCKERS]** 重新Fetch Notion原Schema：Care Episodes50、Cases49、Sessions67、Price Plans30、Staff58欄；原`未預約下次會談`Saved View仍只以狀態＋未安排判斷。三組Care Episodes青壯115原Formula→Cases SUM Rollup的舊依賴與兩段Cases下游Formula的`formulaCode://`不完整問題仍在；`青壯轉自費`只有button型別無action。依使用者核准的硬停止，不執行任何`DROP COLUMN`、不覆寫共享Formula或Button、不改原業務資料。
+- **[OFF-SYSTEM REGRESSION]** 按實際Price Plan方案實例的每案上限（非寫死115／3次）擬定互斥的`轉自費或結案`、`額外預約核對`、`待確認他處`、`維持預約提醒`與`自費原流程`決策；已執行13組匿名離線JavaScript分支案例，13/13PASS，涵蓋最後一次**僅已預約未完成**不可誤當滿額、完成3有下次預約、他處已確認0與未知、跨方案上限5次等。**不是Notion原生Formula或有效能／跨期驗收**，功能仍NOT LIVE。
+- **[IMPACT/ROLLBACK]** 本輪唯一Notion寫入是移除一個過時連結，無新增欄位、公式、資料庫、查詢負擔及權限影響；回復只在重讀現行頁後將舊連結`[UX v4 原生備份](https://app.notion.com/p/4038ca66aa4d8159b4e5daf90a4ae662)`精準加回，保留其他並行修改，沒有任何業務資料回復。必要公式原文／按鈕動作完整基準仍未取得，永久刪除六欄與滿額提醒上線保持BLOCKED，免週報自動邏輯亦尚未啟用。
+- **[DOCS READBACK]** [Google Docs青壯方案額度與UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)以revision guard新增第33節，回讀原32與新33共存；[修改前原生Google Docs備份](https://docs.google.com/document/d/1aPF1fXhnuuXWXDEayUkjOuknCxElb3G-EUXau6LbHeA/edit)不含第33節。
