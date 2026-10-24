@@ -253,3 +253,9 @@
 - **[OFFICIAL LIST INDEX EVIDENCE]** 2026-10-24網路搜尋索引的[桃園市115青壯合作機構名冊](https://mental.tycg.gov.tw/cp.aspx?n=19932)列汐予心理治療所及「掛號費400元」、通訊核准「否」；**直接開啟的同網址卻為較舊快照且未列汐予**，故僅證明公開官方索引有這項具體費用記載，不假稱已對當下資格進行無歧義即時核驗。
 - **[NOTION FEE DISPLAY UNVERIFIED]** 重讀啟用115 Price Plan「備註」仍只泛稱「掛號費、場地費等」，沒有具體400元；Page/Schema中沒有「掛號費」單獨欄位，而`應付_自動`僅回Formula參照，**不可聲稱Notion應付=400已通過，亦不可認定公式有錯**。官方FAQ限制其他收費須為既有規費及事前告知。[詳細稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
 - **[NO NOTION WRITE]** 無使用者啟用方案備註改動核准、無汐予簽署契約；未改任何Notion資料、Schema、Formula、Relation、View／權限或Google Docs、正式系統。只新增GitHub匿名來源比對；角色、效能、收費原生數值未實測。
+
+## 2026-10-24｜青壯115既有400元掛號費分帳路徑交叉驗證PASS（公式／款項仍未驗）
+- **[NEW DATA MODEL FACT / READ PASS]** 找到**原有**啟用的[「掛號費」Price Plan](https://app.notion.com/p/3d88ca66aa4d83b88e9b0197e9f794a0)，收費400、補助0、收據項目「掛號費」，不同於115青壯本體1600／補助1600。Sessions 已有 `💲 附加收費方案` Relation；Billing已有 `💲 收費方案`、`💬 Session`、`請/收款對象`、`實收金額` 和「＋掛號費營收」按鈕。**不得再以青壯方案沒有掛號費單獨欄位推斷系統無法收掛號費**。
+- **[ALL ROWS RELATION PASS]** 完整 Saved Views：Sessions295/295、Billing203/203（`has_more=false`）；青壯方案41筆Sessions，35筆已加附加「掛號費」（完成22／預約12／取消1）；Billing掛號費22筆均向個案、狀態已收款、實收400；政府補助Billing23筆均向衛生局、待請款9／請款中14。**共45/45筆**Billing均連到存在且已完成的青壯Session、其反向Relation一致；掛號費Billing **22/22**對應Session附加掛號費、政府補助Billing **23/23**涵蓋全部已完成青壯Sessions。[詳細稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+- **[EXCEPTION / NO MUTATION]** 23筆已完成中1筆**未附加掛號費且無掛號費Billing**，已預約另有1筆未附加，原因未確認；不得假設都應收400，更不得批次自動開帳。其餘取消／改期／no-show不附費不構成此驗收的失敗。
+- **[FORMULA/REVENUE/AUTH UNVERIFIED]** `應付_自動`、`最終應收金額_自動`、`應收金額_自動`公式原生結果仍不可讀；「已收款」並非對帳證據，「請款中」不是政府撥款通過。沒有驗證Billing按鈕、收據、真人權限或效能。**不更改任何現有Price Plans、Billing、Sessions、Schema、Formula、View、權限、Google Docs及正式系統**，只有此GitHub匿名驗收證據更新。
