@@ -425,3 +425,8 @@
 - **[DELETION BLOCKED HONESTLY]** 嘗試對一個只含歷史Linked Views的失敗UX v3備份child page做精準`update_content`刪除（未開啟allow_deleting_content）得到`INVALID_ARGUMENT validation_error`，並未成功；子頁仍保留。此Notion連接器沒有單獨`delete/archive page`與`delete View`動作；不可用move/hide聲稱已完成永久刪除。若啟用可刪child的高風險內容重建，依工具契約須先列明每個受影響child並經明確確認，不得一口氣刪原補助頁的業務歷史與有效計算。
 - **[PENDING SCOPE / SAFETY]** 待刪的7個首頁舊備份、UX v2過時頁、原補助管理舊入口和另至少4個其他備份需先區分只含Linked Views的版面快照 vs 實際業務/歷史資料；刪除後必須驗證目標頁真的消失、啟用的Data Source及6個新工作台Views不受影響。原青壯115三個EP Formula→三個Cases Rollup仍受Cases兩段不可讀下游Formula、View/Page Layout相依阻擋；不DROP。UX v4.2四項PASS保留，權限DEFERRED，免週報與滿額轉自費尚未上線，正式GAS/Cloud Run/Session不在範圍。
 - **[DOCS + ROLLBACK]** [Google Docs跨期UX規格第34節](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)已使用revision guard增補並讀回；細節含受阻的舊頁刪除。兩處小額內容移除可用Notion頁面歷史精準還原，不影響來源業務資料；本回合只清理介面字串／頁名，效能沒有新增API、公式或DB負擔。
+
+## 2026-10-24｜舊備份子頁精查：5個純Linked View快照可作第一批刪除候選
+- 逐一Fetch TEST行政首頁列出的7個舊備份子頁：以下5頁**均無子頁**、只包含指向既有Data Source的Linked Views（未擁有獨立臨床資料庫）：`4038ca66aa4d81389417ca0faadf3492`（十模組B1–B3備份，1 linked view）、`4038ca66aa4d81d89cb1e7c1a6c12273`（UX v4.1失敗版，7）、`4038ca66aa4d819482bbd663a0e4fe4d`（UX v4重排前，6）、`4038ca66aa4d8159b4e5daf90a4ae662`（UX v4修改前，4）、`4038ca66aa4d811eafe0c857a6394638`（UX v3失敗版，3）。這5份是第一批真正刪除候選，來源資料庫應保留；Notion仍未刪除它們。
+- 另外2份補助舊工作台備份（`4038ca66aa4d81c3a70bd4730fdba9fe`與`4038ca66aa4d816480bad8a54db6aeab`）各含一個子頁引用，須先確定完整保留法定／驗收內容才可刪除，不能和無子頁快照同等處理。原補助管理頁另包含真實歷史、週回報與額度調整入口，不能直接刪除業務資料來源。
+- 曾在未開`allow_deleting_content`下精準嘗試從父頁移除失敗版UX v3子頁標籤，回`INVALID_ARGUMENT validation_error`且目標仍可Fetch；根據Notion工具契約，對可能刪除原生child的寫入必須先展示精確目標清單並由使用者確認，不能將隱藏/移動當完成。以上待一鍵確認刪除第一批5份快照；不重問「是否不要舊設計」的既有決策。
