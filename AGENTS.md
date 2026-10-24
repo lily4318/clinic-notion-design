@@ -1,43 +1,12 @@
-# 治療所行政系統｜Notion 協作 Agent 規則
+# 治療所行政系統｜跨系統協作規範
 
-適用於本儲存庫的 Notion 資料庫、政府補助、工作台與 TEST 驗收。
-
-## 每次開始前
-
-1. 讀 [README](README.md)、本檔、docs/notion/decision-log.md、sources.md，以及與任務相關的架構、UX、驗收文件。
-2. 再讀 Notion TEST 當前 Database / Data Source Schema、Relation 目標、Formula / Rollup、View 與必要原始資料；同步核對目前使用中的 Google Docs 規格。GitHub 是決策索引，不是即時資料鏡像。
-3. 確定當前 TEST / 純設計範圍、上次驗收進度、尚未通過項目和其他人並行改動。不得要求使用者再貼已可取得的規格或程式。
-4. 任何寫入前查實際 Relation；標記 [TEST] 不代表真正隔離。有三筆歷史隔離 Session 曾連到啟用中的 115 方案，不能拿來直接做改狀態測試。
-
-## 核心不變條件
-
-- **多政府方案 × 多年度／核定期別 × 每期獨立規則。** 青壯、115、每案三次、每週六次、七天間隔、三個月期限等只可屬於已確認的特定核定期，不可寫死在共用模型、通用公式或 View。
-- 核定期不必是自然年度。以 Price Plan 方案實例 ID 作歸屬，參與紀錄的候選唯一鍵為「個案 ID + Price Plan ID」；不同政府方案或期別不得混算，除非有已核實的跨方案共用額度規則。
-- Cases 永久個案主檔；Care Episodes 管真實臨床歷程；Sessions 依實際 Price Plan Relation / 狀態計算候選占用；Staff 與方案關聯的週紀錄依當期規則判斷；Price Plans 依核定期別設定上限及期間。既有關聯優先保留，避免每年複製資料庫。
-- 未確認、未知、不適用、已確認零，嚴格區分；未核實不作放行判斷。會談與歷程收費方案不一致列異常，禁止擅自改歷程。逾期但歷程進行中保留顯示並提醒，不自動隱藏／結案。
-- Notion 免費版優先，View 隱藏不代表資料權限。避免無必要的 Relation / Rollup / Formula / 快照欄位 / 自動化。
-
-## 修改分級
-
-A 保留：沒有實證問題，不改。
-B 最小修正：名稱、排列、顯示欄位、提示、收合等；先查依賴、備份和 TEST 驗證。
-C 重大修正：新增／拆分核心資料庫、更改 Relation、共享 Rollup / Formula、批次關聯既有資料或全面改動 UX；先交付前後比較、效益、風險、影響及回復／驗收計畫，**取得使用者明確同意才改**。其他舊模組原則上只有 A / B。
-
-## TEST 與安全
-
-- 寫前重新 Fetch 最新 Schema 與目標頁面及 Relation，確認權限、型別、選項和範圍；採最小必要寫入，不覆蓋非本次修改。
-- 優先使用真正隔離的 TEST 資源；涉及既有臨床紀錄或啟用方案時先唯讀。
-- 寫後 Fetch 驗證資料、計算與 View，必要時復原。無法取得 Notion 原生 Formula 值時，不可用算術推論標記 PASS。
-- 禁止向 GitHub 輸出個資、病歷、財務細項、秘密、原始資料列或敏感設定。
-- 本階段 **不處理正式 GAS、Cloud Run、中央 Session 或部署**，除非使用者另明確要求。
-
-## 研究與文件同步
-
-- Notion 官方教學、範本、資料庫正規化與 UX 等研究目標至少 10,000 篇；必須記錄候選、去重、實讀、深析、採用篇數，未達成不可冒稱完成。
-- 每次取得新的已確認決策、實測結果或實際變更，於同一工作回合同步 docs/notion/decision-log.md、acceptance-status.md 及相關架構／UX／sources 文件，必要時同步正式使用中的 Google Docs 設計稿。
-- 每次修改先讀 GitHub 最新內容與 blob SHA，保留無關修改；安全寫入後重讀全文、路徑、分支及 Commit。失敗須明確報告未同步，不可假稱完成。
-- 使用者說「繼續」時依 GitHub 最新決策及驗收狀態、Notion 現況自動接續，不重複詢問已有答案；只問真正無法推定的必要資訊。單純問答不產生無意義 commit。
-
-## 回報
-
-回覆區分「已確定設計／已執行且回查／唯讀核對／部分通過／受阻／未驗收」，並說明修改範圍、保持不變、效能與資料影響、可回復方式、測試與剩餘項目。
+- 先讀根 README、AGENTS、docs/system/source-of-truth.md，依本輪工作類型讀 Notion／GAS／Auth 的專屬文件與最新 Google Docs；不能要求使用者重貼已有資料。
+- **區分工作範圍**：Notion TEST、純設計、Backend Staging、Auth Staging、正式 GAS。只修改使用者本輪指定的範圍；目前青壯 TEST 是 Notion-only。
+- 最新已驗證來源高於舊 GitHub 摘要：正式 GAS 先重讀 Current Snapshot／Deployment Log 與 SHA；Notion 先讀 00.config_notion、Schema、Relation、View；Staging 先確認 revision、traffic、Secret version、rollback。
+- 最小必要修改、保留其他人變更、完整必要檔案、備份、先 TEST、再寫入、寫後回查；不能測試不得假稱已實測。
+- 正式 GAS 遵守 docs/gas/deployment-sop.md、patch-contract.md 與 validation-checklist.md，硬停止條件未滿不得交付 patch。安全見 docs/system/security-policy.md。
+- Notion 遵守 docs/notion/AGENTS.md。原系統只做最小修正；大幅 Schema／Relation／Formula／UX 變更須先分析風險、效益、回復，取得使用者同意。
+- 政府補助支援多方案、多年度／核定期別、每期不同規則；不可在通用邏輯寫死青壯或 115。未知／未確認／不適用／已確認0不可混用。
+- 禁止將姓名、病歷、財務明細、密鑰、Token、Script Properties、L4 部署驗證資料、raw Notion records 提交 GitHub，即使是 Private Repo。
+- 新決策、修改、驗收在**當次對話工作回合**同步 GitHub 相關文件、決策與驗收表，必要時同步 Google Docs；更新前先讀遠端，更新後回查 Commit 與內容。不能更新就誠實說明。
+- 回覆說明原因、目的、影響、保留不變、權限與效能、測試與限制、驗收及回復；不要將舊快照說成即時事實。

@@ -32,3 +32,8 @@
 ## 後續追加模板
 
 日期｜狀態（決策／唯讀／TEST PASS／PARTIAL／BLOCKED／修改）｜模組｜原因｜已核可範圍｜影響項目｜驗收／回復證據｜GitHub commit／PR｜Google Docs 同步狀態。
+
+
+## 2026-10-24｜設計知識庫跨系統擴充（保留 Notion-only 執行範圍）
+
+為符合專案指示 8,000 字限制，沿用私人 GitHub 本儲存庫，新增 docs/system 與 docs/gas；舊 Notion 專屬 AGENTS 全文保留在 docs/notion/AGENTS.md，根 AGENTS 只做跨系統分流。此次僅整理文件，**沒有改 Notion 資料／Schema／View 或正式 GAS**。青壯方案啟用 TEST 仍嚴格 Notion-only。
