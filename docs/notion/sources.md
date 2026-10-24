@@ -56,3 +56,11 @@
 - Notion 官方資料庫效能：https://www.notion.com/zh-tw/help/optimize-database-load-times-and-performance；資料庫檢視：https://www.notion.com/help/views-filters-and-sorts；Linked views：https://www.notion.com/help/notion-academy/lesson/linked-views；Relation/Rollup：https://www.notion.com/zh-tw/help/relations-and-rollups；Formula 深度：https://www.notion.com/help/common-formula-errors。
 
 以上僅為本輪直接查閱官方資料，不可充作10,000篇已讀成果；完整 View 設計請見 workbench-vnext-2026-10-24.md。
+
+
+
+## 2026-10-24｜研究來源分級登錄正式入口
+
+完整可追蹤的 URL 清單已移至 [docs/notion/research/evidence-register-2026-10-24.md](research/evidence-register-2026-10-24.md)：首批16筆唯一網址、14筆取得正文並核對相關段落、2筆只有搜尋摘要；**深度精讀達標0篇**，10,000篇目標未達。每篇分別記來源、適用主題與取證等級，未經深入精讀的文獻不得宣稱已完成系統性研究。
+
+理論歸納、系統風險、實作與未驗收分別保存在 [research 索引](research/README.md) 下；不得把其中任何研究假說寫成 Notion 核定用量已實測通過。
