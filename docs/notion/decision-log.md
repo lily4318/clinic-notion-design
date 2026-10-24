@@ -185,3 +185,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - 複核[衛福部115年公告](https://www.mohw.gov.tw/cp-16-85046-1.html)與[政府115方案FAQ](https://www.gov.tw/News_Content_26_826198)，活躍青壯115 Price Plan「備註」現有四處差異：僅列國民、以「>7天」取代至少7天、未提間隔原則上最多1個月、連續2次無故未到誤稱自動取消資格。
 - 同名Google Drive PDF經讀取確認是**Notion既有Price Plan匯出**，不能證明備註正確；跨三個連結Drive與Notion、可用郵件搜尋均未取得汐予115年個別合作契約及附款。應以中央官方規則及機構實際適用條款分層驗證，不以其他縣市契約替代。
 - **沒有新增使用者核准決策**。本輪只完成單欄「備註」的前後差異與回復方案，維持既有人工核對後於Care Episodes選方案，不增加資格清單、黃色提醒或修改公式、Relation和正式服務。待契約及同意後才准寫入；見[方案稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+## 2026-10-24｜青壯115備註修正候選全文已備妥，非使用者核准
+- 本輪僅從最新Notion活躍Price Plan備註全文產生3處最小替換候選（涵蓋四項中央規則差異），並完成反向還原原文的無損測試。全文、官方來源與單欄回復方式收錄於[方案稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+- **未有修改啟用Notion方案的使用者核准**，汐予115年個別合作契約仍未取得。故未更動Notion資料、Schema、Formula、Relation、View與權限，也未建立新的青壯額外審批／參與流程。當次只同步設計候選及驗收分類，不代表新業務規則已實施。
