@@ -241,3 +241,10 @@
 ## 2026-10-24｜青壯115備註全文候選無損差異測試PASS；寫入仍BLOCKED
 - **[READ ONLY NOTE ROUNDTRIP PASS]** 重新Fetch啟用115青壯Price Plan原生「備註」text完整欄位，產生可閱讀的**全文候選**；以**3處恰好一次的字串替換**解決**4項既有官方規則差異**（適用外籍、7日含第7天、1個月原則上限、無故缺席不自動取消資格），再反向替換與原值**完全相等**。期程、3次／1600元、行政費與3個月總期限均保持不變；原HTML文字排版需未來寫入時完整保留。[全文及回復檢查](audits/episode-session-plan-consistency-2026-10-24.md)。
 - **[NOTION WRITE NOT APPROVED]** 汐予115年個別合作契約／附款及此啟用Price Plan備註修正的使用者核准**尚未取得**；沒有修改Notion欄位、沒有真人UI寫後回查，不能標記正式文字修正PASS。已驗證的是候選文本差異及其可逆性。正式GAS／Cloud Run／權限與效能不在本輪工作界線。
+
+## 2026-10-24｜新增115-05-13中央FAQ與外縣市契約差異：備註修訂繼續暫緩
+- **[SOURCE PASS]** 已開啟並以PDF截圖核對衛福部心理健康司**115年5月13日更新版完整FAQ**，Q8/Q9/Q14確證間隔、無故缺席「合作機構得拒絕」及外籍有健保資格；機構篇確認不得額外收諮商差額、新立非原訂行政費及同次服務不得中央／地方雙請。
+- **[REGULATORY CONFLICT / UNRESOLVED]** 新北市政府公開的115年合作機構**合約PDF搜尋索引**出現「兩次無故缺席後暫停90日」的不同文字，但其PDF直接開啟失敗，未做逐頁檢查；**新北契約不是汐予適用的桃園契約**。桃園公告之中央計畫PDF索引含「地方不得訂更嚴格限制」，其全文亦未能以網頁PDF工具讀到。必須以本機構適用契約／主管機關釐清，**不得逕行判斷新北條文有效性或套用於桃園**。
+- **[NOTE DRAFT SUSPENDED]** 過去完整備註候選的三處可逆替換仍是文字測試PASS，但不是核准版；因地方缺席規範差異及現行「掛號／場地等行政費用」的事前告知與既有規費要件尚未核實，啟用Price Plan「備註」修改仍**BLOCKED、完全未寫**。詳見[稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+- **[GOV PLATFORM PATH EVIDENCED, NOT PERSONALLY TESTED]** 同份FAQ系統篇Q13已截圖確證：服務日第0日、三日內暫存，**暫存可供其他機構查詢個案已使用次數**。這是現有人工核對流程依據，沒有在Notion建立青壯額外參與DB／清單。未操作正式政府平台、不得以未查得當作確定0；該個案維度不代替心理師週6次查核。[週額度稽核](audits/youth-weekly-allowance-2026-10-24.md)。
+- **[NO WRITES]** Notion啟用Price Plan／Sessions／Staff／週回報／Schema／Formula／Relation／View／權限、Google Docs及正式GAS／Cloud Run皆未改動；無新效能開銷／分享範圍變動。僅GitHub匿名證據修訂，沒有真人UI或角色權限／效能驗收。
