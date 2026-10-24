@@ -248,3 +248,8 @@
 - **[NOTE DRAFT SUSPENDED]** 過去完整備註候選的三處可逆替換仍是文字測試PASS，但不是核准版；因地方缺席規範差異及現行「掛號／場地等行政費用」的事前告知與既有規費要件尚未核實，啟用Price Plan「備註」修改仍**BLOCKED、完全未寫**。詳見[稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
 - **[GOV PLATFORM PATH EVIDENCED, NOT PERSONALLY TESTED]** 同份FAQ系統篇Q13已截圖確證：服務日第0日、三日內暫存，**暫存可供其他機構查詢個案已使用次數**。這是現有人工核對流程依據，沒有在Notion建立青壯額外參與DB／清單。未操作正式政府平台、不得以未查得當作確定0；該個案維度不代替心理師週6次查核。[週額度稽核](audits/youth-weekly-allowance-2026-10-24.md)。
 - **[NO WRITES]** Notion啟用Price Plan／Sessions／Staff／週回報／Schema／Formula／Relation／View／權限、Google Docs及正式GAS／Cloud Run皆未改動；無新效能開銷／分享範圍變動。僅GitHub匿名證據修訂，沒有真人UI或角色權限／效能驗收。
+
+## 2026-10-24｜桃園115官方名冊費用對照：400元掛號費有獨立來源，應付公式未驗
+- **[OFFICIAL LIST INDEX EVIDENCE]** 2026-10-24網路搜尋索引的[桃園市115青壯合作機構名冊](https://mental.tycg.gov.tw/cp.aspx?n=19932)列汐予心理治療所及「掛號費400元」、通訊核准「否」；**直接開啟的同網址卻為較舊快照且未列汐予**，故僅證明公開官方索引有這項具體費用記載，不假稱已對當下資格進行無歧義即時核驗。
+- **[NOTION FEE DISPLAY UNVERIFIED]** 重讀啟用115 Price Plan「備註」仍只泛稱「掛號費、場地費等」，沒有具體400元；Page/Schema中沒有「掛號費」單獨欄位，而`應付_自動`僅回Formula參照，**不可聲稱Notion應付=400已通過，亦不可認定公式有錯**。官方FAQ限制其他收費須為既有規費及事前告知。[詳細稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+- **[NO NOTION WRITE]** 無使用者啟用方案備註改動核准、無汐予簽署契約；未改任何Notion資料、Schema、Formula、Relation、View／權限或Google Docs、正式系統。只新增GitHub匿名來源比對；角色、效能、收費原生數值未實測。
