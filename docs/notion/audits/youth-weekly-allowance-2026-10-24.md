@@ -57,3 +57,12 @@
 - **RISK：** 目前本週院內排程已達6筆者的外部占用尚未知；不能用先前上週「已確認0」當本週輸入。另3筆無心理師/形式的TEST紀錄屬非已預約狀態，無必要修復。
 - **BLOCKED：** Notion Formula 原始碼與原生運算值、跨地政府平台實際額度／核銷、兩位心理師實際外部占用、真人權限與效能。不得宣稱補助週額度或啟用整體驗收完成。
 - **未變更：** 無Notion業務列／Formula／Relation／View／權限、Google Docs或正式GAS／Cloud Run／Session／部署異動；保留人工資格確認後於Care Episodes選Price Plan、現有8筆特殊Session異方案業務情境，亦不新增青壯資格清單或黃色警示。無Notion寫入故沒有資料回復步驟；若撤回此份稽核文字，須先回查GitHub最新版本並僅撤回本節，不蓋過並行編輯。
+
+## 2026-10-24｜原始View與工作台View雙向集合驗證及公式篩選邊界
+**本輪純唯讀，不修改Notion。** 重新讀GitHub本專案基準與Notion Staff、週回報、Sessions、Price Plans Schema／原頁、Google Docs v3.4，並定位週額度資料庫 [原始Saved View](https://www.notion.so/2d3970ed384f443d81c5c0a8350fa56b?v=875b633ab7394abba2d3f1121f1e8d0b) 及 [政府補助工作台內嵌Saved View](https://www.notion.so/3f68ca66aa4d811b928ac9c78aa3be2f?v=3f68ca66aa4d8130be98000cc5868907)；也重讀[在職心理師青壯週額度View](https://www.notion.so/c698ca66aa4d826baa8f8773b5c2cfe6?v=3f78ca66aa4d817581c9000c3420b577)。
+- **[SAVED VIEW MATCH PASS]** 原始週回報View=6筆、工作台內嵌View=6筆，兩者實際Notion頁URL集合**6/6完全一致**，均無後頁。這可排除目前工作台漏顯某一筆週回報的特定問題，但只限目前兩個View的資料集合，不代表所有行政入口及角色可見性驗收完成。
+- **[COMPOSITE KEY CHECK PASS]** 在上述6筆既存週回報中，以**心理師Relation＋Price Plan Relation＋週起始日**做匿名唯讀複合鍵核對，**0組重複**。6筆名稱仍都有TEST字首；4筆連目前啟用青壯Price Plan及工作台顯示的2位在職心理師，另外2筆連**不同Price Plan及工作台未列的TEST心理師**（其中一筆他處已用6次，另一筆他處使用未知），沒有混入兩位在職心理師目前的方案週回報Relation。**TEST標記仍非資料層隔離**；僅能說目前這6筆的特定關聯範圍沒有出現交叉污染。
+- **[CURRENT WEEK UNKNOWN]** 2026/10/18～10/24與啟用Price Plan＋可見2位在職心理師相關的2筆都是「他處回報未確認＋他處占用數值未知」。前輪全量Sessions之本週青壯已預約6及4筆**不是政府已核銷數**；依中央115年跨地每週6人次原則，這兩位本週均**不可在資料未確認前直接判定可再安排補助**。
+- **[NATIVE FORMULA BLOCKED]** Notion Staff的「在職狀態」普通Select條件可用rows模式查得3筆（含工作View刻意排除之TEST人員），但是嘗試對「青壯本週額度狀態_v2_自動」使用公式文字篩選，連接器拒絕部分參數結構；以空值條件查驗則回傳validation_error；前輪formulaCode://讀取亦不支援。公式原始碼、數值、兩位員工在Notion UI**實際顯示的結果仍不得推論為已驗證**。本回合額外查詢SQL／rows時工作區**Query Data Source配額用盡**且查詢未執行；改用Saved View後可完成上述集合對照，避免重試高配額工具。這是工具配額限制，不是證明Notion公式本身有錯。
+- **[EXPECTED ACCEPTANCE / NOT TEST PASSED]** 後續只需在原有[心理師青壯週額度View](https://www.notion.so/c698ca66aa4d826baa8f8773b5c2cfe6?v=3f78ca66aa4d817581c9000c3420b577)核對本週兩位工作心理師：他處使用未確認時，「青壯本週額度狀態_v2_自動」不得顯示**已確認可用／可逕行核准**；如原生畫面顯示可用，屬待提出C級Formula最小修正的高優先風險，不能直接修改。已確認0與未確認空白須能區分；境外/他處已用6筆的**另一方案TEST**紀錄不應影響啟用Price Plan之真實人員。
+- **[UNCHANGED]** 原青壯人工核對資格→Care Episodes選Price Plan、8筆既有異方案會談不變；所有Notion Data Source、Schema、Formula、Relation、View、Staff、週回報、權限、Google Docs及正式GAS／Cloud Run／Session／部署均**沒有變更**。沒有新增欄位、黃色警示或必填青壯資格清單。沒有真人UI原生顯示、跨地政府核銷、資料權限與載入時間測試。回復僅需先回查GitHub並撤回本節文檔，不能覆蓋無關並行修改。
