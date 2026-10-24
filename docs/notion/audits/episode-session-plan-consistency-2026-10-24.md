@@ -185,3 +185,22 @@
 - **[CONSENT & CROSS-PROVIDER]** 桃園政府託管[115中央方案同意書索引片段](https://ws.tycg.gov.tw/Download.ashx?n=MTE15bm05bqmMTUtNDXmrbLpnZLlo6%2FkuJbku6Plv4PnkIblgaXlurfmlK%2FmjIHmlrnmoYjoqIjnlavmm7go5YWs5ZGK54mIKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMTQvcmVsZmlsZS84MTE4LzE1OTk4MDQvYWFlZmU4OWItZWU0ZC00MDZiLTlmNTUtNDNlM2Y3ZDVmNDc2LnBkZg%3D%3D)明列跨合作機構已使用補助次數須誠實告知，累計不得超過3次，且連續無故缺席的處置是「得拒絕」；[我的E政府FAQ](https://www.gov.tw/News_Content_26_826198)交叉確認跨機構合計3次。這是既有政府行政規範，不代表獲授權新增單獨青壯Notion資格工作流；實際同意書取得、保存及政府平台查核尚未真人驗收。
 - **[NEXT TEST GATES]** 接受青壯補助前須確認「適用該方案的當期機構可提供方式」、「人工核對政府／跨機構已使用次數」、「當期方案同意程序已按正式規定完成」，然後在現有Care Episodes選正確Price Plan；不得把新驗收條件改造成對使用者額外必填的Notion參與DB。不同政府方案仍需依各自期別規則處理。
 - **[LIMIT]** 桃園公告版PDF及個別已簽契約本輪尚未讀得全文，沒有驗證真人遠距核准/收據/實際簽同意；未重新跑295 Sessions關聯回歸。無Notion資料／Schema／Formula／Relation／View／分享權限、Google Docs、正式GAS或Cloud Run/Session/部署寫入，沒有使用者操作效能實測。若需撤回此工作回合僅撤回GitHub本節，保護其他並行更動。
+
+## 2026-10-24｜活躍115方案「備註」四處最小文字修正：正式來源已核／尚未核准寫入
+
+**界線：Notion TEST，純設計及唯讀核對。** 當次重新Fetch啟用中的[115青壯Price Plan](https://app.notion.com/p/c748ca66aa4d83909393815a05b6030a)，現行「備註」含內嵌HTML文字（富文字呈現）；四處差異如下：
+
+| 原文字（既有備註） | 建議最小替換文案（只限本115方案實例） | 公共官方依據 |
+| --- | --- | --- |
+|「15歲至45歲之國民」|「15歲至45歲之本國籍民眾或持有健保卡之外籍人士」|衛福部115年新聞稿|
+|「2次晤談間隔需 >7 天」|「任2次心理諮商間隔以不小於7天為原則」|政府115方案FAQ|
+|未提每次間隔不得超過1個月|在同句補「並以不超過1個月為原則」|政府115方案FAQ|
+|「連續 2 次無故未到將取消資格」|「如連續2次無故未依約接受諮商，合作機構得拒絕提供服務」|政府115方案FAQ|
+
+**保留**：115年度方案期程、首次服務時年齡判斷、3次個別心理諮商上限、費用／行政規費等原有備註文字，以及全部Relation、Sessions、Care Episodes、方案本體屬性、Formula、Rollup、View與權限不改。若實作本單欄位，使用前的完整「備註」值為回復基準；只改該欄位，寫後Fetch與原值逐字比較，只容許上列四處差異，其他併行修改一律保留，必要時單欄還原。
+
+**證據新發現**：Google Drive有一份名為「青壯世代心理健康支持方案.pdf」的檔案，其內容是Notion Price Plan匯出（含同樣舊字句），不能作為桃園市合作契約驗證；搜尋可存取的三個Drive與Notion來源未得到汐予115年個別簽署契約；部分郵件搜尋失敗，故證據仍不完整。
+
+**決策／動作**：上列文字是最小差異候選，**不是已核可或已寫入**。依使用者之前的B級變更界線，現階段應先核對汐予115年合作契約及附款並取得使用者同意；不做任何啟用資料變更。官方來源：[衛福部115公告](https://www.mohw.gov.tw/cp-16-85046-1.html)、[政府115年FAQ](https://www.gov.tw/News_Content_26_826198)。
+
+**測試與影響**：已回查現有Notion單筆實際備註及欄位型別、比對四個規範點；未寫入、未作真人權限或效能測試；無效能負擔及權限影響。撤回此文件段落須先讀取GitHub最新內容並保留並行更動。
