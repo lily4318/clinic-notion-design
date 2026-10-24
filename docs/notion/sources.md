@@ -147,3 +147,7 @@
 ## 2026-10-24｜衛福部115年3月25日心理師每週核銷上限補充函
 - [衛生福利部函1151760792號逐字轉載（含PDF）](https://www.twtcpa.org.tw/news/3110)：週日～週六、同一心理師跨執業登記與報備支援地點合計六人次、自2026-04-12中央系統實施每週六筆維護與核銷上限；此為115青壯方案專屬已公告版本。原函PDF文字可讀、網頁Screenshot取得失敗；公會頁面逐字轉載可查。
 - [Notion TEST現行Staff View](https://www.notion.so/c698ca66aa4d826baa8f8773b5c2cfe6?v=3f78ca66aa4d817581c9000c3420b577)與週回報 `collection://fc0ff3b7-04c7-41ff-8efd-deac8f8202e4`，本輪採匿名唯讀分類。全部證據與風險見[本輪專項稽核](audits/youth-weekly-allowance-2026-10-24.md)。
+
+## 2026-10-24｜回查2026-10-23週額度v2隔離驗收的原始備份
+- [Google Docs 備份：青壯額度設計增補_精簡前完整23章_20261023](https://docs.google.com/document/d/1gqI_lPdW9z1-mLIOUQFu5c0thjMXZUe07-DUd6bzyfY/edit) 第八節「2026-10-23 補充｜心理師週額度 v2 隔離驗收」記載：週六→週日的佔用切週、他處6次＋本所1次顯示超額、重複他處回報或取消確認顯示待核對、他處5次＋本所0次顯示剩餘額度，當時標示PASS。這是**歷史測試紀錄**，非本輪原生數值實讀或當期啟用核銷授權。
+- 同備份第九節記載**舊版**週額度View依賴歷史週回報Relation非空可能漏列人員；本輪 [現行青壯週額度View](https://www.notion.so/c698ca66aa4d826baa8f8773b5c2cfe6?v=3f78ca66aa4d817581c9000c3420b577) 最新Fetch之篩選改為「在職＋臨床心理師＋排除一位指定隔離TEST」，**不再使用週回報Relation非空作為可見條件**。配合Staff原始Default View共4筆的唯讀比對，2筆符合在職臨床心理師者皆出現在週額度View，當次漏列0筆；僅代表目前人員全集與View對照，不等於未知回報時原生Formula已核對。
