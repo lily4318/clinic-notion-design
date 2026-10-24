@@ -98,3 +98,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 
 ## 2026-10-24｜政府補助 TEST 唯讀隔離與資料完整性
 最新唯讀來源顯示：TEST管理分類只在View隱藏一筆紀錄，該列仍連到啟用補助方案及3筆Sessions。一般22筆缺參與會談Relation、期限及他處使用次數；尚不能自動核准或把空白當0。Formula真值未取回、未改原資料。下次須先取得00.config_notion及真正隔離的測試環境，再依核准方案驗收。[詳報](audits/subsidy-readonly-integrity-2026-10-24.md)。
+
+
+## 青壯人工核對後於服務歷程選方案｜2026-10-24｜使用者已確認並實作 TEST UX
+使用者明確決定：青壯資格不複雜，人工核對後在 Care Episodes「💲收費方案」直接選適用 Price Plan，**不另建立資格核對清單、不把補助參與紀錄設為使用前置**。此決策覆蓋歷史「以青壯資格待核對 View 作日常操作入口」的設計，不覆蓋其他政府方案及額度計算規則。已查核既有 Care Episodes→Price Plans Relation；TEST 補助首頁新增服務歷程入口，原參與表收合成歷史備查、資格 View 更名但所有篩選保持原樣。修改前 Notion 已備份，Google Docs 第十五節及 Notion 驗收歷史已同步。**未修改任何原始資料、Schema、Relation、Formula、角色權限、GAS**。詳見 [本輪驗收](audits/youth-manual-eligibility-episode-plan-2026-10-24.md)。

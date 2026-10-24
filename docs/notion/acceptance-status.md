@@ -114,3 +114,10 @@
 - 一般22筆中21待核對、1不符合；會談Relation／期限／他處次數皆未填，確認checkbox未勾，不等於確認0。
 - 11項真人UX測試目前0完成；原生Formula額度影響、跨期規則、角色權限及效能均未驗證。
 - 本輪Notion唯讀、未變動Schema／Relation／View／Formula及原始資料。00.config_notion尚未定位。[報告](audits/subsidy-readonly-integrity-2026-10-24.md)。
+
+
+## 青壯人工核對後於服務歷程選方案｜2026-10-24｜青壯 TEST UI PASS，計數仍 PENDING
+- **[PASS]** Care Episodes 現有「💲收費方案」是 Price Plans Relation，可按使用者確認直接選方案，未建新欄位。Notion TEST 工作台已改「人工確認→服務歷程選方案」，舊參與表改在歷史收合區；原6個 linked DB、同步側欄保留且無黃色提醒。
+- **[PASS]** 原資格 View 只改名稱為「既有資格狀態（歷史備查）」，讀回篩選／排序／欄位完全未變；Notion 工作台已保留改版前備份與追加歷史紀錄。Google Docs 規格第十五節追加成功，修改前117段讀回完整一致。
+- **[PENDING]** 真實人員完成核對與選方案後，Sessions Price Plan 的實際歸屬、額度占用、跨方案與期別 Formula 及權限均未實測。原23筆參與／TEST 資料、相依的啟用方案關聯不能直接清除。效能未量測。
+- [完整差異、備份與回復](audits/youth-manual-eligibility-episode-plan-2026-10-24.md)。

@@ -65,3 +65,7 @@ Google Docs 已同步第十四節與備份：https://docs.google.com/document/d/
 - https://www.notion.com/help/common-formula-errors
 
 10,000篇研究目標尚未完成、沒有逐篇已讀的證據與去重清冊。
+
+
+## 青壯人工核對後於服務歷程選方案｜2026-10-24｜覆蓋舊版青壯資格流程說明
+本文件上方的「② 個案參與與期限／資格待核對」是**當次歷史版面快照**。使用者最新確認青壯直接「人工核對 → Care Episodes 💲收費方案選 Price Plan」，不需要額外資格核對清單。TEST 主頁已將原補助參與資料區塊收合為歷史與其他政府方案設計備查，且更名舊資格 View；原6個區塊、來源、歷史及週額度保留。以 [最新決策](audits/youth-manual-eligibility-episode-plan-2026-10-24.md) 及即時 Notion Fetch 為準。

@@ -101,3 +101,11 @@
 - [政府補助TEST工作台](https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf)，及既有Price Plans／補助參與Data Source的最新Schema、Rows、View。
 - [原11項任務驗收頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)仍0/11人工完成。
 - [安全彙總與未驗收限制](audits/subsidy-readonly-integrity-2026-10-24.md)。
+
+
+## 青壯人工核對後於服務歷程選方案｜2026-10-24｜最新來源與備份
+- [青壯流程更新後的 TEST 補助工作台](https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf)，及[舊頁原生備份](https://app.notion.com/p/4038ca66aa4d81c3a70bd4730fdba9fe)。
+- [Care Episodes 現有方案欄位／個案服務歷程入口](https://app.notion.com/p/a188ca66aa4d82c69764810ab99f8663)。
+- [Notion TEST 驗收歷史](https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d)。
+- [政府補助 Google Docs 最新第十五節](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)及[修改前完整備份](https://docs.google.com/document/d/1BrEuVdXKuBPturXkvUPpWovuJ--ougaTHRebTxXR_Dw/edit)。
+- [完整 Notion 變更、未驗收、回復](audits/youth-manual-eligibility-episode-plan-2026-10-24.md)。

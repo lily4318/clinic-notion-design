@@ -51,3 +51,7 @@ undefined
 ## 2026-10-24｜研究成果完整性核對、TEST 工作台 v2 與長期目標修訂
 
 跨對話先查 long-term-goals.md 與 research/research-to-implementation-matrix.md，再依最新 TEST 狀態執行；不能把研究數量、VIEW 可讀或備份建立當成業務通過。重大 Schema／Formula／Relation 或其他模組全面重構仍需使用者明確核准。
+
+
+## 青壯人工核對後於服務歷程選方案｜2026-10-24｜青壯最新決策
+青壯資格由治療所人工確認，符合者**直接在 Care Episodes「💲收費方案」Relation 選對應 Price Plan**。不可再將單獨的青壯資格核對清單、補助參與紀錄填寫或額外審核步驟設為日常啟用前置條件；此決策覆蓋先前青壯 UI 的資格待核對要求，但其他政府方案仍須按各期核定規則個別判定。既有參與資料與相依關聯只作歷史備查，不得未核准即刪除／遷移。詳細[本次決策與回復](audits/youth-manual-eligibility-episode-plan-2026-10-24.md)。
