@@ -138,3 +138,8 @@
 - [桃園市政府官網所刊載之衛福部115年度計畫書（搜尋索引可辨認第3頁「陸、心理諮商費補助對象應配合事項及規範」）](https://ws.tycg.gov.tw/Download.ashx?n=MTE15bm05bqmMTUtNDXmrbLpnZLlo6%2FkuJbku6Plv4PnkIblgaXlurfmlK%2FmjIHmlrnmoYjoqIjnlavmm7go5YWs5ZGK54mIKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMTQvcmVsZmlsZS84MTE4LzE1OTk4MDQvYWFlZmU4OWItZWU0ZC00MDZiLTlmNTUtNDNlM2Y3ZDVmNDc2LnBkZg%3D%3D)；公開索引摘錄明列連續兩次無故缺席時「合作機構得拒絕提供服務」，非必然取消方案資格。直接下載PDF在本輪網頁檢視端出現 cache miss，**僅確認該已編入索引的條文片段，不宣稱附件全文均已逐頁檢閱**。
 - [我的E政府 115年方案 FAQ](https://www.gov.tw/News_Content_26_826198)明列任兩次諮商間隔原則為不小於7天及不超過1個月，總期程不超過3個月，且連續兩次無故未到「合作機構得拒絕提供服務」。[衛福部115年公告](https://www.mohw.gov.tw/cp-16-85046-1.html)明示本國籍或持健保卡外籍人士。
 - 本證據可將原No-show規範的**中央層級**文字由「尚待核對」提升為「已核對」，但尚不能取代汐予簽署之桃園115年個別合作契約與附款；部分縣市另有不同契約規定，不以其他縣市規定逕行推定桃園。
+
+## 2026-10-24｜桃園115青壯合作機構服務方式與官方同意書唯讀核對
+- [桃園市衛生局115年合作機構清單](https://mental.tycg.gov.tw/cp.aspx?n=19932)：本輪可搜尋最新版網頁有汐予心理治療所，當期「核准執行通訊心理諮商或指定通訊診察醫療機構」欄列「否」，並標示機構另收掛號費。網頁資料可更新，**不是汐予個別契約全文或任何長期永久性許可證明**。
+- [桃園市政府託管之衛福部115年方案計畫書](https://ws.tycg.gov.tw/Download.ashx?n=MTE15bm05bqmMTUtNDXmrbLpnZLlo6%2FkuJbku6Plv4PnkIblgaXlurfmlK%2FmjIHmlrnmoYjoqIjnlavmm7go5YWs5ZGK54mIKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMTQvcmVsZmlsZS84MTE4LzE1OTk4MDQvYWFlZmU4OWItZWU0ZC00MDZiLTlmNTUtNDNlM2Y3ZDVmNDc2LnBkZg%3D%3D)：可搜尋的附件2同意書片段載明跨機構已使用次數須據實告知、連續2次無故缺席「合作機構得拒絕提供其服務」等項；但現有網頁端完整PDF下載仍cache miss，不冒稱全文審閱。
+- [我的E政府115年方案Q&A](https://www.gov.tw/News_Content_26_826198)：可核跨機構合計3次與缺席、間隔問答。正式同意書／使用次數核對的行政義務須與使用者核准的「人工確認→Care Episodes選Price Plan、不另建青壯資格清單」區分；前者不是建立額外Notion參與記錄的授權。
