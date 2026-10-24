@@ -199,3 +199,10 @@
 - **[CONSENT SOURCE PASS; WORKFLOW NOT TESTED]** 桃園市政府託管中央115年計畫同意書搜尋片段與中央FAQ相互印證，跨機構同方案累計最多3次、須據實告知已使用次數，及連續2次無故未到時機構「得拒絕服務」。官方同意程序不能與Notion新增額外資格清單混為一談；實際機構的同意簽署/收據/政府平台查詢**尚未真人實測**。
 - **[NOTION READBACK; NUMERIC BLOCKED]** 本輪重新Fetch啟用青壯原頁與三張來源Schema、政府補助View仍1筆。方案備註舊文字尚未修正；公式值依然只有不可直接驗收的參照。先前41/41關聯及8筆跨方案Session分類仍為歷史驗收，本輪不冒稱重新執行。
 - **[NO WRITE]** 無Notion活躍業務記錄、Schema/Formula/Relation/View、權限、Google Docs或正式服務改動；本輪新來源／驗收記載僅寫入GitHub。詳見[唯讀稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+## 2026-10-24｜115青壯週額度：中央4月12日硬上限與本週未確認
+- **[OFFICIAL RULE VERIFIED]** 衛福部115年3月25日函明確：每週日～週六、每位醫師／心理師跨執業登記處所及報備支援處所青壯服務**合計六人次**；自115/4/12開始中央系統限制每週維護及核銷六筆。不能把院內個別上限當成跨地總額，不能寫死成其他補助方案規則。
+- **[SOURCE / RELATION TEST PASS]** Notion週額度來源完整6筆TEST記錄，6/6週起始日都是星期日；其中4筆同時連啟用115青壯方案及Staff工作台2筆在職心理師，4/4反向關聯一致，故TEST名稱不等於真正隔離。
+- **[CURRENT WEEK FAIL-CLOSED]** 2026/10/18～10/24兩筆本週回報**均未確認他處使用，且次數為未知空白**；前週10/11～10/17兩筆均已確認他處使用0。未知不等於已確認0，不能自動宣稱本週有可用6次。
+- **[NATIVE NUMERIC STILL BLOCKED]** Staff週額度的Formula/Rollup及Sessions相關週次計數僅有參照，不能從「週起始日」欄位或關聯PASS推定真正演算法PASS；Price Plans占用及剩餘亦未驗收。沒有重新執行全部295筆Session回歸或真人跨地核銷測試。
+- **[NO DATA WRITE]** 本回合沒有修改Notion Staff、週紀錄、啟用方案、Sessions/Episodes、Schema/Formula/Relation/View、權限、Google Docs、GAS/Cloud Run/Session/部署，只新增GitHub匿名稽核與索引。[詳細檢查](audits/youth-weekly-allowance-2026-10-24.md)。
