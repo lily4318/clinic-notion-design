@@ -70,3 +70,8 @@ undefined
 - **[USER CONFIRMED / UX v3 ALL FAIL]** 使用者逐題回覆 `1B 2B 3B 4B 5B`，5/5均不符合；第3題找不到先前指稱的「個案與服務歷程」操作。明確需求：**資料直接在目前頁面顯示，不要靠點擊跳別頁查看；大量說明文字應移除，一眼就能看懂**。v3原本資料範圍1／2／22的結構PASS不等於UX PASS，實際操作／視覺仍FAIL；先UX，後免週報Formula。
 - **[SCOPE / PERF]** 沒有變更Price Plans、Care Episodes、Staff、Sessions、Billing、週回報等任何業務資料列、Formula、Schema、Relation、原營運Views或權限；角色權限仍DEFERRED，青壯免週回報公式仍NOT LIVE。v3只有3個inline資料庫，v4有4個，**可能增加載入量**，是否變快未知；用多一張直接可見服務歷程View換掉跳頁。
 - **[MANUAL RETEST GATE]** 請真人逐題驗證：①開頁是否立即看到「治療所本期額度」表，不點跳頁；②下捲是否直接看到心理師與個案兩表；③「服務歷程」表是否直接顯示「💲收費方案」並知道可在原頁操作（**勿更動真資料**）；④整頁是否少文字、容易閱讀。各題A符合／B不符合／C未測。使用者尚未回覆，不得將v4寫作UX PASS或直接覆蓋原工作台。
+
+## 2026-10-24｜UX v4使用者4/4 PASS；新增首頁異常與最後一次候選提醒（TEST待驗）
+- **[USER CONFIRMED / V4 PASS]** 使用者對既有UX v4四題回覆`1A 2A 3A 4A`（4/4真人操作PASS）；不重測或改寫為其他結果。同一回覆新增三項需求：①質疑在首頁展開38筆「服務歷程｜直接選收費方案」的必要性，②警示異常清單及下一次為最後一次提醒應在首頁直接看到，③需解釋當前資料庫設計。**這是後續新驗收項目，不得把舊4A當新增警示通過**。
+- **[UX V4 REFINEMENT / ACTUAL WRITE]** 原獨立TEST預覽https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f 已以原生Notion View與內容最小修改：頁面頂部先呈現`⚠️ 青壯｜待核對資料`、`⏳ 青壯｜最後一次補助候選（剩餘1次）`兩張真正的inline Linked Views，下方保留既有三張治療所／心理師／個案額度Table，最後原38筆廣義Care Episodes「直接選收費方案」改為 `設定收費方案（非每日額度）` Toggle，不再佔首頁每日判讀；另有最末`資料來源與使用範圍`短Toggle。寫後 Fetch確認**六個**inline Linked Database blocks、正確標題順序、底部兩個Toggle，未恢復舊的黃色資格核對警示。
+- **[LIMITS / RETEST GATE]** 原4A保持通過，兩張警示的原生過濾與資料量2／11、三額度顯示結構PASS；**警示視覺／最後一次精確性／整體新UX真人尚待確認**，不得將新增內容寫PASS。v4原本展開4張表，現在展開5張（2提醒＋3額度）並有1張低頻收合，可能增加首屏負載；無真實載入時間測量。免週報原公式整合仍NOT LIVE，角色權限DEFERRED。待新增UX驗收通過，再繼續其他事項。
