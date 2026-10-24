@@ -136,3 +136,9 @@
 - 287/295 Session 與 Episode 主收費方案一致；**8筆不同**，其中 Session 青壯／Episode其他4筆、反向4筆。**不得自動更改**，需依真實收費情境確認是否刻意差異。
 - 啟用青壯方案 Session雙向關聯 **41/41集合一致**：已完成23、已預約13、已取消2、已改期2、no-show1。僅為關聯與狀態驗證，**不是計數/剩餘額度 PASS**。
 - Notion Formula／Rollup 目前返回結果參照，SQL／rows 查詢額度已用完，無法讀出原生占用與剩餘數值。原業務資料、Schema、Formula、Relation、View、權限、GAS皆未改；僅追加Notion TEST驗收文字及本 GitHub 紀錄。完整[技術證據](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+## 2026-10-24｜青壯／自費 8 筆方案差異之情境分類回查｜情境分類 PASS、意圖／公式 PENDING
+- **[AUTO PASS／唯讀]** Care Episodes 57、Sessions 295及Price Plans原View重新查詢，287會談與歷程主方案一致，8筆不同僅分布4個進行中個別服務歷程、且只涉及**青壯與同一個自費個別方案**；兩個方向各4筆，均有3筆的已預約／完成／改期配對及另外1筆已完成。與歷史資料缺關聯不同，這是**主方案選擇差異**。
+- **[PENDING／業務]** 對稱組合有刻意測試的可能，但沒有逐筆佐證，不得將8筆全列缺陷、亦不得以「測試資料符合使用」推論每筆已核准。Episode方案預設與Session個別改方案的權威關係需後續確認；不自動修復／同化。
+- **[PENDING／原生數值]** `formulaResult://`參照不支援直接Fetch（validation error），不能驗證政府額度占用或剩餘額度。沒有真實操作、權限或效能驗收。
+- **[NO DATA WRITE]** 本輪只在Notion TEST驗收歷史追加文字及GitHub紀錄；原 Sessions／Episodes／Price Plans資料列、Schema、Relation、Formula、View、GAS保持不變。證據見[原完整關聯報告及本輪追加](audits/episode-session-plan-consistency-2026-10-24.md)。
