@@ -417,3 +417,11 @@
 - **[OFF-SYSTEM REGRESSION]** 按實際Price Plan方案實例的每案上限（非寫死115／3次）擬定互斥的`轉自費或結案`、`額外預約核對`、`待確認他處`、`維持預約提醒`與`自費原流程`決策；已執行13組匿名離線JavaScript分支案例，13/13PASS，涵蓋最後一次**僅已預約未完成**不可誤當滿額、完成3有下次預約、他處已確認0與未知、跨方案上限5次等。**不是Notion原生Formula或有效能／跨期驗收**，功能仍NOT LIVE。
 - **[IMPACT/ROLLBACK]** 本輪唯一Notion寫入是移除一個過時連結，無新增欄位、公式、資料庫、查詢負擔及權限影響；回復只在重讀現行頁後將舊連結`[UX v4 原生備份](https://app.notion.com/p/4038ca66aa4d8159b4e5daf90a4ae662)`精準加回，保留其他並行修改，沒有任何業務資料回復。必要公式原文／按鈕動作完整基準仍未取得，永久刪除六欄與滿額提醒上線保持BLOCKED，免週報自動邏輯亦尚未啟用。
 - **[DOCS READBACK]** [Google Docs青壯方案額度與UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)以revision guard新增第33節，回讀原32與新33共存；[修改前原生Google Docs備份](https://docs.google.com/document/d/1aPF1fXhnuuXWXDEayUkjOuknCxElb3G-EUXau6LbHeA/edit)不含第33節。
+
+## 2026-10-24｜使用者要求全部清除舊設計：已清兩個介面殘留，原生子頁刪除受阻
+- **[USER DIRECTIVE]** 使用者明確表示「我看到還有很多舊設計被保留，請全部清除」，是對已遭否決的舊UX/備份/重複TEST元件提出真正刪除指示，不能以隱藏、改名或移動冒充清除；但不能未查相依而刪除臨床個案、Sessions、申報記錄、來源DB及其他人並行修改。
+- **[LATEST TEST INVENTORY]** 重新Fetch Notion TEST行政首頁（22個Linked DB區塊、11個child page，當時含7個`[BACKUP]`子頁、UX v2、原補助舊工作台及已通過UX v4.2）、原補助頁（7個Linked DB、部分歷史/調整/回報功能）、UX v4.2已核准頁（6個Linked DB、2個Toggle）；全域搜尋至少11個以`[BACKUP]`命名的頁面。不可只靠`[TEST]`字首批量刪除真正的遷移／隔離資料列。
+- **[ACTUAL NOTION WRITES + READBACK]** 已在獲使用者4/4 UX驗收的同一TEST補助頁精準刪除`[原工作台]`過時連結，並將頁面由`[TEST 預覽] 補助工作台 UX v4.2`更名為`政府補助｜額度與警示工作台`，其Parent仍是TEST行政首頁；回讀維持6個Linked DB、2個Toggle、異常／最後一次警示和三類額度。已從TEST行政首頁真正刪除冗長「本頁用途／操作順序／常見錯誤」Callout，回讀原22個Linked DB、11個child page及提醒、導航均完整，舊說明不再出現。沒有新增頁／View／Formula或多餘備份。
+- **[DELETION BLOCKED HONESTLY]** 嘗試對一個只含歷史Linked Views的失敗UX v3備份child page做精準`update_content`刪除（未開啟allow_deleting_content）得到`INVALID_ARGUMENT validation_error`，並未成功；子頁仍保留。此Notion連接器沒有單獨`delete/archive page`與`delete View`動作；不可用move/hide聲稱已完成永久刪除。若啟用可刪child的高風險內容重建，依工具契約須先列明每個受影響child並經明確確認，不得一口氣刪原補助頁的業務歷史與有效計算。
+- **[PENDING SCOPE / SAFETY]** 待刪的7個首頁舊備份、UX v2過時頁、原補助管理舊入口和另至少4個其他備份需先區分只含Linked Views的版面快照 vs 實際業務/歷史資料；刪除後必須驗證目標頁真的消失、啟用的Data Source及6個新工作台Views不受影響。原青壯115三個EP Formula→三個Cases Rollup仍受Cases兩段不可讀下游Formula、View/Page Layout相依阻擋；不DROP。UX v4.2四項PASS保留，權限DEFERRED，免週報與滿額轉自費尚未上線，正式GAS/Cloud Run/Session不在範圍。
+- **[DOCS + ROLLBACK]** [Google Docs跨期UX規格第34節](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)已使用revision guard增補並讀回；細節含受阻的舊頁刪除。兩處小額內容移除可用Notion頁面歷史精準還原，不影響來源業務資料；本回合只清理介面字串／頁名，效能沒有新增API、公式或DB負擔。
