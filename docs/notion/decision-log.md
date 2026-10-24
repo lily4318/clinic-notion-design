@@ -90,3 +90,7 @@
 使用者要求再次確認先前的 Notion／資料庫／UX 學習都有存 GitHub，缺少的補入，並依研究設計實作 Notion 及**修正長期目標**。已重新核對全部六份既有研究文件、16筆去重來源清冊、政府補助多方案架構、10模組稽核、B1～B3驗收與備份記錄；其中確有文件，但缺乏「來源→決策→Notion實作／未驗收」的逐項追溯，故新增 research-to-implementation-matrix.md。歷史「至少1000份模板」與 GitHub 續寫「10,000篇跨範疇研究」互有範圍／數字差異，保留原需求未完成之事實，不冒稱已讀，也不自行把兩者等同。
 
 Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務工作台 v2](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)：工作先後、個案會談／帳務／補助、人員營運、驗收歷史四區，兩組左右欄及三個收合區；原獨立活動測試 DB 保留；原十行政頁及其業務資料、Schema／View／Formula／Relation／權限無改動。已建立原生頁備份並 Fetch 驗證。正式使用者工作步數、效能與角色隔離尚未測。長期目標改以**操作效率、正確性、安全、效能、可回復／可追溯**驗收，不以無證據篇數當作上線門檻；詳見 [long-term-goals.md](long-term-goals.md)。
+
+
+## 2026-10-24｜行政任務工作台 11 情境路徑驗收（非真人驗收核准）
+依長期目標 G1 新建 TEST v2 [11項任務驗收子頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)。工作台11個目標入口與目的頁均可 Fetch；部分關鍵 View 實際篩選已回查（活動進行中 OR、未完成 Done=false、文件待更新＋草稿、收據待審核／處理失敗）。真人0/11，角色、時間及真實業務流程未測；既有行政頁、Schema、Formula、Relation、財務病歷、正式GAS均不改。完整 [路徑稽核](audits/administrative-task-path-acceptance-2026-10-24.md)。

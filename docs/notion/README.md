@@ -41,3 +41,7 @@
 - [**研究來源 → 設計 → 目前實作對照矩陣**](research/research-to-implementation-matrix.md)：逐項記錄已保存成果、官方依據、落地狀態、未驗收及缺漏；原有16來源不重複灌水。
 - [**行政任務工作台 v2 整體改版**](audits/task-workbench-ux-v2-2026-10-24.md)：只重排既有十模組的 TEST 預覽，任務導向且可回復。
 - [直接開啟 Notion TEST 工作台 v2](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)；原功能資料庫／權限／Formula 未修改。
+
+
+## 2026-10-24｜行政任務工作台 11 情境路徑驗收
+新增 [11項Notion TEST驗收子頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)。11條導覽及對應頁可 Fetch；**真人操作0/11未完成**，部分舊頁存在截斷/未知區塊，權限與速度未測。只新增 TEST 子頁、原資料與公式不變。完整 [驗收報告](audits/administrative-task-path-acceptance-2026-10-24.md)。

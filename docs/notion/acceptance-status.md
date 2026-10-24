@@ -100,3 +100,10 @@
 - **保持原狀**：十個業務行政頁、核心 Schema、Relation、Formula、業務資料列及 Notion 分享權限沒有被此輪更動；正式 GAS／Cloud Run／Session／部署不在範圍。
 - **未驗收**：真實角色的導覽／操作步數、載入效能、活動業務 View 真正可報名紀錄、政府補助跨方案週／次數 Formula、真實權限隔離與 1,000／10,000篇研究歷史需求。
 - **長期目標新依據**：[long-term-goals.md](long-term-goals.md) 與 [研究→實作對照](research/research-to-implementation-matrix.md)；下次先測完整任務集，不以不斷增加零碎區塊當進度。
+
+
+## 2026-10-24｜行政任務工作台 11 情境路徑驗收｜AUTO PASS／MANUAL PENDING
+- **AUTO 11/11 PASS**：TEST工作台11個入口與11個目標頁Fetch成功；部分關鍵Views已核對。舊頁有未知／截斷區塊，不能擴張成完整功能驗收。
+- **TEST寫後回查 PASS**：新[11項驗收子頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)有11個情境、11個未勾選人工測試方框；父頁原活動TEST DB存在且無黃色提示。
+- **真人0/11／速度／權限 PENDING**：不接觸業務資料、不改Schema、View、Relation、Formula或GAS，保留原權限。
+- 回復先檢查子頁有無後續人工測試紀錄及並行修改，不自動刪除。詳見 [本輪驗收](audits/administrative-task-path-acceptance-2026-10-24.md)。

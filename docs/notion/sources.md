@@ -89,3 +89,9 @@
 - [本次改版及回復紀錄](audits/task-workbench-ux-v2-2026-10-24.md)
 - [Notion 長期目標 v2](long-term-goals.md)；[研究逐項採用矩陣](research/research-to-implementation-matrix.md)
 - 原歷史研究16筆仍列於 [證據登錄表](research/evidence-register-2026-10-24.md)；本輪未新增其他唯一 URL 數字；今日重查的 Notion 官方資料庫效能／檢視／Linked Views 已包含在該來源清單中。
+
+
+## 2026-10-24｜行政任務工作台 11 情境路徑驗收｜實測證據入口
+- [TEST 11情境原生驗收頁](https://app.notion.com/p/4038ca66aa4d81a0834efc417b08fd1b)
+- [TEST 行政工作台 v2](https://app.notion.com/p/4038ca66aa4d814297a2dbe27e8d054d)
+- [稽核／回復與限制](audits/administrative-task-path-acceptance-2026-10-24.md)
