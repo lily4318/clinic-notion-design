@@ -134,3 +134,13 @@
 - **[NUMERIC BLOCKED]** 嘗試合法的最小無篩選 `query_data_sources(mode=rows, limit=2)` 時，連接器明確回報目前工作區 SQL/rows 共用 allowance 用盡、60分鐘內重置；未取得原生 Formula 真值。帶公式精確數值篩選的候選格式在工具 schema 驗證即遭拒絕，未執行成功，不可把候選篩選視為已驗。既有 Price Plans View 的「已占用／剩餘額度」仍只有 `formulaResult://`，完成／預約 Rollup 仍只有 `rollupResult://`。原生數值、8筆差異是否占用、跨方案跨期與核定規則驗證繼續 PENDING。
 - **[CONFIG / SAFETY]** Notion 名稱搜尋 `config_notion` 未精確定位 `00.config_notion`；用既有 live Schema 和 View 核對現況，並未依失效設定變更任何資料。此輪沒有改 Notion 業務列、Schema、Relation、Formula、View、角色權限、正式 GAS／Cloud Run／Session／部署；沒有 Google Docs 變更或效能實測。只有 GitHub 匿名驗收紀錄可單節撤回，撤回前應重查最新遠端版本保護並行更新。
 - **[NEXT GATE]** 配額恢復後先用受支援的合法唯讀路徑取得 Sessions 原生計數真值與 Price Plan 公式／Rollup 數值；仍只返回結果指標則保持 BLOCKED，不以23＋13宣稱36；任何共享 Formula 或關聯修改另需C級設計核可。
+
+## 2026-10-24｜再續作：SQL/rows 配額恢復，但公式值仍只能返回參照
+
+**工作線**：Notion TEST，僅唯讀驗證既有資料；本次沒有重新執行295筆全量會談比較，該項仍引用前一節的已驗結果。
+
+- **[QUERY QUOTA RESTORED]** 重新 Fetch 最新 Price Plans、Sessions、Care Episodes Schema 與政府方案 Saved View 後，對 Price Plans 執行最小 `query_data_sources(mode=rows, limit=1)`，已成功返回一筆，顯示先前的共享 SQL/rows 配額阻擋本次不再存在。不能再把「本次讀取失敗」歸因於配額。
+- **[NATIVE METRICS BLOCKED]** 該筆 rows 的「已占用_自動」「剩餘額度_自動」仍為 `formulaResult://`，而「已完成_帶入」「已預約_帶入」「待確認_帶入」仍是 `rollupResult://`，**不是原生 number 值**；Price Plans Schema 亦將這些欄位列為 `notAvailableInQuerySql`。政府方案 View 同次重新查得1筆啟用青壯方案，`has_more=false`，仍只有公式／Rollup 參照。
+- **[FILTER TOOL LIMIT CONFIRMED]** 普通 number property 的 `propertyType=number, operator=number_equals, value={type:exact,value:3}` 可通過受控 rows 唯讀查詢，checkbox filter 同樣可通過；但對「剩餘額度_自動」的多種 formula filter 候選，工具在執行前的參數 schema 檢查即拒絕，**本輪沒有成功對公式數值執行精確篩選**。先前歷史隔離方案0值篩選紀錄不等於本次成功重現，不能推斷本次啟用方案的任何精確占用／剩餘值。
+- **[CONFIG / DOCUMENTS]** Notion 名稱搜尋 `config_notion` 與 Google Drive 精確檔名搜尋仍未確認 `00.config_notion` 權威設定。已唯讀讀回既有青壯 Google Docs 規格第十五節：人工核對資格後於 Care Episodes「💲收費方案」選擇 Price Plan，沒有改設計。
+- **[NO WRITE / STATUS]** 沒有更動 Notion Price Plans／Sessions／Care Episodes／Staff／參與紀錄或任何 Schema、Formula、Relation、View、權限、Google Docs、正式 GAS／Cloud Run／Session／部署；沒有調整8筆方案差異，也未做真人角色、效能、跨方案核定規則驗收。**原生數值 NUMERIC BLOCKED；業務啟用驗收 PENDING**。僅追加本 GitHub 匿名紀錄，若要撤回需先確認並行 Commit，再單節還原。
