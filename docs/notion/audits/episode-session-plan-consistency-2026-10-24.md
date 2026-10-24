@@ -101,3 +101,25 @@
 - **原生數值未提供**：啟用方案目前 Saved View 僅1筆；其三個 Session Rollup 為 `rollupResult://`，已占用及剩餘額度為 `formulaResult://`；會談原 View 計數亦為 `formulaResult://`，無可核對數字。無法對先前8筆青壯／自費切換情境驗證實際計次效果，也不得將歷史41筆方案會談或23完成／13預約逕行轉成額度占用。
 - **保持不變**：使用者已確認測試資料符合使用情境，青壯資格人工確認後於 Care Episodes 選方案。8筆不同 Session 主方案的情境不自動同步、刪除或修復；既有 TEST 隔離關聯風險未因此消除。
 - **本輪寫入**：僅在 [Notion TEST 驗收歷史](https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d) 追加一段可回復說明並同步 GitHub。無業務資料、Schema、Formula、Relation、View、分享權限、GAS／Cloud Run／Session 改動，無可宣稱的效能變化或真人操作通過。驗收歷史若需撤回，先 Fetch 最新文字，只移除本段，保護他人並行更新。
+
+
+
+## 2026-10-24｜原生公式數值驗收：替代唯讀入口與重試門檻
+
+### 再讀結果（尚非數值 PASS）
+
+- 重 Fetch 當前啟用 Price Plan 的**原生頁面**及 Data Source Schema：`已占用_自動`、`剩餘額度_自動`、`額度狀態_自動` 在原頁仍是 `formulaResult://` 參照；`已完成_帶入`、`已預約_帶入`、`核定總額度_帶入` 仍是 `rollupResult://` 參照，非可驗證的計算數字。Schema Formula 僅有 `formulaCode://` 與描述空白，沒有嵌入算式。
+- 重試 Notion `query_data_sources(mode=rows)`：連接器明確回報 **SQL/rows 查詢的共享工作區配額耗盡，額度會在 60 分鐘內重置；即時重試沒有用**。這是暫時配額，而非工作區永久不支援。Saved View 唯讀模式仍可用，但其公式欄也只有結果參照。
+- 查閱 [既有 Google Docs 青壯規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit) 及 2026-07-08 的歷史 `Step1_Notion_Sessions公式設定與測試_v56.md`；前者是操作與資料模型規格、後者主要為 Billing 收據及 Sessions 已開收據公式，**不能取代最新的政府補助 Session 計數算式或原生數值**。本回合未將舊公式冒充現行設定。
+- `00.config_notion` 在目前 Notion 搜尋結果中仍沒有可驗證的精確入口；不能從其他含該字樣的 Google Docs 搜尋命中推定它就是權威設定。
+
+### 下一次配額恢復後的**最小數值驗收協定**（計畫，尚未執行）
+
+1. 重新 Fetch 已啟用方案、Care Episodes、Sessions 的當前 Schema／View 及目標頁，確認相關欄位、關聯 ID、Formula/rollup 類型及配額狀態未變。
+2. 在連接器允許時，只對**必要且有既存存取權**的當期 Price Plan 頁以及現有8筆青壯↔自費差異 Sessions 嘗試唯讀 `rows`；優先核實讀回是否為**實際 number/boolean**，不是 `formulaResult://` 等不可解參照。若仍為參照，停止，改用已授權的原生 Notion UI／支持 page property item 的合法唯讀途徑；不得猜算、不得索取 Token 或繞過分享權限。
+3. 需核對 Sessions 欄位：`👣 服務歷程`、`💲 收費方案`、`執行狀態`、`已完成計數_自動`、`已預約計數_自動`、`待確認計數_自動`、`補助占用資格_自動`，及只適用當期的 `青壯115占用計數_自動`。Care Episodes 的 `💲收費方案` 只用作比對；尚未核准以其值強制覆蓋單次 Session。
+4. **既有案例，不新增個案或資格清單**：A（Episode 青壯／Session 青壯）、B（Episode 青壯／Session 自費；歷史4筆）、C（Episode 自費／Session 青壯；歷史4筆）、D（兩者自費）；橫跨已完成／已預約／已改期與可核實的取消、no-show 狀態。先讀原生數值與當期核定規則，再判定各案例計入哪個 Price Plan。**不預設 B/C 的有效計數結果**。
+5. Price Plans 需查 `已完成_帶入`、`已預約_帶入`、`待確認_帶入`、`已占用_自動`、`剩餘額度_自動`、`核定總額度_帶入` 的原生數值，核對各期方案實例 ID、調整與排除狀態；用實際公式規則對照，**不得用 23＋13 或 41 筆直接推斷占用**。
+6. 只有在 Formula 原始條件或可信原生結果可取得、案例可重現、套入結果與當期核定規則一致時，才標記 **NUMERIC PASS**。否則狀態持續 **BLOCKED／PENDING**。所有 TEST 參與與方案 Relation、業務 Session／Episode／Formula／Rollup／View 保持不變。任何 C 級變更先提出前後差異、依賴、權限及回復方案，另待使用者核可。
+
+本回合僅有外部唯讀連接器調查及 GitHub 文件追加，**沒有任何 Notion／GAS／Google Docs 寫入**。無新增效能負荷或權限變更；若需撤回文件，須對照當前 GitHub main 和他人並行 Commit，再只還原本節。

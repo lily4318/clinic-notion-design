@@ -118,3 +118,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 
 ## 2026-10-24｜政府補助計數 Rollup 直接相依驗證｜數值未取得，維持原業務決策
 已唯讀核實 Price Plans 三個計數 Rollup 使用 Price Plans ↔ Sessions Relation，直接加總 Sessions 已完成、已預約、待確認計數 Formula；Care Episodes 本歷程計數另外沿 Episode ↔ Sessions Relation 加總相同來源 Formula。因計數 Formula 定義與原生值無法從目前 Notion 連接器取回，**此依賴證據不是「以單次 Session Price Plan 為唯一計次權威」的核准，也不是政府額度已正確的驗收**。保留使用者的青壯人工確認→服務歷程選方案、符合使用情境的TEST資料，以及先前8筆青壯／自費切換差異；任何自動同步與共用 Formula 修改仍不授權。本輪只追加 Notion TEST 驗收文字及 GitHub 文件；詳見[結構與限制](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+
+
+## 2026-10-24｜原生公式數值驗收：替代唯讀入口與重試門檻｜取得原生數值前停止推論與寫入
+這一回合額外核實已啟用方案的原生 Notion 頁和 Saved View 仍只回傳 Formula/Rollup 結果參照；`rows/SQL` 暫時配額耗盡但可在一段時間後重置，不是永久不支援。Google Drive 中的歷史 Sessions 收據公式文件不可冒充當前補助計數公式。決策不變：青壯人工核對後於 Care Episodes 選主方案，現有8筆青壯／自費切換不自動同化；沒有可信原生數值前，不判定 Session 計數或 Price Plan 餘額正確，不操作既有業務資料或共享公式。已為配額恢復後整理 [最小數值驗收協定](audits/episode-session-plan-consistency-2026-10-24.md)，待實際讀值才能進行下一步。此次僅 GitHub 記錄，無 Notion 寫入。
