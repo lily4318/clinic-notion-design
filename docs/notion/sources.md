@@ -122,3 +122,9 @@
 - Notion Data Source Schema：Sessions `collection://c2a8ca66-aa4d-82d2-bd6a-8772bb463796`；Care Episodes `collection://6b68ca66-aa4d-8274-a691-07c605c5fb54`；Price Plans `collection://8b98ca66-aa4d-83b6-a9b0-8758b5f31f63`。
 - 現存 View：Price Plans 政府方案 `view://3f68ca66-aa4d-81d6-a376-000ce4ea92a2`；Sessions ALL `view://1f08ca66-aa4d-83d1-a201-8864c13aa5de`。
 - [本回合相依驗證](audits/episode-session-plan-consistency-2026-10-24.md)與 [Notion TEST 驗收歷史](https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d)。未將原始業務資料列、公式結果參照 URL、臨床／財務資料寫入 GitHub。
+
+## 2026-10-24｜115年青壯方案官方規則與現行 Price Plan 備註差異｜唯讀來源
+- [衛福部：健康「心」生活！115年續推青壯世代心理健康支持方案](https://www.mohw.gov.tw/cp-16-85046-1.html)：115 年補助對象明示「本國籍民眾或持有健保卡的外籍人士」，不得把方案備註的「國民」視為完整適用人口。
+- [臺北市政府衛生局：衛福部115年度15-45歲青壯方案公告](https://mental-health.gov.taipei/News_Content.aspx?n=FAB9374F6BCE2D48&s=1CAF0520811909A9&sms=EEA94C26A90DD864)：自首次服務日起總期程不超過3個月，兩次服務不小於7天且原則上不超過1個月；連續2次無故未到，機構「得拒絕」而非自動取消資格。
+- [我的E政府：115年青壯方案常見問答彙整](https://www.gov.tw/News_Content_26_826198)：115年5月28日更新；核對最短7天、最長1個月、首次資格年齡、連續2次 no-show 之處理。
+- [Notion現行啟用115青壯 Price Plan](https://app.notion.com/p/c748ca66aa4d83909393815a05b6030a)備註已唯讀核對。以上是**現行資料說明 vs 官方規定**比較，並非已讀取或驗收公式程式碼，更非自動修改授權。原生額度欄位數值仍無法透過現有 connector 取得。
