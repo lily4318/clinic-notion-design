@@ -273,3 +273,10 @@
 - **[WORKBENCH TEXT READBACK PASS]** 原[TEST補助工作台](https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf)②將個案View入口改為青壯單一歷程並加入屆期結案條件、既存重複測試資料不自動處理之說明；Fetch確認原Price Plans、心理師週額度、後方新Care Episodes linked database仍在、沒有新增黃色警示。
 - **[TEST DATA EXCEPTION]** 22筆TEST青壯115歷程只對應21個不同個案Relation，1個個案有2筆青壯歷程（2筆**均帶測試標記**、都仍關聯啟用115方案）；全22筆目前狀態均「進行中」、未填結案日；當期Price Plan官方期程欄位為2026-01-01～2026-12-31，2026-10-24尚未到期，不能用新增決策冒充已實際結案。**不刪資料、不改其業務關聯或狀態**。
 - **[FORMULA / REAL UX NOT PASSED]** 未取得Notion原生Formula/Rollup額度數值；未核實個別政府核定期限、真人權限、UI載入速度或用戶實際操作。只更新原View設定與工作台文字；Notion原業務列、Schema、Formula、Relation、其他View與權限、Billing/GAS均未修改。既有跨多政府方案設計保留。[詳細稽核](audits/subsidy-usage-views-2026-10-24.md)。
+
+## 2026-10-24｜青壯額度 Views 續作唯讀回歸（15時）
+- **[LIVE VIEW / SOURCE PASS]** 重新 Fetch「補助方案管理｜TEST」頁、Price Plans / Care Episodes / Sessions Data Source Schema（30／50／67欄），及治療所、青壯單歷程、心理師週額度3個原生 View。首頁仍保留「人工核對→Care Episodes 選方案」、單一歷程／期滿行政結案說明、原資料庫入口及無黃色提示。治療所 View 專用「補助＋政府方案」、青壯 View 固定115方案實例 Relation、心理師 View 在職臨床心理師篩選均未變。
+- **[VIEW ROWS PASS]** 當次原生 Saved View 查詢：政府方案1筆、青壯115 Care Episodes 22筆、心理師週額度2筆，三者均 has_more=false；22筆皆「進行中」，依個案Relation去重21位，其中1位重複兩個青壯歷程，保留待人工核對；22筆結案日皆空白。當前Price Plan表列開始2026-01-01、結束2026-12-31，不代表每位個案首次服務三個月截止已驗。
+- **[DATA DISCREPANCY / INVESTIGATE]** 本次 Saved View 有20／22筆 `開案日期` 非空，與先前同日稽核「全部未填開案日期」的敘述不同；現況優先，不沿用舊空白結論。未逐項確認此差異來源／變更人，不因此更動任何歷程狀態或日期。
+- **[NUMERIC BLOCKED]** 同一 Price Plan 的核定總額、已完成、已預約為 `rollupResult://` 參照，已占用／剩餘為 `formulaResult://` 參照；Care Episodes 的完成／預約／剩餘與 Staff 本週有效占用／他處／狀態亦僅返回 Rollup / Formula 結果參照。另用 Price Plans 最小 `rows` 查詢回傳相同參照。無原生可核算數值、公式原碼，不能以22筆歷程或歷史Sessions狀態推定實際額度通過。
+- **[SCOPE/NO NOTION WRITE]** 本次僅唯讀驗證，Notion原業務列／Schema／Formula／Relation／View／分享權限、Google Docs、Billing、GAS、Cloud Run／Session／部署完全未改；新增GitHub匿名驗收紀錄。`00.config_notion` 以名稱搜尋仍未精確定位；真人UX、載入效能、角色權限、計數與本地契約逐人截止日尚未實測。GitHub追加文字可由版本紀錄精準撤回，任何 Notion 資料無須回復。
