@@ -109,3 +109,10 @@
 - [Notion TEST 驗收歷史](https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d)。
 - [政府補助 Google Docs 最新第十五節](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)及[修改前完整備份](https://docs.google.com/document/d/1BrEuVdXKuBPturXkvUPpWovuJ--ougaTHRebTxXR_Dw/edit)。
 - [完整 Notion 變更、未驗收、回復](audits/youth-manual-eligibility-episode-plan-2026-10-24.md)。
+
+
+## 2026-10-24｜服務歷程與會談方案對照：唯讀驗證｜本輪資料來源／唯讀證據
+- Care Episodes `collection://6b68ca66-aa4d-8274-a691-07c605c5fb54` ／ `view://4bc8ca66-aa4d-82ec-894b-88a840ae6242`。
+- Sessions `collection://c2a8ca66-aa4d-82d2-bd6a-8772bb463796` ／ `view://1f08ca66-aa4d-83d1-a201-8864c13aa5de`。
+- Price Plans `collection://8b98ca66-aa4d-83b6-a9b0-8758b5f31f63` ／ `view://3f68ca66-aa4d-81d6-a376-000ce4ea92a2`。
+- [Notion TEST 內部驗收歷史](https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d)已追加當次唯讀結果；[完整匿名統計](audits/episode-session-plan-consistency-2026-10-24.md) 不含個案或會談原始列。

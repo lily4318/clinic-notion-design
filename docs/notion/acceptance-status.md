@@ -129,3 +129,10 @@
 - **[KEEP]** 青壯資格人工核對、服務歷程「💲收費方案」選方案流程維持已確認設計；既有測試及參與資料、方案／會談關聯不更動。
 - **[PENDING]** 實際在服務歷程選方案後的 Sessions Price Plan 歸屬、原生 Formula/Rollup、補助餘額、跨方案／核定期別、各角色權限與使用效能尚未驗收；11項行政任務的既有真人操作0/11亦不因此視為完成。
 - **[NO WRITE]** 本次只有 GitHub 驗收文件更新，沒有 Notion 或正式程式部署修改；不涉及效能與資料回復。
+
+
+## 2026-10-24｜服務歷程與會談方案對照：唯讀驗證｜關聯完整性 PASS、方案一致性 PARTIAL、原生額度 PENDING
+- 既有 Saved Views 完整讀回 Care Episodes 57筆、Sessions 295筆（3頁）、政府啟用方案1筆；57歷程均有主收費方案，295/295 Sessions 均連到歷程且其反向 Relation 無缺漏。
+- 287/295 Session 與 Episode 主收費方案一致；**8筆不同**，其中 Session 青壯／Episode其他4筆、反向4筆。**不得自動更改**，需依真實收費情境確認是否刻意差異。
+- 啟用青壯方案 Session雙向關聯 **41/41集合一致**：已完成23、已預約13、已取消2、已改期2、no-show1。僅為關聯與狀態驗證，**不是計數/剩餘額度 PASS**。
+- Notion Formula／Rollup 目前返回結果參照，SQL／rows 查詢額度已用完，無法讀出原生占用與剩餘數值。原業務資料、Schema、Formula、Relation、View、權限、GAS皆未改；僅追加Notion TEST驗收文字及本 GitHub 紀錄。完整[技術證據](audits/episode-session-plan-consistency-2026-10-24.md)。

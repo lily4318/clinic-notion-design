@@ -107,3 +107,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-24｜使用者確認青壯測試資料符合實際使用情境
 
 使用者明確表示「測試資料符合使用狀況」。此為使用者對**現有青壯 TEST 情境與實際工作需要相符**的確認，沿用既定「人工確認資格 → Care Episodes『💲收費方案』選擇對應 Price Plan」操作設計；**不要求重建測試資料或另外建立青壯資格核對清單**。此回覆不等於已由真人完成每個 UI 操作、驗證 Sessions 方案歸屬、Notion 原生 Formula／Rollup 占用、跨政府方案／核定期別及角色權限。沒有 Notion 頁面、Schema、Relation、Formula、真實資料或 GAS 寫入。詳見 [原 TEST 變更及本次確認](audits/youth-manual-eligibility-episode-plan-2026-10-24.md)。
+
+
+## 2026-10-24｜服務歷程與會談方案對照：唯讀驗證｜僅實證紀錄，無核心模型變更授權
+承接使用者確認青壯 TEST 資料符合實際使用及「人工確認→服務歷程💲收費方案」流程，進行唯讀關聯回歸測試。Care Episodes 57筆、Sessions 295筆皆有歷程關聯且雙向完整；287筆主方案與歷程相同，另8筆不同（雙方向各4），不能不經確認直接改掉。啟用青壯方案所連41筆 Sessions 與 Sessions 直接 Price Plan Relation 完全一致，狀態23完成、13預約、2取消、2改期、1 no-show。這些事實證明當次**關聯結構**，但實際 Formula/rollup 返回指標而非數值，原生計次/剩餘額度未驗收。無Notion業務列或Schema變更，保留未來需核准的C級改動界線。[唯讀報告](audits/episode-session-plan-consistency-2026-10-24.md)。
