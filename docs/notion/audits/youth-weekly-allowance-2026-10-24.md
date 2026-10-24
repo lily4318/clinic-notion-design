@@ -66,3 +66,21 @@
 - **[NATIVE FORMULA BLOCKED]** Notion Staff的「在職狀態」普通Select條件可用rows模式查得3筆（含工作View刻意排除之TEST人員），但是嘗試對「青壯本週額度狀態_v2_自動」使用公式文字篩選，連接器拒絕部分參數結構；以空值條件查驗則回傳validation_error；前輪formulaCode://讀取亦不支援。公式原始碼、數值、兩位員工在Notion UI**實際顯示的結果仍不得推論為已驗證**。本回合額外查詢SQL／rows時工作區**Query Data Source配額用盡**且查詢未執行；改用Saved View後可完成上述集合對照，避免重試高配額工具。這是工具配額限制，不是證明Notion公式本身有錯。
 - **[EXPECTED ACCEPTANCE / NOT TEST PASSED]** 後續只需在原有[心理師青壯週額度View](https://www.notion.so/c698ca66aa4d826baa8f8773b5c2cfe6?v=3f78ca66aa4d817581c9000c3420b577)核對本週兩位工作心理師：他處使用未確認時，「青壯本週額度狀態_v2_自動」不得顯示**已確認可用／可逕行核准**；如原生畫面顯示可用，屬待提出C級Formula最小修正的高優先風險，不能直接修改。已確認0與未確認空白須能區分；境外/他處已用6筆的**另一方案TEST**紀錄不應影響啟用Price Plan之真實人員。
 - **[UNCHANGED]** 原青壯人工核對資格→Care Episodes選Price Plan、8筆既有異方案會談不變；所有Notion Data Source、Schema、Formula、Relation、View、Staff、週回報、權限、Google Docs及正式GAS／Cloud Run／Session／部署均**沒有變更**。沒有新增欄位、黃色警示或必填青壯資格清單。沒有真人UI原生顯示、跨地政府核銷、資料權限與載入時間測試。回復僅需先回查GitHub並撤回本節文檔，不能覆蓋無關並行修改。
+
+## 2026-10-24｜從設計原始備份恢復v2隔離通過證據、回歸Staff全員覆蓋
+
+**本輪僅回查歷史設計來源及Notion即時Schema/View；無業務寫入。** 先前多輪皆正確標示「連接器讀不到Formula數值」，但不能由此推論**過去從未對v2公式做過真人或隔離TEST驗證**；本輪新增來源證據分清楚兩種驗收層級。
+
+### 2026-10-23過去已記載之隔離實測（歷史PASS，不是本週重測）
+- 在 Google Docs [精簡前23章原始備份](https://docs.google.com/document/d/1gqI_lPdW9z1-mLIOUQFu5c0thjMXZUe07-DUd6bzyfY/edit) 的**第八節**明確記載，青壯115 `Sessions「青壯週占用_即時測試」` 曾於TEST個別會談跨週六10/24→週日10/25驗證當週重置；Staff `青壯本週有效占用_v2_自動`、`青壯本週額度狀態_v2_自動` 曾在隔離心理師「他處確認6＋本所1」見到**超額**、切至週日不混前週而見**已滿**、兩筆同週已確認回報／取消他處確認後見**待核對**、他處已確認5＋本所0可見剩餘額度，並記為**PASS**。
+- 備份同時記載TEST還原隔離Session為取消狀態、週六日期、心理師關聯清空。**本輪沒有重演或取得那些原生值**；不得把2026-10-23過去隔離驗收推論為2026-10-24兩位實際心理師的現況，亦非政府平台真實核銷、API授權或跨年度方案驗收。
+
+### 舊檢視顯示盲點在目前View已改正，且本輪全集對照未漏列
+- 同備份**第九節**提及舊版主檢視原以「曾有任一週回報Relation」作顯示條件，可能隱藏從未報過的合格心理師；這是**歷史狀態及舊風險**，不是最新檢視設定。
+- 本輪重新Fetch [現行青壯週額度View](https://www.notion.so/c698ca66aa4d826baa8f8773b5c2cfe6?v=3f78ca66aa4d817581c9000c3420b577)：advancedFilter只含**在職＋職稱臨床心理師＋排除指定TEST隔離心理師名稱**；未使用「週回報Relation非空」篩選。這項舊顯示門檻**在現況已不存在**。
+- 重新定位屬於TEST Backend的[Staff主資料庫](https://www.notion.so/9748ca66aa4d82c38bf80155497714d6?v=6d98ca66aa4d8256ba8e08c4fea9ce0e)，用其**Default Saved View**取完整4筆 `has_more=false`，其中在職臨床心理師2筆；與現行週額度View完整2筆逐頁URL集合交叉比對，符合條件但未列0筆、不符合條件卻列入0筆。此為**現有4筆人員全集中的覆蓋PASS**；不能證明未來新加入心理師或無當週回報時的Formula正確性。
+
+### 尚未完成／權限與效能
+- 本輪現行兩位心理師的青壯本週他處回報仍有先前Notion View唯讀證據為**未確認＋占用未知**，已排程6、4筆是**已預約**並非核銷結果。Staff/Price Plans公式與Rollup繼續只回 `formulaResult://`／`rollupResult://`，未在本輪取得原生即時計算值；不能用歷史PASS替代本週UI的fail-closed回查。
+- 已連接Google Drive搜尋可定位23章備份，但未定位**當前完整公式原始碼**；當期 `00.config_notion` 精確設定原件仍未找到。Google Docs當前v3.4架構文本與23章歷史備份各自保留權威層級，**備份不取代最新Schema/View/已確認使用者流程**。
+- 不需要新增Notion待核清單、黃色警示或額外參與工作流；現階段優先核實當週原生UI顯示與外部使用，才判定是否應提出C級最小Formula修正。未執行真人角色權限、跨地政府核銷、原生效能驗收，也未改任何Notion資料／Schema／Formula／Relation／View／角色權限、Google Docs、GAS／Cloud Run／Session／部署。此回合GitHub更動可在檢查並行修改後只撤回本節。
