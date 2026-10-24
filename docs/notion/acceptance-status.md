@@ -259,3 +259,9 @@
 - **[ALL ROWS RELATION PASS]** 完整 Saved Views：Sessions295/295、Billing203/203（`has_more=false`）；青壯方案41筆Sessions，35筆已加附加「掛號費」（完成22／預約12／取消1）；Billing掛號費22筆均向個案、狀態已收款、實收400；政府補助Billing23筆均向衛生局、待請款9／請款中14。**共45/45筆**Billing均連到存在且已完成的青壯Session、其反向Relation一致；掛號費Billing **22/22**對應Session附加掛號費、政府補助Billing **23/23**涵蓋全部已完成青壯Sessions。[詳細稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
 - **[EXCEPTION / NO MUTATION]** 23筆已完成中1筆**未附加掛號費且無掛號費Billing**，已預約另有1筆未附加，原因未確認；不得假設都應收400，更不得批次自動開帳。其餘取消／改期／no-show不附費不構成此驗收的失敗。
 - **[FORMULA/REVENUE/AUTH UNVERIFIED]** `應付_自動`、`最終應收金額_自動`、`應收金額_自動`公式原生結果仍不可讀；「已收款」並非對帳證據，「請款中」不是政府撥款通過。沒有驗證Billing按鈕、收據、真人權限或效能。**不更改任何現有Price Plans、Billing、Sessions、Schema、Formula、View、權限、Google Docs及正式系統**，只有此GitHub匿名驗收證據更新。
+
+## 2026-10-24｜使用額度 View 功能實際建立（方案1筆／歷程22筆；數字真值待驗）
+- **[VIEW CREATE / READBACK PASS]** 已在 TEST 工作台原 Price Plans linked database **新增**[第02頁籤「政府補助使用額度」](https://www.notion.so/3f68ca66aa4d8156bccfcc28f75cbb9a?v=4038ca66aa4d81278430000cd581b5e7)，完整顯示原有核定總額／已完成／已預約／待確認／已占用／剩餘／額度狀態；依補助＋政府方案分類，沒有寫死115。重新 Fetch 原 linked DB 可見新舊2頁籤，新 View Query 1筆且 has_more=false；原 View 01 不改。
+- **[EPISODE VIEW CREATE / READBACK PASS]** 同頁新增[Care Episodes 個案使用額度 inline View](https://www.notion.so/3f68ca66aa4d81cca3b4ee43b4bd8dcf?v=4038ca66aa4d81a3ab1a000ca3244dce)，原「💲收費方案」關聯 Quick Filter 預選青壯115方案，View有上限／已完成／已預約／他處確認／剩餘／額度狀態；查詢22筆、has_more=false。新 inline DB 實際追加於工作台**頁尾、原雙欄外**；在主頁②新增1行快速入口，讀回確認有連結且保留原3主要展示區、黃色提醒不存在。**這是服務歷程的額度檢視，不代表個案跨歷程真實額度計數通過**。
+- **[STAFF VIEW REUSED]** 原有青壯115心理師週額度 View 已含有效占用／他處使用／上限／狀態，無須再建同樣資料；仍是特定115期別，原View及篩選不動。
+- **[NUMERIC / AUTH / UX STILL UNVERIFIED]** 連接器只能取Formula/Rollup結果引用，不能核定任何已用、預約、剩餘的原生數字、跨方案／期別及缺回報判斷；真人操作流程、載入耗時及權限測試未做。**僅額度顯示欄位與來源查詢PASS**。未變更 Notion 業務列、Schema／Formula／Relation、分享權限、Billing 或 GAS。Google Docs UX v3.4 已追加第十六節並回讀通過。[完整報告](audits/subsidy-usage-views-2026-10-24.md)。
