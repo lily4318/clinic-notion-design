@@ -181,3 +181,9 @@
 - **[READBACK PASS]** 本輪重新 Fetch Notion「青壯世代心理健康支持方案｜115」原始頁、Price Plans Schema、政府方案 Saved View，確認方案啟用且 View 僅1筆；原始頁六個額度／計數相關 Formula、Rollup 均返回參照而非數字，**NUMERIC BLOCKED**。本輪沒有重做295筆會談全量回歸。
 - **[RULE TEXT REVIEW REQUIRED]** 現行 Price Plan「備註」有四項與115年政府公開規則不符或不完整：`>7天` vs 最短**不小於7天**；未寫原則上**不超過1個月**；「國民」少列**持健保卡之外籍人士**；連續2次無故未到「將取消資格」vs **機構得拒絕提供服務**。這只是原頁備註文字的驗證，不證明 Formula 或人工資格核對已錯。來源及限制見 [比對報告](audits/episode-session-plan-consistency-2026-10-24.md)／[來源索引](sources.md)。
 - **[SAFE HOLD]** 不自動修正啟用方案、所有8筆Session異方案、公式、跨期規則或資格核對流程；方案備註最小修正待確認本期地方執行細則，使用者確認後再寫回查；共享Formula需另申請C級核可。沒有本回合的Notion資料、View、Schema、分享權限、Google Docs或正式服務寫入，無真人操作、效能、角色權限實測。
+
+## 2026-10-24｜汐予115青壯：桃園合作機構來源已核對、地方契約仍待查
+- [SOURCE PASS] 汐予位於桃園市八德區，桃園市官方115年青壯合作機構公開檢索結果可找到汐予；不能直接以臺北公告替代桃園契約。
+- [CENTRAL PASS / LOCAL CONTRACT PENDING] 衛福部115年公開公告明示15–45歲本國籍或持健保卡外籍人士；桃園115年公告明示當期期間與三次個別心理諮商。桃園當年計畫書PDF附件仍無法完整檢閱、已連接Drive未找到已簽汐予115年契約全文；因此最短7天、最長1個月、連續2次無故缺席的具體桃園合約處置，仍待核對後才可把前輪文字差異改成正式修正。
+- [LIVE NOTION READBACK / NUMERIC BLOCKED] Price Plans、Sessions、Care Episodes Schema、當期啟用方案原頁及政府方案View重讀；1個政府方案啟用，公式／Rollup仍只返回參照非原生數值。未重新逐筆檢查全部295筆Sessions，保留先前41/41及8筆差異歷史驗收。
+- [NO BUSINESS WRITE] 僅GitHub匿名來源／驗收紀錄更新；Notion備註、方案、Session、Relation、Formula、View、權限、Google Docs及正式程式均不動。後續最小備註修正候選與回復程序見當日完整稽核。
