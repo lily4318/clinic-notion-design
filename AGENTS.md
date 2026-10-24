@@ -1,5 +1,8 @@
 # 治療所行政系統｜跨系統協作規範
 
+- **否決即清除（2026-10-24使用者確認）**：使用者認為不適合的設計／功能／欄位／頁面／測試元件，須從實際使用環境**真正刪除**，不得用隱藏／停用／收合冒充完成，亦不得把過時預覽永久堆積。先確定精確範圍、最新依賴、最小安全替代、可回復備份與驗收；引用仍在、法定紀錄或無法回復時先停在 BLOCKED，不可強刪破壞其他功能。備份／稽核與暫未能刪除的依賴不算日常介面保留舊功能。
+
+
 - 先讀根 README、AGENTS、docs/system/source-of-truth.md，依本輪工作類型讀 Notion／GAS／Auth 的專屬文件與最新 Google Docs；不能要求使用者重貼已有資料。
 - **區分工作範圍**：Notion TEST、純設計、Backend Staging、Auth Staging、正式 GAS。只修改使用者本輪指定的範圍；目前青壯 TEST 是 Notion-only。
 - 最新已驗證來源高於舊 GitHub 摘要：正式 GAS 先重讀 Current Snapshot／Deployment Log 與 SHA；Notion 先讀 00.config_notion、Schema、Relation、View；Staging 先確認 revision、traffic、Secret version、rollback。
