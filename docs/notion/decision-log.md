@@ -134,3 +134,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - 本輪再次完整核實現行57筆 Care Episodes、295筆 Sessions、啟用政府方案1筆之既存 View，與原生 Price Plans↔Sessions 41/41 完整雙向關聯；287筆主方案一致、8筆差異仍待業務確認，分布4個歷程。只更新匿名測試證據，未新增「一律以歷程／單次會談計次」決策。
 - Notion SQL/rows 共用配額仍用盡，Formula／Rollup 值只有參照，原生額度與跨期仍 BLOCKED；不可將狀態筆數當成扣額結果。保留原人工核對→Care Episodes選方案流程與禁止自行同化8筆差異。
 - 所有 Notion 資料、Schema、View、角色權限、Google Docs、正式 GAS／Cloud Run／Session／部署保持不變；本回合只同步 GitHub 驗收與稽核文件。詳見 [驗收狀態](acceptance-status.md) 與 [技術稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+## 2026-10-24｜配額恢復後額度數值讀取仍受阻（唯讀驗收，非新業務核准）
+- Notion `query_data_sources(mode=rows)` 已恢復可讀，證實前輪 SQL/rows 配額阻擋非永久；惟原生 Price Plans 已占用與剩餘欄位依然僅返回 `formulaResult://`、計數 Rollup 為 `rollupResult://`，本輪 Formula 精確數值篩選尚無符合連接器參數 schema 的有效呼叫。現有政府方案 Saved View 回傳1筆已啟用政府方案，並非公式驗收。
+- 這是**讀取能力與驗收阻礙更新**，未形成新的方案計次／資格業務決策。既有人工確認→Care Episodes 選 Price Plan、8筆主方案差異保留、禁止錯誤宣稱額度已驗收，均不變。未修改 Notion／Google Docs／正式程式；詳見 [當次稽核](audits/episode-session-plan-consistency-2026-10-24.md) 和 [狀態](acceptance-status.md)。
