@@ -265,3 +265,11 @@
 - **[EPISODE VIEW CREATE / READBACK PASS]** 同頁新增[Care Episodes 個案使用額度 inline View](https://www.notion.so/3f68ca66aa4d81cca3b4ee43b4bd8dcf?v=4038ca66aa4d81a3ab1a000ca3244dce)，原「💲收費方案」關聯 Quick Filter 預選青壯115方案，View有上限／已完成／已預約／他處確認／剩餘／額度狀態；查詢22筆、has_more=false。新 inline DB 實際追加於工作台**頁尾、原雙欄外**；在主頁②新增1行快速入口，讀回確認有連結且保留原3主要展示區、黃色提醒不存在。**這是服務歷程的額度檢視，不代表個案跨歷程真實額度計數通過**。
 - **[STAFF VIEW REUSED]** 原有青壯115心理師週額度 View 已含有效占用／他處使用／上限／狀態，無須再建同樣資料；仍是特定115期別，原View及篩選不動。
 - **[NUMERIC / AUTH / UX STILL UNVERIFIED]** 連接器只能取Formula/Rollup結果引用，不能核定任何已用、預約、剩餘的原生數字、跨方案／期別及缺回報判斷；真人操作流程、載入耗時及權限測試未做。**僅額度顯示欄位與來源查詢PASS**。未變更 Notion 業務列、Schema／Formula／Relation、分享權限、Billing 或 GAS。Google Docs UX v3.4 已追加第十六節並回讀通過。[完整報告](audits/subsidy-usage-views-2026-10-24.md)。
+
+## 2026-10-24｜青壯「一案一歷程、屆期行政結案」規則確認；TEST View已對齊
+
+- **[USER-APPROVED BUSINESS RULE]** 使用者明確確認汐予青壯服務在**同一個案、單一Care Episode**完成；逾衛生局核定期限就結案，本所不再另接同個案青壯服務。正常青壯額度不需設計跨歷程加總；僅限青壯，不改其他政府方案的跨期／個案計次規則。**行政結案規則不是未經確認的自動化批次寫入指令**，歷程應在核對期限後依實際權限結案，未完成不能自動隱藏。
+- **[VIEW UPDATE + READBACK PASS]** 直接修改既有[Care Episodes個案額度View](https://www.notion.so/3f68ca66aa4d81cca3b4ee43b4bd8dcf?v=4038ca66aa4d81a3ab1a000ca3244dce)，原地更名「青壯115｜個案使用額度（單一歷程）」、清除舊跨方案Quick Filter、固定以啟用115青壯Price Plan Relation過濾；顯示「開案日期」「結案日期」並保留原額度各欄。Fetch View確證新設定，Query **22筆**、無下一頁、**22/22皆匹配當期青壯**。
+- **[WORKBENCH TEXT READBACK PASS]** 原[TEST補助工作台](https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf)②將個案View入口改為青壯單一歷程並加入屆期結案條件、既存重複測試資料不自動處理之說明；Fetch確認原Price Plans、心理師週額度、後方新Care Episodes linked database仍在、沒有新增黃色警示。
+- **[TEST DATA EXCEPTION]** 22筆TEST青壯115歷程只對應21個不同個案Relation，1個個案有2筆青壯歷程（2筆**均帶測試標記**、都仍關聯啟用115方案）；全22筆目前狀態均「進行中」、未填結案日；當期Price Plan官方期程欄位為2026-01-01～2026-12-31，2026-10-24尚未到期，不能用新增決策冒充已實際結案。**不刪資料、不改其業務關聯或狀態**。
+- **[FORMULA / REAL UX NOT PASSED]** 未取得Notion原生Formula/Rollup額度數值；未核實個別政府核定期限、真人權限、UI載入速度或用戶實際操作。只更新原View設定與工作台文字；Notion原業務列、Schema、Formula、Relation、其他View與權限、Billing/GAS均未修改。既有跨多政府方案設計保留。[詳細稽核](audits/subsidy-usage-views-2026-10-24.md)。
