@@ -108,3 +108,10 @@
 - **落實已核可的青壯人工核對流程**：既有具授權的機構人員可在**原政府平台**查實個案外部使用情形，再於原有Care Episodes選對Price Plan，無需強加獨立青壯資格核對清單、參與紀錄或新審核欄位。原政府平台可查的是**已留存於該系統的使用次數**；未輸入、延遲及無權限的資料均不能用查不到推定「已確認0」；跨機構聯查的真人操作和權限尚未實際驗收。
 - **注意分開維度**：上述Q13是**個案跨機構總使用次數**的政府平台機制，不等於本週**同一心理師跨地點6次**的上限驗證，也不能用個案3次查詢替代心理師週額度6次核銷查核。週額度仍維持外部未確認fail-closed、不自行認定可安排。
 - 無Notion Staff、Sessions、Price Plans、週回報、Formula／Relation／View／權限寫入。未驗證2026-10-25原生週日切週，未自動建立或排程任何工作。
+
+## 2026-10-24｜青壯啟用TEST：角色權限本階段暫緩、其餘驗收續作
+- **[USER DECISION / DEFERRED]** 使用者明確表示「角色權限目前無法設定，不需要處理，其他部分繼續完成」：本階段 Notion TEST 的角色權限設定與真人分角色驗收不再列為阻擋條件，狀態改 **DEFERRED（暫緩／不適用本階段）**，絕不標記 PASS，亦不更動任何分享設定。正式系統後端權限／fail-closed要求不因這項暫緩而解除。
+- **[WEEKLY KEYS / SCOPE PASS]** 心理師補助週額度原始 Saved View共6筆（無下一頁），以心理師 Relation＋Price Plan Relation＋週起始日匿名核查：6個不同鍵、重複0。4筆屬已啟用115青壯（10/11週2、10/18週2），另2筆連到一筆**目前 Notion Fetch 明示 deleted 的歷史隔離TEST方案**（10/18週1、10/25週1），不屬當前7筆可見Price Plans，不可當成新政府方案的有效跨期計算案例或現有心理師回報。
+- **[UNKNOWN VS ZERO PASS / TIME GATE]** 2026-10-18～24週的啟用方案×兩位在職臨床心理師各1筆回報均為他處未確認、數字空白（UNKNOWN）；2026-10-11～17週兩筆已確認0屬**上週**，不得帶入本週；2026-10-25～31新週目前2位心理師×啟用青壯115方案**0筆回報**，且歷史隔離TEST 10/25筆不符合此作用域。這是截至10/24的唯讀來源／Relation驗收，並非10/25當天Notion原生週額度狀態驗收。無回報不能視為0／可安排；10/25週日換週的UI行為需屆時驗證。
+- **[SAFE STOP / SCOPE]** 不建立第二個政府補助／年度方案、不改已啟用青壯Price Plan、Sessions、Episodes、Staff、週回報及其 Schema／Formula／Relation／View／權限；不改正式GAS／Cloud Run／Session。精確`00.config_notion`仍未定位，TEST字首不保證與啟用資料隔離；新增核心結構與真正隔離多方案端到端驗收須先提供前後比較並取得明確核可。此回合僅更新版本化驗收／規格，保留可回復性。
+- **[GOOGLE DOCS VERIFIED]** [跨年度額度模型與UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit) 已用 revision guard 追加第十九節，修改後原第十八節與第十九節均回讀存在；[修改前備份](https://docs.google.com/document/d/1X0X71wtOR0Nw3RD-DdrGvVOxR9BfbhjiB4W0m1BTiew/edit) 回查未含第十九節。可保留並行修改後精準撤銷新增段落；本輪無Notion業務資料需回復。
