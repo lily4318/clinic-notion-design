@@ -144,3 +144,21 @@
 - **[FILTER TOOL LIMIT CONFIRMED]** 普通 number property 的 `propertyType=number, operator=number_equals, value={type:exact,value:3}` 可通過受控 rows 唯讀查詢，checkbox filter 同樣可通過；但對「剩餘額度_自動」的多種 formula filter 候選，工具在執行前的參數 schema 檢查即拒絕，**本輪沒有成功對公式數值執行精確篩選**。先前歷史隔離方案0值篩選紀錄不等於本次成功重現，不能推斷本次啟用方案的任何精確占用／剩餘值。
 - **[CONFIG / DOCUMENTS]** Notion 名稱搜尋 `config_notion` 與 Google Drive 精確檔名搜尋仍未確認 `00.config_notion` 權威設定。已唯讀讀回既有青壯 Google Docs 規格第十五節：人工核對資格後於 Care Episodes「💲收費方案」選擇 Price Plan，沒有改設計。
 - **[NO WRITE / STATUS]** 沒有更動 Notion Price Plans／Sessions／Care Episodes／Staff／參與紀錄或任何 Schema、Formula、Relation、View、權限、Google Docs、正式 GAS／Cloud Run／Session／部署；沒有調整8筆方案差異，也未做真人角色、效能、跨方案核定規則驗收。**原生數值 NUMERIC BLOCKED；業務啟用驗收 PENDING**。僅追加本 GitHub 匿名紀錄，若要撤回需先確認並行 Commit，再單節還原。
+
+## 2026-10-24｜115年啟用方案備註對照政府正式規則：四項差異
+
+**工作線：Notion TEST／官方規則唯讀對照，未授權變更啟用方案；非公式錯誤判定。**
+
+重新 Fetch Price Plans 最新 Schema、政府補助 Saved View（1筆已啟用、無後續頁）與該方案的**原始 Notion 頁面**，核對其「備註」欄位。該備註目前將「對象」描述為15至45歲國民、兩次間隔為 `>7天`、只寫三次總期程三個月、連續兩次無故未到描述為「將取消資格」。
+
+與衛福部及臺北市政府衛生局的115年公開正式說明比對，發現：
+1. **最短間隔邊界不一致**：官方以**不小於7天**為原則，Notion 用 `>7天`（若依一般比較語意會排除恰好7天）。需修正說明或查明是否在公式/人工流程也用錯邊界；**Formula尚未讀得，不指稱程式已錯**。
+2. **最長間隔沒有寫全**：官方**兩次服務以不超過1個月為原則**，Notion備註僅列最短間隔與總期程三個月；是否有單次間隔的其他檢查尚未驗證。
+3. **資格文字不完整**：衛福部115年公告包含15至45歲本國籍民眾**或持有健保卡的外籍人士**，Notion只稱國民；尚不能判斷實際治療所人工核對流程是否漏判。
+4. **no-show 措辭過度確定**：官方是連續2次無故未到**機構得拒絕提供服務**，Notion描述為「將取消資格」；不得把官方的裁量語句擅自改為必然自動取消。
+
+**正式來源**：[衛福部115年發布](https://www.mohw.gov.tw/cp-16-85046-1.html)、[臺北市政府衛生局115年公告](https://mental-health.gov.taipei/News_Content.aspx?n=FAB9374F6BCE2D48&s=1CAF0520811909A9&sms=EEA94C26A90DD864)、[我的E政府115年Q&A](https://www.gov.tw/News_Content_26_826198)。此比較只適用於**已核對的115青壯方案實例**，不能寫死於所有政府方案或期別；地方簽約附帶條件仍需以實際核定及契約為準。
+
+**數值阻擋同時重驗**：原生 Price Plan 頁面「已占用_自動」「剩餘額度_自動」依然是 `formulaResult://`，核定總額度、完成與預約計數仍是 `rollupResult://`，無法用本次工具判定數值正確。未重新跑295會談全集；此前41/41與8筆差異保留前次回歸證據。
+
+**處置**：列為 **RULE TEXT REVIEW REQUIRED／NUMERIC BLOCKED**。沒有擅自更動 Notion 業務記錄、備註、Formula、Relation、View、權限、Google Docs、正式GAS／Cloud Run／Session或部署；僅更新匿名 GitHub 驗收與來源。方案說明的B級小修正仍應先查核實際115核定補充，經使用者確認後再做原始頁備註最小修正，並重新讀回。任何共享 Formula 自動規則修改為C級，必須前後比對、備份及明確核准。
