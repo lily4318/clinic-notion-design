@@ -200,3 +200,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - 桃園115青壯合作機構[官方名冊的當日搜尋索引](https://mental.tycg.gov.tw/cp.aspx?n=19932)顯示汐予「掛號費400元」、通訊核准否；同URL較舊直接開啟快照未列汐予，**來源時間差需保留為待即時確認**，不可直接聲稱機構即時簽約資格驗證通過。
 - 對照現行已啟用Price Plan，其備註泛稱「掛號費、場地費等行政費用」，未寫明官方可見的400元掛號費；Page/Schema無「掛號費」獨立欄位、`應付_自動`原生值不可讀。**不由資料屬性不在等同於公式錯誤**，也不將官網公開價當作Notion真正應付公式驗收。中央FAQ要求原有合法規費及事前告知，不能自動另加場地費。
 - 這是**新驗證依據／備註候選收斂**，**不是使用者新核准**。汐予個別合作契約及缺席處置仍需確認；未修改啟用Price Plan備註、Fee Formula、Staff、Sessions、Care Episodes、其他Notion資料／Schema／View／分享權限或正式服務。[稽核與回復](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+## 2026-10-24｜重新找到原有掛號費Price Plan與補助分帳紀錄：避免誤設計新增費用欄
+- **新發現是現況，不是新核准需求**：原Price Plans中已存在並啟用**400元「掛號費」自費方案實例**；Sessions的`💲 附加收費方案`可加掛，Billing已分別記載向個案的掛號費（22筆，各400並標已收款）及向衛生局的本期青壯請款（23筆，待請款9／請款中14）。完整Sessions295/Billing203關聯驗證，所有45筆本類Billing都回指相應已完成青壯Session，22筆掛號費又符合Session附加方案。不得因青壯主方案本身沒有掛號費欄位就新增欄位或逕加400到1600補助額。
+- **一筆已完成青壯Session沒有附加掛號費／對應掛號費Billing**，另一筆已預約亦無附加，尚無合理減免或漏收證據；**不自行開收據或補帳**。Price Plans、Sessions與Billing的Formula原生數值、按鈕、政府撥款及真人權限未實測，維持BLOCKED。[詳細讀回及恢復界線](audits/episode-session-plan-consistency-2026-10-24.md)。
+- 原使用者核可青壯人工確認後於Care Episodes選方案、原8筆跨方案不同會談保留；本回合只在GitHub修正現況記錄，不改Notion Price Plans的備註草案或當前值，不改任何Finance/Schema/Formula/Relation/View或正式系統。
