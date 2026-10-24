@@ -170,3 +170,9 @@
 - **[雙向關聯 PASS]** 啟用青壯 Price Plan「💬 關聯Sessions」與 Sessions「💲 收費方案」各41筆、兩方向完全同集合；其中已完成23、已預約13、已取消2、已改期2、no-show1。
 - **[原生公式數值 BLOCKED]** Price Plans 原 View 仍只有 `formulaResult://`／`rollupResult://`，而最小 `rows` 查詢被 Notion 連接器以工作區共享 SQL/rows 配額用盡拒絕；精確公式篩選候選格式尚未通過工具 schema 驗證。故額度已占用、剩餘、個別 Session 公式值、8筆收費切換計次與跨方案／期別**均未通過**，不推算或核准。
 - **[未改動]** Notion Price Plans、Sessions、Care Episodes、Staff／年度參與資料列、Schema、Relation、Formula、View、權限；Google Docs、正式 GAS／Cloud Run／Session／部署也未動；未實測效能／真人權限。找不到精確 `00.config_notion`，不得進行核心結構變更。詳細證據與回復界線見 [同日關聯稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
+
+## 2026-10-24｜青壯續作：SQL/rows 恢復後原生數值仍 BLOCKED
+- **[PASS：工具可用性]** 本輪 Notion Price Plans 的最小 `rows` 唯讀查詢成功（上一輪「配額耗盡」已不再阻擋）；普通 Number／Checkbox 原生篩選亦成功。原 Price Plans／Sessions／Care Episodes Schema 和政府方案 Saved View 重新 Fetch，View 仍只有1筆已啟用的政府方案，無分頁。
+- **[BLOCKED：公式結果值]** `rows` 與 Saved View 仍僅回傳額度的 `formulaResult://`、計數的 `rollupResult://`，不是原生數字。針對 Formula number 的自訂 rows 篩選候選均遭連接器參數 schema 拒絕，未實際完成原生公式精確值比對；Formula 算式亦未取得。不得以41筆關聯、23完成＋13預約推定政府額度占用／剩餘或核准啟用。
+- **[KEEP]** 先前57筆歷程、295筆會談、41/41與8筆方案差異的完整回歸維持前一輪已驗紀錄；本輪沒有重新逐筆執行，不自動修復差異。青壯資格人工核對後直接在 Care Episodes 選 Price Plan 的已確認流程不變。
+- **[NO NOTION WRITE]** 無業務資料、Schema、Formula、Relation、View、權限、Google Docs、GAS／Cloud Run／Session 或部署更動；沒有真人操作、效能與角色權限測試。詳細失敗邊界、回復與下次合法數值入口見 [當次完整稽核](audits/episode-session-plan-consistency-2026-10-24.md)。
