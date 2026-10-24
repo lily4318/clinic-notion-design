@@ -195,3 +195,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - 衛福部新版FAQ並規範**既有行政規費及提前告知、不可補收諮商費差額、同次服務不可重複中央地方核銷**。汐予實際行政規費種類／事前告知尚未查核，因此不擅改「掛號費、場地費」也不宣稱原收費合規或違規。
 - 同份FAQ系統篇Q13說明政府平台的**服務紀錄暫存可供其他機構計算個案使用次數**；這支持現有人工核對→Care Episodes選方案（仍禁止另設青壯資格清單），但資料未上傳／未確認不等於0，且個案跨機構3次不取代心理師跨地本週6次。
 - 本回合Notion全資料／Formula／Relation／View／分享權限、Google Docs、正式GAS／Cloud Run／Session／部署皆不變；只在GitHub記錄證據分級與暫緩狀態。[備註稽核](audits/episode-session-plan-consistency-2026-10-24.md)、[週額度稽核](audits/youth-weekly-allowance-2026-10-24.md)。
+
+## 2026-10-24｜官方汐予青壯費用項目比對：備註修正候選更精確、未實施
+- 桃園115青壯合作機構[官方名冊的當日搜尋索引](https://mental.tycg.gov.tw/cp.aspx?n=19932)顯示汐予「掛號費400元」、通訊核准否；同URL較舊直接開啟快照未列汐予，**來源時間差需保留為待即時確認**，不可直接聲稱機構即時簽約資格驗證通過。
+- 對照現行已啟用Price Plan，其備註泛稱「掛號費、場地費等行政費用」，未寫明官方可見的400元掛號費；Page/Schema無「掛號費」獨立欄位、`應付_自動`原生值不可讀。**不由資料屬性不在等同於公式錯誤**，也不將官網公開價當作Notion真正應付公式驗收。中央FAQ要求原有合法規費及事前告知，不能自動另加場地費。
+- 這是**新驗證依據／備註候選收斂**，**不是使用者新核准**。汐予個別合作契約及缺席處置仍需確認；未修改啟用Price Plan備註、Fee Formula、Staff、Sessions、Care Episodes、其他Notion資料／Schema／View／分享權限或正式服務。[稽核與回復](audits/episode-session-plan-consistency-2026-10-24.md)。
