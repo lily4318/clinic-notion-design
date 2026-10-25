@@ -530,3 +530,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - 研究反證：文件最近編輯時間不等於核定條款仍有效，Archive不能替代使用者要求的真正刪除；Toggle與桌機/手機操作差異使「收起來就簡潔」可能降低行政效率；公開Notion Site時父子頁、資料庫檢視、貢獻者metadata與一般分享權限需分開驗證。**沒有證據顯示本所目前存在公開洩漏**。
 - 去重規則修正：AUTO-14的`relations-and-rollups`及`database-property-access`早在首批N04/N07；AUTO-13的`formulas`早在第三批NEW05。既有閱讀保留，但不得計入新URL；目前未做全清冊唯一數精確重算，不虛報總篇數。
 - **決策狀態**：僅研究/風險提示，未核准Notion重新設計、公開分享或任何系統修改；嚴格10/10仍0/10,000。
+
+## 2026-10-26｜AUTO-16：頁面按鈕／Feed／封存之反例（研究備忘，非設計核可）
+- [AUTO-16逐篇研究](research/notion-deep-study-automation-run-16-2026-10-26.md)，trace `AUTO-16-20261026-0744`。官方 Buttons、Feed view、Archive pages 各完成可讀正文R1與獨立反例，**非完整深讀**。
+- **[僅研究結論]** 按鈕存在不代表使用者有目標庫編輯權、跨步驟原子性或補助核定唯一性；Feed雖利於更新交流，線性卡片不保證本所同頁額度比較效率；Archive仍可存取且僅Business/Enterprise beta，不能替代明確要求的真正刪除。這些是需驗證的反例，不表示本所目前已有此錯誤。
+- **[未授權實作]** 不新增按鈕/Feed/Archive，也不調整任何Notion頁面、資料庫、View、Formula、Relation、Share/權限或業務資料；正式GAS/Cloud Run/Session零變更。累積嚴格10/10仍0/10,000，未開始重新設計。
