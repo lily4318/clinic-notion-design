@@ -168,3 +168,12 @@ Notion [TEST 補助工作台](https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b
 - **[SOURCES/UX PRESERVED]** 刪去21個過時頁面內Linked Views（不是源資料庫）。獨立Fetch確認Care Episodes50欄、Cases49欄、Staff58欄、Price Plans30欄仍存，沒有刪源Data Source；獲使用者4/4 UX真人通過的「政府補助｜額度與警示工作台」仍6 linked DB及兩種警示，原補助管理舊工作台仍7 linked DB；個案、會談、帳務資料、Formula、Relation、View底層、GAS、Cloud Run、權限均未寫入。效能沒有實際計時，不宣稱提速。
 - **[NEXT CLEANUP/SAFETY GATE]** Notion搜尋仍有7個標為`[BACKUP]`的活頁，包括兩份原補助管理備份與帳務／活動／排班／行政任務／工作文件；兩份補助備份均內含原生`<page>`的青壯驗收紀錄引用，UX v2也有11項任務路徑驗收子頁及1個TEST Linked DB，不能按標題直接刪。先核對子頁、原始資料與可用功能並依工具要求列出下一批確切受影響頁面取得核准，再移除；不將移動或隱藏當刪除。青壯115三Formula/三Rollup依賴清除和滿額後轉自費提醒，仍因Formula/按鈕原文缺漏BLOCKED。
 - **[DOCS/ROLLBACK]** [Google Docs青壯跨期UX規格第35節](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)以revision guard追加，重讀第34、35節及五ID、Notion垃圾桶限制。回復如有必要僅透過Notion垃圾桶恢復指定舊快照及原parent，先確認現行並行變動，禁止用全頁快照還原6個有效子頁。
+
+## 2026-10-25｜Notion視覺與操作版面研究：十面向交叉複核，未達萬篇×十次
+
+- **[USER REQUEST / ONLY DESIGN RESEARCH]** 使用者要求至少10,000篇Notion設計來源，每篇深度反覆學習至少10次，之後提出改善建議並寫入GitHub。本輪僅做資料取證、對最新Notion現況的設計分析與GitHub文件，**沒有授權Notion改版**。
+- **[EVIDENCE INTEGRITY]** 已查Notion官方Marketplace、Help、營運及醫療模板公開說明、NN/g UX研究；Marketplace索引有超過70,000模板，但不能冒充實讀。實際成功開啟至少20個不同網頁且含索引及多語系重複；**10,000篇逐篇×10次深度重讀仍未達成（可核實完成0篇符合十次深讀）**。本輪做的是10種不同設計面向交叉複核，不是同篇重讀十次。完整來源、來源限制、十面向分析見[研究證據及完整十面向紀錄](research/notion-ux-research-and-10-lens-review-2026-10-25.md)。
+- **[CURRENT NOTION VIEW EVIDENCE]** 現行[政府補助｜額度與警示工作台](https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f)6個Linked Views中5個直接展開，依序待核對(4可見欄)、最後一次候選(7)、治療所額度(6)、心理師週額度(5)、青壯個案額度(6)，另有方案設定Toggle(4)。現行治療所View含各政府方案，Staff週額度及個案View仍指青壯115。尤其「最後一次已預約」實際View目前沒有直接篩選「已預約>0」，只有青壯115 Relation＋進行中＋剩餘Formula字串等於0，**名稱有潛在誤導，不能在未核真值前當成已預約證據**。
+- **[A / PROPOSED NOT EXECUTED]** 首選不增加來源或重構：清楚區分「⚠️需要核對（兩個保留直顯的警示View）」及「📊額度概況（治療所／心理師／個案三個原有直顯View）」；保持「設定收費方案」低頻Toggle和必要的「未確認≠0」短提醒。限制全頁裝飾色彩，採H2區段→表格，視任務將7欄候選精簡成4–5欄並保存原displayProperties；視圖標題必須反映實際判斷，初步建議中立「額度已占滿｜預約待核對」，但不得直接改原篩選。於標題／一行提示釐清Price Plans全部政府方案vsStaff／Care Episodes青壯115，而不是做假的全頁同步選期控制。
+- **[B / ALTERNATIVE NOT EXECUTED]** 官方效能建議可以用1個Linked DB切換多Source Views，但可能讓本案需要直接看三額度的已核准UX變差；因此**只有真實載入耗時或真人任務測試顯示必要時再比較**。免費版不依賴Business/Enterprise Dashboard或大量圖表。Page Layout套用整Source所有頁，不可只為青壯更改Cases/Care Episodes全域設定。
+- **[RISKS / TESTS]** 無新Notion寫入、無資料/Schema/Formula/Views/權限/正式GAS變動；尚未真人桌機/手機美感與操作、秒數計時、全方案真值驗收。只要未經使用者核准，不能把提案實施到Notion，亦不得自行增建新預覽或其他優化。可供檢查：[研究證據及完整十面向紀錄](research/notion-ux-research-and-10-lens-review-2026-10-25.md)。
