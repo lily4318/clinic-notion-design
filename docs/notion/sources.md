@@ -212,3 +212,8 @@
 - **[去重來源／第一次主文字閱讀]** [AUTO-04 閱讀與反例證據](research/notion-deep-study-automation-run-04-2026-10-25.md)：於當次從main重讀首批16、批次02/03/04、十面向研究、AUTO-01/02/03與MANUAL-01並查對URL後，新增3篇官方canonical文章：`/help/reminders`、`/help/updates-and-notifications`、`/help/notification-settings`。各篇可取得的主要文字章節已讀，分別做1次假設／反例／修正分析；媒體與實機未驗，**不是完整深讀Pass**。
 - **[實際研究結論]** 單次Date提醒≠每週定期工作流或業務完成；Inbox通知類型篩選只改可見性、手機不一定支援與桌面相同的類型篩選；App開啟時推播/email可能被抑制。收件者無法自行取消Person屬性通知與屬性編輯者可調通知設定並不互斥。提醒、送達、已讀、已完成核對不能混為同一狀態。
 - **[嚴格進度]** 本批3篇各有1次分析，第2–10次未執行，嚴格達成10次完整深讀的來源仍**0/10,000**。未修改Notion/業務資料/權限或正式系統。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-05（Buttons／刪除復原／Enterprise留存）
+- **[去重後3篇新來源]** [AUTO-05逐篇閱讀與反例紀錄](research/notion-deep-study-automation-run-05-2026-10-25.md)：本次先讀GitHub最新main規範與研究目錄16檔、首批及各批次清冊，排除AUTO-01/02/03/04、MANUAL-01已登錄來源；新增官方`/en-gb/help/buttons`、`/help/duplicate-delete-and-restore-content`、`/help/custom-data-retention-settings`三個canonical slug。與舊`/help/database-buttons`屬不同官方文章，並非同篇語系複製。3篇均閱讀可取得的文字主要章節並各做一次反例分析，圖片/影片/實機未測，**不算嚴格全文10/10**。
+- **[反例結論]** Button可用於Free不等於所有動作免費、也不等於目標DB權限/防重交易；Version history恢復DB不保證DB頁內文同步恢復，Archive仍可透過連結存取；Enterprise的Trash與刪除後retention可自訂1天～10年，但**不代表Free/Plus可用或符合法定保存要求**。此處是研究證據，不授權刪除/修改現用Notion。
+- **[嚴格門檻]** 本輪新增3篇各1次文字分析，完成10次可稽核完整深讀的篇數仍**0/10,000**；不將研究累計量誤稱萬篇目標完成。
