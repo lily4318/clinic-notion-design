@@ -237,3 +237,8 @@
 - **[新官方來源3篇；與既有研究清冊去重]** [AUTO-09原始研究與逐篇反例](research/notion-deep-study-automation-run-09-2026-10-26.md)：已先讀main規則與2026-10-24、第二～四批、十面向研究、AUTO-01～08及MANUAL-01，新增`https://www.notion.com/help/comments-mentions-and-reminders`、`https://www.notion.com/en-gb/help/suggested-edits`、`https://www.notion.com/help/create-links-and-backlinks`。各閱讀可取得的文字主節及FAQ並做一輪新反例；`/en-gb/`為語系變體，唯一身分以文章slug去重。沒有逐張驗圖、嵌入影片、實帳角色/手機測試，**不計嚴格FULL_DEEP_PASS**。
 - **[核心反證]** @mention無權頁面不發通知，評論Resolved不等於業務核定；Suggested edits只支援有限文字區塊、**不支援inline DB/DB properties/peek頁**，不能取代資料庫變更審批；Backlinks因存取權限制而不完整，不能因Backlinks空白推論沒有依賴而安全刪除。**研究不是設計授權**，Notion與正式系統0變更。
 - **[嚴格進度]** 10,000篇各10次獨立完整深讀達標仍**0/10,000**。雙軌共享去重索引，GitHub每檔最新SHA寫入/回查，不覆蓋並行增量。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-10（Page analytics／Roles／Guest邀請）
+- **[新來源3篇／嚴格去重]** [AUTO-10原始閱讀、反例與限制](research/notion-deep-study-automation-run-10-2026-10-26.md)。已與main的首批、十面向、批次02–04、MANUAL-01及AUTO-01～09清冊對照，本輪新增官方唯一URL：`https://www.notion.com/help/page-analytics`、`https://www.notion.com/help/whos-who-in-a-workspace`、`https://www.notion.com/help/add-members-admins-guests-and-groups`。三篇均讀取可取得的全部文字主章節並各作一次新的反例分析；嵌入影片、圖片、實帳、跨角色未核，**不算FULL_DEEP_PASS**。
+- **[反例]** 頁面瀏覽次數≠讀懂政策/核定資料，且瀏覽歷史可退出紀錄；Guest單頁受邀可能繼承子頁、與Member/Restricted member的費用及權限不同；邀請連結/網域加入可能變Member並有席次費用。這些都是研究限制，不授權改Notion Share/權限。
+- **[狀態]** 累積可嚴格證明各10次完整深讀的篇數仍**0/10,000**。手動與排程共享去重索引，GitHub採最新SHA條件寫入及回查；Notion及正式系統0變更。
