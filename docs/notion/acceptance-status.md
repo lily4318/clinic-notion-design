@@ -525,3 +525,8 @@
 - **[PROVENANCE CHECK PASS, STUDY GOAL NOT_DONE]** 使用者「繼續」僅續作未完成之10,000篇各10次Notion深度學習；此輪新登錄5個canonical URL（4篇取得相關正文段落、1篇僅搜尋摘要），既有兩篇官方文件各有一次獨立的第二輪分析複查，及對先前Notion View規則的一次定向重查。每篇10次**嚴格全文深讀達標數仍0／10,000**。逐URL證據、閱讀級別、反例與不足在[第四批來源與第二輪分析複查](research/notion-deep-study-evidence-batch-04-2026-10-25.md)。
 - **[COMPREHENSION / NONIMPLEMENTATION]** 新讀到工作區搜尋與DB內搜尋的覆蓋差異；桌機/網頁高對比模式不等同跨裝置頁面設計；任務Status類別不能擅套補助真值；資料庫模板Recurring排程不會自動核定業務期別；Synced Block原始區塊與副本有權限及跨頁刪除風險。以上仍是技術/UX閱讀判讀，不是新的Notion設計方案。
 - **[SCOPE, PERFORMANCE, AUTH, TEST]** 未修改Notion現有頁面、View、Schema、Relation、Formula、角色權限、歷史資料或正式GAS/Cloud Run/Session；查閱只發生外部網頁與GitHub文件。真人/手機可讀性、業務真值、權限測試和負載量測均未實作。GitHub本批原創研究檔、來源索引與驗收/決策紀錄須用最新SHA寫入及遠端Fetch回查；**學習尚未完成，不開始Notion設計**。
+
+## 2026-10-25｜使用者新增雙軌規則：每小時排程與手動「繼續」同步並行
+- **[PASS: AUTOMATION CONFIGURATION]** 既有「Notion 深度學習續作」排程已成功更新提示並維持is_enabled=true、RRULE每小時，不新增第二份重複排程。明文確認聊天手動「繼續」直接執行未完成的深度學習、兩條流程互不等待／停用；GitHub研究來源與複讀輪次去重，寫前最新版SHA、衝突重讀合併、寫後驗證。
+- **[PASS: POLICY SYNC]** 根`AGENTS.md`與`docs/notion/AGENTS.md`已新增雙軌規則，舊「完成即停止」仍適用已完成的個別任務，不阻擋仍未完成的學習研究；GitHub以最新blob SHA寫入及讀回驗證。使用者只須發送「繼續」即可啟動聊天端獨立研究，毋須關閉自動排程。
+- **[LIMITS]** 此次僅確認排程及規則**設定成功**，不聲稱已實際完成下一個自動執行週期或並行競爭實測；深度學習10,000篇×10次仍未達標，不進行Notion重新設計。Notion資料/Schema/View/Formula、角色權限、正式系統及效能均未更動。
