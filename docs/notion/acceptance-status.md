@@ -488,3 +488,8 @@
 ## 2026-10-25｜使用者新確認：AI設計規則不得寫進Notion日常頁面
 - **[POLICY RECORD]** 使用者確定Notion日常業務頁不得混入AI設計／維護規則；示例為補助方案管理TEST的長段人工核對、收費方案操作、期別與跨方案限制說明。詳細判別界線與例外寫入`AGENTS.md`、`docs/notion/AGENTS.md`及`docs/notion/workbench-ux.md`，決策寫入`docs/notion/decision-log.md`。必要安全提示可精簡保留；禁止因此破壞業務資料或原有檢視。
 - **[IMPLEMENTATION STATUS]** 本輪只修改GitHub文件並遠端回查；Notion中現有長文**沒有在本輪移除**，狀態為`PENDING_NOTION_CONTENT_CLEANUP`。若後續依已確認規則清理，先重讀頁面、核對不可失的業務操作與安全告知，精準刪文、再回讀確認首屏資訊、Views、權限及無關內容不變。沒有負載或真人UX新驗收。
+
+## 2026-10-25｜使用者限定只清除青壯補助額度舊內容；原補助TEST過時AI長文已刪
+- **已完成且寫後Fetch PASS**：Notion TEST舊補助管理頁刪除使用者明確否決的青壯額度長篇AI設計文案（545字）＋歷史資料設計理由（117字）；簡化歷史入口標籤並消除③④孤立節號；原7個Linked Views與1個主驗收子頁仍在，新工作台6個資料檢視仍在，三個原Source可Fetch。這是Notion**文字內容刪除**，不等於資料庫Rows刪除或整頁deleted。
+- **保留/未動**：現行青壯Price Plan、Care Episodes、Sessions、Cases、Staff、歷史參與、週回報、額度調整、醫療／財務紀錄、Formula、Rollup、Relation、權限、正式GAS均保持不變；沒有真人UX/效能或公式真值重測。
+- **BLOCKED**：青壯115專屬3 EP Formula＋3 Cases Rollup仍有下游Case公式依賴且缺原生完整expression；已標記等到可安全備份及測試才刪。原補助管理頁含仍有用歷史檢視和主驗收記錄，不可直接整頁刪除。非青壯範圍（如活動管理舊Saved Views）不在本輪處理清單。
