@@ -3,6 +3,8 @@
 - **否決即清除（2026-10-24使用者確認）**：使用者認為不適合的設計／功能／欄位／頁面／測試元件，須從實際使用環境**真正刪除**，不得用隱藏／停用／收合冒充完成，亦不得把過時預覽永久堆積。先確定精確範圍、最新依賴、最小安全替代、可回復備份與驗收；引用仍在、法定紀錄或無法回復時先停在 BLOCKED，不可強刪破壞其他功能。備份／稽核與暫未能刪除的依賴不算日常介面保留舊功能。
 
 
+- **Notion內容治理（2026-10-25使用者確認）**：禁止把AI設計指令、資料模型與跨方案限制、驗收／回復紀錄、非必要前置步驟等內部規則複製到Notion日常業務頁。設計／理由記於GitHub與必要規格文件；Notion只呈現當下實作業務需要的資料、操作、短提示及安全警示。若必要告知則限最小清晰文案；清理既有長文須另經實際頁面依賴核對與回查，不因改規則就動Notion。
+
 - 先讀根 README、AGENTS、docs/system/source-of-truth.md，依本輪工作類型讀 Notion／GAS／Auth 的專屬文件與最新 Google Docs；不能要求使用者重貼已有資料。
 - **區分工作範圍**：Notion TEST、純設計、Backend Staging、Auth Staging、正式 GAS。只修改使用者本輪指定的範圍；目前青壯 TEST 是 Notion-only。
 - 最新已驗證來源高於舊 GitHub 摘要：正式 GAS 先重讀 Current Snapshot／Deployment Log 與 SHA；Notion 先讀 00.config_notion、Schema、Relation、View；Staging 先確認 revision、traffic、Secret version、rollback。
