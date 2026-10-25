@@ -558,3 +558,7 @@
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-03（權限、Sub-items、Feed，3篇官方新來源）
 - **[RESEARCH EVIDENCE VERIFIED; LONG-TERM GOAL NOT_DONE]** [AUTO-03閱讀證據](research/notion-deep-study-automation-run-03-2026-10-25.md)：3個新canonical URL、3篇文字主章節閱讀、3次獨立首次反例分析；仍無10/10嚴格完整深讀合格篇數（**0/10,000**）。研究結論：`Can edit content`不防止刪業務列；自我Relation不能取代額度/期別真值；Feed不能直接取代表格比較。
 - **[NO NOTION WRITE]** 本輪只改GitHub研究檔及研究索引／驗收／決策摘要，未更動Notion正式或TEST的Page、Database、View、Formula、Relation、權限或業務列；GAS/Cloud Run/Session零變更。未執行真人UX、權限、效能、手機或數值真值測試，未開始設計。GitHub各檔寫前重取main blob SHA並於寫後讀回驗證。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-04（提醒／Inbox／通知設定）
+- **[RESEARCH INCREMENT VERIFIED; GLOBAL TARGET NOT_DONE]** [AUTO-04 閱讀與反例證據](research/notion-deep-study-automation-run-04-2026-10-25.md)新增3個經已知研究清冊去重的Notion官方來源，3篇主要文字章節、各1次可稽核反例分析；未看完媒體或做實帳測試，第2–10次未執行，**10次嚴格深讀合格篇數仍0/10,000**。研究反例涵蓋提醒不等於週期工作、Inbox篩選不等於業務完成/停發、App開啟時推播可能僅Inbox徽章、Person屬性通知有角色差異。
+- **[NO LIVE WRITE]** 只更新GitHub研究文件和來源/決策/驗收索引。未更動Notion TEST/正式Page、Database、Views、Formula、Relation、Permissions、個案或財務資料，未修改GAS/Cloud Run/Session。真人UX、手機、通知準時性、權限、效能及數值真值測試均未執行。每檔寫前最新SHA、寫後Fetch驗證。
