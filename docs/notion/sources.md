@@ -247,3 +247,9 @@
 - **[來源去重與文字實讀]** [AUTO-11原始閱讀及反例](research/notion-deep-study-automation-run-11-2026-10-26.md)：先讀main規範及已知首批/第二～四批、MANUAL-01、AUTO-01～10清冊，本輪新增3篇未登錄官方canonical slug：`/help/manage-teamspaces`、`/help/browse-join-and-create-teamspaces`、`/help/intro-to-teamspaces`（en-gb語系不另計）。各篇讀取可取得的主要文字章節並完成首次獨立反例分析；圖片、Intro影片、Free/Enterprise實帳均未驗，**不是FULL_DEEP_PASS**。
 - **[關鍵反證]** Default Teamspace會批次納入一般Members，取消Default可能移除既有成員；Closed仍可被看見但需申請加入，Private限Business/Enterprise；Disable guests/export/public publishing屬Enterprise功能；Teamspace只可Archive不能Delete，Archive不是使用者要求的實際刪除。官方Manage teamspaces無Owner段落的步驟與標題疑似不一致，需另驗證。
 - **[嚴格累積與界線]** 各10次獨立完整深讀達標仍**0／10,000篇**。本輪僅研究與GitHub文件，Notion頁/DB/View/Formula/Relation/權限/業務資料及GAS/Cloud Run/Session零變更；未開始設計。
+
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-12（匯出／離線／工作區設定）
+- **[新增3篇官方canonical來源，主文字閱讀與首次反例]** [AUTO-12閱讀證據](research/notion-deep-study-automation-run-12-2026-10-26.md)：`https://www.notion.com/help/export-your-content`（AUTO12-S01）、`https://www.notion.com/help/use-pages-offline`（AUTO12-S02；en-gb語系合併）、`https://www.notion.com/help/workspace-settings`（AUTO12-S03）。比對既有首批、批次02–04、十面向、MANUAL-01、AUTO-01～11後去重，三篇各讀可取得主要正文/FAQ並完成1次獨立反例分析；圖片/媒體/實帳未驗，**非完整10次深讀**。
+- **[反例]** Export目前/預設View不等於所有Views、CSV/Markdown不等於可無損還原；Offline第一View前50列且離線Select競爭寫入可能只留一方；Workspace設定受方案與角色限制，Allowed email domains可能改變Member與費用。僅研究，不更動任何Notion或正式系統。
+- **[嚴格門檻]** 本批3篇各一輪文字研究，累積每篇10次完整深讀合格篇數仍**0/10,000**；GitHub SHA條件寫入/回讀，與手動研究分批次。
