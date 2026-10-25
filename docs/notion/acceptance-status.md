@@ -509,3 +509,9 @@
 - **[BASELINE STRUCTURE READ-ONLY]** 現行青壯額度/警示工作台6個Linked Views、5個直顯(4/7/6/5/6欄)+1方案設定Toggle(4欄)、1必要核對提醒；三資料源仍存在，未修改。標題「最後一次已預約」與實際僅濾剩餘0的條件不完全吻合，標記語意風險（尚未修改）。治療所視圖涵蓋政府方案、另兩視圖針對青壯115，未假稱全域同步。
 - **[PROPOSED UX ONLY]** 建議「需要核對」保留兩張直接可見的警示View、接「額度概況」三張直接可見的原表、底部低頻設定，使用簡潔單欄／相同標題字級／最少必要欄位及範圍標示。若另一方案以單Linked Database多分頁求效能，須先客觀計時及使用者核准；不依賴付費Dashboard或圖表。
 - **[UNCHANGED / BLOCKED VALIDATION]** 無Notion修改、無原生功能／權限／效能新測；之前UX v4.2真人4/4 PASS不自動變成新方案驗收。待使用者核准後才許可建立TEST預覽/實際改版；本次研究工作回合結束後停止。
+
+## 2026-10-25｜續作深度學習第二批：14來源分級登錄，10,000×10未完成
+- **[USER RESUME BOUNDARY]** 使用者明確指示「繼續執行」，僅指上一項尚未完成的**Notion設計材料深度學習**；使用者要求**先學習達標並確認，之後才能開始Notion設計**。本輪不新增方案、繪製預覽、修改Notion頁面或跑到其他系統。
+- **[EVIDENCE PROGRESS]** 新增[2026-10-25第二批深度學習證據、閱讀深度與限制](research/notion-deep-study-evidence-batch-02-2026-10-25.md)，逐一列明14個本批去重URL：10個成功打開頁面並針對正文相關章節查閱（BODY_SECTIONS）、4個僅能從搜尋結果/公開模板摘要讀取（SUMMARY_ONLY）。其中模板未購買/未實際複製；無任何資料達嚴格的全文完整深讀10遍門檻。本批`DEEP_PASS_10_OF_10=0/10,000`，`DEEP_PASS=0/100,000`；不可將20篇以前查閱、十面向討論或Marketplace模板總數冒充讀滿。
+- **[QUALITY FINDINGS NOT A REDESIGN]** Notion官方證明手機多欄塌成單欄、Page Layout會套用整個Data Source、Formula/Rollup篩選及多Inline DB可能增加負載、Data Source頁級權限功能Business/Enterprise才有。NN/g表格與漸進式揭露研究強調高頻任務、比較與操作成本的取捨。這些僅為來源證據整理和衝突假設，**尚未批准Notion重新設計**。
+- **[UNCHANGED / STOP HERE]** 原青壯額度與歷史工作台、業務資料、Notion Formula/Relation/View/權限、正式GAS與Cloud Run皆無寫入，效能/真人桌機手機未測。GitHub新增來源檔與索引、驗收檔採SHA並寫後Fetch；下一次「繼續」僅可接續這個未完成的學習目標，不可在未達標時逕行版面設計。
