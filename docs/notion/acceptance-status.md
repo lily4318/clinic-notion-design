@@ -566,3 +566,7 @@
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-04（提醒／Inbox／通知設定）
 - **[RESEARCH INCREMENT VERIFIED; GLOBAL TARGET NOT_DONE]** [AUTO-04 閱讀與反例證據](research/notion-deep-study-automation-run-04-2026-10-25.md)新增3個經已知研究清冊去重的Notion官方來源，3篇主要文字章節、各1次可稽核反例分析；未看完媒體或做實帳測試，第2–10次未執行，**10次嚴格深讀合格篇數仍0/10,000**。研究反例涵蓋提醒不等於週期工作、Inbox篩選不等於業務完成/停發、App開啟時推播可能僅Inbox徽章、Person屬性通知有角色差異。
 - **[NO LIVE WRITE]** 只更新GitHub研究文件和來源/決策/驗收索引。未更動Notion TEST/正式Page、Database、Views、Formula、Relation、Permissions、個案或財務資料，未修改GAS/Cloud Run/Session。真人UX、手機、通知準時性、權限、效能及數值真值測試均未執行。每檔寫前最新SHA、寫後Fetch驗證。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-05（Buttons／刪除復原／Enterprise留存）
+- **[PASS: RESEARCH INCREMENT ONLY; GLOBAL GOAL NOT_DONE]** [AUTO-05逐篇閱讀與反例紀錄](research/notion-deep-study-automation-run-05-2026-10-25.md)：3篇新canonical URL（Buttons、Delete & restore、Custom retention），3篇主要文字章節閱讀＋3次獨立首次反例分析。未完整檢視圖片/影片、無真人/Free權益/手機/效能/資料復原實測，不列`FULL_DEEP_PASS`，**10次完整深讀合格仍0/10,000**。
+- **[UNCHANGED]** 只新增GitHub研究證據與來源/決策/驗收索引。未更動Notion正式或TEST頁面、資料庫、資料列、Views、Formula、Relation、權限；未更動GAS/Cloud Run/Session。無Notion設計授權，研究未達標。並行寫入每檔使用最新SHA並回查。
