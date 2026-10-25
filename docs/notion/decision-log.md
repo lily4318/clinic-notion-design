@@ -508,3 +508,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[RESEARCH ONLY; GLOBAL GOAL NOT_DONE]** [AUTO-11逐篇官方原文閱讀與反例](research/notion-deep-study-automation-run-11-2026-10-26.md)：3篇新官方文章，已核對已知main清冊並各讀取文字主章節，完成一輪不同反例；未逐張驗圖/嵌入影片/實帳角色與方案，**嚴格10/10完整深讀達標仍0/10,000**。
 - **[反例/限制]** Default Teamspace不是純Sidebar美化而會調整成員集合；Closed/Private可見性與角色權限不同；Enterprise-only安全開關不可假設Free可用；Archive≠Delete，官方無Owner處理文案有疑點。此為研究紀錄而非採用設計或核准更改。
 - **[NO SYSTEM CHANGE]** 只寫GitHub研究及索引，Notion TEST/正式Page、DB、View、Formula、Relation、分享權限及業務資料零更動；GAS/Cloud Run/Session零更動，不進入Notion重新設計。
+
+
+## 2026-10-26｜AUTO-12 研究備忘（不是實作決策）
+- [AUTO-12 官方來源、閱讀與反例](research/notion-deep-study-automation-run-12-2026-10-26.md)新增3篇去重來源（Export your content、Use pages offline、Workspace settings），均為主要文字/FAQ首次閱讀與反例分析，未達完整10/10。
+- **不作新設計決策**：匯出不保證所有View/關聯/權限可還原；離線DB預載首View前50列且非文字欄位存在競爭覆寫風險；Workspace設定與防匯出受角色及方案限制。若未來討論備份、離線行政作業或角色管理，先依此做風險/驗收設計，仍須使用者明確同意。
+- **維持界線**：僅研究與GitHub記錄，Notion/TEST/正式業務資料/權限/公式與GAS/Cloud Run/Session零更動；累積嚴格10/10仍0/10,000，不啟動重新設計。
