@@ -599,3 +599,7 @@
 ## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-12（Export／Offline／Workspace）
 - **[PASS: RESEARCH INCREMENT ONLY]** [AUTO-12原始閱讀與反例](research/notion-deep-study-automation-run-12-2026-10-26.md)：新canonical來源3篇、主要文字與FAQ閱讀3篇、獨立首次反例分析3次。未逐張檢視圖片/影片、未測試真實匯出、離線同步、工作區權限或費用，因此**不計FULL_DEEP_PASS**；累積10次嚴格完整深讀達標**0/10,000**。
 - **[UNCHANGED]** 只寫GitHub研究證據/索引/決策/驗收；Notion正式及TEST Page、DB、Views、Formula、Relation、Permissions、業務列，及GAS/Cloud Run/Session均未修改；沒有開始重新設計。雙軌去重、SHA條件更新與讀回驗證。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-13（Formula syntax／Formula intro／Properties guide）
+- **[PASS：本批研究增量；NOT_DONE：整體深讀目標]** [AUTO-13逐篇閱讀及反例](research/notion-deep-study-automation-run-13-2026-10-26.md)：本批3篇官方去重canonical來源，3篇可取得文字主節核對，各1次獨立假設/反例/修正。未逐張驗圖、外部互動模板、原生公式或真人/手機/角色/效能測試；不列FULL_DEEP_PASS。**累積10/10嚴格完整深讀達標仍0／10,000篇**。
+- **[PASS：研究界線]** 僅GitHub研究/來源/決策/驗收紀錄；Notion正式/TEST Page、Database、Data Source、View、Formula、Relation、權限、業務資料及GAS/Cloud Run/Session均未修改；未開始重新設計。官方函數表`empty(0)=true`等語義為待未來驗證的設計風險，不表示現有業務公式已被實測判錯。
