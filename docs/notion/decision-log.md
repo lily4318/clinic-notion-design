@@ -483,3 +483,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-05（Buttons／刪除復原／Enterprise留存）
 - **[研究增量，非設計決策]** [AUTO-05逐篇閱讀與反例紀錄](research/notion-deep-study-automation-run-05-2026-10-25.md)新增3篇去重官方來源，各完成可讀文字主章節與一輪反例：按鈕動作依目標資料庫權限且部分付費；DB版本恢復不等於子頁內容/Linked Views全量恢復；封存非刪除/權限隔離；Enterprise留存與法律合規不同。第2～10次嚴格深讀未執行，10/10合格**0/10,000**。
 - **[並行安全／範圍]** 與手動續作共享main來源清冊，AUTO-05獨立檔名；GitHub索引更新前重讀最新blob SHA、衝突不可覆蓋、寫後回讀。Notion正式/TEST頁面、Data Sources、Views、Formula、Relation、權限及業務紀錄，GAS/Cloud Run/Session皆0修改；不開始Notion重新設計。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-06（Calendar／Timeline／Gallery）
+- **[研究不是改版決定]** [AUTO-06官方來源逐節閱讀及反例](research/notion-deep-study-automation-run-06-2026-10-25.md)：新增3個去重Notion官方來源Calendar、Timeline、Gallery；閱讀可取得的主要文字與FAQ，記錄日期欄選擇/範圍、Timeline Load limit、Gallery隱藏Name與Page content預覽的反例。檢視缺席不能推出業務紀錄不存在或額度為零；拖曳的資料寫入副作用仍待實測。
+- **[嚴格進度與邊界]** 本次3篇各一次反例分析，10/10嚴格全文深讀達標仍**0/10,000**。不開始新版Notion設計；Notion頁面、DB、View、Formula、Relation、權限、業務資料、GAS/Cloud Run/Session皆0更動。GitHub雙軌寫前最新SHA、衝突合併不覆蓋、寫後Fetch驗證。
