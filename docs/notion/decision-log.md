@@ -487,3 +487,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-06（Calendar／Timeline／Gallery）
 - **[研究不是改版決定]** [AUTO-06官方來源逐節閱讀及反例](research/notion-deep-study-automation-run-06-2026-10-25.md)：新增3個去重Notion官方來源Calendar、Timeline、Gallery；閱讀可取得的主要文字與FAQ，記錄日期欄選擇/範圍、Timeline Load limit、Gallery隱藏Name與Page content預覽的反例。檢視缺席不能推出業務紀錄不存在或額度為零；拖曳的資料寫入副作用仍待實測。
 - **[嚴格進度與邊界]** 本次3篇各一次反例分析，10/10嚴格全文深讀達標仍**0/10,000**。不開始新版Notion設計；Notion頁面、DB、View、Formula、Relation、權限、業務資料、GAS/Cloud Run/Session皆0更動。GitHub雙軌寫前最新SHA、衝突合併不覆蓋、寫後Fetch驗證。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-07（Simple tables／Sidebar／Wikis）
+- **[研究，非設計決定]** [AUTO-07逐節閱讀與反例研究](research/notion-deep-study-automation-run-07-2026-10-25.md)：AUTO-07與手動續作各自獨立，新增3篇官方來源（simple tables vs databases、sidebar、wikis & verified pages），舊N04/N11另作有新增反例的再研讀、不重複計數。關鍵反例為靜態表格過期、側邊欄移動頁面可能影響權限/子頁、一般頁Verified方案限制、Linked Source修改回寫原來源、Table批次編輯及Count unique的誤判。
+- **[未確認與安全]** 官方Data Source文件對`Can edit`與`Full access`可否移動來源的段落需依操作類型/實帳核對，不冒稱已實測。10次完整深讀合格篇數仍0/10,000；研究不授權改Notion/TEST/正式頁面、DB、View、Schema、Formula、Relation、權限、業務資料或GAS/Cloud Run/Session。GitHub寫前最新SHA、寫後回查，衝突不覆蓋。
