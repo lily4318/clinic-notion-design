@@ -5,7 +5,7 @@
 ## 一、計數口徑、與前批去重
 
 - [批次02](notion-deep-study-evidence-batch-02-2026-10-25.md)已有14個URL（10個正文片段、4個摘要），均無`DEEP_PASS`通過。更早的[十面向研究](notion-ux-research-and-10-lens-review-2026-10-25.md)另有代表性來源清單，但缺少逐URL全域唯一/全文深讀證據，**不可把它直接與14筆相加聲稱可靠累計**。
-- **本批新登錄獨立canonical URL數：12**（列表NEW01～NEW12）。其中僅 **3 個可核實完整原文/全篇各章節被訪問並逐點解析（本批初次深讀候選）**、2個僅開啟或檢索正文重點、6個商業模板只讀公開展示描述、1個Marketplace分類目錄；商品內部及訂購後內容沒有讀取。為避免誇大，只有下方DB模板與Synced blocks兩篇計為保守的「完成首輪跨段落深入評析」。
+- **本批新登錄獨立canonical URL數：12**（列表NEW01～NEW12）。其中僅 **2 個可核實完整文字主章節並作首輪深入分析（NEW01與NEW02）**、3個僅開啟或檢索正文重點（NEW03～NEW05）、6個商業模板只讀公開展示描述（NEW06～NEW11）、1個Marketplace分類目錄（NEW12）；商品內部及訂購後內容沒有讀取。為避免誇大，只有下方DB模板與Synced blocks兩篇計為保守的「完成首輪跨段落深入評析」。
 - **已存在舊研究的去重來源**：`https://www.notion.com/help/database-buttons`在前批[十面向研究](notion-ux-research-and-10-lens-review-2026-10-25.md)已作N12；本回合再次查原文，**不計為NEW**。`https://www.nngroup.com/articles/data-tables/`在[批次02](notion-deep-study-evidence-batch-02-2026-10-25.md)已作UX-019；本回合取得非常完整的搜尋內容擷取，但原頁`open`仍逾時，**不新增unique URL或冒稱已成功整頁直開**。
 - **嚴格10遍達標：0／10,000篇。** 本輪DB Templates和Synced Blocks之首次評析最多算`DEEP_PASS=1/10`候選；沒有為任何文章虛構第2～10遍。本批完成`DEEP_PASS_10_OF_10=0`、前兩批同為0，所以整體仍**未完成**。搜尋引擎命中、同篇多語系、付費模板廣告及10個設計角度都不算10次閱讀。
 
