@@ -471,3 +471,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-03（權限、Sub-items、Feed，3篇官方新來源）
 - **[僅研究，非設計決定]** [AUTO-03閱讀證據](research/notion-deep-study-automation-run-03-2026-10-25.md)：本次排程在手動MANUAL-01及先前AUTO-01/02之外另取3個官方新canonical URL，逐篇主文字閱讀及第一輪反例：內容編輯權仍可刪列，Sub-items/Dependencies不提供補助期別計算保證，Feed不等於跨列額度比較優化。沒有更動Notion；不把來源研究當成採納功能。
 - **[PARALLEL / GATE]** 自動與手動流程共享最新main研究索引；寫入用最新blob SHA作條件，衝突不得覆蓋其他增量，寫後回讀驗證。10,000篇各10次嚴格完整深讀仍**0/10,000**，未授權開始Notion新版設計。GAS/Cloud Run/Session及Notion頁面/DB/View/Formula/Relation/權限/業務紀錄皆保持不變。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-04（提醒／Inbox／通知設定）
+- **[只記錄研究，非產品決策]** [AUTO-04 閱讀與反例證據](research/notion-deep-study-automation-run-04-2026-10-25.md)：3篇官方新來源各完成主要文字章節閱讀及1次反例分析。提醒不等於定期工作流程；Inbox篩選不等於停發通知/權限隔離；跨設備送達取決於使用狀態，不能把手機推播當作額度或申報核對的唯一保障。Notion官方不同文章對Person通知「個人不能取消」與「編輯者可改屬性通知」描述不同權限主體，不當作已證實的功能衝突。
+- **[安全與門檻]** 自動排程和手動研究各有獨立研究檔，使用最新main SHA條件寫入及讀回；嚴格10/10合格篇數仍0/10,000，未獲授權開始新版Notion設計。Notion頁面、DB、View、Formula、Relation、權限、GAS、Cloud Run、Session與個案資料皆0更動。
