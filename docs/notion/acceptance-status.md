@@ -570,3 +570,7 @@
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-05（Buttons／刪除復原／Enterprise留存）
 - **[PASS: RESEARCH INCREMENT ONLY; GLOBAL GOAL NOT_DONE]** [AUTO-05逐篇閱讀與反例紀錄](research/notion-deep-study-automation-run-05-2026-10-25.md)：3篇新canonical URL（Buttons、Delete & restore、Custom retention），3篇主要文字章節閱讀＋3次獨立首次反例分析。未完整檢視圖片/影片、無真人/Free權益/手機/效能/資料復原實測，不列`FULL_DEEP_PASS`，**10次完整深讀合格仍0/10,000**。
 - **[UNCHANGED]** 只新增GitHub研究證據與來源/決策/驗收索引。未更動Notion正式或TEST頁面、資料庫、資料列、Views、Formula、Relation、權限；未更動GAS/Cloud Run/Session。無Notion設計授權，研究未達標。並行寫入每檔使用最新SHA並回查。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-06（Calendar／Timeline／Gallery）
+- **[PASS: RESEARCH INCREMENT; NOT_DONE: GLOBAL GOAL]** [AUTO-06官方來源逐節閱讀及反例](research/notion-deep-study-automation-run-06-2026-10-25.md)：3篇新的canonical URL，3篇已讀可取得全部文字主節及FAQ，3次首次假設/反例/修正分析。未逐張檢查圖片或嵌入影片、未進行實帳/權限/行動裝置/效能/拖曳日期寫回測試；嚴格FULL_DEEP_PASS尚無新增，**完成10/10來源仍0/10,000**。
+- **[NO SYSTEM CHANGE]** 只保存GitHub研究證據與來源/決策/驗收索引，未更動Notion正式/TEST任何頁面、DB、View、Formula、Relation、權限、個案或收費資料，也未更動GAS/Cloud Run/Session。與手動續作共用最新main清冊、分檔避免競爭，寫前blob SHA及寫後回讀驗證。
