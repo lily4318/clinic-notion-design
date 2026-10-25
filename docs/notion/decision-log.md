@@ -519,3 +519,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[研究結論，非改版決策]** [AUTO-13逐篇證據](research/notion-deep-study-automation-run-13-2026-10-26.md)：Notion官方`empty(0)=true`，不得把空值檢查直接當作「未知／已確認0」的業務分類；`unique()`僅對列表值去重，不構成個案×核定期別複合唯一約束；單筆公式預覽、Notion AI公式生成、Checkbox及View隱藏皆不能替代跨期補助核定、審批證據與權限驗證。
 - **[來源時效與限制]** 官方欄位指南自述部分操作畫面可能因2022年資料庫改版而過時；尚未驗圖片/互動模板、實際原生Formula、各角色權限或效能。本次新來源3篇均只有文字主節與首次反例，**0篇達嚴格10/10**。
 - **[未授權變更]** 本輪未新增/修改任何Notion頁、資料庫、View、Formula、Relation、權限、資料列；未變更正式GAS/Cloud Run/Session；10,000篇各10次未達標，不開始Notion重新設計。
+
+## 2026-10-26｜AUTO-14：Relation基數、子項連帶變更、欄權限邊界（研究備忘）
+- **[研究，不是實作核可]** [AUTO-14研究原文與反例](research/notion-deep-study-automation-run-14-2026-10-26.md)新增3篇官方正文，分別核對Relation/Rollup、Sub-items/Dependencies、Database Property Access；每篇僅文字主節閱讀及第一次獨立反例，非FULL_DEEP_PASS。
+- **[風險辨識]** 單欄Relation限1頁不能保證跨筆個案×核定期唯一；Rollup去重不等於補助核銷判斷，CSV不保證Relation可復原。父子項的複製/刪除可連帶變更，任務依賴的日期位移不可當作政府期限真值。欄權限限Business/Enterprise、20欄且Full access不受限制，Free View隱藏不構成存取管制；受限欄可能影響View/公式/按鈕。
+- **[不變]** 不新增/刪除/改寫任何Notion欄位、頁面、Relation、Rollup、View、權限或正式業務紀錄；GAS/Cloud Run/Session不變。未完成10,000×10且未獲完成後核可，不開始Notion重新設計。
