@@ -258,3 +258,10 @@
 - **[本輪3個新增去重canonical來源]** [AUTO-13逐篇閱讀與反例](research/notion-deep-study-automation-run-13-2026-10-26.md)：`https://www.notion.com/help/formula-syntax`、`https://www.notion.com/help/formulas`、`https://www.notion.com/help/guides/database-properties-help-organize-your-teams-information`。經本次main既有研究清冊（首批、批次02～04、十面向、MANUAL-01、AUTO-01～12）核對未登錄；各篇閱讀可取得文字主節並各做1次反例分析，未逐張核對圖片/外連模板或實機操作，不列嚴格FULL_DEEP_PASS。
 - **[新反證]** `empty(0)`在Notion官方函數表回傳true，不能用empty判斷已確認0與未知；`unique()`去重列表不等於複合業務唯一；單筆Formula預覽與AI生成不等於跨方案核定；Checkbox/View隱藏/Last edited不能取代核定狀態、權限或審批證據。欄位指南自述2022年資料庫改版後部分UI步驟過時，標`STALE_UI_WARNING`。
 - **[嚴格累積與界線]** 本批新URL 3、文字主節閱讀3、首次反例3、FULL_DEEP_PASS 0；目前可稽核完成每篇10次完整深讀仍**0／10,000**。僅GitHub研究紀錄，Notion及GAS/Cloud Run/Session零修改，未開始重新設計。
+
+## 2026-10-26｜AUTO-14：Relations／Sub-items／Property Access 官方來源
+- [AUTO-14 獨立研究、逐篇反例與閱讀限制](research/notion-deep-study-automation-run-14-2026-10-26.md)：本批新增3篇經已知清冊去重的官方正文來源，僅各完成1次文字主章節閱讀與反例分析，**未完成完整十遍**；累積嚴格10/10仍**0/10,000**。
+- [Relations & rollups](https://www.notion.com/help/relations-and-rollups)（notion-help:relations-and-rollups；AUTO14-S01；R1）：Relation單欄1 page不構成跨資料列的個案×方案唯一約束；Rollup Count unique不等於政府核定計次；CSV匯出關聯成URL不能直接重匯復原，複製庫可能變更雙向關聯。
+- [Sub-items & dependencies](https://www.notion.com/help/tasks-and-dependencies)（notion-help:tasks-and-dependencies；AUTO14-S02；R1）：刪父項連帶刪子項、複製父項連帶複製子項；依賴日期可自動位移但不得據此改寫政府法定期限；Nested/Flattened是顯示設定。
+- [Manage database property access](https://www.notion.com/help/database-property-access)（notion-help:database-property-access；AUTO14-S03；R1）：Business/Enterprise才有欄權限；最多20欄、Full access不受限、多條權限採較寬、受限欄作篩選可能使View無法開啟；不能以免費版View隱藏替代權限。
+- 來源原文查閱日期2026-10-26，原文發表/更新日未核實；圖片、影片、實帳/真人/效能/Formula/權限未完整檢查。僅GitHub研究，不變更Notion或正式系統，不開始改版。
