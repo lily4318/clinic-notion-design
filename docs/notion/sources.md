@@ -192,3 +192,8 @@
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-01（3篇官方新來源，尚未達標）
 - **[研究增量]** [AUTO-01原始閱讀證據](research/notion-deep-study-automation-run-01-2026-10-25.md)，本批與原始16筆、第二批14筆、第三批11新URL、第四批5新URL及十面向研究來源去重後，**新增3個官方canonical URL**：Forms、Board view、Page Verification。均取得官方文章全部可讀文字主節並作一次有新反例的分析；未看完嵌入影片或逐張驗圖，**不算10次完整深讀**。
 - **[雙軌安全]** 這是自動排程獨立研究檔，與聊天端手動研究分開命名；全域唯一URL需跨流程去重，嚴格完成10/10篇數仍**0/10,000**。沒有對Notion、角色權限、GAS或臨床資料進行任何操作。
+
+## 2026-10-25｜手動續作MANUAL-01：3篇官方新來源（IDs／自動化／協作鎖）
+- **[Manual research alongside AUTO-01]** [MANUAL-01 深度學習證據與反例](research/notion-deep-study-manual-01-2026-10-25.md)：根據2026-10-24第一批、2026-10-25第二～四批、十面向清冊、及已保存的[AUTO-01](research/notion-deep-study-automation-run-01-2026-10-25.md)逐URL查重，本次另取得3篇新Notion官方資料：`/help/unique-id`、`/help/database-automations`、`/en-gb/help/collaborate-within-a-workspace`。三篇均打開可取得的全部文字主節、各完成**首次反例評析**；並未查看嵌入影片、全部示例圖片或用真實工作區測試，故**不是嚴格10次深讀PASS**。
+- **[Research finding, not product decision]** 原生ID編號不等於「個案×方案實例」業務唯一；原生資料庫自動化不能由另一自動化觸發，部分Trigger有三秒窗口／View-filter依賴；資料庫鎖保護結構、不阻止資料值更動。該官方自動化文章內Free Slack例外與Plus付費說明文字不同，登錄`SOURCE_INTERNAL_CONFLICT`，待查；**未更動Notion系統或開始設計**。
+- **[10,000×10 status]** 截至本次手動續作，10次完整深讀達標**0/10,000**；不能把AUTO研究或一篇多章節閱讀重算多篇／多輪。GitHub研究檔和本索引經最新SHA寫入/回讀。
