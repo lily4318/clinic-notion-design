@@ -202,3 +202,8 @@
 - **[新來源／嚴格去重]** [AUTO-02閱讀證據](research/notion-deep-study-automation-run-02-2026-10-25.md)：比對2026-10-24第一批、2026-10-25批次02/03/04、十面向、AUTO-01、MANUAL-01後，本次新增3個Notion官方canonical URL：`/help/import-data-into-notion`、`/help/back-up-your-data`、`/help/duplicate-public-pages`（英文英國語系與其他語系同篇不重算）。2篇已閱讀可取得文字主節並各做一輪反例分析；1篇匯入長文僅針對CSV/PDF/FAQ等部分章節閱讀並分析，**不計完整全文深讀**。
 - **[反例與時效]** CSV Merge只新增列不更新舊列，且新CSV不能直接建立Relation/Formula/Rollup；Workspace匯出可能漏掉無權存取的頁面且不能直接原樣重建；公開模板複製後部分區塊可能`No access`。備份官方頁含2026-08-31前Workspace PDF匯出退場提示，標`DOC_STALE_TRANSITION`，不當作現時功能已驗證。
 - **[總目標]** 每篇10次嚴格完整深讀通過數仍**0/10,000**；本次不更動Notion或正式系統，不進入Notion設計。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-03（權限、Sub-items、Feed，3篇官方新來源）
+- **[新增去重URL／第一輪閱讀]** [AUTO-03閱讀證據](research/notion-deep-study-automation-run-03-2026-10-25.md)：與2026-10-24首批、2026-10-25第二～四批、十面向、AUTO-01/02、MANUAL-01的URL清冊比較後，新增3個官方canonical slug：`/help/guides/assign-custom-database-permissions`、`/help/guides/tasks-manageable-steps-sub-tasks-dependencies`、`/help/feeds`。3篇皆已閱讀可取得的文字主章節並各完成一輪反例分析；未看完媒體或做實機測試，**不算10次完整深讀**。語系版本不重算。
+- **[新反例]** `Can edit content`仍可刪除資料列，不等於防刪或病歷權限隔離；Sub-items/Dependencies是自我Relation，不保證補助核定期或額度邏輯；Feed卡片適合公告互動，未證明更適合密集數值比較。跨查官方Sharing/Property Access確認page-level/property-level權限屬Business/Enterprise，不得誤用免費版。**不新增任何Notion功能或設計**。
+- **[嚴格累積]** 本批3篇均僅1次分析，嚴格各10次完整深讀合格篇數仍**0/10,000**；其他批次與平行工作不重複計數。
