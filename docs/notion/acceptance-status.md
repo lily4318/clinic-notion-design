@@ -542,3 +542,7 @@
 ## 2026-10-25｜手動續作MANUAL-01：3篇官方新來源（IDs／自動化／協作鎖）
 - **[STUDY UNIT COMPLETED, GLOBAL GOAL NOT_DONE]** 這是使用者手動「繼續」直接執行的新研究單元，與每小時AUTO-01可並行、資料互不覆蓋。[MANUAL-01 深度學習證據與反例](research/notion-deep-study-manual-01-2026-10-25.md)新增3個逐篇已核對URL與文字主要章節首次分析：Notion唯一ID、Database Automations、Workspace Collaboration/Lock。含假設、反例、來源內部Slack/Free權益歧義與未驗證項。**10,000篇×各10次嚴格完整深讀仍0/10,000**。
 - **[DATA & SAFETY]** 此次0個Notion Page／View／Data Source／Formula／Relation／權限／業務資料寫入，GAS／Cloud Run／Session皆0變更。無真人/跨裝置/免費版權限/效能實測；資料庫鎖≠資料寫入授權，Notion ID≠複合唯一業務鍵，不能根據研究假設修改補助規則。只允許GitHub research/sources/decision/acceptance最小同步、寫後重新讀取並確認SHA。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-02（3篇官方新來源）
+- **[RESEARCH INCREMENT PASS; GLOBAL GOAL NOT_DONE]** [AUTO-02閱讀證據](research/notion-deep-study-automation-run-02-2026-10-25.md)：本批3個與既有研究清冊未重複的官方URL，2篇全文可讀文字主節、一篇長文指定章節閱讀，均各做首次反例分析。主要發現：CSV匯入及Merge不更新既有列、Workspace匯出未必涵蓋所有私人頁且不可一鍵重建、公開模板複製可能出現`No access`。另對2026-08-31 Workspace PDF匯出退場資訊標時效疑點。**不能把本批算作任何篇完成10次深讀；合格0/10,000**。
+- **[SCOPE]** 僅官方公開文章唯讀＋GitHub研究記錄；未對Notion TEST/正式頁、DB、Views、Formula、Relation、權限、個案/財務資料或GAS/Cloud Run/Session寫入。未進行真人、權限、資料復原或效能實測。GitHub使用最新blob SHA條件寫入，寫後核對commit與內容，保留其他並行研究增量。
