@@ -222,3 +222,8 @@
 - **[研究增量]** [AUTO-06官方來源逐節閱讀及反例](research/notion-deep-study-automation-run-06-2026-10-25.md)：開始前讀取最新main規則、研究清冊及MANUAL-01、AUTO-01～05，依官方canonical help slug去重，本次新增3篇：`https://www.notion.com/help/calendars`、`https://www.notion.com/help/timelines`、`https://www.notion.com/help/galleries`。三篇均開啟官方全文並閱讀所有可取得文字主節及FAQ、各完成一輪假設/反例/修正；**未核對全部圖片、嵌入影片或實際操作，不能算FULL_DEEP_PASS**。
 - **[反證]** Calendar僅依選定Date欄顯示，日期視圖缺席不等於期限已完成；Timeline需要日期範圍且有Load limit，視覺缺席不等於零筆；Gallery可隱藏Name並預覽Page content首區塊，美觀可能犧牲記錄識別及最小必要顯示。拖曳卡片/期間是否寫回何欄待隔離實測，不冒稱已驗證。
 - **[門檻與安全]** 本輪3篇各1次文字主節分析；累積符合10次完整深讀**0/10,000**，未授權Notion設計或TEST/正式修改；只寫GitHub研究與必要索引，與手動工作線分檔並以最新SHA條件寫入、讀回。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-07（Simple tables／Sidebar／Wikis）
+- **[新來源3篇，舊來源再研讀2篇]** [AUTO-07逐節閱讀與反例研究](research/notion-deep-study-automation-run-07-2026-10-25.md)：以2026-10-24首批、第二～四批、十面向研究、MANUAL-01、AUTO-01～06及研究目錄清冊核對canonical URL，新增`https://www.notion.com/nl/help/guides/simple-tables-vs-databases`、`https://www.notion.com/help/navigate-with-the-sidebar`、`https://www.notion.com/en-gb/help/wikis-and-verified-pages`。三篇已取得可讀文字主節並各做一次反例分析；舊N04 `data-sources-and-linked-databases`、N11 `tables`重新研讀有新反例，但**不重算為新來源或嚴格完整Pass**。
+- **[研究反證]** 簡單表格可能變成過期的第二份業務真值；側邊欄移動共享頁至Private可能撤銷他人權限，丟Trash可能連同子頁刪除；Wiki Verified是文件審核，非Formula/計次真值。Linked Source的`X`與原生Source的`Move to Trash`不同；官方移動來源權限的Can edit/Full access段落存在待核的語義張力。Table批次修改及Count unique不保證業務複合唯一。
+- **[嚴格門檻]** 新來源僅文字主節閱讀與一次反例分析，未逐張圖片/嵌入媒體/實帳操作；嚴格完成10/10仍**0／10,000**。Notion/業務資料/權限/正式系統0更動；不開始重新設計。
