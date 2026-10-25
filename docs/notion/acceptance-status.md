@@ -493,3 +493,8 @@
 - **已完成且寫後Fetch PASS**：Notion TEST舊補助管理頁刪除使用者明確否決的青壯額度長篇AI設計文案（545字）＋歷史資料設計理由（117字）；簡化歷史入口標籤並消除③④孤立節號；原7個Linked Views與1個主驗收子頁仍在，新工作台6個資料檢視仍在，三個原Source可Fetch。這是Notion**文字內容刪除**，不等於資料庫Rows刪除或整頁deleted。
 - **保留/未動**：現行青壯Price Plan、Care Episodes、Sessions、Cases、Staff、歷史參與、週回報、額度調整、醫療／財務紀錄、Formula、Rollup、Relation、權限、正式GAS均保持不變；沒有真人UX/效能或公式真值重測。
 - **BLOCKED**：青壯115專屬3 EP Formula＋3 Cases Rollup仍有下游Case公式依賴且缺原生完整expression；已標記等到可安全備份及測試才刪。原補助管理頁含仍有用歷史檢視和主驗收記錄，不可直接整頁刪除。非青壯範圍（如活動管理舊Saved Views）不在本輪處理清單。
+
+## 2026-10-25｜使用者確認：嚴格限定當次需求、完成即停止、「繼續」不得另起任務
+- **[USER MANUAL ACCEPTANCE — SPECIFIC]** 使用者回覆「檢查沒問題」：上一輪`補助方案管理｜TEST`中青壯額度舊AI設計說明及冗餘理由文字的清理，**已獲使用者確認符合要求；該次指定任務已完成並停止**。不將此結論擴張至其他補助資料、Formula、Rollup、申報數據、角色權限或新工作台UX實測。
+- **[POLICY IMPLEMENTATION]** 本次新增專案執行規則：以使用者單一指令為唯一任務範圍，修復後清楚結案；附帶其他問題須先列點詢問，僅有明確授權時才能進行；「繼續」只能接續尚未完成的原任務，原任務已完成則停止。根`AGENTS.md`及`docs/notion/AGENTS.md`已有此優先條款，並修正後者既存的自動續作衝突句子。
+- **[LIMITS]** 本輪僅GitHub文字決策及驗收同步、以遠端blob SHA與Commit回查，無Notion或業務寫入、無效能／權限變更。後續工作須待使用者具體提出或核准，**不自動續做待辦**。
