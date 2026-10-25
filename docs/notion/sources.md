@@ -174,3 +174,7 @@
 ## 2026-10-24｜原生Notion既有掛號費400元方案及分帳證據入口
 - 原有[掛號費Price Plan](https://app.notion.com/p/3d88ca66aa4d83b88e9b0197e9f794a0)：啟用，自費400元、補助0、`收據收費項目=掛號費`；原有[115青壯Price Plan](https://app.notion.com/p/c748ca66aa4d83909393815a05b6030a)：補助1600元、主方案金額1600元。此兩者**已是不同方案實例**。
 - 完整匿名回歸使用原[Sessions主資料庫／Saved View](https://app.notion.com/p/4ae8ca66aa4d8201ae310129a61f7290)、原[Billing主資料庫／Saved View](https://app.notion.com/p/ad98ca66aa4d829ab1ab01baf5ecc4eb)及各Data Source Schema，對照既有Sessions`💲 附加收費方案`、Billing`💲 收費方案`／`💬 Session`的雙向關聯。實際聚合結果／限制見[2026-10-24完整專項稽核](audits/episode-session-plan-consistency-2026-10-24.md)。未取用任何個案姓名／財務原始列於GitHub，Notion原生Formula仍不可讀。
+
+## 2026-10-25｜續作深度學習第二批：14來源分級登錄，10,000×10未完成
+- 本次研究來源清冊：[2026-10-25第二批深度學習證據、閱讀深度與限制](research/notion-deep-study-evidence-batch-02-2026-10-25.md)；包含14個單筆URL，嚴格區分10個成功取得可核對章節的`BODY_SECTIONS`及4個公開片段/索引`SUMMARY_ONLY`，來源直開失敗、付費模板內容不可見皆明列。不將上述14篇當成逐篇全文深讀或完成十遍。
+- 研究完整性：仍無任何可核實`10/10`深讀完成的個別文獻；總目標10,000×10未完成，前批10個設計分析面向亦不算十輪深讀，素材庫70,000+是平台數量不是已讀。本輪不產生新的Notion設計規格或直接變更工作台。
