@@ -8,7 +8,7 @@
 2. Notion TEST 行政首頁：https://app.notion.com/p/de78ca66aa4d82659e7181a66fa17220
 3. Notion TEST 政府補助管理工作台：https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf
 4. Notion TEST 年度補助參與資料庫：https://app.notion.com/p/133f0b4c49bc4c8d91bf2004525ce85f
-5. Notion 青壯設計與驗收紀錄：https://app.notion.com/p/4028ca66aa4d81298984ffd18b590a1d
+5. 青壯設計與驗收主紀錄：GitHub [決策](decision-log.md)／[驗收](acceptance-status.md)及 [Google Docs 跨年度設計規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)。原 Notion 設計歷史頁 `4028ca66aa4d81298984ffd18b590a1d` 已於 2026-10-25 移入可恢復垃圾桶，**不可再當作現行 Notion 入口**；原文非逐字搬到 GitHub，而是留在垃圾桶供必要回復。
 6. Google Docs 現用「青壯跨年度資料模型及 UX 規格 v3.4」＋第十一節 v3.5設計補充：https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit
 7. 同份文件補充前備份：https://docs.google.com/document/d/1nMtwi1nXVsnF6tkZRIH2J5aWO7JGV7RyLpEQfDua6iI/edit
 
