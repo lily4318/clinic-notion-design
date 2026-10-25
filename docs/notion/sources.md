@@ -265,3 +265,9 @@
 - [Sub-items & dependencies](https://www.notion.com/help/tasks-and-dependencies)（notion-help:tasks-and-dependencies；AUTO14-S02；R1）：刪父項連帶刪子項、複製父項連帶複製子項；依賴日期可自動位移但不得據此改寫政府法定期限；Nested/Flattened是顯示設定。
 - [Manage database property access](https://www.notion.com/help/database-property-access)（notion-help:database-property-access；AUTO14-S03；R1）：Business/Enterprise才有欄權限；最多20欄、Full access不受限、多條權限採較寬、受限欄作篩選可能使View無法開啟；不能以免費版View隱藏替代權限。
 - 來源原文查閱日期2026-10-26，原文發表/更新日未核實；圖片、影片、實帳/真人/效能/Formula/權限未完整檢查。僅GitHub研究，不變更Notion或正式系統，不開始改版。
+
+## 2026-10-26｜Notion深度學習 AUTO-15：三篇官方來源＋歷史去重稽核
+- [AUTO-15 逐篇閱讀、反例、限制與修正稽核](research/notion-deep-study-automation-run-15-2026-10-26.md)（trace `AUTO-15-20261026-0643`）；2026-10-26 實際開啟官方可讀正文、閱讀主要文字章節、每篇首次反例分析。**本輪新增3個canonical URL**：[`/help/guides/tips-to-keep-your-teams-notion-pages-up-to-date`](https://www.notion.com/help/guides/tips-to-keep-your-teams-notion-pages-up-to-date)、[`/help/writing-and-editing-basics`](https://www.notion.com/help/writing-and-editing-basics)、[`/help/public-pages-and-web-publishing`](https://www.notion.com/help/public-pages-and-web-publishing)。canonical IDs分別為`notion-help:guides/tips-to-keep-your-teams-notion-pages-up-to-date`、`notion-help:writing-and-editing-basics`、`notion-help:public-pages-and-web-publishing`；各僅R1文字研讀+分析，非FULL_DEEP_PASS。
+- [重要去重更正] 早期首批證據登錄N04已收`relations-and-rollups`、N07已收`database-property-access`，故AUTO-14所稱「新增3篇」實際只有`tasks-and-dependencies`可暫列新增；第三批NEW05已收`formulas`，故AUTO-13該項亦非新增。保留原批次閱讀證據，但不重複計算來源。全域精確去重累計需另行跨檔盤點，**暫不報未核實的累計唯一篇數**。
+- [新反例] Last edited不代表規則仍有效、Archive不等於真正刪除；Toggle須逐一開合且手機無桌機Slash/hover；發佈父頁可能連子頁/DB Views公開、貢獻者email可能出現在metadata，Unpublish也不自動移除`Anyone on web with link`。
+- [嚴格進度] AUTO-15新URL3、主文字研讀3、首次反例3、10/10嚴格完成新增0；**累積0/10,000**。圖片/影片/實帳/手機/權限/效能均未完整實測；不改Notion或正式系統，不開始重新設計。
