@@ -207,3 +207,8 @@
 - **[新增去重URL／第一輪閱讀]** [AUTO-03閱讀證據](research/notion-deep-study-automation-run-03-2026-10-25.md)：與2026-10-24首批、2026-10-25第二～四批、十面向、AUTO-01/02、MANUAL-01的URL清冊比較後，新增3個官方canonical slug：`/help/guides/assign-custom-database-permissions`、`/help/guides/tasks-manageable-steps-sub-tasks-dependencies`、`/help/feeds`。3篇皆已閱讀可取得的文字主章節並各完成一輪反例分析；未看完媒體或做實機測試，**不算10次完整深讀**。語系版本不重算。
 - **[新反例]** `Can edit content`仍可刪除資料列，不等於防刪或病歷權限隔離；Sub-items/Dependencies是自我Relation，不保證補助核定期或額度邏輯；Feed卡片適合公告互動，未證明更適合密集數值比較。跨查官方Sharing/Property Access確認page-level/property-level權限屬Business/Enterprise，不得誤用免費版。**不新增任何Notion功能或設計**。
 - **[嚴格累積]** 本批3篇均僅1次分析，嚴格各10次完整深讀合格篇數仍**0/10,000**；其他批次與平行工作不重複計數。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-04（提醒／Inbox／通知設定）
+- **[去重來源／第一次主文字閱讀]** [AUTO-04 閱讀與反例證據](research/notion-deep-study-automation-run-04-2026-10-25.md)：於當次從main重讀首批16、批次02/03/04、十面向研究、AUTO-01/02/03與MANUAL-01並查對URL後，新增3篇官方canonical文章：`/help/reminders`、`/help/updates-and-notifications`、`/help/notification-settings`。各篇可取得的主要文字章節已讀，分別做1次假設／反例／修正分析；媒體與實機未驗，**不是完整深讀Pass**。
+- **[實際研究結論]** 單次Date提醒≠每週定期工作流或業務完成；Inbox通知類型篩選只改可見性、手機不一定支援與桌面相同的類型篩選；App開啟時推播/email可能被抑制。收件者無法自行取消Person屬性通知與屬性編輯者可調通知設定並不互斥。提醒、送達、已讀、已完成核對不能混為同一狀態。
+- **[嚴格進度]** 本批3篇各有1次分析，第2–10次未執行，嚴格達成10次完整深讀的來源仍**0/10,000**。未修改Notion/業務資料/權限或正式系統。
