@@ -590,3 +590,7 @@
 ## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-10（Page analytics／Roles／Guest邀請）
 - **[STUDY UNIT PASS; GLOBAL GOAL NOT_DONE]** [AUTO-10原始閱讀、反例與限制](research/notion-deep-study-automation-run-10-2026-10-26.md)：本輪3篇新Notion官方來源，經清冊去重、實讀全部可取得的主要文字章節，各完成一次假設/反例/修正；來源涵蓋Page analytics、Who’s who、Manage members & guests。未逐張驗圖、嵌入影片、實帳Free/Enterprise、真人/效能/資料真值測試，**10次完整深讀合格仍0／10,000**。
 - **[NO SYSTEM CHANGE]** GitHub研究/索引最小同步，寫入時使用最新blob SHA並讀回核對；Notion頁/DB/View/Formula/Relation/Share/業務資料及正式GAS/Cloud Run/Session皆未變更，未開始新版設計。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-11（Teamspaces管理／加入／權限）
+- **[PASS: RESEARCH EVIDENCE; NOT_DONE: 10,000×10]** [AUTO-11研究證據](research/notion-deep-study-automation-run-11-2026-10-26.md)新增3個已知清冊未登錄的官方唯一文章，讀取主要文字章節，各有一次假設/反例/修正；未完整檢視圖片/影片、未實帳跨角色或方案測試，不計FULL_DEEP_PASS，**累積10/10達標仍0/10,000**。
+- **[SCOPE VERIFIED]** 僅GitHub研究證據與共用索引增量；Notion頁/DB/View/Formula/Relation/權限/業務資料及正式GAS/Cloud Run/Session無變更，未啟動Notion設計。Default/Closed/Private/Archive安全推論仍需實帳驗證。
