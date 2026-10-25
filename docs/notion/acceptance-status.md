@@ -516,7 +516,7 @@
 - **[QUALITY FINDINGS NOT A REDESIGN]** Notion官方證明手機多欄塌成單欄、Page Layout會套用整個Data Source、Formula/Rollup篩選及多Inline DB可能增加負載、Data Source頁級權限功能Business/Enterprise才有。NN/g表格與漸進式揭露研究強調高頻任務、比較與操作成本的取捨。這些僅為來源證據整理和衝突假設，**尚未批准Notion重新設計**。
 - **[UNCHANGED / STOP HERE]** 原青壯額度與歷史工作台、業務資料、Notion Formula/Relation/View/權限、正式GAS與Cloud Run皆無寫入，效能/真人桌機手機未測。GitHub新增來源檔與索引、驗收檔採SHA並寫後Fetch；下一次「繼續」僅可接續這個未完成的學習目標，不可在未達標時逕行版面設計。
 
-## 2026-10-25｜Notion深度學習第三批：12個新去重URL、2篇完成首輪評析，十次門檻未通過
-- **[研究紀錄讀回 PASS／整體目標 FAIL]** 本次延續的是使用者已明示「先深度學習達標，再進入Notion設計」的尚未完成工作，而不是新的Notion改版授權。[第三批來源與深入評析](research/notion-deep-study-evidence-batch-03-2026-10-25.md)新增12個去重URL：2篇完整主要文字章節+首輪反例評析、3篇部分內文或搜尋擷取、6篇只讀商品介紹、1個模板目錄；既有Notion按鈕和NN/g表格研究URL有重查但未重複增加unique件數。
+## 2026-10-25｜Notion深度學習第三批：11新URL＋1舊文深讀，十次門檻未通過
+- **[研究紀錄讀回 PASS／整體目標 FAIL]** 本次延續的是使用者已明示「先深度學習達標，再進入Notion設計」的尚未完成工作，而不是新的Notion改版授權。[第三批來源與深入評析](research/notion-deep-study-evidence-batch-03-2026-10-25.md)檢閱12個canonical URL（11個新來源＋1篇原2026-10-24 N09深入重讀）：2篇完整主要文字章節+首輪反例評析、3篇部分內文或搜尋擷取、6篇只讀商品介紹、1個模板目錄；既有Notion按鈕和NN/g表格研究URL有重查但未重複增加unique件數。
 - **[重要概念驗證]** Notion Database Templates中預設Relation若誤指舊政府補助期別，套用後可能所有服務歷程連到錯的方案；Notion Synced Blocks必須核對原始區塊權限，>10份副本時原始內容刪除/Unsync all影響範圍和Undo有特別限制。兩個概念以官方全文、反例及跨來源比對記錄，沒有在真實工作區執行操作。
 - **[未完成/保留]** 10,000篇×10次的逐篇深讀驗收仍`NOT_DONE`、10/10篇數`0`。本輪Notion實頁、工作台、Cases、Care Episodes、Price Plans、Views、Formula、業務紀錄、權限、GAS/Cloud Run/Session都沒有任何寫入；無真人操作、效能或權限新測。學習尚未達標，不得因此開始設計或要求使用者認可新版UX。GitHub僅研究與索引紀錄提交並回讀SHA。
