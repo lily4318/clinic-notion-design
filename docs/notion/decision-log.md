@@ -499,3 +499,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-09（Comments／Suggested edits／Backlinks）
 - **[研究而非產品決策]** [AUTO-09原始研究與逐篇反例](research/notion-deep-study-automation-run-09-2026-10-26.md)，本批官方3篇（Comments/mentions/reactions、Suggested edits、Links/backlinks）逐篇核對現有清冊後首次閱讀主要文字章節並記錄反例：評論解決不保證額度正確；文件建議修改不支援資料庫屬性/inline DB，不能當資料庫核准機制；Backlinks顯示受存取權限限制，不能當無引用刪除依據。三篇均不是十次完整深讀Pass，累積嚴格達標**0/10,000**。
 - **[不變與並行]** 手動「繼續」與既有每小時排程仍獨立推進，URL/slug與閱讀輪次去重，寫前最新main+SHA、寫後回查；未更動Notion正式/TEST頁、DB、View、Formula、Relation、權限、個案/財務資料、GAS/Cloud Run/Session，未做真人/效能/權限測試；不開始Notion新版設計。需要回復時精確revert本批GitHub Commit，不覆蓋其他流程。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-10（Page analytics／Roles／Guest邀請）
+- **[RESEARCH ONLY]** [AUTO-10原始閱讀、反例與限制](research/notion-deep-study-automation-run-10-2026-10-26.md)新增3個已與研究清冊去重的官方來源，分別為Page analytics、Workspace角色、Member/Guest邀請管理；完成官方可讀文字主節及首次反例分析，未逐圖/影片/實帳測試。瀏覽量不證明操作理解；Guest/Member/Restricted member的權限、費用、子頁繼承及邀請連結不能混為一談。無權益/真人驗收證據，不據此變更現有方案。
+- **[BOUNDARY]** 使用者10,000篇×10次嚴格完整深讀仍**0/10,000**；本輪只更新GitHub研究與索引，Notion TEST/正式頁、Data Source、View、Formula、Relation、權限、業務資料、GAS/Cloud Run/Session均0寫入。手動與排程並行時以最新main SHA合併非重複增量，不能覆蓋。
