@@ -524,3 +524,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[研究，不是實作核可]** [AUTO-14研究原文與反例](research/notion-deep-study-automation-run-14-2026-10-26.md)新增3篇官方正文，分別核對Relation/Rollup、Sub-items/Dependencies、Database Property Access；每篇僅文字主節閱讀及第一次獨立反例，非FULL_DEEP_PASS。
 - **[風險辨識]** 單欄Relation限1頁不能保證跨筆個案×核定期唯一；Rollup去重不等於補助核銷判斷，CSV不保證Relation可復原。父子項的複製/刪除可連帶變更，任務依賴的日期位移不可當作政府期限真值。欄權限限Business/Enterprise、20欄且Full access不受限制，Free View隱藏不構成存取管制；受限欄可能影響View/公式/按鈕。
 - **[不變]** 不新增/刪除/改寫任何Notion欄位、頁面、Relation、Rollup、View、權限或正式業務紀錄；GAS/Cloud Run/Session不變。未完成10,000×10且未獲完成後核可，不開始Notion重新設計。
+
+## 2026-10-26｜AUTO-15研究風險與去重口徑（僅研究，非設計核准）
+- [AUTO-15研究紀錄](research/notion-deep-study-automation-run-15-2026-10-26.md)，trace `AUTO-15-20261026-0643`：三篇新canonical官方文章文字主節與反例；不授權任何Notion介面/Schema/Share變更。
+- 研究反證：文件最近編輯時間不等於核定條款仍有效，Archive不能替代使用者要求的真正刪除；Toggle與桌機/手機操作差異使「收起來就簡潔」可能降低行政效率；公開Notion Site時父子頁、資料庫檢視、貢獻者metadata與一般分享權限需分開驗證。**沒有證據顯示本所目前存在公開洩漏**。
+- 去重規則修正：AUTO-14的`relations-and-rollups`及`database-property-access`早在首批N04/N07；AUTO-13的`formulas`早在第三批NEW05。既有閱讀保留，但不得計入新URL；目前未做全清冊唯一數精確重算，不虛報總篇數。
+- **決策狀態**：僅研究/風險提示，未核准Notion重新設計、公開分享或任何系統修改；嚴格10/10仍0/10,000。
