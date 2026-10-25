@@ -514,3 +514,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - [AUTO-12 官方來源、閱讀與反例](research/notion-deep-study-automation-run-12-2026-10-26.md)新增3篇去重來源（Export your content、Use pages offline、Workspace settings），均為主要文字/FAQ首次閱讀與反例分析，未達完整10/10。
 - **不作新設計決策**：匯出不保證所有View/關聯/權限可還原；離線DB預載首View前50列且非文字欄位存在競爭覆寫風險；Workspace設定與防匯出受角色及方案限制。若未來討論備份、離線行政作業或角色管理，先依此做風險/驗收設計，仍須使用者明確同意。
 - **維持界線**：僅研究與GitHub記錄，Notion/TEST/正式業務資料/權限/公式與GAS/Cloud Run/Session零更動；累積嚴格10/10仍0/10,000，不啟動重新設計。
+
+## 2026-10-26｜AUTO-13：公式語義與欄位指南反例研究（僅研究）
+- **[研究結論，非改版決策]** [AUTO-13逐篇證據](research/notion-deep-study-automation-run-13-2026-10-26.md)：Notion官方`empty(0)=true`，不得把空值檢查直接當作「未知／已確認0」的業務分類；`unique()`僅對列表值去重，不構成個案×核定期別複合唯一約束；單筆公式預覽、Notion AI公式生成、Checkbox及View隱藏皆不能替代跨期補助核定、審批證據與權限驗證。
+- **[來源時效與限制]** 官方欄位指南自述部分操作畫面可能因2022年資料庫改版而過時；尚未驗圖片/互動模板、實際原生Formula、各角色權限或效能。本次新來源3篇均只有文字主節與首次反例，**0篇達嚴格10/10**。
+- **[未授權變更]** 本輪未新增/修改任何Notion頁、資料庫、View、Formula、Relation、權限、資料列；未變更正式GAS/Cloud Run/Session；10,000篇各10次未達標，不開始Notion重新設計。
