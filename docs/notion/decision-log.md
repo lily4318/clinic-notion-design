@@ -436,3 +436,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[CURRENT TASK CONTINUATION]** 使用者再次指示「繼續」，只授權繼續Notion設計來源逐篇深讀、複習與GitHub研究紀錄；沒有同意在尚未達到10,000×10深度學習條件前做Notion UX改版、測試頁或任何業務資料/權限變更。
 - **[NEW EVIDENCE / DEDUP]** [第四批來源與第二輪分析複查](research/notion-deep-study-evidence-batch-04-2026-10-25.md) 登錄5個新URL（4篇BODY_SECTIONS與1篇SUMMARY_ONLY），另外既有Database Templates和Synced Blocks各做新增假設與反例的第二輪分析複查，對舊Views資料只做定向重查；本輪新增材料與先前三批證據去重。**十次完整深讀合格篇數仍0/10,000，不冒稱已學完。**
 - **[GATE]** GitHub更新僅本次研究來源、接受狀態與決策留痕並回查Commit/SHA；Notion TEST、來源資料表、頁面、Saved Views、Formula、Relation、權限、資料與正式系統全部保持不變，沒有新增效能開銷，沒有真人或功能測試。後續設計階段仍被使用者指定的學習完成門檻阻擋。若要回復僅精準回復本批相關GitHub commits，勿覆蓋無關/並行變更。
+
+## 2026-10-25｜使用者新增雙軌規則：每小時排程與手動「繼續」同步並行
+- **[USER CONFIRMED]** 使用者明確要求：「當我主動要求你繼續，你要繼續完成，與自動排程不衝突，同時並行。」本指令專指仍在進行中的 Notion 深度學習（至少10,000篇，每篇10次可稽核閱讀），不得將此授權擴張到未獲核准的新版Notion設計／正式系統。
+- **[SCHEDULE UPDATE]** 已針對既有每小時執行的「Notion 深度學習續作」排程更新提示：排程持續啟用，每次獨立研究；使用者在聊天端要求「繼續」，即時實際執行可驗證的另一個研究單元，不等待、不取消、不停用或延後排程。沒有新增第二個重複自動任務；既有每小時節奏保持不變。
+- **[CONCURRENCY GUARANTEE SCOPE]** GitHub各自從最新main取讀、不同批次標記，優先分配不同canonical URL與尚未完成的閱讀輪次。共享來源索引嚴格去重；每個修改前重讀遠端blob SHA、條件寫入並寫後Fetch/Commit回查；碰到並行衝突須重新讀取並只合併不重複的新證據，無法安全合併則停止該筆寫入、不得覆蓋另一流程。這是資料一致性的工作規則，不冒稱平台保障同時排程精準實際啟動時間或完全不會碰撞。
+- **[SCOPE/ROLLBACK]** 此輪只更新現有排程設定、根AGENTS、Notion AGENTS及必要GitHub決策/驗收文字；沒有修改Notion的Page、Database、Saved View、Formula、Relation、業務紀錄、權限、正式GAS/Cloud Run/Session。可針對上述GitHub Commit精確回復，不碰其他並行紀錄。
