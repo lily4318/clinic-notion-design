@@ -197,3 +197,8 @@
 - **[Manual research alongside AUTO-01]** [MANUAL-01 深度學習證據與反例](research/notion-deep-study-manual-01-2026-10-25.md)：根據2026-10-24第一批、2026-10-25第二～四批、十面向清冊、及已保存的[AUTO-01](research/notion-deep-study-automation-run-01-2026-10-25.md)逐URL查重，本次另取得3篇新Notion官方資料：`/help/unique-id`、`/help/database-automations`、`/en-gb/help/collaborate-within-a-workspace`。三篇均打開可取得的全部文字主節、各完成**首次反例評析**；並未查看嵌入影片、全部示例圖片或用真實工作區測試，故**不是嚴格10次深讀PASS**。
 - **[Research finding, not product decision]** 原生ID編號不等於「個案×方案實例」業務唯一；原生資料庫自動化不能由另一自動化觸發，部分Trigger有三秒窗口／View-filter依賴；資料庫鎖保護結構、不阻止資料值更動。該官方自動化文章內Free Slack例外與Plus付費說明文字不同，登錄`SOURCE_INTERNAL_CONFLICT`，待查；**未更動Notion系統或開始設計**。
 - **[10,000×10 status]** 截至本次手動續作，10次完整深讀達標**0/10,000**；不能把AUTO研究或一篇多章節閱讀重算多篇／多輪。GitHub研究檔和本索引經最新SHA寫入/回讀。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-02（3篇官方新來源）
+- **[新來源／嚴格去重]** [AUTO-02閱讀證據](research/notion-deep-study-automation-run-02-2026-10-25.md)：比對2026-10-24第一批、2026-10-25批次02/03/04、十面向、AUTO-01、MANUAL-01後，本次新增3個Notion官方canonical URL：`/help/import-data-into-notion`、`/help/back-up-your-data`、`/help/duplicate-public-pages`（英文英國語系與其他語系同篇不重算）。2篇已閱讀可取得文字主節並各做一輪反例分析；1篇匯入長文僅針對CSV/PDF/FAQ等部分章節閱讀並分析，**不計完整全文深讀**。
+- **[反例與時效]** CSV Merge只新增列不更新舊列，且新CSV不能直接建立Relation/Formula/Rollup；Workspace匯出可能漏掉無權存取的頁面且不能直接原樣重建；公開模板複製後部分區塊可能`No access`。備份官方頁含2026-08-31前Workspace PDF匯出退場提示，標`DOC_STALE_TRANSITION`，不當作現時功能已驗證。
+- **[總目標]** 每篇10次嚴格完整深讀通過數仍**0/10,000**；本次不更動Notion或正式系統，不進入Notion設計。
