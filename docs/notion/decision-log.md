@@ -455,3 +455,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[USER SCOPE CONTINUES]** 使用者說「繼續」依已確認雙軌規則，聊天端立即進行研究，無需停止/延後已存在的每小時學習排程；上次研究成果與GitHub來源清冊以最新main作為去重基準。**尚未授權從學習轉入Notion設計**。
 - **[CONCRETE EVIDENCE]** [MANUAL-01 深度學習證據與反例](research/notion-deep-study-manual-01-2026-10-25.md)新增3個Notion官方canonical URL，主要文字章節實讀＋一次新反例分析。結論：Notion Unique ID不能保證個案×方案Instance composite唯一；Database automations有Free權益及兩處Slack敘述相互歧異、連鎖自動觸發限制及篩選條件影響；資料庫Lock不是後端授權/transaction。嚴格10/10完成篇數依舊0／10,000，不假稱已完成深度學習。
 - **[UNCHANGED/ROLLBACK]** 本次僅GitHub研究文件、來源及決策/驗收摘要；現用Notion TEST與正式資料庫/Views/Formula/Relation/權限/臨床資料、正式GAS與Cloud Run均不動。未進行真人、行動裝置、載入/權限測試。GitHub可按本次commit精準revert，不覆蓋AUTO/其他並行紀錄。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-02（3篇官方新來源）
+- **[研究，不是Notion設計決定]** 本次自動排程另以AUTO-02獨立檔案完成3個官方新來源的去重閱讀與反例，見[AUTO-02閱讀證據](research/notion-deep-study-automation-run-02-2026-10-25.md)。匯入/CSV merge並非upsert；Notion匯出備份並不等於完整一鍵還原；公開頁複製可能保留無權限區塊，且表單目的地另須核實。備份官方文件內Workspace PDF退場文字與功能描述有時效落差，標示未實測。
+- **[雙軌與限制]** 手動MANUAL-01、排程AUTO-01均保留，這次只增加AUTO-02及研究索引/驗收摘要；以main最新SHA更新並回讀。**嚴格10/10達標仍0/10,000**，未取得開始Notion重新設計授權。Notion頁面/Schema/View/Formula/Relation/業務列/權限、GAS/Cloud Run/Session均0變更。
