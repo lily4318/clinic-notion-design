@@ -574,3 +574,7 @@
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-06（Calendar／Timeline／Gallery）
 - **[PASS: RESEARCH INCREMENT; NOT_DONE: GLOBAL GOAL]** [AUTO-06官方來源逐節閱讀及反例](research/notion-deep-study-automation-run-06-2026-10-25.md)：3篇新的canonical URL，3篇已讀可取得全部文字主節及FAQ，3次首次假設/反例/修正分析。未逐張檢查圖片或嵌入影片、未進行實帳/權限/行動裝置/效能/拖曳日期寫回測試；嚴格FULL_DEEP_PASS尚無新增，**完成10/10來源仍0/10,000**。
 - **[NO SYSTEM CHANGE]** 只保存GitHub研究證據與來源/決策/驗收索引，未更動Notion正式/TEST任何頁面、DB、View、Formula、Relation、權限、個案或收費資料，也未更動GAS/Cloud Run/Session。與手動續作共用最新main清冊、分檔避免競爭，寫前blob SHA及寫後回讀驗證。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-07（Simple tables／Sidebar／Wikis）
+- **[PASS: RESEARCH INCREMENT; NOT_DONE: GLOBAL LEARNING]** [AUTO-07逐節閱讀與反例研究](research/notion-deep-study-automation-run-07-2026-10-25.md)：本次3個新canonical URL已讀官方可取得文字主節，分別完成一次獨立假設/反例/修正；舊N04 Data Sources與N11 Table重新研讀產生2個新分析，不新增URL或嚴格全文深讀Pass。未檢查全部圖片/影片、未實帳/角色/手機/效能測試，**嚴格10/10完成仍0／10,000**。
+- **[PASS: NO SYSTEM CHANGE]** 僅GitHub研究與共用索引，Notion TEST/正式Page、Data Source、View、Formula、Relation、權限、業務資料及GAS/Cloud Run/Session均0更動。並行寫入逐檔讀取最新main blob SHA、條件寫入並回讀內容/SHA/Commit；未授權新版Notion設計。
