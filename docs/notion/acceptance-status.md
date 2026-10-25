@@ -546,3 +546,7 @@
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-02（3篇官方新來源）
 - **[RESEARCH INCREMENT PASS; GLOBAL GOAL NOT_DONE]** [AUTO-02閱讀證據](research/notion-deep-study-automation-run-02-2026-10-25.md)：本批3個與既有研究清冊未重複的官方URL，2篇全文可讀文字主節、一篇長文指定章節閱讀，均各做首次反例分析。主要發現：CSV匯入及Merge不更新既有列、Workspace匯出未必涵蓋所有私人頁且不可一鍵重建、公開模板複製可能出現`No access`。另對2026-08-31 Workspace PDF匯出退場資訊標時效疑點。**不能把本批算作任何篇完成10次深讀；合格0/10,000**。
 - **[SCOPE]** 僅官方公開文章唯讀＋GitHub研究記錄；未對Notion TEST/正式頁、DB、Views、Formula、Relation、權限、個案/財務資料或GAS/Cloud Run/Session寫入。未進行真人、權限、資料復原或效能實測。GitHub使用最新blob SHA條件寫入，寫後核對commit與內容，保留其他並行研究增量。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-03（權限、Sub-items、Feed，3篇官方新來源）
+- **[RESEARCH EVIDENCE VERIFIED; LONG-TERM GOAL NOT_DONE]** [AUTO-03閱讀證據](research/notion-deep-study-automation-run-03-2026-10-25.md)：3個新canonical URL、3篇文字主章節閱讀、3次獨立首次反例分析；仍無10/10嚴格完整深讀合格篇數（**0/10,000**）。研究結論：`Can edit content`不防止刪業務列；自我Relation不能取代額度/期別真值；Feed不能直接取代表格比較。
+- **[NO NOTION WRITE]** 本輪只改GitHub研究檔及研究索引／驗收／決策摘要，未更動Notion正式或TEST的Page、Database、View、Formula、Relation、權限或業務列；GAS/Cloud Run/Session零變更。未執行真人UX、權限、效能、手機或數值真值測試，未開始設計。GitHub各檔寫前重取main blob SHA並於寫後讀回驗證。
