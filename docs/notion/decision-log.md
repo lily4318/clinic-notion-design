@@ -421,3 +421,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[READBACK PASS]** 寫後Fetch補助管理頁7 views、**0 child**、無「方案設計及驗收紀錄」Toggle；原歷史設計子頁`4028ca66aa4d81298984ffd18b590a1d`根頁`deleted`，51,550字仍可透過精確ID讀取作垃圾桶回復；容器頁`df04a6d6725b45a4ae10a84440a16332`根頁`deleted`且0 content。現行工作台仍6 views／5個操作標題／「設定收費方案」入口，舊技術解釋不再出現、簡短人工核對提醒存在；TEST行政首頁仍3個子頁／22個DB區塊。逐一Fetch Care Episodes、Price Plans、Staff、補助參與、心理師週回報、補助額度調整6個原Data Sources，均有data-source-state且存活。
 - **[BLOCKED / DO NOT OVERSTATE]** 原Cases與Care Episodes仍有3組「青壯115」來源Formula→Cases Rollup，以及額外下游Formula、舊頁歷史對照與參與／額度／申報等有效資料。因連接器沒完整Formula expression，無可驗證依賴閉包／等價備份，不能強行刪除原業務欄位或資料列。原補助管理頁7個關聯歷史／核定管理入口仍實用，故不刪整頁。**已完成本次可安全處理的過時頁面設計清理；不宣稱所有舊欄位或真實資料被刪**。Notion原生刪除只移到可恢復垃圾桶，非永久purge。
 - **[SCOPE / ROLLBACK / TEST LIMIT]** 未更動任何實體業務資料列、Formula、Rollup、Relation、schema、Saved View設定、授權、正式GAS、Cloud Run、Session；無真人當下操作、原生Formula真值或載入效能實測。使用者檢查：https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f 及 https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf 。若回復被刪設計頁，需從Notion垃圾桶按精確ID恢復並核對當前樹狀階層；現行工作台的文字可透過Notion頁面歷史精準恢復，不應以舊快照覆蓋6個有效Linked Views或並行修改。
+
+## 2026-10-25｜Notion視覺與操作版面研究：十面向交叉複核，未達萬篇×十次
+- **[NEW USER TASK]** 使用者希望深入研究至少10,000個Notion設計、每篇重複深學十次，再提出版面建議並更新GitHub；本次只允許研究與提案，沒有指示立即改Notion。
+- **[STUDY PROVENANCE]** Notion Marketplace稱70,000+模板僅為可搜索數，並不是已讀。已在官方Help／Marketplace／NN/g的至少20個成功擷取頁面核對相關內容，完成針對既有6個Saved Views的10個UX面向交叉複核；**不得宣稱每篇完整深讀十次／十千篇達成**。研究及逐URL來源記錄在[研究證據及完整十面向紀錄](research/notion-ux-research-and-10-lens-review-2026-10-25.md)。
+- **[RECOMMENDATION]** 免費版優先維持同頁直接可見的警示兩表與額度三表、並以更清楚的兩大資訊組及色彩／字級／留白階層分開；縮短候選7欄為必要欄，保留低頻設定及必要人工提醒，不額外建立資料表、Graph或按鈕。現行「最後一次已預約」View只有青壯115＋進行中＋剩餘0篩選，未直接有已預約條件，故名稱有語意風險；治療所所有方案與心理師／個案青壯115範圍亦須醒目區分。任何篩選/公式變動均另案實核，不能以美觀提案偷改業務邏輯。
+- **[NO WRITE/STOP]** 本回合不修改Notion TEST工作台或業務Data Source／View／Formula／Relation／權限，沒有正式GAS、Cloud Run寫入；無真人／手機／載入效能新PASS。本研究提交及回查後停止，不擅自做方案A或B；由使用者明確選擇再進行獨立後續任務。
