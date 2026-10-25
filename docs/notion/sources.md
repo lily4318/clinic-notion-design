@@ -271,3 +271,8 @@
 - [重要去重更正] 早期首批證據登錄N04已收`relations-and-rollups`、N07已收`database-property-access`，故AUTO-14所稱「新增3篇」實際只有`tasks-and-dependencies`可暫列新增；第三批NEW05已收`formulas`，故AUTO-13該項亦非新增。保留原批次閱讀證據，但不重複計算來源。全域精確去重累計需另行跨檔盤點，**暫不報未核實的累計唯一篇數**。
 - [新反例] Last edited不代表規則仍有效、Archive不等於真正刪除；Toggle須逐一開合且手機無桌機Slash/hover；發佈父頁可能連子頁/DB Views公開、貢獻者email可能出現在metadata，Unpublish也不自動移除`Anyone on web with link`。
 - [嚴格進度] AUTO-15新URL3、主文字研讀3、首次反例3、10/10嚴格完成新增0；**累積0/10,000**。圖片/影片/實帳/手機/權限/效能均未完整實測；不改Notion或正式系統，不開始重新設計。
+
+## 2026-10-26｜Notion深度學習 AUTO-16：Buttons／Feed／Archive（僅研究）
+- [AUTO-16逐篇正文閱讀與獨立反例](research/notion-deep-study-automation-run-16-2026-10-26.md)（trace `AUTO-16-20261026-0744`）：本輪比對當期首批、十面向、批次02–04、MANUAL-01、AUTO-01～15清冊後，暫列3個新官方canonical來源：[`/help/buttons`](https://www.notion.com/help/buttons)（`notion-help:buttons`；AUTO16-S01）、[`/help/feeds`](https://www.notion.com/help/feeds)（`notion-help:feeds`；AUTO16-S02）、[`/help/archive-pages`](https://www.notion.com/help/archive-pages)（`notion-help:archive-pages`；AUTO16-S03）。每篇僅可取得主要文字章節R1＋首次反例，不是10次完整深讀；發表/更新日期未核實。
+- **[反例]** Page button跨庫操作受目標權限、缺失欄位/連接與模板覆蓋影響，不能視為唯一核定交易；Feed線性卡片不必然適合跨多列額度對照；Archive僅Business/Enterprise beta、保留可存取內容及連結，不能當作使用者要求的真正刪除。
+- **[嚴格計數]** 本輪新增canonical候選3、主要文字研讀3、首次獨立反例3、完整10/10達標新增0；累積可稽核完整10/10仍**0/10,000**。全域唯一來源總數待完整去重，不把歷史批次數直接加總。未驗所有圖片/互動/實帳、真人權限/效能；Notion/正式系統零修改，不開始重新設計。
