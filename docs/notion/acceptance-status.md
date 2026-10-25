@@ -582,3 +582,7 @@
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-08（Sidebar Presets／Sidebar自訂＋舊文複讀）
 - **[EVIDENCE RECORDED; GLOBAL GOAL NOT_DONE]** [AUTO-08原始閱讀與反例研究](research/notion-deep-study-automation-run-08-2026-10-25.md)本輪新增2個未登錄官方canonical URL，分別完成可讀文字主節及第一次反例分析；另重新研讀已登錄Layouts、Dashboards各1篇，有新反例但非第2次嚴格FULL_DEEP_PASS。舊Home URL redirect到已登錄Sidebar來源，不計篇數。**10,000篇各10次完整深讀合格：0／10,000**。
 - **[SAFETY / LIMITS]** 未測Notion Free實際權益、真人跨角色/行動裝置、性能、任何業務公式值；本輪Notion業務資料、頁面、資料庫、檢視、公式、關聯、角色權限、正式GAS/Cloud Run/Session**0寫入**。只同步GitHub研究與決策/來源/驗收索引，並以最新SHA條件更新、讀回核驗；未授權設計改版。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-09（Comments／Suggested edits／Backlinks）
+- **[STUDY INCREMENT VERIFIED; GLOBAL GOAL NOT_DONE]** [AUTO-09原始研究與逐篇反例](research/notion-deep-study-automation-run-09-2026-10-26.md)：3篇新增且逐清冊去重的官方文章已讀可取得文字主節，首次假設/反例/跨來源檢討各一輪。重要邊界為評論Resolved≠核定、Suggested edits≠資料庫變更審批、Backlinks=0≠無引用。未逐張驗圖/嵌入影片/實帳測試，**不計FULL_DEEP_PASS**；10/10完整深讀達標篇數仍**0/10,000**。
+- **[SCOPE/PASS]** 本輪僅公開文件唯讀、GitHub研究檔與來源/決策/驗收索引最小增補；GitHub以最新blob SHA條件寫入及Fetch驗證。Notion Page、Data Source、View、Formula、Relation、權限、業務資料及正式GAS/Cloud Run/Session均0更動；真人UX、權限、效能、真值測試未做。**不啟動Notion重新設計**。
