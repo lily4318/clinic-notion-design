@@ -51,3 +51,8 @@
 - **[OFF-SYSTEM REGRESSION]** 按實際Price Plan方案實例的每案上限（非寫死115／3次）擬定互斥的`轉自費或結案`、`額外預約核對`、`待確認他處`、`維持預約提醒`與`自費原流程`決策；已執行13組匿名離線JavaScript分支案例，13/13PASS，涵蓋最後一次**僅已預約未完成**不可誤當滿額、完成3有下次預約、他處已確認0與未知、跨方案上限5次等。**不是Notion原生Formula或有效能／跨期驗收**，功能仍NOT LIVE。
 - **[IMPACT/ROLLBACK]** 本輪唯一Notion寫入是移除一個過時連結，無新增欄位、公式、資料庫、查詢負擔及權限影響；回復只在重讀現行頁後將舊連結`[UX v4 原生備份](https://app.notion.com/p/4038ca66aa4d8159b4e5daf90a4ae662)`精準加回，保留其他並行修改，沒有任何業務資料回復。必要公式原文／按鈕動作完整基準仍未取得，永久刪除六欄與滿額提醒上線保持BLOCKED，免週報自動邏輯亦尚未啟用。
 - **[DOCS READBACK]** [Google Docs青壯方案額度與UX規格](https://docs.google.com/document/d/1TT0vtUrg3yJmcxBLyskftRzlHbBnfjnfXdJka0J269Q/edit)以revision guard新增第33節，回讀原32與新33共存；[修改前原生Google Docs備份](https://docs.google.com/document/d/1aPF1fXhnuuXWXDEayUkjOuknCxElb3G-EUXau6LbHeA/edit)不含第33節。
+
+## 2026-10-25｜第一批清理回查與下批依賴
+- 五個指定舊備份頁已重新確認 Notion `deleted`、`blank-page`；行政首頁只剩六個子頁，22個資料庫區塊仍在。刪除是可由垃圾桶恢復的狀態，非永久清空。
+- 另兩份補助舊備份各含一個驗收子頁，逐字比對兩個舊子頁完整內容，皆已被現行驗收主頁完整包含。刪除父子頁前仍須另列明四個ID並確認。
+- 帳務、活動、排班、任務、文件五份舊備份內嵌資料庫可能有獨立所有權，未完成來源比對前不批量刪除。詳細驗證見現行Google Docs跨期規格第36節。
