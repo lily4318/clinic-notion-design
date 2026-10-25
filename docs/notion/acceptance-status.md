@@ -503,3 +503,9 @@
 - **[PASS: ACTUAL WRITE + FETCH]** 兩個青壯額度舊設計Notion Page物件（51,550字原驗收頁`4028ca66aa4d81298984ffd18b590a1d`及「方案設計及驗收紀錄」容器`df04a6d6725b45a4ae10a84440a16332`）均讀回`deleted`；原補助TEST管理頁的設計Toggle已實際不存在，7個資料庫檢視全數保存且child 1→0。現行政府補助額度警示頁技術長文已由精準文字替換真正移除，改保留1則必要的人工核對提醒；6 views及5個標題保留。首頁3 children／22 DB unchanged；6個相關原Source可讀。前兩次 validation_error 未造成預期變更，不以報錯寫入當PASS。
 - **[LIMITS / CANNOT DELETE YET]** 因仍有真實參與歷史、核定額度、週報、調整記錄與Care Episodes→Cases的3組青壯115公式／Rollup相依且缺完整公式定義，不對資料列/Schema執行破壞性刪除；本次需求限定舊設計清除，未越權重構日常作業。當下真人UX、效能、真實額度值未實測；權限無變更。已刪頁屬可恢復垃圾桶，非永久清空。
 - **[CHECK]** 現行檢查：https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f ；補助歷史入口檢查：https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf 。此輪結束後應停止，無使用者額外授權不得接續其他模組清理。
+
+## 2026-10-25｜Notion視覺與操作版面研究：十面向交叉複核，未達萬篇×十次
+- **[RESEARCH GATE, NOT COMPLETE]** 本輪已建立[研究證據及完整十面向紀錄](research/notion-ux-research-and-10-lens-review-2026-10-25.md)，內容為Notion官方／公開模板／NN/g代表來源之實際檢索證據、10個跨面向UX檢視、當前6個Linked Views層級和可驗證的版面提案。Marketplace顯示70,000+模板僅為索引；**10,000篇逐篇深讀、各10次深入重讀：未達成／不可宣稱PASS**；代表性模板沒有下載逐套測試。
+- **[BASELINE STRUCTURE READ-ONLY]** 現行青壯額度/警示工作台6個Linked Views、5個直顯(4/7/6/5/6欄)+1方案設定Toggle(4欄)、1必要核對提醒；三資料源仍存在，未修改。標題「最後一次已預約」與實際僅濾剩餘0的條件不完全吻合，標記語意風險（尚未修改）。治療所視圖涵蓋政府方案、另兩視圖針對青壯115，未假稱全域同步。
+- **[PROPOSED UX ONLY]** 建議「需要核對」保留兩張直接可見的警示View、接「額度概況」三張直接可見的原表、底部低頻設定，使用簡潔單欄／相同標題字級／最少必要欄位及範圍標示。若另一方案以單Linked Database多分頁求效能，須先客觀計時及使用者核准；不依賴付費Dashboard或圖表。
+- **[UNCHANGED / BLOCKED VALIDATION]** 無Notion修改、無原生功能／權限／效能新測；之前UX v4.2真人4/4 PASS不自動變成新方案驗收。待使用者核准後才許可建立TEST預覽/實際改版；本次研究工作回合結束後停止。
