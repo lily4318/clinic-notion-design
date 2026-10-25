@@ -594,3 +594,8 @@
 ## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-11（Teamspaces管理／加入／權限）
 - **[PASS: RESEARCH EVIDENCE; NOT_DONE: 10,000×10]** [AUTO-11研究證據](research/notion-deep-study-automation-run-11-2026-10-26.md)新增3個已知清冊未登錄的官方唯一文章，讀取主要文字章節，各有一次假設/反例/修正；未完整檢視圖片/影片、未實帳跨角色或方案測試，不計FULL_DEEP_PASS，**累積10/10達標仍0/10,000**。
 - **[SCOPE VERIFIED]** 僅GitHub研究證據與共用索引增量；Notion頁/DB/View/Formula/Relation/權限/業務資料及正式GAS/Cloud Run/Session無變更，未啟動Notion設計。Default/Closed/Private/Archive安全推論仍需實帳驗證。
+
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-12（Export／Offline／Workspace）
+- **[PASS: RESEARCH INCREMENT ONLY]** [AUTO-12原始閱讀與反例](research/notion-deep-study-automation-run-12-2026-10-26.md)：新canonical來源3篇、主要文字與FAQ閱讀3篇、獨立首次反例分析3次。未逐張檢視圖片/影片、未測試真實匯出、離線同步、工作區權限或費用，因此**不計FULL_DEEP_PASS**；累積10次嚴格完整深讀達標**0/10,000**。
+- **[UNCHANGED]** 只寫GitHub研究證據/索引/決策/驗收；Notion正式及TEST Page、DB、Views、Formula、Relation、Permissions、業務列，及GAS/Cloud Run/Session均未修改；沒有開始重新設計。雙軌去重、SHA條件更新與讀回驗證。
