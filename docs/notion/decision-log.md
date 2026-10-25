@@ -491,3 +491,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-07（Simple tables／Sidebar／Wikis）
 - **[研究，非設計決定]** [AUTO-07逐節閱讀與反例研究](research/notion-deep-study-automation-run-07-2026-10-25.md)：AUTO-07與手動續作各自獨立，新增3篇官方來源（simple tables vs databases、sidebar、wikis & verified pages），舊N04/N11另作有新增反例的再研讀、不重複計數。關鍵反例為靜態表格過期、側邊欄移動頁面可能影響權限/子頁、一般頁Verified方案限制、Linked Source修改回寫原來源、Table批次編輯及Count unique的誤判。
 - **[未確認與安全]** 官方Data Source文件對`Can edit`與`Full access`可否移動來源的段落需依操作類型/實帳核對，不冒稱已實測。10次完整深讀合格篇數仍0/10,000；研究不授權改Notion/TEST/正式頁面、DB、View、Schema、Formula、Relation、權限、業務資料或GAS/Cloud Run/Session。GitHub寫前最新SHA、寫後回查，衝突不覆蓋。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-08（Sidebar Presets／Sidebar自訂＋舊文複讀）
+- **[研究不是設計決定]** [AUTO-08原始閱讀與反例研究](research/notion-deep-study-automation-run-08-2026-10-25.md)新增2篇官方Help文章（管理員Sidebar presets、個人Sidebar自訂），另針對舊DS-018 Layouts與N06 Dashboard作不同問題的再研讀；官方舊Home URL現已導向既有Sidebar文章，沒有灌入新來源。重要區分：Preset起點≠權限/不可移除導航；Hide Tab≠刪除原頁；Layout套用同一資料庫所有頁；Dashboard Global Filter不一定作用所有Widget，且目前僅Business/Enterprise。
+- **[門檻與不變]** 本輪沒有完整10次深讀的合格篇數，仍0/10,000；所有真人UX/效能/權限/資料真值未測。只更新GitHub研究及索引，Notion Page/DB/View/Formula/Relation/權限/業務紀錄、正式GAS/Cloud Run/Session均不動。不得開始新版設計。共享檔寫入使用最新SHA並回讀，衝突不可覆蓋另一條流程。
