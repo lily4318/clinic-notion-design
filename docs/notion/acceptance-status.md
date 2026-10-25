@@ -603,3 +603,7 @@
 ## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-13（Formula syntax／Formula intro／Properties guide）
 - **[PASS：本批研究增量；NOT_DONE：整體深讀目標]** [AUTO-13逐篇閱讀及反例](research/notion-deep-study-automation-run-13-2026-10-26.md)：本批3篇官方去重canonical來源，3篇可取得文字主節核對，各1次獨立假設/反例/修正。未逐張驗圖、外部互動模板、原生公式或真人/手機/角色/效能測試；不列FULL_DEEP_PASS。**累積10/10嚴格完整深讀達標仍0／10,000篇**。
 - **[PASS：研究界線]** 僅GitHub研究/來源/決策/驗收紀錄；Notion正式/TEST Page、Database、Data Source、View、Formula、Relation、權限、業務資料及GAS/Cloud Run/Session均未修改；未開始重新設計。官方函數表`empty(0)=true`等語義為待未來驗證的設計風險，不表示現有業務公式已被實測判錯。
+
+## 2026-10-26｜Notion深度學習：AUTO-14（Relations／Sub-items／Property Access）
+- **[PASS：本批研究證據；NOT_DONE：總深讀門檻]** [AUTO-14逐篇官方原文與反例](research/notion-deep-study-automation-run-14-2026-10-26.md)新增3個canonical URL，3篇完成可取得文字主章節閱讀與各1次反例分析；未逐圖、影片、外部互動或實際帳戶/角色/公式/效能測試，FULL_DEEP_PASS=0，**累積每篇10/10完整深讀達標0/10,000**。閱讀日2026-10-26，不假定官方文件修訂日。
+- **[PASS：作業界線]** 只新增GitHub研究檔及來源/決策/驗收索引，逐檔使用最新main blob SHA條件寫入、讀回驗證；Notion正式與TEST Page/DB/Data Source/View/Formula/Relation/Share/業務資料零更動；GAS/Cloud Run/Session/部署零更動；沒有開始新版設計。手動/排程仍共享去重清冊並獨立續作。
