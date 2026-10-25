@@ -253,3 +253,8 @@
 - **[新增3篇官方canonical來源，主文字閱讀與首次反例]** [AUTO-12閱讀證據](research/notion-deep-study-automation-run-12-2026-10-26.md)：`https://www.notion.com/help/export-your-content`（AUTO12-S01）、`https://www.notion.com/help/use-pages-offline`（AUTO12-S02；en-gb語系合併）、`https://www.notion.com/help/workspace-settings`（AUTO12-S03）。比對既有首批、批次02–04、十面向、MANUAL-01、AUTO-01～11後去重，三篇各讀可取得主要正文/FAQ並完成1次獨立反例分析；圖片/媒體/實帳未驗，**非完整10次深讀**。
 - **[反例]** Export目前/預設View不等於所有Views、CSV/Markdown不等於可無損還原；Offline第一View前50列且離線Select競爭寫入可能只留一方；Workspace設定受方案與角色限制，Allowed email domains可能改變Member與費用。僅研究，不更動任何Notion或正式系統。
 - **[嚴格門檻]** 本批3篇各一輪文字研究，累積每篇10次完整深讀合格篇數仍**0/10,000**；GitHub SHA條件寫入/回讀，與手動研究分批次。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-13（Formula語義／公式入門／欄位指南）
+- **[本輪3個新增去重canonical來源]** [AUTO-13逐篇閱讀與反例](research/notion-deep-study-automation-run-13-2026-10-26.md)：`https://www.notion.com/help/formula-syntax`、`https://www.notion.com/help/formulas`、`https://www.notion.com/help/guides/database-properties-help-organize-your-teams-information`。經本次main既有研究清冊（首批、批次02～04、十面向、MANUAL-01、AUTO-01～12）核對未登錄；各篇閱讀可取得文字主節並各做1次反例分析，未逐張核對圖片/外連模板或實機操作，不列嚴格FULL_DEEP_PASS。
+- **[新反證]** `empty(0)`在Notion官方函數表回傳true，不能用empty判斷已確認0與未知；`unique()`去重列表不等於複合業務唯一；單筆Formula預覽與AI生成不等於跨方案核定；Checkbox/View隱藏/Last edited不能取代核定狀態、權限或審批證據。欄位指南自述2022年資料庫改版後部分UI步驟過時，標`STALE_UI_WARNING`。
+- **[嚴格累積與界線]** 本批新URL 3、文字主節閱讀3、首次反例3、FULL_DEEP_PASS 0；目前可稽核完成每篇10次完整深讀仍**0／10,000**。僅GitHub研究紀錄，Notion及GAS/Cloud Run/Session零修改，未開始重新設計。
