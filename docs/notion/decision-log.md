@@ -446,3 +446,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **[SCHEDULE UPDATE]** 已針對既有每小時執行的「Notion 深度學習續作」排程更新提示：排程持續啟用，每次獨立研究；使用者在聊天端要求「繼續」，即時實際執行可驗證的另一個研究單元，不等待、不取消、不停用或延後排程。沒有新增第二個重複自動任務；既有每小時節奏保持不變。
 - **[CONCURRENCY GUARANTEE SCOPE]** GitHub各自從最新main取讀、不同批次標記，優先分配不同canonical URL與尚未完成的閱讀輪次。共享來源索引嚴格去重；每個修改前重讀遠端blob SHA、條件寫入並寫後Fetch/Commit回查；碰到並行衝突須重新讀取並只合併不重複的新證據，無法安全合併則停止該筆寫入、不得覆蓋另一流程。這是資料一致性的工作規則，不冒稱平台保障同時排程精準實際啟動時間或完全不會碰撞。
 - **[SCOPE/ROLLBACK]** 此輪只更新現有排程設定、根AGENTS、Notion AGENTS及必要GitHub決策/驗收文字；沒有修改Notion的Page、Database、Saved View、Formula、Relation、業務紀錄、權限、正式GAS/Cloud Run/Session。可針對上述GitHub Commit精確回復，不碰其他並行紀錄。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-01（3篇官方新來源，尚未達標）
+- **[研究持續，不是改版決定]** 每小時排程獨立完成[AUTO-01原始閱讀證據](research/notion-deep-study-automation-run-01-2026-10-25.md)，本批新增3篇官方資料的文字主節閱讀與一輪反例分析，已按既有研究清冊URL去重；與手動「繼續」並行時使用獨立檔名及最新SHA更新共用索引。Form資料回傳目的地、Board操作可能更動資料、Page Verification與業務真值的差異均只作學習，不新增工作台功能。
+- **[門檻／範圍]** 10,000篇×10次完整深讀**未達標（0/10,000合格）**；Notion正式/TEST資料庫、頁面、Schema、View、Formula、權限及GAS等一律不動，未授權設計。GitHub有寫入則回查Commit/內容，衝突不可覆蓋並行增量。
