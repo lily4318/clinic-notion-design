@@ -450,3 +450,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-01（3篇官方新來源，尚未達標）
 - **[研究持續，不是改版決定]** 每小時排程獨立完成[AUTO-01原始閱讀證據](research/notion-deep-study-automation-run-01-2026-10-25.md)，本批新增3篇官方資料的文字主節閱讀與一輪反例分析，已按既有研究清冊URL去重；與手動「繼續」並行時使用獨立檔名及最新SHA更新共用索引。Form資料回傳目的地、Board操作可能更動資料、Page Verification與業務真值的差異均只作學習，不新增工作台功能。
 - **[門檻／範圍]** 10,000篇×10次完整深讀**未達標（0/10,000合格）**；Notion正式/TEST資料庫、頁面、Schema、View、Formula、權限及GAS等一律不動，未授權設計。GitHub有寫入則回查Commit/內容，衝突不可覆蓋並行增量。
+
+## 2026-10-25｜手動續作MANUAL-01：3篇官方新來源（IDs／自動化／協作鎖）
+- **[USER SCOPE CONTINUES]** 使用者說「繼續」依已確認雙軌規則，聊天端立即進行研究，無需停止/延後已存在的每小時學習排程；上次研究成果與GitHub來源清冊以最新main作為去重基準。**尚未授權從學習轉入Notion設計**。
+- **[CONCRETE EVIDENCE]** [MANUAL-01 深度學習證據與反例](research/notion-deep-study-manual-01-2026-10-25.md)新增3個Notion官方canonical URL，主要文字章節實讀＋一次新反例分析。結論：Notion Unique ID不能保證個案×方案Instance composite唯一；Database automations有Free權益及兩處Slack敘述相互歧異、連鎖自動觸發限制及篩選條件影響；資料庫Lock不是後端授權/transaction。嚴格10/10完成篇數依舊0／10,000，不假稱已完成深度學習。
+- **[UNCHANGED/ROLLBACK]** 本次僅GitHub研究文件、來源及決策/驗收摘要；現用Notion TEST與正式資料庫/Views/Formula/Relation/權限/臨床資料、正式GAS與Cloud Run均不動。未進行真人、行動裝置、載入/權限測試。GitHub可按本次commit精準revert，不覆蓋AUTO/其他並行紀錄。
