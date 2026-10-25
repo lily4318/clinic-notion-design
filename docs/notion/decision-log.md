@@ -495,3 +495,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-08（Sidebar Presets／Sidebar自訂＋舊文複讀）
 - **[研究不是設計決定]** [AUTO-08原始閱讀與反例研究](research/notion-deep-study-automation-run-08-2026-10-25.md)新增2篇官方Help文章（管理員Sidebar presets、個人Sidebar自訂），另針對舊DS-018 Layouts與N06 Dashboard作不同問題的再研讀；官方舊Home URL現已導向既有Sidebar文章，沒有灌入新來源。重要區分：Preset起點≠權限/不可移除導航；Hide Tab≠刪除原頁；Layout套用同一資料庫所有頁；Dashboard Global Filter不一定作用所有Widget，且目前僅Business/Enterprise。
 - **[門檻與不變]** 本輪沒有完整10次深讀的合格篇數，仍0/10,000；所有真人UX/效能/權限/資料真值未測。只更新GitHub研究及索引，Notion Page/DB/View/Formula/Relation/權限/業務紀錄、正式GAS/Cloud Run/Session均不動。不得開始新版設計。共享檔寫入使用最新SHA並回讀，衝突不可覆蓋另一條流程。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-09（Comments／Suggested edits／Backlinks）
+- **[研究而非產品決策]** [AUTO-09原始研究與逐篇反例](research/notion-deep-study-automation-run-09-2026-10-26.md)，本批官方3篇（Comments/mentions/reactions、Suggested edits、Links/backlinks）逐篇核對現有清冊後首次閱讀主要文字章節並記錄反例：評論解決不保證額度正確；文件建議修改不支援資料庫屬性/inline DB，不能當資料庫核准機制；Backlinks顯示受存取權限限制，不能當無引用刪除依據。三篇均不是十次完整深讀Pass，累積嚴格達標**0/10,000**。
+- **[不變與並行]** 手動「繼續」與既有每小時排程仍獨立推進，URL/slug與閱讀輪次去重，寫前最新main+SHA、寫後回查；未更動Notion正式/TEST頁、DB、View、Formula、Relation、權限、個案/財務資料、GAS/Cloud Run/Session，未做真人/效能/權限測試；不開始Notion新版設計。需要回復時精確revert本批GitHub Commit，不覆蓋其他流程。
