@@ -520,3 +520,8 @@
 - **[研究紀錄讀回 PASS／整體目標 FAIL]** 本次延續的是使用者已明示「先深度學習達標，再進入Notion設計」的尚未完成工作，而不是新的Notion改版授權。[第三批來源與深入評析](research/notion-deep-study-evidence-batch-03-2026-10-25.md)檢閱12個canonical URL（11個新來源＋1篇原2026-10-24 N09深入重讀）：2篇完整主要文字章節+首輪反例評析、3篇部分內文或搜尋擷取、6篇只讀商品介紹、1個模板目錄；既有Notion按鈕和NN/g表格研究URL有重查但未重複增加unique件數。
 - **[重要概念驗證]** Notion Database Templates中預設Relation若誤指舊政府補助期別，套用後可能所有服務歷程連到錯的方案；Notion Synced Blocks必須核對原始區塊權限，>10份副本時原始內容刪除/Unsync all影響範圍和Undo有特別限制。兩個概念以官方全文、反例及跨來源比對記錄，沒有在真實工作區執行操作。
 - **[未完成/保留]** 10,000篇×10次的逐篇深讀驗收仍`NOT_DONE`、10/10篇數`0`。本輪Notion實頁、工作台、Cases、Care Episodes、Price Plans、Views、Formula、業務紀錄、權限、GAS/Cloud Run/Session都沒有任何寫入；無真人操作、效能或權限新測。學習尚未達標，不得因此開始設計或要求使用者認可新版UX。GitHub僅研究與索引紀錄提交並回讀SHA。
+
+## 2026-10-25｜Notion深度學習第四批：5新來源＋2舊文分析複查（未達標）
+- **[PROVENANCE CHECK PASS, STUDY GOAL NOT_DONE]** 使用者「繼續」僅續作未完成之10,000篇各10次Notion深度學習；此輪新登錄5個canonical URL（4篇取得相關正文段落、1篇僅搜尋摘要），既有兩篇官方文件各有一次獨立的第二輪分析複查，及對先前Notion View規則的一次定向重查。每篇10次**嚴格全文深讀達標數仍0／10,000**。逐URL證據、閱讀級別、反例與不足在[第四批來源與第二輪分析複查](research/notion-deep-study-evidence-batch-04-2026-10-25.md)。
+- **[COMPREHENSION / NONIMPLEMENTATION]** 新讀到工作區搜尋與DB內搜尋的覆蓋差異；桌機/網頁高對比模式不等同跨裝置頁面設計；任務Status類別不能擅套補助真值；資料庫模板Recurring排程不會自動核定業務期別；Synced Block原始區塊與副本有權限及跨頁刪除風險。以上仍是技術/UX閱讀判讀，不是新的Notion設計方案。
+- **[SCOPE, PERFORMANCE, AUTH, TEST]** 未修改Notion現有頁面、View、Schema、Relation、Formula、角色權限、歷史資料或正式GAS/Cloud Run/Session；查閱只發生外部網頁與GitHub文件。真人/手機可讀性、業務真值、權限測試和負載量測均未實作。GitHub本批原創研究檔、來源索引與驗收/決策紀錄須用最新SHA寫入及遠端Fetch回查；**學習尚未完成，不開始Notion設計**。
