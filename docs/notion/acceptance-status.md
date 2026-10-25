@@ -538,3 +538,7 @@
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-01（3篇官方新來源，尚未達標）
 - **[EVIDENCE RECORDED; LEARNING NOT_DONE]** 本輪排程實際開啟Notion官方3篇全篇可讀文字主節並做獨立反例分析，逐節閱讀範圍及限制見[AUTO-01原始閱讀證據](research/notion-deep-study-automation-run-01-2026-10-25.md)。關鍵：Form複製他人模板可能把回答送給原作者；Board在無可用分組欄時可能建立Status、跨欄拖曳會更動資料；Page Verification不等於補助計次/權限真值驗證。三篇都**非10次嚴格完整深讀**，達標篇數仍**0/10,000**。
 - **[SCOPE AND LIMITS]** 本輪僅外部文章唯讀及GitHub研究記錄；Notion業務頁/DB/View/Formula/Relation/權限、正式GAS/Cloud Run/Session皆0寫入，沒有使用者測試、真實資料核對或效能量測。手動續作與排程可同時執行，更新GitHub前以最新SHA核對並寫後讀回；不開始Notion設計。
+
+## 2026-10-25｜手動續作MANUAL-01：3篇官方新來源（IDs／自動化／協作鎖）
+- **[STUDY UNIT COMPLETED, GLOBAL GOAL NOT_DONE]** 這是使用者手動「繼續」直接執行的新研究單元，與每小時AUTO-01可並行、資料互不覆蓋。[MANUAL-01 深度學習證據與反例](research/notion-deep-study-manual-01-2026-10-25.md)新增3個逐篇已核對URL與文字主要章節首次分析：Notion唯一ID、Database Automations、Workspace Collaboration/Lock。含假設、反例、來源內部Slack/Free權益歧義與未驗證項。**10,000篇×各10次嚴格完整深讀仍0/10,000**。
+- **[DATA & SAFETY]** 此次0個Notion Page／View／Data Source／Formula／Relation／權限／業務資料寫入，GAS／Cloud Run／Session皆0變更。無真人/跨裝置/免費版權限/效能實測；資料庫鎖≠資料寫入授權，Notion ID≠複合唯一業務鍵，不能根據研究假設修改補助規則。只允許GitHub research/sources/decision/acceptance最小同步、寫後重新讀取並確認SHA。
