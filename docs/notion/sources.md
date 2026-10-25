@@ -227,3 +227,8 @@
 - **[新來源3篇，舊來源再研讀2篇]** [AUTO-07逐節閱讀與反例研究](research/notion-deep-study-automation-run-07-2026-10-25.md)：以2026-10-24首批、第二～四批、十面向研究、MANUAL-01、AUTO-01～06及研究目錄清冊核對canonical URL，新增`https://www.notion.com/nl/help/guides/simple-tables-vs-databases`、`https://www.notion.com/help/navigate-with-the-sidebar`、`https://www.notion.com/en-gb/help/wikis-and-verified-pages`。三篇已取得可讀文字主節並各做一次反例分析；舊N04 `data-sources-and-linked-databases`、N11 `tables`重新研讀有新反例，但**不重算為新來源或嚴格完整Pass**。
 - **[研究反證]** 簡單表格可能變成過期的第二份業務真值；側邊欄移動共享頁至Private可能撤銷他人權限，丟Trash可能連同子頁刪除；Wiki Verified是文件審核，非Formula/計次真值。Linked Source的`X`與原生Source的`Move to Trash`不同；官方移動來源權限的Can edit/Full access段落存在待核的語義張力。Table批次修改及Count unique不保證業務複合唯一。
 - **[嚴格門檻]** 新來源僅文字主節閱讀與一次反例分析，未逐張圖片/嵌入媒體/實帳操作；嚴格完成10/10仍**0／10,000**。Notion/業務資料/權限/正式系統0更動；不開始重新設計。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-08（Sidebar Presets／Sidebar自訂＋舊文複讀）
+- **[本輪研究增量]** [AUTO-08原始閱讀與反例研究](research/notion-deep-study-automation-run-08-2026-10-25.md)：先讀最新main規則及當期清冊，並與2026-10-24首批、十面向、2026-10-25第二～四批、AUTO-01～07、MANUAL-01核對canonical slug，新增**2篇**官方來源：`https://www.notion.com/help/manage-sidebar-presets-for-your-workspace`、`https://www.notion.com/help/customize-your-sidebar`。各取得可讀文字主節並作首次反例分析；既有`/help/layouts`（DS-018）、`/help/dashboards`（N06）做新反例重讀，**不算新來源/嚴格FULL_PASS**。
+- **[去重異常]** 直接開啟舊`/help/home-and-my-tasks`現行重導向到既有AUTO-07`/help/navigate-with-the-sidebar`；搜尋索引其他語系舊文不計新canonical URL。Presets是管理員提供的起點，不是強制Sidebar；個人Hide/Remove Tab不刪原頁、無法滿足「否決即刪除」；Layout全資料庫頁共用；Dashboard跨Widget Global filter僅作用於具有相應Property者，且官方標示Business/Enterprise，不能外推Free或普通Linked Views。
+- **[門檻／安全]** 本輪新增2篇各一輪文字分析、舊文2篇針對性重讀，未逐張驗圖/影片/實帳/權限/效能測試。**10次完整深讀合格篇數仍0/10,000**。只有GitHub研究檔與索引寫入，沒有修改Notion或正式系統；手動與排程雙軌繼續共享去重清冊。
