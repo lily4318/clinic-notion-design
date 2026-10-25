@@ -5,15 +5,15 @@
 ## 一、計數口徑、與前批去重
 
 - [批次02](notion-deep-study-evidence-batch-02-2026-10-25.md)已有14個URL（10個正文片段、4個摘要），均無`DEEP_PASS`通過。更早的[十面向研究](notion-ux-research-and-10-lens-review-2026-10-25.md)另有代表性來源清單，但缺少逐URL全域唯一/全文深讀證據，**不可把它直接與14筆相加聲稱可靠累計**。
-- **本批新登錄獨立canonical URL數：12**（列表NEW01～NEW12）。其中僅 **2 個可核實完整文字主章節並作首輪深入分析（NEW01與NEW02）**、3個僅開啟或檢索正文重點（NEW03～NEW05）、6個商業模板只讀公開展示描述（NEW06～NEW11）、1個Marketplace分類目錄（NEW12）；商品內部及訂購後內容沒有讀取。為避免誇大，只有下方DB模板與Synced blocks兩篇計為保守的「完成首輪跨段落深入評析」。
-- **已存在舊研究的去重來源**：`https://www.notion.com/help/database-buttons`在前批[十面向研究](notion-ux-research-and-10-lens-review-2026-10-25.md)已作N12；本回合再次查原文，**不計為NEW**。`https://www.nngroup.com/articles/data-tables/`在[批次02](notion-deep-study-evidence-batch-02-2026-10-25.md)已作UX-019；本回合取得非常完整的搜尋內容擷取，但原頁`open`仍逾時，**不新增unique URL或冒稱已成功整頁直開**。
+- **本批核對12個canonical URL，其中11個是對照先前研究清冊後的新來源（NEW02～NEW12），另1個是2026-10-24研究清冊N09的深入重讀（RE01）**。其中 **2個可核實完整文字主章節並作首輪深入分析（RE01與NEW02）**、3個僅開啟或檢索正文重點（NEW03～NEW05）、6個商業模板只讀公開展示描述（NEW06～NEW11）、1個Marketplace分類目錄（NEW12）；商品內部及訂購後內容沒有讀取。為避免誇大，只有下方DB模板與Synced blocks兩篇計為保守的「完成首輪跨段落深入評析」。
+- **已存在舊研究的去重來源**：`https://www.notion.com/help/database-templates`已列於[2026-10-24研究證據清冊](evidence-register-2026-10-24.md)之N09，本批RE01僅為深入重新閱讀；`https://www.notion.com/help/database-buttons`在前批[十面向研究](notion-ux-research-and-10-lens-review-2026-10-25.md)已作N12；本回合再次查原文，**不計為NEW**。`https://www.nngroup.com/articles/data-tables/`在[批次02](notion-deep-study-evidence-batch-02-2026-10-25.md)已作UX-019；本回合取得非常完整的搜尋內容擷取，但原頁`open`仍逾時，**不新增unique URL或冒稱已成功整頁直開**。
 - **嚴格10遍達標：0／10,000篇。** 本輪DB Templates和Synced Blocks之首次評析最多算`DEEP_PASS=1/10`候選；沒有為任何文章虛構第2～10遍。本批完成`DEEP_PASS_10_OF_10=0`、前兩批同為0，所以整體仍**未完成**。搜尋引擎命中、同篇多語系、付費模板廣告及10個設計角度都不算10次閱讀。
 
-## 二、批次03唯一來源清單（逐URL、層級、限制）
+## 二、批次03檢閱來源清單（11個新URL＋1篇先前N09深入重讀）
 
 | ID | 唯一來源URL／標題 | 來源型態及本次閱讀狀態 | 取證內容及嚴格限制 |
 |---|---|---|---|
-| NEW01 | [Notion Help: Database templates](https://www.notion.com/help/database-templates) | **FULL_BODY_SECTIONS + ANALYSIS_PASS_1** | 檢視建立／使用／週期性模板／巢狀限制／管理／FAQ；複製頁面屬性及內容，但如果在模板預設Relation，未來所有套用者都會指向相同既有頁面；不曾於用戶工作區操作。 |
+| RE01（既有N09重讀） | [Notion Help: Database templates](https://www.notion.com/help/database-templates) | **FULL_BODY_SECTIONS + ANALYSIS_PASS_1** | 檢視建立／使用／週期性模板／巢狀限制／管理／FAQ；複製頁面屬性及內容，但如果在模板預設Relation，未來所有套用者都會指向相同既有頁面；不曾於用戶工作區操作。 |
 | NEW02 | [Notion Help: Synced blocks](https://www.notion.com/help/synced-blocks) | **FULL_BODY_SECTIONS + ANALYSIS_PASS_1** | 檢視同步、編輯、解除同步、權限及FAQ；無權限讀原始區塊可能看不到副本；>10份副本時刪原始／Unsync all可能影響所有副本且Undo不回復。未在工作區實測。 |
 | NEW03 | [Notion Guide: Three key databases for teams](https://www.notion.com/help/guides/three-key-databases-for-teams-and-how-to-use-them) | **BODY_SECTIONS** | 學到一個DB的多View與Linked同來源多展示、Table/List/Board等任務差異；原指南還有會議/Docs完整案例，尚未全篇逐段深讀。 |
 | NEW04 | [Notion Guide: Team sidebar organization](https://www.notion.com/help/guides/the-best-way-to-set-up-your-teams-sidebar-for-clear-organization) | **SUMMARY_OR_SEARCH_EXTRACT** | 導覽、收藏、搜尋與工作區整理；沒有完整開頁逐段閱讀。 |
@@ -28,7 +28,7 @@
 
 **舊來源重查（不計新篇數）**：Notion [Database buttons](https://www.notion.com/help/database-buttons)讀到按鈕適用所有方案但部分動作須付費，`Can edit content`可按卻未必可編輯按鈕，`Show confirmation`只是UI保護並非後端授權；NN/g [Data Tables—Four Major User Tasks](https://www.nngroup.com/articles/data-tables/)搜索擷取目前包含找資料、比較、單列編輯與批次操作內容，但直開逾時，不可算新增全文閱讀或新增唯一URL。與原有[第二批](notion-deep-study-evidence-batch-02-2026-10-25.md)UX-019的SUMMMARY_ONLY對照，應註記「搜尋擷取內容變詳盡但全文直開仍失敗」，不是憑工具輸出將它升為10遍。
 
-## 三、深讀候選 NEW01：Database templates｜第1輪讀後判斷
+## 三、深讀候選 RE01（原N09）：Database templates｜本次首輪深入評析
 
 - **可回查正文範圍**：官方頁全部主要小節——建立（`New template`）、選用與修改（`New`選單）、重複模板（日/週/月/年）、巢狀（日週期模板不能再巢狀模板；其他最多3層）、編輯刪除、FAQ（各來源模板不可通用；Relation預設值注意；數量無上限）。除媒體播放需另平台外，全部文字主章節已查閱。
 - **初始假設**：「對青壯方案設定一個預設既有Price Plan的模板，可讓工作人員少選一次」。**反例**：下一年度或不同政府方案若沿用該模板，任何新服務歷程可能沿用去年的方案實例ID，造成錯誤補助占用、收費歸屬或期限；這比增加一次方案選擇更危險。
@@ -49,9 +49,9 @@
 - **資料表任務**：NN/g對大表的四種主要任務不是「越像卡片越好」。可見資料、保留行名稱作識別、把要比較的資料放在鄰近欄位，對專業判斷可能比大量emoji卡片更有價值。這裡只是來源理論，並未開始青壯頁面重新設計。
 - **昂貴模板不是有效驗證**：標示醫療、診所、心理師的付費模板介紹可能是行銷文案，即使標示「完整營運OS」也不保證台灣青壯多期補助、資安/病歷規範或實際Free帳號下能操作。Marketplace目錄的每個名稱都不算「閱讀一篇」。
 - **免費版和角色權限**：按鈕屬性所有方案可用，但不保證高權限動作可用；真正授權由Notion來源分享或後端授權決定，不能在訓練材料中因按鈕可見便推論可安全執行。這是研究限制，**不構成新增按鈕建議**。
-- **全文閱讀的可證明性**：NEW01/NEW02有官方全文主章節的Web讀取結果且能交叉反證，暫計`analysis_pass=1/10`，未蒐集十次獨立全文重讀，不宣稱10遍。NEW03/04/05只是部分，商業模板頁僅行銷介紹，全部維持非FULL。
+- **全文閱讀的可證明性**：RE01/NEW02有官方全文主章節的Web讀取結果且能交叉反證，暫計`analysis_pass=1/10`，未蒐集十次獨立全文重讀，不宣稱10遍。NEW03/04/05只是部分，商業模板頁僅行銷介紹，全部維持非FULL。
 - **總目標仍遠**：用於計算10,000×10的每篇紀錄須有唯一ID、所有十次獨立時間/全文覆蓋、互相矛盾處與重新推論。仍需持續研究，但沒有在本次對話外排程工作，也沒有授權進入設計。
 
 ## 六、完成本批後驗收
 
-本回合預期變更檔案僅新增此研究證據檔，及增補GitHub`docs/notion/sources.md`、`docs/notion/acceptance-status.md`之研究進度索引；所有修改用遠端當前SHA防並行覆寫，寫後以GitHub再次Fetch確認。**不修改 Notion 工作台、Data Source、Formula、Relation、View、個案/收費/Session內容、權限或正式GAS/Cloud Run**；無Notion效能/真人UI測試。既有研究尚未達標，**不准開始設計**。
+本回合的研究證據更正並保存此研究檔，及增補GitHub`docs/notion/sources.md`、`docs/notion/acceptance-status.md`之研究進度索引；所有修改用遠端當前SHA防並行覆寫，寫後以GitHub再次Fetch確認。**不修改 Notion 工作台、Data Source、Formula、Relation、View、個案/收費/Session內容、權限或正式GAS/Cloud Run**；無Notion效能/真人UI測試。既有研究尚未達標，**不准開始設計**。
