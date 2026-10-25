@@ -217,3 +217,8 @@
 - **[去重後3篇新來源]** [AUTO-05逐篇閱讀與反例紀錄](research/notion-deep-study-automation-run-05-2026-10-25.md)：本次先讀GitHub最新main規範與研究目錄16檔、首批及各批次清冊，排除AUTO-01/02/03/04、MANUAL-01已登錄來源；新增官方`/en-gb/help/buttons`、`/help/duplicate-delete-and-restore-content`、`/help/custom-data-retention-settings`三個canonical slug。與舊`/help/database-buttons`屬不同官方文章，並非同篇語系複製。3篇均閱讀可取得的文字主要章節並各做一次反例分析，圖片/影片/實機未測，**不算嚴格全文10/10**。
 - **[反例結論]** Button可用於Free不等於所有動作免費、也不等於目標DB權限/防重交易；Version history恢復DB不保證DB頁內文同步恢復，Archive仍可透過連結存取；Enterprise的Trash與刪除後retention可自訂1天～10年，但**不代表Free/Plus可用或符合法定保存要求**。此處是研究證據，不授權刪除/修改現用Notion。
 - **[嚴格門檻]** 本輪新增3篇各1次文字分析，完成10次可稽核完整深讀的篇數仍**0/10,000**；不將研究累計量誤稱萬篇目標完成。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-06（Calendar／Timeline／Gallery）
+- **[研究增量]** [AUTO-06官方來源逐節閱讀及反例](research/notion-deep-study-automation-run-06-2026-10-25.md)：開始前讀取最新main規則、研究清冊及MANUAL-01、AUTO-01～05，依官方canonical help slug去重，本次新增3篇：`https://www.notion.com/help/calendars`、`https://www.notion.com/help/timelines`、`https://www.notion.com/help/galleries`。三篇均開啟官方全文並閱讀所有可取得文字主節及FAQ、各完成一輪假設/反例/修正；**未核對全部圖片、嵌入影片或實際操作，不能算FULL_DEEP_PASS**。
+- **[反證]** Calendar僅依選定Date欄顯示，日期視圖缺席不等於期限已完成；Timeline需要日期範圍且有Load limit，視覺缺席不等於零筆；Gallery可隱藏Name並預覽Page content首區塊，美觀可能犧牲記錄識別及最小必要顯示。拖曳卡片/期間是否寫回何欄待隔離實測，不冒稱已驗證。
+- **[門檻與安全]** 本輪3篇各1次文字主節分析；累積符合10次完整深讀**0/10,000**，未授權Notion設計或TEST/正式修改；只寫GitHub研究與必要索引，與手動工作線分檔並以最新SHA條件寫入、讀回。
