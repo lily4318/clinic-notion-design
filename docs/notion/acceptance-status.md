@@ -534,3 +534,7 @@
 - **[PASS: AUTOMATION CONFIGURATION]** 既有「Notion 深度學習續作」排程已成功更新提示並維持is_enabled=true、RRULE每小時，不新增第二份重複排程。明文確認聊天手動「繼續」直接執行未完成的深度學習、兩條流程互不等待／停用；GitHub研究來源與複讀輪次去重，寫前最新版SHA、衝突重讀合併、寫後驗證。
 - **[PASS: POLICY SYNC]** 根`AGENTS.md`與`docs/notion/AGENTS.md`已新增雙軌規則，舊「完成即停止」仍適用已完成的個別任務，不阻擋仍未完成的學習研究；GitHub以最新blob SHA寫入及讀回驗證。使用者只須發送「繼續」即可啟動聊天端獨立研究，毋須關閉自動排程。
 - **[LIMITS]** 此次僅確認排程及規則**設定成功**，不聲稱已實際完成下一個自動執行週期或並行競爭實測；深度學習10,000篇×10次仍未達標，不進行Notion重新設計。Notion資料/Schema/View/Formula、角色權限、正式系統及效能均未更動。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-01（3篇官方新來源，尚未達標）
+- **[EVIDENCE RECORDED; LEARNING NOT_DONE]** 本輪排程實際開啟Notion官方3篇全篇可讀文字主節並做獨立反例分析，逐節閱讀範圍及限制見[AUTO-01原始閱讀證據](research/notion-deep-study-automation-run-01-2026-10-25.md)。關鍵：Form複製他人模板可能把回答送給原作者；Board在無可用分組欄時可能建立Status、跨欄拖曳會更動資料；Page Verification不等於補助計次/權限真值驗證。三篇都**非10次嚴格完整深讀**，達標篇數仍**0/10,000**。
+- **[SCOPE AND LIMITS]** 本輪僅外部文章唯讀及GitHub研究記錄；Notion業務頁/DB/View/Formula/Relation/權限、正式GAS/Cloud Run/Session皆0寫入，沒有使用者測試、真實資料核對或效能量測。手動續作與排程可同時執行，更新GitHub前以最新SHA核對並寫後讀回；不開始Notion設計。
