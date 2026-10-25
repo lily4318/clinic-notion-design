@@ -503,3 +503,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-10（Page analytics／Roles／Guest邀請）
 - **[RESEARCH ONLY]** [AUTO-10原始閱讀、反例與限制](research/notion-deep-study-automation-run-10-2026-10-26.md)新增3個已與研究清冊去重的官方來源，分別為Page analytics、Workspace角色、Member/Guest邀請管理；完成官方可讀文字主節及首次反例分析，未逐圖/影片/實帳測試。瀏覽量不證明操作理解；Guest/Member/Restricted member的權限、費用、子頁繼承及邀請連結不能混為一談。無權益/真人驗收證據，不據此變更現有方案。
 - **[BOUNDARY]** 使用者10,000篇×10次嚴格完整深讀仍**0/10,000**；本輪只更新GitHub研究與索引，Notion TEST/正式頁、Data Source、View、Formula、Relation、權限、業務資料、GAS/Cloud Run/Session均0寫入。手動與排程並行時以最新main SHA合併非重複增量，不能覆蓋。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-11（Teamspaces管理／加入／權限）
+- **[RESEARCH ONLY; GLOBAL GOAL NOT_DONE]** [AUTO-11逐篇官方原文閱讀與反例](research/notion-deep-study-automation-run-11-2026-10-26.md)：3篇新官方文章，已核對已知main清冊並各讀取文字主章節，完成一輪不同反例；未逐張驗圖/嵌入影片/實帳角色與方案，**嚴格10/10完整深讀達標仍0/10,000**。
+- **[反例/限制]** Default Teamspace不是純Sidebar美化而會調整成員集合；Closed/Private可見性與角色權限不同；Enterprise-only安全開關不可假設Free可用；Archive≠Delete，官方無Owner處理文案有疑點。此為研究紀錄而非採用設計或核准更改。
+- **[NO SYSTEM CHANGE]** 只寫GitHub研究及索引，Notion TEST/正式Page、DB、View、Formula、Relation、分享權限及業務資料零更動；GAS/Cloud Run/Session零更動，不進入Notion重新設計。
