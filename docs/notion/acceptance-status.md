@@ -607,3 +607,8 @@
 ## 2026-10-26｜Notion深度學習：AUTO-14（Relations／Sub-items／Property Access）
 - **[PASS：本批研究證據；NOT_DONE：總深讀門檻]** [AUTO-14逐篇官方原文與反例](research/notion-deep-study-automation-run-14-2026-10-26.md)新增3個canonical URL，3篇完成可取得文字主章節閱讀與各1次反例分析；未逐圖、影片、外部互動或實際帳戶/角色/公式/效能測試，FULL_DEEP_PASS=0，**累積每篇10/10完整深讀達標0/10,000**。閱讀日2026-10-26，不假定官方文件修訂日。
 - **[PASS：作業界線]** 只新增GitHub研究檔及來源/決策/驗收索引，逐檔使用最新main blob SHA條件寫入、讀回驗證；Notion正式與TEST Page/DB/Data Source/View/Formula/Relation/Share/業務資料零更動；GAS/Cloud Run/Session/部署零更動；沒有開始新版設計。手動/排程仍共享去重清冊並獨立續作。
+
+## 2026-10-26｜AUTO-15官方文件研讀與去重稽核
+- **[PASS: research evidence; NOT_DONE: 10,000×10]** [AUTO-15閱讀/反例](research/notion-deep-study-automation-run-15-2026-10-26.md)（`AUTO-15-20261026-0643`）：本輪3篇新canonical官方來源，3篇可讀主要文字章節、各1次反例分析；未逐圖/嵌入影片/實帳操作，FULL_DEEP_PASS=0，累積可稽核10/10達標**0/10,000**。
+- **[DEDUP CORRECTION]** AUTO-14 `relations-and-rollups`/ `database-property-access`已在首批N04/N07，AUTO-13 `formulas`已在第三批NEW05；先前「新增」描述不能直接加總成全域去重來源數。原閱讀紀錄保留、總唯一數待完整去重稽核。
+- **[UNCHANGED]** 只寫GitHub研究及索引；Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、Share/權限、業務資料及正式GAS/Cloud Run/Session/部署均未更動；未開始重新設計。未做真人、效能、原生公式數值或公開權限實測。
