@@ -479,3 +479,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-04（提醒／Inbox／通知設定）
 - **[只記錄研究，非產品決策]** [AUTO-04 閱讀與反例證據](research/notion-deep-study-automation-run-04-2026-10-25.md)：3篇官方新來源各完成主要文字章節閱讀及1次反例分析。提醒不等於定期工作流程；Inbox篩選不等於停發通知/權限隔離；跨設備送達取決於使用狀態，不能把手機推播當作額度或申報核對的唯一保障。Notion官方不同文章對Person通知「個人不能取消」與「編輯者可改屬性通知」描述不同權限主體，不當作已證實的功能衝突。
 - **[安全與門檻]** 自動排程和手動研究各有獨立研究檔，使用最新main SHA條件寫入及讀回；嚴格10/10合格篇數仍0/10,000，未獲授權開始新版Notion設計。Notion頁面、DB、View、Formula、Relation、權限、GAS、Cloud Run、Session與個案資料皆0更動。
+
+## 2026-10-25｜Notion深度學習：排程獨立批次AUTO-05（Buttons／刪除復原／Enterprise留存）
+- **[研究增量，非設計決策]** [AUTO-05逐篇閱讀與反例紀錄](research/notion-deep-study-automation-run-05-2026-10-25.md)新增3篇去重官方來源，各完成可讀文字主章節與一輪反例：按鈕動作依目標資料庫權限且部分付費；DB版本恢復不等於子頁內容/Linked Views全量恢復；封存非刪除/權限隔離；Enterprise留存與法律合規不同。第2～10次嚴格深讀未執行，10/10合格**0/10,000**。
+- **[並行安全／範圍]** 與手動續作共享main來源清冊，AUTO-05獨立檔名；GitHub索引更新前重讀最新blob SHA、衝突不可覆蓋、寫後回讀。Notion正式/TEST頁面、Data Sources、Views、Formula、Relation、權限及業務紀錄，GAS/Cloud Run/Session皆0修改；不開始Notion重新設計。
