@@ -498,3 +498,8 @@
 - **[USER MANUAL ACCEPTANCE — SPECIFIC]** 使用者回覆「檢查沒問題」：上一輪`補助方案管理｜TEST`中青壯額度舊AI設計說明及冗餘理由文字的清理，**已獲使用者確認符合要求；該次指定任務已完成並停止**。不將此結論擴張至其他補助資料、Formula、Rollup、申報數據、角色權限或新工作台UX實測。
 - **[POLICY IMPLEMENTATION]** 本次新增專案執行規則：以使用者單一指令為唯一任務範圍，修復後清楚結案；附帶其他問題須先列點詢問，僅有明確授權時才能進行；「繼續」只能接續尚未完成的原任務，原任務已完成則停止。根`AGENTS.md`及`docs/notion/AGENTS.md`已有此優先條款，並修正後者既存的自動續作衝突句子。
 - **[LIMITS]** 本輪僅GitHub文字決策及驗收同步、以遠端blob SHA與Commit回查，無Notion或業務寫入、無效能／權限變更。後續工作須待使用者具體提出或核准，**不自動續做待辦**。
+
+## 2026-10-25｜青壯額度設計清理複查：歷史設計紀錄移入垃圾桶、現行工作台移除技術長文
+- **[PASS: ACTUAL WRITE + FETCH]** 兩個青壯額度舊設計Notion Page物件（51,550字原驗收頁`4028ca66aa4d81298984ffd18b590a1d`及「方案設計及驗收紀錄」容器`df04a6d6725b45a4ae10a84440a16332`）均讀回`deleted`；原補助TEST管理頁的設計Toggle已實際不存在，7個資料庫檢視全數保存且child 1→0。現行政府補助額度警示頁技術長文已由精準文字替換真正移除，改保留1則必要的人工核對提醒；6 views及5個標題保留。首頁3 children／22 DB unchanged；6個相關原Source可讀。前兩次 validation_error 未造成預期變更，不以報錯寫入當PASS。
+- **[LIMITS / CANNOT DELETE YET]** 因仍有真實參與歷史、核定額度、週報、調整記錄與Care Episodes→Cases的3組青壯115公式／Rollup相依且缺完整公式定義，不對資料列/Schema執行破壞性刪除；本次需求限定舊設計清除，未越權重構日常作業。當下真人UX、效能、真實額度值未實測；權限無變更。已刪頁屬可恢復垃圾桶，非永久清空。
+- **[CHECK]** 現行檢查：https://app.notion.com/p/4038ca66aa4d814f959ceece0e8cb09f ；補助歷史入口檢查：https://app.notion.com/p/3f68ca66aa4d81cca3b4ee43b4bd8dcf 。此輪結束後應停止，無使用者額外授權不得接續其他模組清理。
