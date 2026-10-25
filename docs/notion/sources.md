@@ -242,3 +242,8 @@
 - **[新來源3篇／嚴格去重]** [AUTO-10原始閱讀、反例與限制](research/notion-deep-study-automation-run-10-2026-10-26.md)。已與main的首批、十面向、批次02–04、MANUAL-01及AUTO-01～09清冊對照，本輪新增官方唯一URL：`https://www.notion.com/help/page-analytics`、`https://www.notion.com/help/whos-who-in-a-workspace`、`https://www.notion.com/help/add-members-admins-guests-and-groups`。三篇均讀取可取得的全部文字主章節並各作一次新的反例分析；嵌入影片、圖片、實帳、跨角色未核，**不算FULL_DEEP_PASS**。
 - **[反例]** 頁面瀏覽次數≠讀懂政策/核定資料，且瀏覽歷史可退出紀錄；Guest單頁受邀可能繼承子頁、與Member/Restricted member的費用及權限不同；邀請連結/網域加入可能變Member並有席次費用。這些都是研究限制，不授權改Notion Share/權限。
 - **[狀態]** 累積可嚴格證明各10次完整深讀的篇數仍**0/10,000**。手動與排程共享去重索引，GitHub採最新SHA條件寫入及回查；Notion及正式系統0變更。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-11（Teamspaces管理／加入／權限）
+- **[來源去重與文字實讀]** [AUTO-11原始閱讀及反例](research/notion-deep-study-automation-run-11-2026-10-26.md)：先讀main規範及已知首批/第二～四批、MANUAL-01、AUTO-01～10清冊，本輪新增3篇未登錄官方canonical slug：`/help/manage-teamspaces`、`/help/browse-join-and-create-teamspaces`、`/help/intro-to-teamspaces`（en-gb語系不另計）。各篇讀取可取得的主要文字章節並完成首次獨立反例分析；圖片、Intro影片、Free/Enterprise實帳均未驗，**不是FULL_DEEP_PASS**。
+- **[關鍵反證]** Default Teamspace會批次納入一般Members，取消Default可能移除既有成員；Closed仍可被看見但需申請加入，Private限Business/Enterprise；Disable guests/export/public publishing屬Enterprise功能；Teamspace只可Archive不能Delete，Archive不是使用者要求的實際刪除。官方Manage teamspaces無Owner段落的步驟與標題疑似不一致，需另驗證。
+- **[嚴格累積與界線]** 各10次獨立完整深讀達標仍**0／10,000篇**。本輪僅研究與GitHub文件，Notion頁/DB/View/Formula/Relation/權限/業務資料及GAS/Cloud Run/Session零變更；未開始設計。
