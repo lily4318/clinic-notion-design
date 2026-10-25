@@ -232,3 +232,8 @@
 - **[本輪研究增量]** [AUTO-08原始閱讀與反例研究](research/notion-deep-study-automation-run-08-2026-10-25.md)：先讀最新main規則及當期清冊，並與2026-10-24首批、十面向、2026-10-25第二～四批、AUTO-01～07、MANUAL-01核對canonical slug，新增**2篇**官方來源：`https://www.notion.com/help/manage-sidebar-presets-for-your-workspace`、`https://www.notion.com/help/customize-your-sidebar`。各取得可讀文字主節並作首次反例分析；既有`/help/layouts`（DS-018）、`/help/dashboards`（N06）做新反例重讀，**不算新來源/嚴格FULL_PASS**。
 - **[去重異常]** 直接開啟舊`/help/home-and-my-tasks`現行重導向到既有AUTO-07`/help/navigate-with-the-sidebar`；搜尋索引其他語系舊文不計新canonical URL。Presets是管理員提供的起點，不是強制Sidebar；個人Hide/Remove Tab不刪原頁、無法滿足「否決即刪除」；Layout全資料庫頁共用；Dashboard跨Widget Global filter僅作用於具有相應Property者，且官方標示Business/Enterprise，不能外推Free或普通Linked Views。
 - **[門檻／安全]** 本輪新增2篇各一輪文字分析、舊文2篇針對性重讀，未逐張驗圖/影片/實帳/權限/效能測試。**10次完整深讀合格篇數仍0/10,000**。只有GitHub研究檔與索引寫入，沒有修改Notion或正式系統；手動與排程雙軌繼續共享去重清冊。
+
+## 2026-10-26｜Notion深度學習：排程獨立批次AUTO-09（Comments／Suggested edits／Backlinks）
+- **[新官方來源3篇；與既有研究清冊去重]** [AUTO-09原始研究與逐篇反例](research/notion-deep-study-automation-run-09-2026-10-26.md)：已先讀main規則與2026-10-24、第二～四批、十面向研究、AUTO-01～08及MANUAL-01，新增`https://www.notion.com/help/comments-mentions-and-reminders`、`https://www.notion.com/en-gb/help/suggested-edits`、`https://www.notion.com/help/create-links-and-backlinks`。各閱讀可取得的文字主節及FAQ並做一輪新反例；`/en-gb/`為語系變體，唯一身分以文章slug去重。沒有逐張驗圖、嵌入影片、實帳角色/手機測試，**不計嚴格FULL_DEEP_PASS**。
+- **[核心反證]** @mention無權頁面不發通知，評論Resolved不等於業務核定；Suggested edits只支援有限文字區塊、**不支援inline DB/DB properties/peek頁**，不能取代資料庫變更審批；Backlinks因存取權限制而不完整，不能因Backlinks空白推論沒有依賴而安全刪除。**研究不是設計授權**，Notion與正式系統0變更。
+- **[嚴格進度]** 10,000篇各10次獨立完整深讀達標仍**0/10,000**。雙軌共享去重索引，GitHub每檔最新SHA寫入/回查，不覆蓋並行增量。
