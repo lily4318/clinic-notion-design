@@ -682,3 +682,8 @@
 - trace `AUTO-25-20261026-1736-RESEARCH`；[本輪逐篇證據](research/notion-deep-study-automation-run-25-2026-10-26.md)。已核對main規則、研究目錄36份與共用索引；兩篇NN/g不同canonical文章取得主要文字並各作首次獨立反例，暫列新增去重2篇。圖片/動畫/實帳/真人手機與權限/效能/公式均 NOT_TESTED。
 - **RESEARCH R1 PASS；FULL_DEEP_PASS 0**。本輪完整10次深讀達標新增0，累積可稽核**0/10,000篇**；全域唯一來源精確總數未完成完整閱讀證據去重。
 - **NO SYSTEM WRITE**：只寫GitHub研究/來源/決策/驗收；Notion正式/TEST Page、DB、Data Source、View、Formula、Relation、Share/權限、業務資料及正式GAS/Cloud Run/Session/部署均未修改。尚未開始重新設計，排程與手動續作均可獨立並行。
+
+## 2026-10-26｜AUTO-26 Notion 深度學習研究取證（非業務驗收）
+- trace `AUTO-26-20261026-1742-RESEARCH`；[逐篇閱讀、去重、反例與限制](research/notion-deep-study-automation-run-26-2026-10-26.md)。本輪已核對當期 main、sources 索引所連32份研究檔及已知十面向文件。新候選 canonical 來源2（Notion layout指南與NN/g篩選設計），主要文字R1閱讀2、首次反例2；已登錄Data Tables/Information Scent針對性重讀2，不重算新URL或完整深讀。
+- **RESEARCH R1 PASS；FULL_DEEP_PASS_10_OF_10 0；累積0／10,000篇**。圖片、折疊內容、動態示範、實際Notion Layout、真人操作、手機、角色權限、載入效能、政府核定規則與公式真值均NOT_TESTED。全域唯一URL總數仍待完整去重，不能將來源數加總冒稱達標。
+- **NO SYSTEM WRITE**：僅GitHub研究證據/來源/決策/驗收紀錄；Notion正式/TEST頁面、資料庫、Data Source、View、Formula、Relation、權限、業務資料與GAS/Cloud Run/Session/部署皆未修改。沒有開始Notion重新設計；手動續作與既有排程繼續獨立並行。
