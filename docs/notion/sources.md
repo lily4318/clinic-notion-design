@@ -425,3 +425,10 @@
 - `AUTO37-S01` [Accelerators Maximize Efficiency in User Interfaces](https://www.nngroup.com/articles/ui-accelerators/)；canonical `nngroup:articles/ui-accelerators`；Rachel Krause、Aurora Harley，2024-10-18；`R1_MAIN_TEXT_SECTIONS+C1`。快捷入口不應取代安全核對；通用 UX 原則不代表 Notion 有自訂快捷、巨集或完整復原能力。
 - `AUTO37-S02` [Alphabetical Sorting Must (Mostly) Die](https://www.nngroup.com/articles/alphabetical-sorting-must-mostly-die/)；canonical `nngroup:articles/alphabetical-sorting-must-mostly-die`；Jakob Nielsen，2010-10-03；`R1_MAIN_TEXT_ALL_SECTIONS+C1`。方案期別顯示排序不等於實際服務日適用的期別判定；字母排序與最新優先皆有誤用風險。
 - **嚴格進度**：本輪已查清冊新候選2、主要正文R1 2、首次反例2、完整R2–R10 0；`FULL_DEEP_PASS_10_OF_10` 本輪0，累積仍**0/10,000篇**。圖片/互動/真實Notion操作、角色/手機/效能/跨期公式均未驗。僅GitHub研究，不更動Notion或正式系統、不開始重新設計。
+
+
+## 2026-10-27｜AUTO-38：資料庫範本與資料庫權限語意（僅研究）
+- [AUTO-38 逐篇原文閱讀、反證、去重與限制](research/notion-deep-study-automation-run-38-2026-10-27.md)；trace `AUTO-38-20261027-0543-RESEARCH`。已重新Fetch main 七項規範、研究目錄49份 Markdown逐檔查候選slug/標題；新候選1篇、既有來源由SUMMARY_ONLY升級為本輪主要正文閱讀1篇，兩篇各1次獨立反例；全庫其他路徑及同文異址去重仍待稽核。
+- `AUTO38-S01` [Using database templates to help cement your team's process](https://www.notion.com/help/guides/using-database-templates-for-teams)；canonical `notion:help/guides/using-database-templates-for-teams`；官方、作者/日期未確認；`R1_MAIN_TEXT_ALL_FOUR_SECTIONS+C1`。範本可設預設屬性/頁面格式，**預設金額或資格不能取代歷史服務日期與方案期別核對**。
+- `AUTO38-R01` [Intro to databases](https://www.notion.com/help/intro-to-databases)；canonical `notion:help/intro-to-databases`；**既有 DS-025 / N15，不計新URL**；原先 DS-025 SUMMARY_ONLY，本輪成功閱讀正文各節，`R1_MAIN_TEXT_ALL_SECTIONS+C1`，非完整R2。Can edit content 對原庫與linked views的可改範圍不同；Lock views不能視為權限隔離。
+- **嚴格進度**：本輪新canonical候選1、已登錄來源正文升級1、主要正文獨立閱讀2、反例2、FULL_DEEP_PASS_10_OF_10新增0；累積可核實仍**0/10,000篇**。原圖/影片/互動/實際帳戶/角色權限/效能/公式均未驗；只寫GitHub研究記錄，Notion及正式系統零寫入，不開始重新設計。
