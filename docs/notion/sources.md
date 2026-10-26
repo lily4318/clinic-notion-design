@@ -391,3 +391,10 @@
 - `AUTO32-S01` [Tabs, Used Right](https://www.nngroup.com/articles/tabs-used-right/)；canonical `nngroup:articles/tabs-used-right`；Evan Sunwall，2024-08-02（2026-09-02審閱）；R1主要文字/圖說與獨立反例。需要跨表同時比對時，分頁隱藏資料會增加切換成本；但全部歷史資訊攤開也不一定好。
 - `AUTO32-S02` [Indicators, Validations, and Notifications](https://www.nngroup.com/articles/indicators-validations-notifications/)；canonical `nngroup:articles/indicators-validations-notifications`；Kim Flaherty，2024-01-17；R1主要文字/圖說與獨立反例。待核對狀態、輸入錯誤、急迫事件應分別處理，短暫toast或過量彈窗均有風險。
 - **本輪**：已查清冊去重新候選2、R1主要文字閱讀2、首次反例2、完整十次深讀0；**累積嚴格達標仍0／10,000篇**。圖片原圖、影片/互動、Notion真實操作、角色/手機/效能/公式未驗。只研究與GitHub記錄，未改Notion/正式系統，不進入重新設計。
+
+## 2026-10-27｜AUTO-33：導航命名與資訊分散研究（僅研究）
+- [AUTO-33 逐篇正文、反例、去重及限制](research/notion-deep-study-automation-run-33-2026-10-27.md)；trace `AUTO-33-20261027-0038-RESEARCH`。起始讀取main七項規範與來源/決策/驗收；研究目錄44份逐檔查重兩個slug，44/44可讀且未命中；sources.md亦未命中。新來源候選2（全域唯一總數仍待全庫稽核）：
+  - `AUTO33-S01` [5 Tips for Avoiding Confusing Category Names](https://www.nngroup.com/articles/category-names-suck/)；canonical `nngroup:articles/category-names-suck`；Hoa Loranger、Taylor Dykes，2013-12-15（2024-10-11 review）；R1主要文字五原則＋首次獨立反例。導覽命名避免模糊/重疊，需以工作者實際任務測試。
+  - `AUTO33-S02` [Content Dispersion: Study Methodology](https://www.nngroup.com/articles/content-dispersion-methodology/)；canonical `nngroup:articles/content-dispersion-methodology`；Kim Flaherty、Tim Neusesser、Nishi Chitale，2023-10-13；R1方法與原型主要文字＋首次反例。原文數字是特定網站原型描述，非Notion密度KPI；13位招募含5 pilot、8 final。
+- **舊來源針對性複讀2**：`AUTO33-R01` Progressive Disclosure（首批U01）、`AUTO33-R02` Recognition and Recall（批次02已登錄）；各只計針對性重讀，非新來源/完整R2。兩者的同頁比較與辨識線索須結合實際行政任務，不可拿來直接改頁。
+- **嚴格進度**：本輪新候選2、R1主要正文2、首次反例2、舊來源針對性複讀2、FULL_DEEP_PASS_10_OF_10新增0；累積**0/10,000**。圖片原檔、Figma、互動、真人Notion/權限/速度/公式未驗；僅GitHub研究，Notion/正式系統0寫入，未開始重新設計。
