@@ -728,3 +728,8 @@
 - trace `AUTO-32-20261026-2340-RESEARCH`；[逐篇來源/閱讀/反例](research/notion-deep-study-automation-run-32-2026-10-26.md)。兩篇NN/g（Tabs, Used Right；Indicators, Validations, and Notifications）在已查清冊初步去重後列新canonical候選2；R1主要文字2篇、首次獨立反例2次、既有完整複讀0。
 - **R1_MAIN_TEXT PASS（限可讀正文與圖說）／FULL_DEEP_PASS_10_OF_10 0／累積嚴格達標0／10,000篇**。全域精確唯一URL仍待完整稽核；原始圖片逐張、影音/互動、Notion實帳/手機/權限/效能/公式及真實補助業務未測，不能宣稱十次深讀或實作驗收。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究/來源/決策/驗收記錄，沒有修改Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、Share/權限、業務資料，亦未修改正式GAS/Cloud Run/Session/部署。尚未進入重新設計，手動與排程可並行。
+
+## 2026-10-27｜AUTO-33 研究證據驗收（非 Notion 業務驗收）
+- trace `AUTO-33-20261027-0038-RESEARCH`；[逐篇證據](research/notion-deep-study-automation-run-33-2026-10-27.md)。研究目錄44份逐檔檢查兩個新slug均無既有命中；來源索引同樣未命中；本輪新canonical候選2、可讀主要文字R1 2、首次獨立反例2、舊來源針對性複讀2（不計完整R2）。
+- **研究文字取證 PASS（限已讀正文）／FULL_DEEP_PASS_10_OF_10 本輪0／累積嚴格達標0/10,000**；全域唯一URL總數待完整稽核。原始圖、Figma原型、問卷、互動、Notion真人/手機/角色權限/速度/公式/補助核定數值 NOT_TESTED。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究與來源/決策/驗收紀錄；未改Notion正式或TEST頁、資料庫、Data Source、View、Formula、Relation、權限、業務資料，亦未改正式GAS、Cloud Run、Session、部署；未開始重新設計。
