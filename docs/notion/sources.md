@@ -282,3 +282,8 @@
 - **[歷史去重更正]** AUTO-16 的 `/help/buttons` 已於 AUTO-05 登錄（`/en-gb/help/buttons`）；AUTO-16 的 `/help/feeds` 已於 AUTO-03 登錄（`/en-gb/help/feeds`）。兩筆是語系相同 canonical 的重複新增宣稱，**AUTO-16 暫列真正新來源從3修正為1篇**；原有閱讀與反例保留，不能自動計為另一次嚴格完整深讀。全域唯一來源數仍待跨檔完整稽核。
 - **[反例]** Webhook action 限付費方案、只送 POST／資料庫頁屬性、沒有 payload preview、錯誤可能暫停，不能保證臨床資料外送最小化或核定交易可靠性；Workspace Sidebar 移到 Private 可能撤銷其他人的存取，跨 Workspace 搬移/方案計費有額外風險。僅研究不改設計或系統。
 - **[嚴格進度]** 本輪新來源2、文字研讀2、首次反例2、歷史重複修正2、10/10 完整深讀新增0；**累積0／10,000篇**。Notion/正式系統零修改；手動與排程繼續並行。
+
+## 2026-10-26｜Notion深度學習 AUTO-18：Custom Agents與分享權限（僅研究）
+- [AUTO-18原始研究、逐篇閱讀與反例](research/notion-deep-study-automation-run-18-2026-10-26.md)（trace `AUTO-18-20261026-0938`）。本輪依最新main及首批、批次02–04、十面向、MANUAL-01、AUTO-01～17研究清冊核對，**暫列2個未登錄的canonical官方來源**：`https://www.notion.com/help/custom-agents`（`notion-help:custom-agents`，AUTO18-S01）及`https://www.notion.com/help/custom-agents-sharing-and-permissions`（`notion-help:custom-agents-sharing-and-permissions`，AUTO18-S02）。兩篇各完成可讀主要正文與FAQ閱讀及1次獨立反例分析；未逐張驗圖、影片或付費實帳測試，**不是完整10次深讀**。
+- **[交叉反證]** 將Agent嵌入頁面不自動給Agent讀該頁的權限；Agent與使用者本人是不同授權主體，分享Agent可能間接提供使用者原本無法直接讀取的資料。免費版優先的治療所不得預設Business/Enterprise Agent可用，亦不能因頁面Private便推論經Agent不會外洩。這是風險研究，**不表示本所已啟用Agent或發生外洩**。
+- **[門檻與邊界]** 本輪暫列新來源2、主文字+FAQ閱讀2、首次反例2、嚴格FULL_DEEP_PASS 0；累積完成各10次嚴格深讀仍**0/10,000**，全域唯一來源精確數待完整跨檔稽核。只改GitHub研究與索引，不改Notion或GAS/Cloud Run/Session；不開始重新設計。
