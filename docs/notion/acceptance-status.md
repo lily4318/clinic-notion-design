@@ -699,3 +699,9 @@
 - **R1_MAIN_TEXT PASS（只限已讀正文）／FULL_DEEP_PASS_10_OF_10 0／累積嚴格達標0／10,000篇**。全域精確唯一來源總數仍待跨檔稽核；不得將3篇R1視為3篇10/10深讀。
 - **NOT TESTED**：原圖、影片、互動折疊、Notion真實帳戶與方案權限、按鈕批次操作、automation實際觸發、跨期資料、真人手機UX、載入速度、公式與政府補助真值。
 - **NO SYSTEM WRITE**：僅GitHub研究、來源、決策、驗收紀錄；Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、Share/權限、業務資料、正式GAS/Cloud Run/Session/部署均未修改。未開始重新設計；手動與每小時研究共享main並以SHA條件避免覆寫。
+
+
+## 2026-10-26｜AUTO-29 研究證據驗收（非業務驗收）
+- trace `AUTO-29-20261026-2044-RESEARCH`；[原始研究證據](research/notion-deep-study-automation-run-29-2026-10-26.md)。新canonical候選2（Notion Connected properties、NN/g User Mistakes），R1主要文字2篇、首次獨立反例2次；全域唯一總數待跨檔完整機器稽核。
+- **R1_MAIN_TEXT PASS／FULL_DEEP_PASS_10_OF_10 0／累積嚴格10/10 0／10,000篇**。圖片、影片、實際連線授權、外部檔案權限、真實角色/手機UX、效能、跨期額度公式及操作回復均NOT_TESTED。
+- **NO SYSTEM WRITE**：僅GitHub研究／來源／決策／驗收文件；Notion正式或TEST Page、DB、Data Source、View、Formula、Relation、權限、個案或財務資料，以及正式GAS／Cloud Run／Session／部署均未修改；沒有開始重新設計。雙軌研究共享main並以最新SHA避免覆寫。
