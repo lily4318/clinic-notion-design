@@ -616,3 +616,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - trace `AUTO-28-20261026-1943-RESEARCH`；[逐篇研究證據](research/notion-deep-study-automation-run-28-2026-10-26.md)。三篇新的canonical URL取得主要文字並各完成一次獨立反例：NN/g表單錯誤提示、Notion資料庫按鈕、Notion資料庫自動化。
 - 新反證：輸入中／未知／待核對不可直接判定錯誤；按鈕確認不等於政府資格核定；自動化多trigger為OR，不可冒稱多期別AND驗證；跨DB批次動作可能產生錯期誤改。此為研究風險假說，**不授權**增設按鈕、公式、欄位或更改Notion。
 - 本輪R1主要文字3篇、首次反例3次、10/10完整深讀0篇，累積可核實**0／10,000篇**；全域唯一URL仍待完整跨檔去重，圖片、真人/角色/方案/效能/公式均未實測。僅GitHub研究與索引，不改Notion、GAS、Cloud Run、Session，不開始重新設計。
+
+
+## 2026-10-26｜AUTO-29 研究判斷（非Notion設計決議）
+- trace `AUTO-29-20261026-2044-RESEARCH`；[逐篇原文與反例](research/notion-deep-study-automation-run-29-2026-10-26.md)。暫列2篇不同canonical新來源，分別完成一次可讀主要文字與首次獨立反例；未完成全部媒體或10次完整深讀。
+- **研究反證**：Notion connected properties受方案層級限制，外部連結不等於資料權限或核定；GitHub PR屬性可能連帶新增Unique ID，不能在未授權下改Schema。NN/g指出認知型錯誤需要預覽、操作脈絡與適度確認，但過度確認會導致忽略；不得把Undo、交易式預覽或批次回復視為Notion已具備的保證。
+- **RESEARCH_ONLY／NO_IMPLEMENTATION**：原有同頁直見、多方案／期別及未知／待核／確認0語義不變。不新增任何Notion連線、欄位、按鈕、提示、權限或業務流程；正式GAS/Cloud Run/Session亦不修改。累積嚴格完成10/10仍0/10,000；未經使用者確認不進入重新設計。
