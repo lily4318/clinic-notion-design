@@ -646,3 +646,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - trace `AUTO-32-20261026-2340-RESEARCH`；[逐篇證據](research/notion-deep-study-automation-run-32-2026-10-26.md)。NN/g Tabs 與 Indicators/Validations/Notifications 各一篇獨立canonical來源，均只完成主要文字R1與一次反例，未達FULL_DEEP。
 - **待驗證假說**：需要同時對照心理師本週用量與個案剩餘額度時，不能為版面精簡將兩者藏在互斥分頁；但不因此主張全部歷史資料永遠展開。待核對≠輸入錯誤；已確認0≠系統異常；重要期別事件也不宜只以會消失的toast呈現。
 - **RESEARCH_ONLY／NO_IMPLEMENTATION**：保留使用者已確認的同頁直見與最小提示原則，未授權新增分頁、警告或通知。沒有修改Notion/業務資料/權限/正式GAS/Cloud Run/Session；完整10/10累積仍0/10,000，未開始重新設計。
+
+## 2026-10-27｜AUTO-33 研究觀察：分類命名與資訊密度（不構成改版核准）
+- trace `AUTO-33-20261027-0038-RESEARCH`；[原始研究](research/notion-deep-study-automation-run-33-2026-10-27.md)。兩篇新canonical候選完成一次主要文字與獨立反例；另對既有 Progressive Disclosure、Recognition and Recall 針對性重讀，沒有重算新增URL或完整R2。
+- **觀察，非設計決策**：導覽分類的命名應可預測內容且彼此區分；資訊密度須按同時比較需求、誤判風險及真實操作任務取捨。NN/g 研究原型的內容元素/空白比例不能變成治療所 Notion 硬規則；跨期額度與資格狀態不可為追求緊湊而混同。
+- **邊界**：未進行真人命名測試、密度對照測試、Notion操作或權限/效能驗證；無Notion頁/DB/View/Formula/權限、GAS/Cloud Run/Session寫入；仍須10,000篇各10次完整深讀及使用者確認後方能進入重新設計。
