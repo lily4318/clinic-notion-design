@@ -616,3 +616,8 @@
 ## 2026-10-26｜AUTO-16 官方 Buttons／Feed／Archive 文件研讀
 - **[PASS：本輪研究證據；NOT_DONE：10,000×10]** [AUTO-16閱讀與反例](research/notion-deep-study-automation-run-16-2026-10-26.md)（trace `AUTO-16-20261026-0744`）：經既有研究清冊去重，暫列新canonical URL 3篇，完成可讀主要文字章節研讀3篇與各1次獨立反例；圖片/媒體/互動示範、真實帳戶、手機、角色/效能均未完整驗證，FULL_DEEP_PASS=0。累積可稽核每篇10/10完整深讀**0/10,000**；全域精確唯一來源數未完成核對，不虛報。
 - **[PASS：只讀研究／不動正式系統]** 本輪僅新增GitHub研究檔並更新來源、決策、驗收索引；Notion正式/TEST頁面、資料庫、Data Source、View、Formula、Relation、Share/權限、業務列及GAS/Cloud Run/Session/部署均未修改；沒有開始重新設計。使用最新main blob SHA條件寫入及讀回，並行流程不得覆蓋彼此增量。
+
+## 2026-10-26｜AUTO-17 深度學習研究增量與歷史重複計數修正（非業務驗收）
+- 研究取證：[AUTO-17](research/notion-deep-study-automation-run-17-2026-10-26.md)（trace `AUTO-17-20261026-0838`）。本輪2個新的官方 canonical URL（Webhook actions、Intro to workspaces）有可讀主文字及FAQ，各1次獨立反例分析；圖片、影片、付費實帳與權限／Webhook 操作未驗，**FULL_DEEP_PASS=0**。
+- 歷史計數更正：AUTO-16-S01 Buttons = AUTO-05-01；AUTO-16-S02 Feed = AUTO-03-03。AUTO-16 3筆新增宣稱應減2，暫列1個新來源；原研究不刪、不雙算。全域唯一來源累計仍需完整跨檔稽核，不冒稱已核實。
+- **嚴格完成10次獨立完整深讀：累積0／10,000篇，未通過目標**。本輪僅GitHub文件研究，不是 Notion 公式、UX、權限、效能或業務驗收 PASS；沒有修改 Notion／GAS／Cloud Run／Session，未開始重新設計。
