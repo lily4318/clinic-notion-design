@@ -629,3 +629,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - IAB確認Sessions應收金額_帶入直接依主／附加方案的補助與金額重算；最終應收金額_自動優先取手動調整再取帶入。其餘候選與直接Rollup分列[依賴報告](audits/price-plan-period-dependency-audit-2026-10-26.md)。
 - 使用者指定只用內部瀏覽器，不控制其電腦；後續依此執行。IAB已可讀上述公式，不能再稱所有公式讀取皆受阻。
 - 尚缺最新00.config_notion、必要公式／按鈕完整依賴、歷史映射及隔離測試。Notion零寫入，遷移BLOCKED／NOT_TESTED，不聲稱修改完成。不更動GAS、Cloud Run或Session登入系統。
+
+## 2026-10-26｜AUTO-30 深度學習研究判斷（非實作決策）
+- trace `AUTO-30-20261026-2235-RESEARCH`；[原始閱讀及反例](research/notion-deep-study-automation-run-30-2026-10-26.md)。本輪兩篇NN/g新canonical來源（拖曳、長等待/中斷）完成主要文字R1及各一次獨立反例；Property access是既有來源的針對性重讀，不新增URL或完整R2。
+- **研究假說（非已核准改版）**：高風險補助日期/期別與批次操作不應只依賴拖曳；長等待回饋需區分「頁面載入」「同步」「人工核對」「核定」，且不宜在日常首頁堆積大量說明。Notion原生是否支援精確替代操作、背景進度或回復仍待實測。
+- **新反證**：Notion官方 Property access 明言還原舊資料庫版本不會還原先前欄位權限，權限回復不可只依賴版本歷史。
+- **範圍與進度**：只研究並更新GitHub，未修改Notion、資料、權限或正式GAS/Cloud Run/Session；不開始重新設計。完整10次獨立深讀達標本輪0，累積可稽核仍**0／10,000篇**；全域URL去重及真人/效能/權限/圖片/影片未完成。
