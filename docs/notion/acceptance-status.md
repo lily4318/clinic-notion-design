@@ -658,3 +658,9 @@
 - [本輪逐篇證據](research/notion-deep-study-automation-run-21-2026-10-26.md)（trace `AUTO-21-20261026-1237`）：新候選canonical來源3（Notion手機工作區、API連線管理、NN/g過早錯誤/警告設計），各完成可取得主要文字與獨立反例分析1次；本輪舊來源複讀0。主來源去重經main研究清冊與slug搜尋暫核，**全域精確唯一URL總數仍待完整機器去重**。
 - **RESEARCH INCREMENT PASS／FULL_DEEP_PASS 0**：沒有逐圖、觀看嵌入影片、真人手機/跨角色/分享/第三方整合測試；沒有驗證Notion實際業務真值或速度。故本輪10/10嚴格達標新增0，累積可核實完成仍 **0／10,000篇**，不得將R1正文閱讀冒稱完整深讀。
 - **NO SYSTEM WRITE**：只寫GitHub研究、來源索引、決策與本驗收紀錄；未修改Notion TEST/正式Page、DB、Data Source、View、Formula、Relation、權限/Share、個案或財務資料，也未修改正式GAS/Cloud Run/Session/部署；不開始Notion重新設計。手動與每小時排程可繼續並行。
+
+## 2026-10-26｜AUTO-22 研究證據與安全界線驗收（僅GitHub文件）
+- trace `AUTO-22-20261026-1335`；[本輪原始研究紀錄](research/notion-deep-study-automation-run-22-2026-10-26.md)。已在開始時重讀main權威規則與研究清冊，排除已知重複slug；本輪暫列3個新canonical官方URL（Library、People profiles、Notion Agent），3篇各一次可取得正文閱讀與新反例分析，Agent含FAQ。外部文章實際發表/更新日期不明；全域唯一總數仍待完整稽核。
+- **研究R1／反例紀錄：PASS（就已取得的主要文字）**。Library隱藏≠刪除；Profile≠資料權限且mobile/guest限制；個人Agent≠共享Custom Agent；官方公式建立能力段落有 `SOURCE_INTERNAL_AMBIGUITY`。這些都不是Notion真人或跨角色業務驗收。
+- **完整逐篇10次深讀：PENDING**；本輪0篇、累積可核實0/10,000。圖片、影片、實帳、真實公式/權限、手機操作、效能與真實政府方案規則：**未測**，不可標PASS。
+- **範圍控制**：僅 GitHub 研究紀錄／索引／決策／驗收狀態，Notion頁面、DB、View、Formula、Relation、權限、資料及正式GAS/Cloud Run/Session均零修改；沒有進入Notion重新設計。此文件更新後須讀回SHA與Commit，不能因寫入成功回應就宣稱驗證完成。
