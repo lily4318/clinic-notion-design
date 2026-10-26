@@ -761,3 +761,8 @@
 - trace `AUTO-38-20261027-0543-RESEARCH`；[完整閱讀、去重、反例及限制](research/notion-deep-study-automation-run-38-2026-10-27.md)。main七項規範已查；研究目錄49份已逐檔比對候選slug與標題。新canonical候選1篇、既有DS-025/N15由SUMMARY_ONLY升級本輪主要正文1篇，首次獨立反例2；**不是兩篇新來源**。
 - **PASS限原文主要文字可讀與研究記錄；FULL_DEEP_PASS_10_OF_10 本輪0，累積可核實仍0/10,000篇**。全儲存庫同文異址去重、原始圖片、影片、互動、實際Notion帳戶、手機、角色權限、效能、補助期別公式/金額均NOT_TESTED。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究檔、來源、決策、驗收；未改Notion正式/TEST Page、DB、Data Source、View、Formula、Relation、Share/權限、業務資料，亦未改正式GAS/Cloud Run/Session/部署。未開始Notion重新設計；每小時與手動研究可並行，寫入衝突以SHA安全合併。
+
+## 2026-10-27｜AUTO-39 研究文字取證（非Notion業務驗收）
+- trace `AUTO-39-20261027-0644-RESEARCH`；[兩篇來源、正文覆蓋、反例與限制](research/notion-deep-study-automation-run-39-2026-10-27.md)。已Fetch main 七項規範、sources.md引用的45份研究檔；新canonical候選2（Filters vs. Facets；Beyond the Hamburger）、主要正文獨立閱讀2、首次獨立反例2；完整R2–R10 0。
+- **PASS 僅限已取得主要正文及GitHub研究紀錄；FULL_DEEP_PASS_10_OF_10 本輪0、累積可核實0/10,000篇**。全庫同文異址去重未完成；原始圖片、影音/互動、Notion實際工作區、真人/手機/角色權限、效能、跨期公式/金額均 NOT_TESTED；一般網站樣本數據不可外推為本所成效。
+- **NO NOTION/SYSTEM WRITE**：本輪僅GitHub研究、來源、決策與驗收紀錄；未改Notion正式或TEST頁面、DB、Data Source、View、Formula、Relation、Share/權限或業務資料，亦未改正式GAS、Cloud Run、Session、部署；研究門檻未達，尚未開始重新設計。每小時與手動研究獨立並行，寫入前以最新blob SHA避免覆蓋。
