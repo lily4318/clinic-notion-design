@@ -349,3 +349,11 @@
   - `AUTO27-S01` [Table view](https://www.notion.com/help/tables)；`notion-help:tables`；`R1_MAIN_BODY_FAQ+COUNTEREXAMPLE`。Inline DB Table、批次編輯、欄底計算、simple table差異；View 的 Sum 不能冒充跨期官方額度，Bulk edit 具有誤改風險。
   - `AUTO27-S02` [Designing Empty States in Complex Applications: 3 Guidelines](https://www.nngroup.com/articles/empty-state-interface-design/)；`nngroup:articles/empty-state-interface-design`；Kate Kaplan，2021-09-19；`R1_MAIN_BODY+COUNTEREXAMPLE`。載入中／真0筆／篩選0筆／權限不足／錯誤不能混同，NN/g 範例不能外推成 Notion 原生自訂空狀態能力。
 - 本輪主要文字閱讀2、首次獨立反例2、既有完整複讀0、FULL_DEEP_PASS_10_OF_10 0；**累積嚴格達標0／10,000篇**。圖片/影片/實帳/角色/效能未驗，全域唯一總數未完成跨檔稽核。僅GitHub研究，不修改Notion或正式系統，不進入重新設計。
+
+
+## 2026-10-26｜AUTO-28：錯誤提示、資料庫按鈕及自動化研究（僅研究）
+- [AUTO-28 逐篇閱讀與獨立反例](research/notion-deep-study-automation-run-28-2026-10-26.md)；trace `AUTO-28-20261026-1943-RESEARCH`。已讀main規範及來源／決策／驗收索引，並在research/39份檔案與GitHub搜尋比對三個slug，未見重複；跨其他歷史檔的全域去重仍未完整核算。
+- `AUTO28-S01` [10 Design Guidelines for Reporting Errors in Forms](https://www.nngroup.com/articles/errors-forms-design-guidelines/)；`nngroup:articles/errors-forms-design-guidelines`；Rachel Krause，2019-02-03，2024-12-12審閱；R1主要正文10項＋反例。輸入未完成≠錯誤；就地錯誤提示優於只在頁首或tooltip，避免全畫面警告。
+- `AUTO28-S02` [Make work more efficient with database button properties](https://www.notion.com/en-gb/help/guides/make-work-more-efficient-database-button-property)；`notion-help:guides/make-work-more-efficient-database-button-property`；R1主要正文＋反例。按鈕可多步驟、編輯其他頁、顯示確認，但確認點擊≠核定資格；跨期filter與批次誤改需防範。
+- `AUTO28-S03` [Create streamlined project management workflows using database automations](https://www.notion.com/en-gb/help/guides/create-streamlined-project-management-workflow-using-database-automations)；`notion-help:guides/create-streamlined-project-management-workflow-using-database-automations`；R1主要正文＋反例。多觸發條件為OR，不能冒充跨方案多條件同時核准；付費限制及部分失敗未實測。
+- 本輪初步去重新來源3、主要文字R1 3、首次獨立反例3、完整十次深讀0；**累積嚴格10/10仍0／10,000篇**。圖片/影片/互動/實帳/真人UX/權限/效能/公式未驗證。僅GitHub研究記錄，不修改Notion或正式系統，不開始重新設計。
