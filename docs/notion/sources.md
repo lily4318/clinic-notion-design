@@ -287,3 +287,9 @@
 - [AUTO-18原始研究、逐篇閱讀與反例](research/notion-deep-study-automation-run-18-2026-10-26.md)（trace `AUTO-18-20261026-0938`）。本輪依最新main及首批、批次02–04、十面向、MANUAL-01、AUTO-01～17研究清冊核對，**暫列2個未登錄的canonical官方來源**：`https://www.notion.com/help/custom-agents`（`notion-help:custom-agents`，AUTO18-S01）及`https://www.notion.com/help/custom-agents-sharing-and-permissions`（`notion-help:custom-agents-sharing-and-permissions`，AUTO18-S02）。兩篇各完成可讀主要正文與FAQ閱讀及1次獨立反例分析；未逐張驗圖、影片或付費實帳測試，**不是完整10次深讀**。
 - **[交叉反證]** 將Agent嵌入頁面不自動給Agent讀該頁的權限；Agent與使用者本人是不同授權主體，分享Agent可能間接提供使用者原本無法直接讀取的資料。免費版優先的治療所不得預設Business/Enterprise Agent可用，亦不能因頁面Private便推論經Agent不會外洩。這是風險研究，**不表示本所已啟用Agent或發生外洩**。
 - **[門檻與邊界]** 本輪暫列新來源2、主文字+FAQ閱讀2、首次反例2、嚴格FULL_DEEP_PASS 0；累積完成各10次嚴格深讀仍**0/10,000**，全域唯一來源精確數待完整跨檔稽核。只改GitHub研究與索引，不改Notion或GAS/Cloud Run/Session；不開始重新設計。
+
+## 2026-10-26｜Notion 深度學習 AUTO-19：Map／Sprints／Page Style＋Synced blocks 複讀
+- [AUTO-19 逐篇閱讀、反例及去重紀錄](research/notion-deep-study-automation-run-19-2026-10-26.md)（trace `AUTO-19-20261026-1042`）：本輪新增3個已知清冊未登錄官方canonical URL：[`/help/maps`](https://www.notion.com/help/maps)（AUTO19-S01，`notion-help:maps`）、[`/help/sprints`](https://www.notion.com/help/sprints)（AUTO19-S02，`notion-help:sprints`）、[`/help/customize-and-style-your-content`](https://www.notion.com/help/customize-and-style-your-content)（AUTO19-S03，`notion-help:customize-and-style-your-content`）。三篇各完成可讀文字主節與FAQ首次反例分析，**不是10次完整深讀**。
+- [獨立舊文複讀] 第三批已登錄的[`/help/synced-blocks`](https://www.notion.com/help/synced-blocks)（AUTO19-R01）本輪針對性R3文字重讀：解除同步後舊副本不再跟隨原文更新，連結仍在；這與前輪「刪原始造成連帶刪除」是不同反證，不重算新URL或FULL_DEEP_PASS。
+- [去重修正／防重] 本輪初選的Charts(N08)、Database templates(N09)、Forms(AUTO-01)、Synced blocks(第三批)、Database settings(第二批)、Collaborate(AUTO-02)均已登錄，**排除新增篇數**。新增3個URL已核對sources、首批、第二～四批、MANUAL-01、AUTO-01～18；全域精確唯一總數仍待機器稽核，不直接加總。
+- [嚴格進度] 本輪新3、文字主節閱讀3、首次反例3、既有來源針對性複讀1、10/10嚴格完成0；累積**0／10,000篇**。圖片/影片/真人/權限/效能/實際操作未驗；不修改Notion或GAS/Cloud Run/Session、不開始設計。
