@@ -639,3 +639,9 @@
 - [研究完整紀錄](research/notion-deep-study-automation-run-19-2026-10-26.md)（`AUTO-19-20261026-1042`）：新增3個經已知研究清冊去重的Notion官方來源（Map view、Task databases & sprints、Style & customize your page），完成可讀文字主節/FAQ首次反例3次；舊Synced blocks獨立針對性R3複讀1次。初選重複來源排除，不冒稱新增；未完整驗圖/影片/實帳/手機/真人權限/效能，**FULL_DEEP_PASS=0**。
 - **總目標 NOT_DONE**：累積可稽核每篇10次獨立完整深讀通過**0／10,000篇**；全域唯一URL精確總數待跨檔機器去重。此批官方文件研究不是現行系統或公式數值驗收。
 - **SCOPE PASS**：僅公開資料閱讀與GitHub研究/索引/決策/驗收記錄；Notion正式及TEST Page、Database、Data Source、View、Formula、Relation、Share/權限、業務資料及GAS/Cloud Run/Session/部署均未修改；未開始重新設計。手動與排程可並行續作。
+
+
+## 2026-10-26｜AUTO-20 Notion深度學習（研究取證PASS；10,000×10 NOT_DONE）
+- [逐篇原始證據](research/notion-deep-study-automation-run-20-2026-10-26.md)（trace `AUTO-20-20261026-1137`）：3篇新的官方獨立指南URL（Using database templates、When to use each type of database view、Use charts to visualize data and track progress directly in Notion）各取得可讀文字主節並完成1次獨立反例；N02 Views/filters/sorts 1次新角度針對性複讀，**不計新來源或完整R2**。
+- **[RESEARCH INCREMENT PASS / FULL_DEEP_PASS 0]** 未逐張檢視圖片、未看3分鐘模板影片及其他嵌入影片、未實際複製模板/拖曳View/驗證跨角色/手機/效能。故本輪嚴格10/10達標新增0，累積仍**0／10,000篇**；全域唯一URL總數尚未完成全檔機器去重，不以歷史批次宣稱加總。
+- **[NO SYSTEM WRITE]** 本輪只允許且只執行GitHub研究檔與來源/決策/驗收記錄；未修改任何Notion正式/TEST Page、Database、Data Source、View、Formula、Relation、Share/權限、業務資料或正式GAS/Cloud Run/Session。真人操作、業務公式數值、角色隔離與效能沒有新增PASS。研究尚未完成，**不開始Notion重新設計**；手動與排程雙軌仍可並行。
