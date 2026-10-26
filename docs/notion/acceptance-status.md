@@ -676,3 +676,9 @@
 - **RESEARCH R1 PASS / FULL_DEEP_PASS 0**：本輪兩篇官方獨立來源（Task databases/My Tasks指南、Enterprise Search）各讀取可取得主要文字及首次反例一次。暫列新增去重URL2、R1正文2、首次反例2、完整10/10達標新增0；**累積10/10達標0／10,000**。全域精確唯一來源數未完成完整跨檔稽核。
 - **NOT TESTED**：頁面所有圖片、影片、實際免費/付費方案、角色/外部夥伴權限、AI連線/模型、真人手機UX、效能、政府補助業務真值、公式數值。
 - **SCOPE**：僅GitHub研究與來源/決策/驗收索引；沒有修改Notion正式或TEST頁、DB、Data Source、View、Formula、Relation、Share/權限、個案或財務資料、正式GAS/Cloud Run/Session/部署；沒有開始Notion重新設計。雙軌排程與手動續作繼續獨立並行。
+
+
+## 2026-10-26｜AUTO-25 研究增量（非Notion業務驗收）
+- trace `AUTO-25-20261026-1736-RESEARCH`；[本輪逐篇證據](research/notion-deep-study-automation-run-25-2026-10-26.md)。已核對main規則、研究目錄36份與共用索引；兩篇NN/g不同canonical文章取得主要文字並各作首次獨立反例，暫列新增去重2篇。圖片/動畫/實帳/真人手機與權限/效能/公式均 NOT_TESTED。
+- **RESEARCH R1 PASS；FULL_DEEP_PASS 0**。本輪完整10次深讀達標新增0，累積可稽核**0/10,000篇**；全域唯一來源精確總數未完成完整閱讀證據去重。
+- **NO SYSTEM WRITE**：只寫GitHub研究/來源/決策/驗收；Notion正式/TEST Page、DB、Data Source、View、Formula、Relation、Share/權限、業務資料及正式GAS/Cloud Run/Session/部署均未修改。尚未開始重新設計，排程與手動續作均可獨立並行。
