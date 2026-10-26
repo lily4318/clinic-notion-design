@@ -733,3 +733,9 @@
 - trace `AUTO-33-20261027-0038-RESEARCH`；[逐篇證據](research/notion-deep-study-automation-run-33-2026-10-27.md)。研究目錄44份逐檔檢查兩個新slug均無既有命中；來源索引同樣未命中；本輪新canonical候選2、可讀主要文字R1 2、首次獨立反例2、舊來源針對性複讀2（不計完整R2）。
 - **研究文字取證 PASS（限已讀正文）／FULL_DEEP_PASS_10_OF_10 本輪0／累積嚴格達標0/10,000**；全域唯一URL總數待完整稽核。原始圖、Figma原型、問卷、互動、Notion真人/手機/角色權限/速度/公式/補助核定數值 NOT_TESTED。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究與來源/決策/驗收紀錄；未改Notion正式或TEST頁、資料庫、Data Source、View、Formula、Relation、權限、業務資料，亦未改正式GAS、Cloud Run、Session、部署；未開始重新設計。
+
+
+## 2026-10-27｜AUTO-34 研究證據驗收（非業務系統驗收）
+- trace `AUTO-34-20261027-0138-RESEARCH`；[逐節閱讀、去重及反證](research/notion-deep-study-automation-run-34-2026-10-27.md)。main規範與研究目錄45份已查，兩個 NN/g URL 在已查來源清冊中未見先前登錄；新候選2、R1主要文字2、首次反例2、完整R2–R10為0。
+- **研究主要正文 PASS（限已讀文字）／FULL_DEEP_PASS_10_OF_10 本輪0、累積嚴格0/10000**。原圖、影片、互動、真實 Notion 操作、手機、角色權限、載入時間、跨方案公式與核定數值 NOT_TESTED；全域唯一來源總數待完整稽核。
+- **NO NOTION/SYSTEM WRITE**：本輪只在GitHub研究／來源／決策／驗收文件追加記錄；未改任何Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務資料，也未改正式GAS、Cloud Run、Session或部署；未開始重新設計。
