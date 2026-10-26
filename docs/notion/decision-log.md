@@ -556,3 +556,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - [AUTO-19研究證據](research/notion-deep-study-automation-run-19-2026-10-26.md)（`AUTO-19-20261026-1042`）：3篇官方來源首次文字主節閱讀＋反例；舊Synced blocks獨立針對性R3重讀；未逐圖、影片或實帳操作，**非完整10/10深讀**。
 - 研究限制（非已採用方案）：Map只顯示最多100筆、地址由第三方處理，圖釘缺席不代表來源零筆；Sprint更改起始日影響當期日期、停用會永久刪除Sprint資料庫/看板/關聯，不能當作政府核定週期；Page Style部分變更作用於整個資料庫、手機與桌面顯示差異，視覺裝飾不能取代開頁即見的業務資訊；Unsync舊副本可能產生內容漂移。
 - **決策狀態 HOLD / RESEARCH ONLY**：不新增Map、Sprint、Callout或Synced blocks，不改任何現行Notion Page、Database、View、Formula、Relation、權限；不修改GAS/Cloud Run/Session。待10,000篇各10次真正完成且使用者確認前，不開始重新設計。全域去重總數仍待完整機器稽核；嚴格達標仍0/10,000。
+
+
+## 2026-10-26｜AUTO-20：官方檢視選型／圖表／模板研究（無實作決策）
+- [研究證據](research/notion-deep-study-automation-run-20-2026-10-26.md)（trace `AUTO-20-20261026-1137`）：3篇獨立官方指南首次可讀文字章節及反例、既有N02針對性複讀1次；嚴格10/10完成篇數仍0/10,000，所有圖片/影片/實帳操作未完成，不稱FULL_DEEP_PASS。
+- **僅研究的風險結論，不是設計核准**：資料庫模板可預填內容，但不能保證個案×核定期複合唯一或避免繼承錯誤Relation；Calendar/Timeline拖曳可修改日期，不能用美觀取代業務資料保護；圖表自動更新不代表公式/核定真值正確。圖表指南列4種布局，現行官方Charts Help另有Number chart，標記文件版本差異待驗。
+- **權限及使用者需求不變**：Free優先、同頁開啟即見資料、未知/0/不適用分離、跨期隔離、View篩選非權限。此次沒有批准或執行Notion頁/DB/View/Formula/Relation/權限修改，亦未更動GAS/Cloud Run/Session；10,000×10完成及使用者確認前不開始重新設計。
