@@ -676,3 +676,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **候選原則，尚未核准實作**：高頻查閱可考慮不妨礙新手的替代操作路徑；但快速批次修改、核定期別選擇不得繞過安全核對，且不能假定 Notion 原生具備任意自訂快捷鍵或交易復原。
 - **反證約束**：方案/價格期別按時間或業務順序呈現可能較易理解；但「排序第一筆」不是生效期判定，回填歷史 Session 必須區分顯示排序與按服務日期決定適用金額。本文未驗證原生公式或任何真實帳務。
 - **範圍**：只追加 GitHub 研究與決策候選，沒有修改 Notion／正式 GAS／Cloud Run／Session。10,000篇×10次嚴格深讀仍0達標，使用者確認前不得重新設計。
+
+
+## 2026-10-27｜AUTO-38 Notion 深度學習研究增量（非實作決策）
+- trace `AUTO-38-20261027-0543-RESEARCH`；[逐篇原文與反例](research/notion-deep-study-automation-run-38-2026-10-27.md)。已查main規範與研究目錄49份，暫列新來源1（Notion資料庫範本），既有Intro to databases（batch02 DS-025／十面向N15）從原摘要成功升級為正文R1；各1次獨立反例，不重計新URL或完整R2。
+- 研究反證：範本預設屬性不保證歷史服務日的收費期別/資格正確；Can edit content與linked view編輯能力、Lock view的可切換性，不能當成跨角色權限隔離保證。均為文獻推論，**不是現行Notion缺陷或實作核可**。
+- **R1主要正文2篇／FULL_DEEP_PASS_10_OF_10本輪0／累積嚴格0/10,000篇**；圖片/影片/互動/真實權限/手機/速度/公式/政府核定數值未驗。全庫跨檔與同文不同URL去重未完成。
+- **NO SYSTEM WRITE**：僅GitHub研究與索引/決策/驗收進度，不修改Notion正式/TEST頁面、DB、Data Source、View、Formula、Relation、權限、業務資料或GAS/Cloud Run/Session/部署；不開始重新設計。雙軌續作保持並行。
