@@ -276,3 +276,9 @@
 - [AUTO-16逐篇正文閱讀與獨立反例](research/notion-deep-study-automation-run-16-2026-10-26.md)（trace `AUTO-16-20261026-0744`）：本輪比對當期首批、十面向、批次02–04、MANUAL-01、AUTO-01～15清冊後，暫列3個新官方canonical來源：[`/help/buttons`](https://www.notion.com/help/buttons)（`notion-help:buttons`；AUTO16-S01）、[`/help/feeds`](https://www.notion.com/help/feeds)（`notion-help:feeds`；AUTO16-S02）、[`/help/archive-pages`](https://www.notion.com/help/archive-pages)（`notion-help:archive-pages`；AUTO16-S03）。每篇僅可取得主要文字章節R1＋首次反例，不是10次完整深讀；發表/更新日期未核實。
 - **[反例]** Page button跨庫操作受目標權限、缺失欄位/連接與模板覆蓋影響，不能視為唯一核定交易；Feed線性卡片不必然適合跨多列額度對照；Archive僅Business/Enterprise beta、保留可存取內容及連結，不能當作使用者要求的真正刪除。
 - **[嚴格計數]** 本輪新增canonical候選3、主要文字研讀3、首次獨立反例3、完整10/10達標新增0；累積可稽核完整10/10仍**0/10,000**。全域唯一來源總數待完整去重，不把歷史批次數直接加總。未驗所有圖片/互動/實帳、真人權限/效能；Notion/正式系統零修改，不開始重新設計。
+
+## 2026-10-26｜Notion 深度學習 AUTO-17：Webhook／Workspace＋AUTO-16 去重修正
+- [AUTO-17 獨立閱讀、逐篇反例與去重證據](research/notion-deep-study-automation-run-17-2026-10-26.md)（trace `AUTO-17-20261026-0838`）：本輪在當期研究清冊核對後，新增2篇可取得官方主要文字及 FAQ 的 canonical 來源：`https://www.notion.com/help/webhook-actions`（`notion-help:webhook-actions`；AUTO17-S01）及 `https://www.notion.com/help/intro-to-workspaces`（`notion-help:intro-to-workspaces`；AUTO17-S02）。各1次主文字研讀及獨立反例分析，媒體、實帳及操作未驗，**不是 FULL_DEEP_PASS**。
+- **[歷史去重更正]** AUTO-16 的 `/help/buttons` 已於 AUTO-05 登錄（`/en-gb/help/buttons`）；AUTO-16 的 `/help/feeds` 已於 AUTO-03 登錄（`/en-gb/help/feeds`）。兩筆是語系相同 canonical 的重複新增宣稱，**AUTO-16 暫列真正新來源從3修正為1篇**；原有閱讀與反例保留，不能自動計為另一次嚴格完整深讀。全域唯一來源數仍待跨檔完整稽核。
+- **[反例]** Webhook action 限付費方案、只送 POST／資料庫頁屬性、沒有 payload preview、錯誤可能暫停，不能保證臨床資料外送最小化或核定交易可靠性；Workspace Sidebar 移到 Private 可能撤銷其他人的存取，跨 Workspace 搬移/方案計費有額外風險。僅研究不改設計或系統。
+- **[嚴格進度]** 本輪新來源2、文字研讀2、首次反例2、歷史重複修正2、10/10 完整深讀新增0；**累積0／10,000篇**。Notion/正式系統零修改；手動與排程繼續並行。
