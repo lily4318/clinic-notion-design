@@ -432,3 +432,9 @@
 - `AUTO38-S01` [Using database templates to help cement your team's process](https://www.notion.com/help/guides/using-database-templates-for-teams)；canonical `notion:help/guides/using-database-templates-for-teams`；官方、作者/日期未確認；`R1_MAIN_TEXT_ALL_FOUR_SECTIONS+C1`。範本可設預設屬性/頁面格式，**預設金額或資格不能取代歷史服務日期與方案期別核對**。
 - `AUTO38-R01` [Intro to databases](https://www.notion.com/help/intro-to-databases)；canonical `notion:help/intro-to-databases`；**既有 DS-025 / N15，不計新URL**；原先 DS-025 SUMMARY_ONLY，本輪成功閱讀正文各節，`R1_MAIN_TEXT_ALL_SECTIONS+C1`，非完整R2。Can edit content 對原庫與linked views的可改範圍不同；Lock views不能視為權限隔離。
 - **嚴格進度**：本輪新canonical候選1、已登錄來源正文升級1、主要正文獨立閱讀2、反例2、FULL_DEEP_PASS_10_OF_10新增0；累積可核實仍**0/10,000篇**。原圖/影片/互動/實際帳戶/角色權限/效能/公式均未驗；只寫GitHub研究記錄，Notion及正式系統零寫入，不開始重新設計。
+
+## 2026-10-27｜AUTO-39：篩選維度與桌面導航可發現性（僅研究）
+- [AUTO-39逐篇主要正文、獨立反例與限制](research/notion-deep-study-automation-run-39-2026-10-27.md)；trace `AUTO-39-20261027-0644-RESEARCH`。已重新Fetch main 七項規範；sources.md連結的45份研究清冊均成功讀取並核對兩個slug，均未命中。GitHub code search無命中但不作唯一依據；**全儲存庫其他路徑與同文異址精確去重仍待完成**。
+- `AUTO39-S01` [Filters vs. Facets: Definitions](https://www.nngroup.com/articles/filters-vs-facets/)；canonical `nngroup:articles/filters-vs-facets`；Kathryn Whitenton，2014-03-16；`AUTO39-S01-R1-TEXT-C1` 主要文字1次＋首次獨立反例1次。多面向篩選增加metadata維護及操作成本；篩選後零筆不能視為沒有資料或權限限制。
+- `AUTO39-S02` [Beyond the Hamburger: How to Make Navigation Discoverable on Desktops](https://www.nngroup.com/articles/find-navigation-desktop-not-hamburger/)；canonical `nngroup:articles/find-navigation-desktop-not-hamburger`；Kara Pernice、Raluca Budiu，2016-07-24；`AUTO39-S02-R1-TEXT-C1` 主要文字1次＋首次獨立反例1次。入口過度隱藏會影響可發現性，全部攤開也會增加首屏負擔；一般網站研究不能外推Notion業務改善百分比。
+- **本輪新canonical候選2、主要正文R1 2、首次獨立反例2、完整十次深讀新增0；累積嚴格FULL_DEEP_PASS_10_OF_10仍0／10,000篇**。原始圖片、互動/影音、Notion實帳、角色/手機/效能/公式均未驗。僅GitHub研究記錄，未更動Notion或正式系統，未開始重新設計。
