@@ -405,3 +405,9 @@
 - `AUTO34-S01` [8 Design Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)；`nngroup:articles/complex-application-design`；Kate Kaplan，2020-11-08；`R1_MAIN_TEXT_ALL_8_SECTIONS+COUNTEREXAMPLE`。複雜任務可學習、回溯與切換，但不能在真實補助紀錄試錯，也不能把核對狀態藏在次頁。
 - `AUTO34-S02` [10 Usability Heuristics Applied to Complex Applications](https://www.nngroup.com/articles/usability-heuristics-complex-applications/)；`nngroup:articles/usability-heuristics-complex-applications`；Kate Kaplan，2021-08-15；`R1_MAIN_TEXT_ALL_10_SECTIONS+COUNTEREXAMPLE`。同步成功不等於資格核准；Undo、快捷、極簡不可假設能安全覆蓋跨期核對。
 - 本輪已查清冊新候選2、主要正文R1 2、首次獨立反例2、既有完整複讀0、10/10達標新增0；**累積嚴格10/10仍0／10,000篇**。原始圖／影音／互動／真人權限／手機／效能／公式未驗；僅GitHub研究，不改Notion或正式系統，不進入重新設計。
+
+## 2026-10-27｜AUTO-35：日期輸入與前端元件指南（僅研究）
+- [AUTO-35逐篇主要正文、反例與限制](research/notion-deep-study-automation-run-35-2026-10-27.md)；trace `AUTO-35-20261027-0241-RESEARCH`。起始已讀main規範與當期索引，逐檔核對 sources.md 引用的40份研究清冊，兩個slug均未命中；GitHub程式碼搜尋亦未命中。僅稱**已查清冊暫列去重**，全儲存庫未索引檔案仍待完整稽核。
+- `AUTO35-S01` [Date-Input Form Fields: UX Design Guidelines](https://www.nngroup.com/articles/date-input/)；canonical `nngroup:articles/date-input`；Angie Li，2017-01-22；`R1_MAIN_BODY_PATTERNS_GUIDELINES_CONCLUSION+C1`。日期控件要適配遠近日期、手機與年制歧義；輸入正確≠跨期資格或歷史收費正確。
+- `AUTO35-S02` [Front-End Style-Guides: Definition, Requirements, Component Checklist](https://www.nngroup.com/articles/front-end-style-guides/)；canonical `nngroup:articles/front-end-style-guides`；Page Laubheimer，2016-03-27；`R1_MAIN_BODY_ALL_SECTIONS+C1`。元件指南需說明適用情境、響應式與反例，但前端CSS元件能力不可推定為Notion原生可實作；25元件不得拆成25篇或25次閱讀。
+- **本輪可稽核增量**：新canonical候選2、主要文字R1 2、首次反例2、既有完整複讀0、FULL_DEEP_PASS_10_OF_10新增0；**累積嚴格10/10仍0／10,000篇**。原圖/互動/實帳/真人/權限/速度/公式未測。只研究與GitHub紀錄，Notion及正式系統零寫入，不開始重新設計。
