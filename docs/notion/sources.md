@@ -438,3 +438,10 @@
 - `AUTO39-S01` [Filters vs. Facets: Definitions](https://www.nngroup.com/articles/filters-vs-facets/)；canonical `nngroup:articles/filters-vs-facets`；Kathryn Whitenton，2014-03-16；`AUTO39-S01-R1-TEXT-C1` 主要文字1次＋首次獨立反例1次。多面向篩選增加metadata維護及操作成本；篩選後零筆不能視為沒有資料或權限限制。
 - `AUTO39-S02` [Beyond the Hamburger: How to Make Navigation Discoverable on Desktops](https://www.nngroup.com/articles/find-navigation-desktop-not-hamburger/)；canonical `nngroup:articles/find-navigation-desktop-not-hamburger`；Kara Pernice、Raluca Budiu，2016-07-24；`AUTO39-S02-R1-TEXT-C1` 主要文字1次＋首次獨立反例1次。入口過度隱藏會影響可發現性，全部攤開也會增加首屏負擔；一般網站研究不能外推Notion業務改善百分比。
 - **本輪新canonical候選2、主要正文R1 2、首次獨立反例2、完整十次深讀新增0；累積嚴格FULL_DEEP_PASS_10_OF_10仍0／10,000篇**。原始圖片、互動/影音、Notion實帳、角色/手機/效能/公式均未驗。僅GitHub研究記錄，未更動Notion或正式系統，未開始重新設計。
+
+
+## 2026-10-27｜AUTO-40：錯誤訊息與高風險確認（僅研究）
+- [AUTO-40逐篇主要正文、反例、去重與限制](research/notion-deep-study-automation-run-40-2026-10-27.md)；trace `AUTO-40-20261027-0739-RESEARCH`。開始與寫入前重新 Fetch main 規範/索引，逐檔核對研究目錄51/51份Markdown，以下兩篇 canonical slug 未見已登錄；全庫其他路徑與同文異址精確去重仍待完成。
+- `AUTO40-S01` [Error-Message Guidelines](https://www.nngroup.com/articles/error-message-guidelines/)；canonical `nngroup:articles/error-message-guidelines`；Tim Neusesser、Evan Sunwall，2023-05-14；`AUTO40-S01-R1-TEXT-C1`，主要正文四部分＋首次反例。待人工核對是業務狀態而非輸入錯誤；錯誤訊息需明示問題、後果與補救，不能用紅色把待核/確認0/不適用混同。
+- `AUTO40-S02` [Confirmation Dialogs Can Prevent User Errors — If Not Overused](https://www.nngroup.com/articles/confirmation-dialog/)；canonical `nngroup:articles/confirmation-dialog`；Jakob Nielsen，2018-02-18（2026-08-07 review）；`AUTO40-S02-R1-TEXT-C1`，主要正文八項指引＋首次反例。跨期批次變更應能識別具體影響，但例行彈窗會導致警告疲勞，明細揭露也要守角色權限；不假設Notion原生可自訂確認框/Undo。
+- 本輪新canonical候選2、主要正文R1 2、首次反例2、完整10/10達標新增0；**累積嚴格10/10仍0／10,000篇**。原始圖、互動/影音、Notion真實操作/權限/手機/效能/公式/核定真值未測；僅GitHub研究，Notion/正式系統零寫入，未開始重新設計。
