@@ -335,3 +335,11 @@
 - `AUTO25-S01` [Table of Contents: The Ultimate Design Guide](https://www.nngroup.com/articles/table-of-contents/)；`nngroup:articles/table-of-contents`；2023-10-06；`R1/MAIN_TEXT+COUNTEREXAMPLE`。頁內目錄可幫助長頁跳轉，但可能佔首屏，不能取代同頁直顯資料。
 - `AUTO25-S02` [Few Guesses, More Success: 4 Principles to Reduce Cognitive Load in Forms](https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/)；`nngroup:articles/4-principles-reduce-cognitive-load`；2025-07-18；`R1/MAIN_TEXT+COUNTEREXAMPLE`。分組、白話、持續可見標籤與就地驗證有助降低負擔；多頁流程不一定適合快速同頁行政作業。
 - 本輪新增候選2、主要文字閱讀2、獨立首次反例2、完整10次深讀新增0；**累積嚴格10/10達標仍0/10,000**。圖片/互動/真人Notion測試未完成；全域唯一來源精確總數仍待全檔核算。僅GitHub研究文件，不修改Notion或正式系統、不開始設計。
+
+## 2026-10-26｜AUTO-26：資料庫頁布局與篩選操作研究（僅研究）
+
+- [AUTO-26 逐篇原文、反例、去重與限制](research/notion-deep-study-automation-run-26-2026-10-26.md)（trace `AUTO-26-20261026-1742-RESEARCH`）。本輪先重讀 main 規則與 sources 索引，核對 sources.md 引用的32份研究文件及已知十面向研究，暫列2篇新的 canonical 來源：
+  - `AUTO26-S01` [Build the perfect workflow with customizable layouts](https://www.notion.com/nb/help/guides/build-the-perfect-workflow-with-customizable-layouts)；`notion-help:guides/build-the-perfect-workflow-with-customizable-layouts`；R1主要文字＋首次反例，未開折疊示範／逐張驗圖。Details panel 隱藏常用額度可能違反同頁直見；布局變更不等於資料授權。
+  - `AUTO26-S02` [User Intent Affects Filter Design](https://www.nngroup.com/articles/applying-filters/)；`nngroup:articles/applying-filters`；Katie Sherwin，2016-02-07；R1全文主要章節＋首次反例，影片未播放。探索式即時篩選與多條件批次各有情境；捲動位置與零結果需辨識，篩選不等於權限／資料不存在。
+- **舊來源去重＋針對性重讀（不新增篇數）**：`AUTO26-R01` [Data Tables](https://www.nngroup.com/articles/data-tables/) 早在批次02 UX-019、批次03已登錄，這次成功直開主要正文，提出「單列編輯與跨列對照」反例；`AUTO26-R02` [Information Scent](https://www.nngroup.com/articles/information-scent/) 已於首批U03登錄，這次提出不同角色理解模糊捷徑的反例。兩者均不算完整10次深讀。
+- **嚴格進度**：本輪新來源候選2、主要文字R1 2、首次反例2、舊來源針對性文字閱讀2、FULL_DEEP_PASS_10_OF_10 0；**累積嚴格達標0／10,000篇**。未完整驗圖/影片/實帳/真人UX/權限/效能/公式。全域精確去重篇數仍待所有檔案完整稽核；僅GitHub研究，不修改Notion／正式系統、不開始重新設計。
