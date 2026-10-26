@@ -328,3 +328,10 @@
   - `AUTO24-S01` [Give your to-dos a home with Task databases](https://www.notion.com/en-gb/help/guides/give-your-to-dos-a-home-with-task-databases)；`notion-help:guides/give-your-to-dos-a-home-with-task-databases`；R1主文字與首次反例。Task DB必需欄位及My Tasks最多10來源；外部夥伴的篩選View不是頁面權限。
   - `AUTO24-S02` [Enterprise Search](https://www.notion.com/en-gb/help/enterprise-search)；`notion-help:enterprise-search`；R1主文字與首次反例。Business/Enterprise限制、跨來源查詢及模型選擇造成資料範圍差異；AI引用不等於核定數值或權限正確。
 - **嚴格計數**：本輪暫列新去重來源2、主文字研讀2、獨立首次反例2、完整十次深讀0；**累積可稽核 FULL_DEEP_PASS 仍0／10,000**。尚未逐圖/影片/實帳驗證，全域唯一總數待完整去重。只改GitHub研究記錄，未改Notion或正式系統、未開始重新設計。
+
+
+## 2026-10-26｜AUTO-25：長頁目錄與表單認知負荷（研究來源索引）
+- [AUTO-25 逐篇原文與反例](research/notion-deep-study-automation-run-25-2026-10-26.md)；trace `AUTO-25-20261026-1736-RESEARCH`。先讀main規則、sources/decision/acceptance，並逐一核對 research/ 36份當期文件，以下兩個 canonical 文章URL均未命中既有清冊，暫列新去重來源2篇。
+- `AUTO25-S01` [Table of Contents: The Ultimate Design Guide](https://www.nngroup.com/articles/table-of-contents/)；`nngroup:articles/table-of-contents`；2023-10-06；`R1/MAIN_TEXT+COUNTEREXAMPLE`。頁內目錄可幫助長頁跳轉，但可能佔首屏，不能取代同頁直顯資料。
+- `AUTO25-S02` [Few Guesses, More Success: 4 Principles to Reduce Cognitive Load in Forms](https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/)；`nngroup:articles/4-principles-reduce-cognitive-load`；2025-07-18；`R1/MAIN_TEXT+COUNTEREXAMPLE`。分組、白話、持續可見標籤與就地驗證有助降低負擔；多頁流程不一定適合快速同頁行政作業。
+- 本輪新增候選2、主要文字閱讀2、獨立首次反例2、完整10次深讀新增0；**累積嚴格10/10達標仍0/10,000**。圖片/互動/真人Notion測試未完成；全域唯一來源精確總數仍待全檔核算。僅GitHub研究文件，不修改Notion或正式系統、不開始設計。
