@@ -385,3 +385,9 @@
 - `AUTO31-S01` [Visual Hierarchy in UX: Definition](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/)；`nngroup:articles/visual-hierarchy-ux-definition`；Kelley Gordon，2021-01-17；`R1_MAIN_BODY_ALL_SECTIONS+INDEPENDENT_COUNTEREXAMPLE`。對比、尺度、接近/共同區域與Squint Test；重要金額過度突出會掩蓋資格未核對。
 - `AUTO31-S02` [Similarity Principle in Visual Design](https://www.nngroup.com/articles/gestalt-similarity/)；`nngroup:articles/gestalt-similarity`；Aurora Harley，2020-09-06；`R1_MAIN_BODY_ALL_SECTIONS+INDEPENDENT_COUNTEREXAMPLE`。同色/形/尺寸會暗示同功能；待核/確認0/不適用不能視覺混同，亦不能用太多醒目色造成雜訊。
 - 本輪排除已在早期清冊登錄的Notion Charts、Forms、Dashboards、Feeds，**不重算來源**。新canonical候選2、主要正文R1 2、首次反例2、完整R2–R10 0；**本輪嚴格10/10達標0、累積0／10,000篇**。圖片/影片/真人/權限/速度/公式未驗證；只寫GitHub，不更動Notion或正式系統、不開始重新設計。
+
+## 2026-10-26｜AUTO-32：Tabs／Indicators-Validations-Notifications（僅研究）
+- [AUTO-32 逐篇閱讀、反例與限制](research/notion-deep-study-automation-run-32-2026-10-26.md)；trace `AUTO-32-20261026-2340-RESEARCH`。本輪讀取 main 規範與當期來源索引、GitHub slug 搜尋，兩篇在已查清冊中未見登錄；全域唯一性仍待跨檔稽核。
+- `AUTO32-S01` [Tabs, Used Right](https://www.nngroup.com/articles/tabs-used-right/)；canonical `nngroup:articles/tabs-used-right`；Evan Sunwall，2024-08-02（2026-09-02審閱）；R1主要文字/圖說與獨立反例。需要跨表同時比對時，分頁隱藏資料會增加切換成本；但全部歷史資訊攤開也不一定好。
+- `AUTO32-S02` [Indicators, Validations, and Notifications](https://www.nngroup.com/articles/indicators-validations-notifications/)；canonical `nngroup:articles/indicators-validations-notifications`；Kim Flaherty，2024-01-17；R1主要文字/圖說與獨立反例。待核對狀態、輸入錯誤、急迫事件應分別處理，短暫toast或過量彈窗均有風險。
+- **本輪**：已查清冊去重新候選2、R1主要文字閱讀2、首次反例2、完整十次深讀0；**累積嚴格達標仍0／10,000篇**。圖片原圖、影片/互動、Notion真實操作、角色/手機/效能/公式未驗。只研究與GitHub記錄，未改Notion/正式系統，不進入重新設計。
