@@ -669,3 +669,10 @@
 - trace `AUTO-23-20261026-1436`；[研究原始紀錄](research/notion-deep-study-automation-run-23-2026-10-26.md)。新候選去重來源2篇、可讀正文與首次反例各2次；AUTO-07既有Wiki文獻另1次針對性複讀，**不是**完整R2。新增10/10完整深讀0，累積可核實仍**0/10,000**；全域唯一來源總數未完成機器稽核。
 - **研究文字證據：PASS（僅限已取得正文）**；圖片/互動折疊、實帳方案/角色/手機、權限、公式、政府規則、效能與真人操作：NOT TESTED；不將文獻結論當成Notion實作或政府核准驗收。
 - **範圍**：僅更新GitHub研究/來源/決策/驗收紀錄；Notion Page、DB、Data Source、View、Formula、Relation、Share/權限、業務資料及GAS/Cloud Run/Session/部署皆未修改；沒有開始重新設計。各檔須寫後重Fetch確認SHA與內容。
+
+
+## 2026-10-26｜AUTO-24 研究證據驗收（非業務系統驗收）
+- trace `AUTO-24-20261026-1544-RESEARCH`；[逐篇原始研究與限制](research/notion-deep-study-automation-run-24-2026-10-26.md)。
+- **RESEARCH R1 PASS / FULL_DEEP_PASS 0**：本輪兩篇官方獨立來源（Task databases/My Tasks指南、Enterprise Search）各讀取可取得主要文字及首次反例一次。暫列新增去重URL2、R1正文2、首次反例2、完整10/10達標新增0；**累積10/10達標0／10,000**。全域精確唯一來源數未完成完整跨檔稽核。
+- **NOT TESTED**：頁面所有圖片、影片、實際免費/付費方案、角色/外部夥伴權限、AI連線/模型、真人手機UX、效能、政府補助業務真值、公式數值。
+- **SCOPE**：僅GitHub研究與來源/決策/驗收索引；沒有修改Notion正式或TEST頁、DB、Data Source、View、Formula、Relation、Share/權限、個案或財務資料、正式GAS/Cloud Run/Session/部署；沒有開始Notion重新設計。雙軌排程與手動續作繼續獨立並行。
