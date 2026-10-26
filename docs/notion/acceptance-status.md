@@ -766,3 +766,9 @@
 - trace `AUTO-39-20261027-0644-RESEARCH`；[兩篇來源、正文覆蓋、反例與限制](research/notion-deep-study-automation-run-39-2026-10-27.md)。已Fetch main 七項規範、sources.md引用的45份研究檔；新canonical候選2（Filters vs. Facets；Beyond the Hamburger）、主要正文獨立閱讀2、首次獨立反例2；完整R2–R10 0。
 - **PASS 僅限已取得主要正文及GitHub研究紀錄；FULL_DEEP_PASS_10_OF_10 本輪0、累積可核實0/10,000篇**。全庫同文異址去重未完成；原始圖片、影音/互動、Notion實際工作區、真人/手機/角色權限、效能、跨期公式/金額均 NOT_TESTED；一般網站樣本數據不可外推為本所成效。
 - **NO NOTION/SYSTEM WRITE**：本輪僅GitHub研究、來源、決策與驗收紀錄；未改Notion正式或TEST頁面、DB、Data Source、View、Formula、Relation、Share/權限或業務資料，亦未改正式GAS、Cloud Run、Session、部署；研究門檻未達，尚未開始重新設計。每小時與手動研究獨立並行，寫入前以最新blob SHA避免覆蓋。
+
+
+## 2026-10-27｜AUTO-40 研究證據驗收（非Notion業務驗收）
+- trace `AUTO-40-20261027-0739-RESEARCH`；[原始研究及反例](research/notion-deep-study-automation-run-40-2026-10-27.md)。重新讀 main 主要規範/索引，研究目錄51份Markdown逐檔比對兩個slug未命中；已查清冊新canonical候選2（Error-Message Guidelines；Confirmation Dialogs Can Prevent User Errors）、可讀主要正文R1 2、首次獨立反例2，**非完整深讀**。
+- **PASS僅限本輪文字研究與GitHub證據記錄；FULL_DEEP_PASS_10_OF_10 本輪0、累積嚴格0/10,000篇**。全儲存庫其他路徑/同文異址去重、原始圖片、影音/互動、Notion實際帳戶/角色/手機/效能/公式、政府補助真實核定數值均NOT_TESTED。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究/來源/決策/驗收文件；未修改Notion正式或TEST Page、DB、Data Source、View、Formula、Relation、Share/權限、個案/財務資料，也未修改正式GAS/Cloud Run/Session/部署。研究門檻未達，未開始重新設計；手動與排程獨立並行。
