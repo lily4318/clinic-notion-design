@@ -653,3 +653,8 @@
 - [逐篇原始證據](research/notion-deep-study-automation-run-20-2026-10-26.md)（trace `AUTO-20-20261026-1137`）：3篇新的官方獨立指南URL（Using database templates、When to use each type of database view、Use charts to visualize data and track progress directly in Notion）各取得可讀文字主節並完成1次獨立反例；N02 Views/filters/sorts 1次新角度針對性複讀，**不計新來源或完整R2**。
 - **[RESEARCH INCREMENT PASS / FULL_DEEP_PASS 0]** 未逐張檢視圖片、未看3分鐘模板影片及其他嵌入影片、未實際複製模板/拖曳View/驗證跨角色/手機/效能。故本輪嚴格10/10達標新增0，累積仍**0／10,000篇**；全域唯一URL總數尚未完成全檔機器去重，不以歷史批次宣稱加總。
 - **[NO SYSTEM WRITE]** 本輪只允許且只執行GitHub研究檔與來源/決策/驗收記錄；未修改任何Notion正式/TEST Page、Database、Data Source、View、Formula、Relation、Share/權限、業務資料或正式GAS/Cloud Run/Session。真人操作、業務公式數值、角色隔離與效能沒有新增PASS。研究尚未完成，**不開始Notion重新設計**；手動與排程雙軌仍可並行。
+
+## 2026-10-26｜AUTO-21 Notion深度學習（研究增量PASS；10,000×10 NOT_DONE）
+- [本輪逐篇證據](research/notion-deep-study-automation-run-21-2026-10-26.md)（trace `AUTO-21-20261026-1237`）：新候選canonical來源3（Notion手機工作區、API連線管理、NN/g過早錯誤/警告設計），各完成可取得主要文字與獨立反例分析1次；本輪舊來源複讀0。主來源去重經main研究清冊與slug搜尋暫核，**全域精確唯一URL總數仍待完整機器去重**。
+- **RESEARCH INCREMENT PASS／FULL_DEEP_PASS 0**：沒有逐圖、觀看嵌入影片、真人手機/跨角色/分享/第三方整合測試；沒有驗證Notion實際業務真值或速度。故本輪10/10嚴格達標新增0，累積可核實完成仍 **0／10,000篇**，不得將R1正文閱讀冒稱完整深讀。
+- **NO SYSTEM WRITE**：只寫GitHub研究、來源索引、決策與本驗收紀錄；未修改Notion TEST/正式Page、DB、Data Source、View、Formula、Relation、權限/Share、個案或財務資料，也未修改正式GAS/Cloud Run/Session/部署；不開始Notion重新設計。手動與每小時排程可繼續並行。
