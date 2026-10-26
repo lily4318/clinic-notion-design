@@ -683,3 +683,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - 研究反證：範本預設屬性不保證歷史服務日的收費期別/資格正確；Can edit content與linked view編輯能力、Lock view的可切換性，不能當成跨角色權限隔離保證。均為文獻推論，**不是現行Notion缺陷或實作核可**。
 - **R1主要正文2篇／FULL_DEEP_PASS_10_OF_10本輪0／累積嚴格0/10,000篇**；圖片/影片/互動/真實權限/手機/速度/公式/政府核定數值未驗。全庫跨檔與同文不同URL去重未完成。
 - **NO SYSTEM WRITE**：僅GitHub研究與索引/決策/驗收進度，不修改Notion正式/TEST頁面、DB、Data Source、View、Formula、Relation、權限、業務資料或GAS/Cloud Run/Session/部署；不開始重新設計。雙軌續作保持並行。
+
+## 2026-10-27｜AUTO-39 篩選與導航研究紀錄（非設計核准）
+- trace `AUTO-39-20261027-0644-RESEARCH`；[兩篇逐節正文與獨立反例](research/notion-deep-study-automation-run-39-2026-10-27.md)。來源索引及其45份已連結研究檔逐一查兩個slug，暫列新canonical候選2；主要正文R1各1次、首次反例各1次，**不是完整深讀**。
+- 研究判斷（**僅候選假說，不構成Notion設計或修改決定**）：多面向篩選需付出metadata維護成本，零筆結果不能當作資料不存在或資格/權限結論；導覽隱藏可能降低可發現性，但所有入口全部攤開亦增加首屏負擔。維持使用者已確認的「同類資料同頁、開啟即見」限制，待10,000篇×10次研究及使用者確認後才可能討論重新設計。
+- **FULL_DEEP_PASS_10_OF_10 本輪0，累積可核實0/10,000**；未驗原圖、互動、Notion原生能力、真人/手機/權限/速度/公式，不能將NN/g一般網站結果外推為本所已驗收。只記GitHub研究，不更動Notion或正式GAS/Cloud Run/Session/部署。
