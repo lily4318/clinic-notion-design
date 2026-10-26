@@ -541,3 +541,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **更正歷史計數**：AUTO-16 的 Buttons 與 AUTO-05 為同篇；AUTO-16 的 Feed 與 AUTO-03 為同篇。AUTO-16 原稱3新來源改列1個暫定新 canonical，保留其分析但不加新篇數；不將複讀推定為完整十次。
 - 研究提醒：Webhook action 不能等同具認證／去重／保證送達的業務核定交易；Sidebar 移至 Private 有權限變更後果，跨 Workspace 整理有搬移與計費風險。**這些是研究假設與待驗證風險，不授權新設計或任何 Notion 實作**。
 - 僅更新 GitHub 研究證據與清冊；Notion／GAS／Cloud Run／Session 未修改；嚴格達標仍0/10,000篇。
+
+## 2026-10-26｜AUTO-18：Custom Agent權限與嵌入介面之反例（研究備忘，非設計決定）
+- [AUTO-18原始研究](research/notion-deep-study-automation-run-18-2026-10-26.md)（`AUTO-18-20261026-0938`）閱讀兩篇Notion官方正文與FAQ，新增2個目前清冊未登錄canonical候選；各一次獨立反例，**未達10次完整深讀**。
+- **[反例]** Agent嵌入頁面≠取得該頁讀取權；使用者不能直接存取來源資料≠共享Agent不能轉述該資料，因Custom Agent依自身Tools and Access運作。若未來另獲授權評估付費功能，應先檢驗人員×Agent×來源資料列×輸出權限，不能拿「私人頁」或UI隱藏當作間接存取隔離。此研究不證明現有系統使用了Agent或已發生外洩。
+- **[界線]** 僅研究與GitHub文件，沒有授權建置Agent、改版、變更Notion Page/DB/View/Formula/Relation/Share/權限或GAS/Cloud Run/Session；嚴格10/10累積仍0/10,000篇，目標未完成。
