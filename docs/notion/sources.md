@@ -378,3 +378,10 @@
 - `AUTO30-S02` [Designing for Long Waits and Interruptions](https://www.nngroup.com/articles/designing-for-waits-and-interruptions/)；`nngroup:articles/designing-for-waits-and-interruptions`；Kate Kaplan，2021-09-05；`R1_MAIN_TEXT_ALL_FIVE_GUIDELINES+COUNTEREXAMPLE`。長等待與中斷需狀態/上下文回饋，但不能把載入完成當資格核准，也不能用大量訊息擠占同頁資料。
 - `AUTO30-R01` [Manage database property access](https://www.notion.com/help/database-property-access)；已登錄首批N07、AUTO-14-S03；本輪僅 `TARGETED_REVISIT`，新增「還原舊資料庫版本仍保留現行欄權限」反證，不計新來源或完整R2。
 - 本輪依已查清冊新canonical候選2、正文R1 2、首次反例2、既有針對性複讀1、10/10完成新增0；**累積嚴格完成仍0／10,000篇**。圖片/影片/互動/真人Notion權限/效能/公式未驗，全域唯一總數未完成全庫去重。僅GitHub研究，不修改Notion或正式系統，不開始重新設計。
+
+
+## 2026-10-26｜AUTO-31：視覺層級與相似性原則（研究來源索引）
+- [AUTO-31逐篇主要文字閱讀、反例與去重證據](research/notion-deep-study-automation-run-31-2026-10-26.md)；trace `AUTO-31-20261026-2249-RESEARCH`。重新讀main規範與37份sources.md所連研究清冊（37/37可讀），兩篇canonical slug未命中；GitHub搜尋及sources正文亦未命中。這是已查清冊去重，不冒稱全庫未索引文件已全面機器去重。
+- `AUTO31-S01` [Visual Hierarchy in UX: Definition](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/)；`nngroup:articles/visual-hierarchy-ux-definition`；Kelley Gordon，2021-01-17；`R1_MAIN_BODY_ALL_SECTIONS+INDEPENDENT_COUNTEREXAMPLE`。對比、尺度、接近/共同區域與Squint Test；重要金額過度突出會掩蓋資格未核對。
+- `AUTO31-S02` [Similarity Principle in Visual Design](https://www.nngroup.com/articles/gestalt-similarity/)；`nngroup:articles/gestalt-similarity`；Aurora Harley，2020-09-06；`R1_MAIN_BODY_ALL_SECTIONS+INDEPENDENT_COUNTEREXAMPLE`。同色/形/尺寸會暗示同功能；待核/確認0/不適用不能視覺混同，亦不能用太多醒目色造成雜訊。
+- 本輪排除已在早期清冊登錄的Notion Charts、Forms、Dashboards、Feeds，**不重算來源**。新canonical候選2、主要正文R1 2、首次反例2、完整R2–R10 0；**本輪嚴格10/10達標0、累積0／10,000篇**。圖片/影片/真人/權限/速度/公式未驗證；只寫GitHub，不更動Notion或正式系統、不開始重新設計。
