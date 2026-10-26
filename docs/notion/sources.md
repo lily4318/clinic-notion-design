@@ -411,3 +411,11 @@
 - `AUTO35-S01` [Date-Input Form Fields: UX Design Guidelines](https://www.nngroup.com/articles/date-input/)；canonical `nngroup:articles/date-input`；Angie Li，2017-01-22；`R1_MAIN_BODY_PATTERNS_GUIDELINES_CONCLUSION+C1`。日期控件要適配遠近日期、手機與年制歧義；輸入正確≠跨期資格或歷史收費正確。
 - `AUTO35-S02` [Front-End Style-Guides: Definition, Requirements, Component Checklist](https://www.nngroup.com/articles/front-end-style-guides/)；canonical `nngroup:articles/front-end-style-guides`；Page Laubheimer，2016-03-27；`R1_MAIN_BODY_ALL_SECTIONS+C1`。元件指南需說明適用情境、響應式與反例，但前端CSS元件能力不可推定為Notion原生可實作；25元件不得拆成25篇或25次閱讀。
 - **本輪可稽核增量**：新canonical候選2、主要文字R1 2、首次反例2、既有完整複讀0、FULL_DEEP_PASS_10_OF_10新增0；**累積嚴格10/10仍0／10,000篇**。原圖/互動/實帳/真人/權限/速度/公式未測。只研究與GitHub紀錄，Notion及正式系統零寫入，不開始重新設計。
+
+
+## 2026-10-27｜AUTO-36：資料來源重用、下拉選單與既有表單研究（僅研究）
+- [AUTO-36 逐篇主要正文、反例、去重與限制](research/notion-deep-study-automation-run-36-2026-10-27.md)；trace `AUTO-36-20261027-0344-RESEARCH`。已讀 main 七項規範及研究目錄47份 .md；新canonical URL於sources.md及47份研究清冊未見登錄；僅稱已查清冊新候選，全庫歷史精確去重仍待核實。
+- `AUTO36-S01` [Databases reimagined— what’s changed?](https://www.notion.com/en-gb/help/guides/databases-reimagined-whats-changed)；canonical `notion:help/guides/databases-reimagined-whats-changed`；官方，發表日期未確認；`R1_MAIN_TEXT+C1`。重用資料來源與quick filter未必等於同頁可比較；個人篩選不等於共享檢視。
+- `AUTO36-S02` [Does Your Form Really Need a Dropdown List?](https://www.nngroup.com/articles/dropdown-list/)；canonical `nngroup:articles/dropdown-list`；Huei-Hsin Wang，2026-07-17；`R1_MAIN_TEXT+C1`。選單選項合法不等於核定期別正確，長列表的可搜尋替代方案須先確認Notion原生支援。
+- **既有來源針對性重讀2，不重算新URL或完整R2**：`AUTO36-R01` Notion [Three key databases for teams](https://www.notion.com/en-gb/help/guides/three-key-databases-for-teams-and-how-to-use-them)（已見 batch03）；`AUTO36-R02` NN/g [Few Guesses, More Success](https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/)（已見 AUTO-25）。前者通用三庫範例不能取代本所不同資料歸屬；後者漸進揭露不能藏同頁必須比對的關鍵業務資訊。
+- **嚴格進度**：本輪已查清冊新候選2、主要正文R1 2、首次獨立反例2、針對性複讀2；`FULL_DEEP_PASS_10_OF_10` 本輪0、累積仍**0/10,000篇**。原始圖片、互動、Notion真人/手機/權限/效能/公式/核定金額未測；僅GitHub研究記錄，未改Notion/正式系統，不進入重新設計。
