@@ -641,3 +641,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - trace `AUTO-31-20261026-2249-RESEARCH`；[逐篇閱讀、去重與反例](research/notion-deep-study-automation-run-31-2026-10-26.md)。兩篇NN/g獨立canonical來源，各一次主要文字R1及首次反例；未完成圖片/互動或十次深讀。
 - **假說而非核准設計**：重要業務狀態不應被巨大金額字體掩蓋；同語義標籤應一致，不同風險的「查看」與「核定」不能因相似性被誤認。未知／待核對／已確認0／不適用需可辨，不能只靠顏色或大量警示；使用者已確認同頁直接看資料原則不變。
 - **RESEARCH_ONLY／NO_IMPLEMENTATION**：不據此調整Notion樣式、View、欄位、權限、提示或資料，也不修改正式GAS/Cloud Run/Session；真人UX、行動版、可及性、公式真值未驗。嚴格10/10累積**0／10,000篇**；未經使用者完成確認不進入重新設計。
+
+## 2026-10-26｜AUTO-32：分頁與狀態回饋研究假說（非實作決議）
+- trace `AUTO-32-20261026-2340-RESEARCH`；[逐篇證據](research/notion-deep-study-automation-run-32-2026-10-26.md)。NN/g Tabs 與 Indicators/Validations/Notifications 各一篇獨立canonical來源，均只完成主要文字R1與一次反例，未達FULL_DEEP。
+- **待驗證假說**：需要同時對照心理師本週用量與個案剩餘額度時，不能為版面精簡將兩者藏在互斥分頁；但不因此主張全部歷史資料永遠展開。待核對≠輸入錯誤；已確認0≠系統異常；重要期別事件也不宜只以會消失的toast呈現。
+- **RESEARCH_ONLY／NO_IMPLEMENTATION**：保留使用者已確認的同頁直見與最小提示原則，未授權新增分頁、警告或通知。沒有修改Notion/業務資料/權限/正式GAS/Cloud Run/Session；完整10/10累積仍0/10,000，未開始重新設計。
