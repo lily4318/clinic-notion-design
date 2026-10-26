@@ -570,3 +570,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - [研究證據](research/notion-deep-study-automation-run-20-2026-10-26.md)（trace `AUTO-20-20261026-1137`）：3篇獨立官方指南首次可讀文字章節及反例、既有N02針對性複讀1次；嚴格10/10完成篇數仍0/10,000，所有圖片/影片/實帳操作未完成，不稱FULL_DEEP_PASS。
 - **僅研究的風險結論，不是設計核准**：資料庫模板可預填內容，但不能保證個案×核定期複合唯一或避免繼承錯誤Relation；Calendar/Timeline拖曳可修改日期，不能用美觀取代業務資料保護；圖表自動更新不代表公式/核定真值正確。圖表指南列4種布局，現行官方Charts Help另有Number chart，標記文件版本差異待驗。
 - **權限及使用者需求不變**：Free優先、同頁開啟即見資料、未知/0/不適用分離、跨期隔離、View篩選非權限。此次沒有批准或執行Notion頁/DB/View/Formula/Relation/權限修改，亦未更動GAS/Cloud Run/Session；10,000×10完成及使用者確認前不開始重新設計。
+
+## 2026-10-26｜AUTO-21：行動端、連線權限與提示時機研究（非實作決策）
+- [研究證據](research/notion-deep-study-automation-run-21-2026-10-26.md)；trace `AUTO-21-20261026-1237`；3篇不同文章各1次可讀正文與反例分析，非FULL_DEEP_PASS，嚴格10/10累積仍0/10,000。
+- **行動端反證**：手機巢狀頁/View需Toggle展開、編輯工具列與桌面不同，手機Share to web/Everyone等操作也須防誤觸；桌面版精簡不等於手機操作與分享安全。
+- **連線反證**：人員Share權限、API connection授權頁面、OAuth第三方授權分層；Enterprise連線管理權限不可假定Free可用；本輪無實際整合/授權測試。
+- **UX反證**：NN/g指出未輸完就判錯與常態訊息濫用紅黃警告會增加負擔；「未確認」不等於錯誤，但真正資格矛盾、超額或資料外洩風險仍須有效提示。尊重使用者撤回黃色Callout及不把AI規則貼到Notion頁的決定。
+- **決策狀態：HOLD／RESEARCH ONLY**。未批准新增手機入口、連線、警示或修改既有介面；Notion Page/DB/View/Formula/Relation/Share、GAS/Cloud Run/Session皆不動。待10,000篇各10次獨立完整深讀且使用者確認後才可開始重新設計。
