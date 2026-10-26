@@ -664,3 +664,8 @@
 - **研究R1／反例紀錄：PASS（就已取得的主要文字）**。Library隱藏≠刪除；Profile≠資料權限且mobile/guest限制；個人Agent≠共享Custom Agent；官方公式建立能力段落有 `SOURCE_INTERNAL_AMBIGUITY`。這些都不是Notion真人或跨角色業務驗收。
 - **完整逐篇10次深讀：PENDING**；本輪0篇、累積可核實0/10,000。圖片、影片、實帳、真實公式/權限、手機操作、效能與真實政府方案規則：**未測**，不可標PASS。
 - **範圍控制**：僅 GitHub 研究紀錄／索引／決策／驗收狀態，Notion頁面、DB、View、Formula、Relation、權限、資料及正式GAS/Cloud Run/Session均零修改；沒有進入Notion重新設計。此文件更新後須讀回SHA與Commit，不能因寫入成功回應就宣稱驗證完成。
+
+## 2026-10-26｜AUTO-23 研究證據驗收（僅GitHub文件）
+- trace `AUTO-23-20261026-1436`；[研究原始紀錄](research/notion-deep-study-automation-run-23-2026-10-26.md)。新候選去重來源2篇、可讀正文與首次反例各2次；AUTO-07既有Wiki文獻另1次針對性複讀，**不是**完整R2。新增10/10完整深讀0，累積可核實仍**0/10,000**；全域唯一來源總數未完成機器稽核。
+- **研究文字證據：PASS（僅限已取得正文）**；圖片/互動折疊、實帳方案/角色/手機、權限、公式、政府規則、效能與真人操作：NOT TESTED；不將文獻結論當成Notion實作或政府核准驗收。
+- **範圍**：僅更新GitHub研究/來源/決策/驗收紀錄；Notion Page、DB、Data Source、View、Formula、Relation、Share/權限、業務資料及GAS/Cloud Run/Session/部署皆未修改；沒有開始重新設計。各檔須寫後重Fetch確認SHA與內容。
