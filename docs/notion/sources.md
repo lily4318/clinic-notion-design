@@ -371,3 +371,10 @@
 - IAB確認Sessions應收金額_帶入直接依主／附加方案的補助與金額重算；最終應收金額_自動優先取手動調整再取帶入。其餘候選與直接Rollup分列[依賴報告](audits/price-plan-period-dependency-audit-2026-10-26.md)。
 - 使用者指定只用內部瀏覽器，不控制其電腦；後續依此執行。IAB已可讀上述公式，不能再稱所有公式讀取皆受阻。
 - 尚缺最新00.config_notion、必要公式／按鈕完整依賴、歷史映射及隔離測試。Notion零寫入，遷移BLOCKED／NOT_TESTED，不聲稱修改完成。不更動GAS、Cloud Run或Session登入系統。
+
+## 2026-10-26｜AUTO-30：拖曳可用性／長等待與中斷（僅研究）
+- [AUTO-30 可讀原文、反例、去重與閱讀限制](research/notion-deep-study-automation-run-30-2026-10-26.md)；trace `AUTO-30-20261026-2235-RESEARCH`。開始與寫入前重讀main規範及索引，核對sources.md連結36份研究文件：下列兩個NN/g slug未見既有登錄；GitHub搜尋零命中不作為單獨證明，跨所有未索引文件的全域去重仍待核算。
+- `AUTO30-S01` [Drag–and–Drop: How to Design for Ease of Use](https://www.nngroup.com/articles/drag-drop/)；`nngroup:articles/drag-drop`；Page Laubheimer，2020-02-23；`R1_MAIN_TEXT+COUNTEREXAMPLE`。拖曳需放下前回饋、可及性及替代操作；高風險日期/期別不得因視覺拖動而無意改寫。
+- `AUTO30-S02` [Designing for Long Waits and Interruptions](https://www.nngroup.com/articles/designing-for-waits-and-interruptions/)；`nngroup:articles/designing-for-waits-and-interruptions`；Kate Kaplan，2021-09-05；`R1_MAIN_TEXT_ALL_FIVE_GUIDELINES+COUNTEREXAMPLE`。長等待與中斷需狀態/上下文回饋，但不能把載入完成當資格核准，也不能用大量訊息擠占同頁資料。
+- `AUTO30-R01` [Manage database property access](https://www.notion.com/help/database-property-access)；已登錄首批N07、AUTO-14-S03；本輪僅 `TARGETED_REVISIT`，新增「還原舊資料庫版本仍保留現行欄權限」反證，不計新來源或完整R2。
+- 本輪依已查清冊新canonical候選2、正文R1 2、首次反例2、既有針對性複讀1、10/10完成新增0；**累積嚴格完成仍0／10,000篇**。圖片/影片/互動/真人Notion權限/效能/公式未驗，全域唯一總數未完成全庫去重。僅GitHub研究，不修改Notion或正式系統，不開始重新設計。
