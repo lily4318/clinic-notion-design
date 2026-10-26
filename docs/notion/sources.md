@@ -364,3 +364,10 @@
   - `AUTO29-S01` [Connected properties](https://www.notion.com/help/connected-properties)；`notion-help:connected-properties`；`R1_MAIN_TEXT_ALL_FOUR_CONNECTORS+COUNTEREXAMPLE`。Google Drive屬性限Plus以上，Figma／Zendesk／GitHub PR限Business以上；外部連結可見不代表內容權限或資料核定，GitHub PR屬性可能新增Unique ID。
   - `AUTO29-S02` [Preventing User Errors: Avoiding Conscious Mistakes](https://www.nngroup.com/articles/user-mistakes/)；`nngroup:articles/user-mistakes`；Page Laubheimer，2015-09-07；`R1_MAIN_TEXT_ALL_HEADINGS+COUNTEREXAMPLE`。過量確認造成疲乏，應辨別高風險跨期批次動作；UX所倡Undo/預覽不可冒稱Notion原生支援。
 - 本輪新canonical候選2、正文R1閱讀2、首次獨立反例2、完整10/10達標0；**累積嚴格達標仍0/10,000篇**。未逐圖、影片、實帳、跨角色、效能與真實補助核對；僅GitHub研究，不修改Notion／正式系統、不開始重新設計。
+
+
+## 2026-10-26｜收費期別拆分影響盤點（尚未遷移）
+- 使用者已授權盤點及修改受影響屬性；本輪先完成TEST Backend 31來源／736屬性Schema盤點，非正式系統全面驗收。
+- IAB確認Sessions應收金額_帶入直接依主／附加方案的補助與金額重算；最終應收金額_自動優先取手動調整再取帶入。其餘候選與直接Rollup分列[依賴報告](audits/price-plan-period-dependency-audit-2026-10-26.md)。
+- 使用者指定只用內部瀏覽器，不控制其電腦；後續依此執行。IAB已可讀上述公式，不能再稱所有公式讀取皆受阻。
+- 尚缺最新00.config_notion、必要公式／按鈕完整依賴、歷史映射及隔離測試。Notion零寫入，遷移BLOCKED／NOT_TESTED，不聲稱修改完成。不更動GAS、Cloud Run或Session登入系統。
