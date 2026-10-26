@@ -293,3 +293,10 @@
 - [獨立舊文複讀] 第三批已登錄的[`/help/synced-blocks`](https://www.notion.com/help/synced-blocks)（AUTO19-R01）本輪針對性R3文字重讀：解除同步後舊副本不再跟隨原文更新，連結仍在；這與前輪「刪原始造成連帶刪除」是不同反證，不重算新URL或FULL_DEEP_PASS。
 - [去重修正／防重] 本輪初選的Charts(N08)、Database templates(N09)、Forms(AUTO-01)、Synced blocks(第三批)、Database settings(第二批)、Collaborate(AUTO-02)均已登錄，**排除新增篇數**。新增3個URL已核對sources、首批、第二～四批、MANUAL-01、AUTO-01～18；全域精確唯一總數仍待機器稽核，不直接加總。
 - [嚴格進度] 本輪新3、文字主節閱讀3、首次反例3、既有來源針對性複讀1、10/10嚴格完成0；累積**0／10,000篇**。圖片/影片/真人/權限/效能/實際操作未驗；不修改Notion或GAS/Cloud Run/Session、不開始設計。
+
+
+## 2026-10-26｜Notion深度學習 AUTO-20：資料庫檢視選型、圖表與模板（僅研究）
+- [AUTO-20 逐篇文字閱讀與反例紀錄](research/notion-deep-study-automation-run-20-2026-10-26.md)（trace `AUTO-20-20261026-1137`）。新增3篇與當期首批16筆、批次02–04、十面向、MANUAL-01、AUTO-01～19已知清冊核對後未登錄的官方**獨立指南文章**：[`guides/using-database-templates`](https://www.notion.com/help/guides/using-database-templates)（`notion-help:guides/using-database-templates`；AUTO20-S01）、[`guides/when-to-use-each-type-of-database-view`](https://www.notion.com/en-gb/help/guides/when-to-use-each-type-of-database-view)（`notion-help:guides/when-to-use-each-type-of-database-view`；AUTO20-S02）、[`guides/charts-visualize-data-track-progress-in-notion`](https://www.notion.com/nl/help/guides/charts-visualize-data-track-progress-in-notion)（`notion-help:guides/charts-visualize-data-track-progress-in-notion`；AUTO20-S03）。每篇僅一次可取得的主要文字章節閱讀及新反例，未驗圖像/影片/模板實際操作，**不算FULL_DEEP_PASS**。短影片指南僅讀到簡短正文，沒有冒稱看完影片。
+- [既有來源針對性複讀] 首批N02 `/help/views-filters-and-sorts` 新增 `AUTO20-R01/TARGETED_BODY_REVIEW_R2`：未選`Save for everyone`的個人篩選/排序與共享View不同；使用者當前看到的篩選畫面不等於全員同樣設定或底層資料已被隔離。**不算新增URL或第二次完整深讀**。
+- [交叉反證] 日曆/Timeline拖曳可能寫回日期，不能視為純美化；模板預填不保證核定期/複合唯一；圖表指南列4種布局而目前Charts Help另列Number chart，需標版本差異；圖表自動更新不等於額度核對通過，且Free圖表限制仍需按官方現行文件核實。
+- [嚴格進度及安全] 本輪新來源3、首次文字閱讀/反例各3、既有來源針對性複讀1、完整10/10新增0；**累積可核實10次獨立完整深讀仍0/10,000**，全域唯一來源總數待完整去重。只改GitHub研究/索引/決策/驗收，Notion及正式GAS/Cloud Run/Session均0變更，未開始重新設計。
