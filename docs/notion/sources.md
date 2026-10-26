@@ -419,3 +419,9 @@
 - `AUTO36-S02` [Does Your Form Really Need a Dropdown List?](https://www.nngroup.com/articles/dropdown-list/)；canonical `nngroup:articles/dropdown-list`；Huei-Hsin Wang，2026-07-17；`R1_MAIN_TEXT+C1`。選單選項合法不等於核定期別正確，長列表的可搜尋替代方案須先確認Notion原生支援。
 - **既有來源針對性重讀2，不重算新URL或完整R2**：`AUTO36-R01` Notion [Three key databases for teams](https://www.notion.com/en-gb/help/guides/three-key-databases-for-teams-and-how-to-use-them)（已見 batch03）；`AUTO36-R02` NN/g [Few Guesses, More Success](https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/)（已見 AUTO-25）。前者通用三庫範例不能取代本所不同資料歸屬；後者漸進揭露不能藏同頁必須比對的關鍵業務資訊。
 - **嚴格進度**：本輪已查清冊新候選2、主要正文R1 2、首次獨立反例2、針對性複讀2；`FULL_DEEP_PASS_10_OF_10` 本輪0、累積仍**0/10,000篇**。原始圖片、互動、Notion真人/手機/權限/效能/公式/核定金額未測；僅GitHub研究記錄，未改Notion/正式系統，不進入重新設計。
+
+## 2026-10-27｜AUTO-37：熟練操作捷徑與排序邏輯（僅研究）
+- [AUTO-37 逐篇原文、首次反例及限制](research/notion-deep-study-automation-run-37-2026-10-27.md)；trace `AUTO-37-20261027-0438-RESEARCH`。已讀 main 七項規範、當期 sources／decision／acceptance、研究目錄48份檔名，並以來源索引與 GitHub slug 搜尋初步去重；全庫未索引文件精確去重尚未完成。
+- `AUTO37-S01` [Accelerators Maximize Efficiency in User Interfaces](https://www.nngroup.com/articles/ui-accelerators/)；canonical `nngroup:articles/ui-accelerators`；Rachel Krause、Aurora Harley，2024-10-18；`R1_MAIN_TEXT_SECTIONS+C1`。快捷入口不應取代安全核對；通用 UX 原則不代表 Notion 有自訂快捷、巨集或完整復原能力。
+- `AUTO37-S02` [Alphabetical Sorting Must (Mostly) Die](https://www.nngroup.com/articles/alphabetical-sorting-must-mostly-die/)；canonical `nngroup:articles/alphabetical-sorting-must-mostly-die`；Jakob Nielsen，2010-10-03；`R1_MAIN_TEXT_ALL_SECTIONS+C1`。方案期別顯示排序不等於實際服務日適用的期別判定；字母排序與最新優先皆有誤用風險。
+- **嚴格進度**：本輪已查清冊新候選2、主要正文R1 2、首次反例2、完整R2–R10 0；`FULL_DEEP_PASS_10_OF_10` 本輪0，累積仍**0/10,000篇**。圖片/互動/真實Notion操作、角色/手機/效能/跨期公式均未驗。僅GitHub研究，不更動Notion或正式系統、不開始重新設計。
