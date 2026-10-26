@@ -717,3 +717,9 @@
 - trace `AUTO-30-20261026-2235-RESEARCH`；[逐篇研究原始紀錄](research/notion-deep-study-automation-run-30-2026-10-26.md)。已查sources.md所連36份研究文件，兩篇NN/g來源暫列新canonical URL，主要正文R1 2、首次獨立反例2；既有Notion Property access針對性複讀1，不重算新來源/完整R2。
 - **PASS：本輪文字研究與GitHub記錄；FULL_DEEP_PASS_10_OF_10 = 0；累積嚴格達標仍0／10,000篇**。圖片、影片、外部示範、真實Notion權限、角色、手機、操作速度、公式與政府額度均未實測；全庫唯一URL總數未完成全面稽核。
 - **SCOPE：NO NOTION/SYSTEM WRITE**。僅GitHub研究/來源/決策/驗收文檔；未修改任何Notion正式或TEST頁、DB、Data Source、View、Formula、Relation、Share/權限、業務資料，也未修改正式GAS/Cloud Run/Session/部署。尚未開始重新設計，手動與自動研究仍可獨立並行。
+
+
+## 2026-10-26｜AUTO-31 研究證據驗收（非業務系統驗收）
+- trace `AUTO-31-20261026-2249-RESEARCH`；[逐篇證據與限制](research/notion-deep-study-automation-run-31-2026-10-26.md)。main規範與sources所連37份研究文件已檢查；兩個NN/g slug在已查清冊未見登錄，暫列新canonical來源2、主要正文R1 2、首次獨立反例2；早期已有Charts/Forms/Dashboards/Feeds均未重算。
+- **R1_MAIN_BODY PASS（文字章節）／FULL_DEEP_PASS_10_OF_10 0／累積0／10,000篇**。原圖、影片、互動、真人視覺層級/可及性、手機、角色權限、載入速度、補助公式與真實額度 NOT_TESTED；全庫未索引檔案精確去重仍未完成。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究與來源/決策/驗收記錄；未改Notion正式/TEST頁、資料庫、Data Source、View、Formula、Relation、Share/權限、業務資料，亦未改GAS/Cloud Run/Session/部署。未開始重新設計，雙軌研究仍可並行。
