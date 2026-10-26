@@ -577,3 +577,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **連線反證**：人員Share權限、API connection授權頁面、OAuth第三方授權分層；Enterprise連線管理權限不可假定Free可用；本輪無實際整合/授權測試。
 - **UX反證**：NN/g指出未輸完就判錯與常態訊息濫用紅黃警告會增加負擔；「未確認」不等於錯誤，但真正資格矛盾、超額或資料外洩風險仍須有效提示。尊重使用者撤回黃色Callout及不把AI規則貼到Notion頁的決定。
 - **決策狀態：HOLD／RESEARCH ONLY**。未批准新增手機入口、連線、警示或修改既有介面；Notion Page/DB/View/Formula/Relation/Share、GAS/Cloud Run/Session皆不動。待10,000篇各10次獨立完整深讀且使用者確認後才可開始重新設計。
+
+## 2026-10-26｜AUTO-22 Notion 深度學習：導覽實體／成員展示／Agent能力界線（研究紀錄，非實作決策）
+- [獨立研究原始證據](research/notion-deep-study-automation-run-22-2026-10-26.md)，trace `AUTO-22-20261026-1335`；本輪在當期 main 清冊去重後暫列3篇官方新文章：Manage your Library、People profiles、Notion Agent。每篇僅一輪可讀正文（Agent含FAQ）與獨立反例，未完成圖片、影片、實帳或10次完整深讀。
+- **研究所得，尚未採用新設計**：Library側欄隱藏≠內容刪除，Library批次刪除不可取代精確授權；member profile展示≠臨床資料權限且手機/guest功能有別；個人Notion Agent沿用提問者權限，不能與共享Custom Agent的權限主體混同，也不能當成補助核准或複合唯一性保證。官方Notion Agent同篇公式建立能力措辭有歧義，標 `SOURCE_INTERNAL_AMBIGUITY`，待獨立驗證。
+- **嚴格進度**：新增候選3、文字閱讀/反例各3、嚴格完整10/10新增0、累積0/10,000。這是研究知識而非使用者對介面修改的核准；Notion、權限、公式、View、GAS/Cloud Run/Session均未變更，不開始重新設計。雙軌續作共享GitHub main，先Fetch與SHA條件寫入。
