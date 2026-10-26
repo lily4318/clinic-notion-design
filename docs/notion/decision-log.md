@@ -610,3 +610,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - trace `AUTO-27-20261026-1841-RESEARCH`；[逐篇原文與反例](research/notion-deep-study-automation-run-27-2026-10-26.md)。新候選 canonical 來源2篇，各1次可取得主要文字閱讀及獨立反例；完整10次深讀新增0、累積0/10,000。
 - **未採用的研究假說**：Notion Table 支援 inline 直見及欄底計算，但篩選後的視圖彙總不能直接當作政府方案跨期核定餘額；Bulk edit 有跨期批次誤改風險。NN/g 空狀態原則提醒載入中、篩選0筆、權限不足與真正無資料須分辨，但不可推定 Notion 原生支援自訂空狀態。
 - **RESEARCH_ONLY／NO_IMPLEMENTATION**：保留已確認同頁直接看資料、多方案期別、未知／待核對／確認0分別處理原則；不新增或更動 Notion 頁、View、欄位、公式、權限、正式 GAS/Cloud Run/Session；不開始重新設計。圖片/影片/真人/速度/權限/原生數值未驗。
+
+
+## 2026-10-26｜AUTO-28 研究判斷（未核准設計／未變更系統）
+- trace `AUTO-28-20261026-1943-RESEARCH`；[逐篇研究證據](research/notion-deep-study-automation-run-28-2026-10-26.md)。三篇新的canonical URL取得主要文字並各完成一次獨立反例：NN/g表單錯誤提示、Notion資料庫按鈕、Notion資料庫自動化。
+- 新反證：輸入中／未知／待核對不可直接判定錯誤；按鈕確認不等於政府資格核定；自動化多trigger為OR，不可冒稱多期別AND驗證；跨DB批次動作可能產生錯期誤改。此為研究風險假說，**不授權**增設按鈕、公式、欄位或更改Notion。
+- 本輪R1主要文字3篇、首次反例3次、10/10完整深讀0篇，累積可核實**0／10,000篇**；全域唯一URL仍待完整跨檔去重，圖片、真人/角色/方案/效能/公式均未實測。僅GitHub研究與索引，不改Notion、GAS、Cloud Run、Session，不開始重新設計。
