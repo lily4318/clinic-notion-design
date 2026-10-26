@@ -307,3 +307,11 @@
   - `AUTO21-S02` [Add & manage connections](https://www.notion.com/help/add-and-manage-connections-with-the-api)；canonical `notion-help:add-and-manage-connections-with-the-api`；`R1/BODY_MAIN_AND_COUNTEREXAMPLE`。
   - `AUTO21-S03` [Hostile Patterns in Error Messages](https://www.nngroup.com/articles/hostile-error-messages/)；canonical `nngroup:articles/hostile-error-messages`；`R1/BODY_MAIN_AND_COUNTEREXAMPLE`；原文發表2022-10-30。
 - 三篇各完成一次可取得主要文字分節閱讀與獨立反例；圖片/影片/真人手機操作/跨角色權限/實際整合未驗。不得計為任何一篇完整10次深讀；**嚴格累積0/10,000**。本輪不改Notion或正式系統，不進入重新設計。
+
+## 2026-10-26｜AUTO-22：Library／People profiles／Notion Agent（僅研究）
+- [AUTO-22 逐篇可讀正文、獨立反例及內部矛盾原始紀錄](research/notion-deep-study-automation-run-22-2026-10-26.md)（trace `AUTO-22-20261026-1335`）。開始時已查main及研究清冊、首批／批次02–04、MANUAL-01、AUTO-01～21，排除已存在的 Search、Navigate sidebar、Customize sidebar、Sidebar presets 等；下列3篇依當期清冊暫列新 canonical 文章，不將語系重複計數：
+  - `AUTO22-S01` [Manage your Library](https://www.notion.com/en-gb/help/manage-your-library)；`notion-help:manage-your-library`；`R1/MAIN_BODY_READ+COUNTEREXAMPLE_1`。
+  - `AUTO22-S02` [People profiles](https://www.notion.com/en-gb/help/people-profiles)；`notion-help:people-profiles`；`R1/MAIN_BODY_READ+COUNTEREXAMPLE_1`。
+  - `AUTO22-S03` [Notion Agent](https://www.notion.com/en-gb/help/notion-agent)；`notion-help:notion-agent`；`R1/MAIN_BODY_AND_FAQ_READ+COUNTEREXAMPLE_1`。
+- [新反證] Library隱藏側欄區塊不等於刪頁，批次刪除不能被當成整理導覽；People profiles的member/guest、desktop/mobile可用性不同且不是資料授權；個人Notion Agent依提問者權限，不可混同AUTO-18共享Custom Agent獨立權限。Notion Agent官方同篇「Create, edit, and evaluate formulas」與「can't create ... advanced properties like formulas」有能力界線歧義，標 `SOURCE_INTERNAL_AMBIGUITY`，不能當成已實測的自動建立公式能力。
+- [嚴格進度] 本輪新增候選去重來源3、正文/FAQ閱讀3、首次獨立反例3、既有完整複讀0、嚴格10/10完成新增0；**累積10/10仍0／10,000篇**。所有圖片/影片、實帳/角色/手機/效能未完整驗證；全域唯一篇數尚待完整稽核。只改GitHub研究紀錄，不改Notion或正式系統，不開始重新設計。
