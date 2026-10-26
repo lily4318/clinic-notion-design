@@ -398,3 +398,10 @@
   - `AUTO33-S02` [Content Dispersion: Study Methodology](https://www.nngroup.com/articles/content-dispersion-methodology/)；canonical `nngroup:articles/content-dispersion-methodology`；Kim Flaherty、Tim Neusesser、Nishi Chitale，2023-10-13；R1方法與原型主要文字＋首次反例。原文數字是特定網站原型描述，非Notion密度KPI；13位招募含5 pilot、8 final。
 - **舊來源針對性複讀2**：`AUTO33-R01` Progressive Disclosure（首批U01）、`AUTO33-R02` Recognition and Recall（批次02已登錄）；各只計針對性重讀，非新來源/完整R2。兩者的同頁比較與辨識線索須結合實際行政任務，不可拿來直接改頁。
 - **嚴格進度**：本輪新候選2、R1主要正文2、首次反例2、舊來源針對性複讀2、FULL_DEEP_PASS_10_OF_10新增0；累積**0/10,000**。圖片原檔、Figma、互動、真人Notion/權限/速度/公式未驗；僅GitHub研究，Notion/正式系統0寫入，未開始重新設計。
+
+
+## 2026-10-27｜AUTO-34：複雜行政系統UX（研究，不是實作）
+- [AUTO-34逐節研究、反例與去重證據](research/notion-deep-study-automation-run-34-2026-10-27.md)；trace `AUTO-34-20261027-0138-RESEARCH`。開始與寫入前重讀main規範及來源索引，逐檔檢查研究目錄45/45份；兩個canonical URL在已查清冊未登錄；舊 `/articles/strategies-complex-application-design/` 與本輪 `/articles/complex-application-design/` 為不同來源，未誤合併。全庫未索引文件的精確去重仍待完成。
+- `AUTO34-S01` [8 Design Guidelines for Complex Applications](https://www.nngroup.com/articles/complex-application-design/)；`nngroup:articles/complex-application-design`；Kate Kaplan，2020-11-08；`R1_MAIN_TEXT_ALL_8_SECTIONS+COUNTEREXAMPLE`。複雜任務可學習、回溯與切換，但不能在真實補助紀錄試錯，也不能把核對狀態藏在次頁。
+- `AUTO34-S02` [10 Usability Heuristics Applied to Complex Applications](https://www.nngroup.com/articles/usability-heuristics-complex-applications/)；`nngroup:articles/usability-heuristics-complex-applications`；Kate Kaplan，2021-08-15；`R1_MAIN_TEXT_ALL_10_SECTIONS+COUNTEREXAMPLE`。同步成功不等於資格核准；Undo、快捷、極簡不可假設能安全覆蓋跨期核對。
+- 本輪已查清冊新候選2、主要正文R1 2、首次獨立反例2、既有完整複讀0、10/10達標新增0；**累積嚴格10/10仍0／10,000篇**。原始圖／影音／互動／真人權限／手機／效能／公式未驗；僅GitHub研究，不改Notion或正式系統，不進入重新設計。
