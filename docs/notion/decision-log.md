@@ -535,3 +535,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - [AUTO-16逐篇研究](research/notion-deep-study-automation-run-16-2026-10-26.md)，trace `AUTO-16-20261026-0744`。官方 Buttons、Feed view、Archive pages 各完成可讀正文R1與獨立反例，**非完整深讀**。
 - **[僅研究結論]** 按鈕存在不代表使用者有目標庫編輯權、跨步驟原子性或補助核定唯一性；Feed雖利於更新交流，線性卡片不保證本所同頁額度比較效率；Archive仍可存取且僅Business/Enterprise beta，不能替代明確要求的真正刪除。這些是需驗證的反例，不表示本所目前已有此錯誤。
 - **[未授權實作]** 不新增按鈕/Feed/Archive，也不調整任何Notion頁面、資料庫、View、Formula、Relation、Share/權限或業務資料；正式GAS/Cloud Run/Session零變更。累積嚴格10/10仍0/10,000，未開始重新設計。
+
+## 2026-10-26｜AUTO-17 研究決策記錄：雙軌去重修正（非Notion設計決策）
+- [AUTO-17研究檔](research/notion-deep-study-automation-run-17-2026-10-26.md)（`AUTO-17-20261026-0838`）確認新來源 `/help/webhook-actions` 與 `/help/intro-to-workspaces` 各完成一次主要文字閱讀與新反例分析；**未取得十次完整深讀**。
+- **更正歷史計數**：AUTO-16 的 Buttons 與 AUTO-05 為同篇；AUTO-16 的 Feed 與 AUTO-03 為同篇。AUTO-16 原稱3新來源改列1個暫定新 canonical，保留其分析但不加新篇數；不將複讀推定為完整十次。
+- 研究提醒：Webhook action 不能等同具認證／去重／保證送達的業務核定交易；Sidebar 移至 Private 有權限變更後果，跨 Workspace 整理有搬移與計費風險。**這些是研究假設與待驗證風險，不授權新設計或任何 Notion 實作**。
+- 僅更新 GitHub 研究證據與清冊；Notion／GAS／Cloud Run／Session 未修改；嚴格達標仍0/10,000篇。
