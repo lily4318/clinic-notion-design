@@ -315,3 +315,9 @@
   - `AUTO22-S03` [Notion Agent](https://www.notion.com/en-gb/help/notion-agent)；`notion-help:notion-agent`；`R1/MAIN_BODY_AND_FAQ_READ+COUNTEREXAMPLE_1`。
 - [新反證] Library隱藏側欄區塊不等於刪頁，批次刪除不能被當成整理導覽；People profiles的member/guest、desktop/mobile可用性不同且不是資料授權；個人Notion Agent依提問者權限，不可混同AUTO-18共享Custom Agent獨立權限。Notion Agent官方同篇「Create, edit, and evaluate formulas」與「can't create ... advanced properties like formulas」有能力界線歧義，標 `SOURCE_INTERNAL_AMBIGUITY`，不能當成已實測的自動建立公式能力。
 - [嚴格進度] 本輪新增候選去重來源3、正文/FAQ閱讀3、首次獨立反例3、既有完整複讀0、嚴格10/10完成新增0；**累積10/10仍0／10,000篇**。所有圖片/影片、實帳/角色/手機/效能未完整驗證；全域唯一篇數尚待完整稽核。只改GitHub研究紀錄，不改Notion或正式系統，不開始重新設計。
+
+## 2026-10-26｜Notion深度學習 AUTO-23：頁面驗證治理與跨裝置情境（研究）
+- [AUTO-23 逐篇正文、反例與既有來源針對性複讀](research/notion-deep-study-automation-run-23-2026-10-26.md)；trace `AUTO-23-20261026-1436`。本輪開始重讀 main 規範及當期研究索引；已排除 AUTO-07 登錄的 `wikis-and-verified-pages`，不重複計新增來源。
+- **新來源2篇（依目前main清冊暫列去重）**：`AUTO23-S01` [Verify knowledge your teammates can trust](https://www.notion.com/en-gb/help/guides/verify-knowledge-your-teammates-can-trust-with-page-verification)（canonical `notion-help:guides/verify-knowledge-your-teammates-can-trust-with-page-verification`）；`AUTO23-S02` [Optimizing for Context in the Omnichannel User Experience](https://www.nngroup.com/articles/context-specific-cross-channel/)（canonical `nngroup:articles/context-specific-cross-channel`；Kim Flaherty，2017-02-26）。兩篇各完成一次可取得主要文字閱讀與獨立反例，均非FULL_DEEP_PASS。
+- **舊來源針對性複讀1篇**：`AUTO23-R01` `notion-help:wikis-and-verified-pages`（AUTO-07已登錄；`TARGETED_R2`），新反例為「Wiki只能由獨立頁轉換、非任意業務DB」與「一般頁/DB驗證限Business/Enterprise」。不算新URL或第二次完整深讀。
+- **反證與限制**：文件藍勾/永久驗證不保證跨年度政府規則與公式仍正確；桌機/手機的核心狀態語義應一致，但不必像素相同。未完整檢查圖片/互動展開、實帳/真人/權限/效能，累積可核實完成10次獨立完整深讀仍**0/10,000篇**，全域唯一總數待跨檔機器去重；僅研究與GitHub，Notion/正式系統零修改、不開始設計。
