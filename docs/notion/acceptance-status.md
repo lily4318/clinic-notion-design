@@ -739,3 +739,8 @@
 - trace `AUTO-34-20261027-0138-RESEARCH`；[逐節閱讀、去重及反證](research/notion-deep-study-automation-run-34-2026-10-27.md)。main規範與研究目錄45份已查，兩個 NN/g URL 在已查來源清冊中未見先前登錄；新候選2、R1主要文字2、首次反例2、完整R2–R10為0。
 - **研究主要正文 PASS（限已讀文字）／FULL_DEEP_PASS_10_OF_10 本輪0、累積嚴格0/10000**。原圖、影片、互動、真實 Notion 操作、手機、角色權限、載入時間、跨方案公式與核定數值 NOT_TESTED；全域唯一來源總數待完整稽核。
 - **NO NOTION/SYSTEM WRITE**：本輪只在GitHub研究／來源／決策／驗收文件追加記錄；未改任何Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務資料，也未改正式GAS、Cloud Run、Session或部署；未開始重新設計。
+
+## 2026-10-27｜AUTO-35 研究證據驗收（非Notion業務驗收）
+- trace `AUTO-35-20261027-0241-RESEARCH`；[逐篇研究證據](research/notion-deep-study-automation-run-35-2026-10-27.md)。已核對main主要規範及sources.md所連40份研究清冊，暫列兩個新的canonical候選（NN/g日期輸入、前端元件指南）；R1主要正文閱讀2篇、各首次獨立反例共2次；全儲存庫未索引檔案之精確去重仍待完成。
+- **RESEARCH MAIN TEXT PASS / FULL_DEEP_PASS_10_OF_10本輪0，累積嚴格達標仍0/10,000篇**。未逐張查原圖、操作互動、實際Notion日期欄/手機/角色/權限/效能、政府補助跨期規則與歷史收費公式真值；不能將研究假說冒稱系統驗收。
+- **NO NOTION/SYSTEM WRITE**：僅研究與GitHub來源、決策、驗收記錄；未修改Notion正式/TEST頁面、資料庫、View、Formula、Relation、權限、業務資料，也未修改GAS、Cloud Run、Session或部署。研究目標未完成，不進入Notion重新設計；每小時研究與手動續作繼續獨立並行。
