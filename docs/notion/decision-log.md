@@ -551,3 +551,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - [AUTO-18原始研究](research/notion-deep-study-automation-run-18-2026-10-26.md)（`AUTO-18-20261026-0938`）閱讀兩篇Notion官方正文與FAQ，新增2個目前清冊未登錄canonical候選；各一次獨立反例，**未達10次完整深讀**。
 - **[反例]** Agent嵌入頁面≠取得該頁讀取權；使用者不能直接存取來源資料≠共享Agent不能轉述該資料，因Custom Agent依自身Tools and Access運作。若未來另獲授權評估付費功能，應先檢驗人員×Agent×來源資料列×輸出權限，不能拿「私人頁」或UI隱藏當作間接存取隔離。此研究不證明現有系統使用了Agent或已發生外洩。
 - **[界線]** 僅研究與GitHub文件，沒有授權建置Agent、改版、變更Notion Page/DB/View/Formula/Relation/Share/權限或GAS/Cloud Run/Session；嚴格10/10累積仍0/10,000篇，目標未完成。
+
+## 2026-10-26｜AUTO-19 Notion 設計研究：僅保留反例，不作設計決定
+- [AUTO-19研究證據](research/notion-deep-study-automation-run-19-2026-10-26.md)（`AUTO-19-20261026-1042`）：3篇官方來源首次文字主節閱讀＋反例；舊Synced blocks獨立針對性R3重讀；未逐圖、影片或實帳操作，**非完整10/10深讀**。
+- 研究限制（非已採用方案）：Map只顯示最多100筆、地址由第三方處理，圖釘缺席不代表來源零筆；Sprint更改起始日影響當期日期、停用會永久刪除Sprint資料庫/看板/關聯，不能當作政府核定週期；Page Style部分變更作用於整個資料庫、手機與桌面顯示差異，視覺裝飾不能取代開頁即見的業務資訊；Unsync舊副本可能產生內容漂移。
+- **決策狀態 HOLD / RESEARCH ONLY**：不新增Map、Sprint、Callout或Synced blocks，不改任何現行Notion Page、Database、View、Formula、Relation、權限；不修改GAS/Cloud Run/Session。待10,000篇各10次真正完成且使用者確認前，不開始重新設計。全域去重總數仍待完整機器稽核；嚴格達標仍0/10,000。
