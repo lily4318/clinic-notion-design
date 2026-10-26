@@ -343,3 +343,9 @@
   - `AUTO26-S02` [User Intent Affects Filter Design](https://www.nngroup.com/articles/applying-filters/)；`nngroup:articles/applying-filters`；Katie Sherwin，2016-02-07；R1全文主要章節＋首次反例，影片未播放。探索式即時篩選與多條件批次各有情境；捲動位置與零結果需辨識，篩選不等於權限／資料不存在。
 - **舊來源去重＋針對性重讀（不新增篇數）**：`AUTO26-R01` [Data Tables](https://www.nngroup.com/articles/data-tables/) 早在批次02 UX-019、批次03已登錄，這次成功直開主要正文，提出「單列編輯與跨列對照」反例；`AUTO26-R02` [Information Scent](https://www.nngroup.com/articles/information-scent/) 已於首批U03登錄，這次提出不同角色理解模糊捷徑的反例。兩者均不算完整10次深讀。
 - **嚴格進度**：本輪新來源候選2、主要文字R1 2、首次反例2、舊來源針對性文字閱讀2、FULL_DEEP_PASS_10_OF_10 0；**累積嚴格達標0／10,000篇**。未完整驗圖/影片/實帳/真人UX/權限/效能/公式。全域精確去重篇數仍待所有檔案完整稽核；僅GitHub研究，不修改Notion／正式系統、不開始重新設計。
+
+## 2026-10-26｜AUTO-27：Table View 與複雜系統空狀態（研究來源索引）
+- [AUTO-27逐節文字研讀、反例及限制](research/notion-deep-study-automation-run-27-2026-10-26.md)；trace `AUTO-27-20261026-1841-RESEARCH`。當期 main sources 與研究清冊、slug 搜尋未見下列兩篇，暫列2個新 canonical 來源（全域未索引檔案尚待機器稽核）：
+  - `AUTO27-S01` [Table view](https://www.notion.com/help/tables)；`notion-help:tables`；`R1_MAIN_BODY_FAQ+COUNTEREXAMPLE`。Inline DB Table、批次編輯、欄底計算、simple table差異；View 的 Sum 不能冒充跨期官方額度，Bulk edit 具有誤改風險。
+  - `AUTO27-S02` [Designing Empty States in Complex Applications: 3 Guidelines](https://www.nngroup.com/articles/empty-state-interface-design/)；`nngroup:articles/empty-state-interface-design`；Kate Kaplan，2021-09-19；`R1_MAIN_BODY+COUNTEREXAMPLE`。載入中／真0筆／篩選0筆／權限不足／錯誤不能混同，NN/g 範例不能外推成 Notion 原生自訂空狀態能力。
+- 本輪主要文字閱讀2、首次獨立反例2、既有完整複讀0、FULL_DEEP_PASS_10_OF_10 0；**累積嚴格達標0／10,000篇**。圖片/影片/實帳/角色/效能未驗，全域唯一總數未完成跨檔稽核。僅GitHub研究，不修改Notion或正式系統，不進入重新設計。
