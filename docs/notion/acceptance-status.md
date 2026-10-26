@@ -621,3 +621,7 @@
 - 研究取證：[AUTO-17](research/notion-deep-study-automation-run-17-2026-10-26.md)（trace `AUTO-17-20261026-0838`）。本輪2個新的官方 canonical URL（Webhook actions、Intro to workspaces）有可讀主文字及FAQ，各1次獨立反例分析；圖片、影片、付費實帳與權限／Webhook 操作未驗，**FULL_DEEP_PASS=0**。
 - 歷史計數更正：AUTO-16-S01 Buttons = AUTO-05-01；AUTO-16-S02 Feed = AUTO-03-03。AUTO-16 3筆新增宣稱應減2，暫列1個新來源；原研究不刪、不雙算。全域唯一來源累計仍需完整跨檔稽核，不冒稱已核實。
 - **嚴格完成10次獨立完整深讀：累積0／10,000篇，未通過目標**。本輪僅GitHub文件研究，不是 Notion 公式、UX、權限、效能或業務驗收 PASS；沒有修改 Notion／GAS／Cloud Run／Session，未開始重新設計。
+
+## 2026-10-26｜AUTO-18：Custom Agents/分享權限研究取證（非業務驗收）
+- **[PASS: research increment only; NOT_DONE: global learning]** [AUTO-18閱讀與反例證據](research/notion-deep-study-automation-run-18-2026-10-26.md)（`AUTO-18-20261026-0938`）：新增2個目前研究清冊未登錄官方canonical來源，主要正文與FAQ閱讀2篇、獨立反例2次。未完整檢查圖片/影片、未進行Business/Enterprise付費帳戶、Guest、跨角色、資料列存取或真人操作測試，故**FULL_DEEP_PASS=0**；累積每篇10次完整深讀達標仍**0/10,000篇**。全域精確去重總數仍待跨檔核驗。
+- **[UNCHANGED]** 本輪只新增GitHub研究檔與來源/決策/驗收索引；未改Notion正式/TEST頁面、資料庫、Views、Formula、Relation、Share/權限、業務資料，也未改GAS/Cloud Run/Session/部署。沒有開始重新設計；不影響手動與每小時排程雙軌續作。
