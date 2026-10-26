@@ -321,3 +321,10 @@
 - **新來源2篇（依目前main清冊暫列去重）**：`AUTO23-S01` [Verify knowledge your teammates can trust](https://www.notion.com/en-gb/help/guides/verify-knowledge-your-teammates-can-trust-with-page-verification)（canonical `notion-help:guides/verify-knowledge-your-teammates-can-trust-with-page-verification`）；`AUTO23-S02` [Optimizing for Context in the Omnichannel User Experience](https://www.nngroup.com/articles/context-specific-cross-channel/)（canonical `nngroup:articles/context-specific-cross-channel`；Kim Flaherty，2017-02-26）。兩篇各完成一次可取得主要文字閱讀與獨立反例，均非FULL_DEEP_PASS。
 - **舊來源針對性複讀1篇**：`AUTO23-R01` `notion-help:wikis-and-verified-pages`（AUTO-07已登錄；`TARGETED_R2`），新反例為「Wiki只能由獨立頁轉換、非任意業務DB」與「一般頁/DB驗證限Business/Enterprise」。不算新URL或第二次完整深讀。
 - **反證與限制**：文件藍勾/永久驗證不保證跨年度政府規則與公式仍正確；桌機/手機的核心狀態語義應一致，但不必像素相同。未完整檢查圖片/互動展開、實帳/真人/權限/效能，累積可核實完成10次獨立完整深讀仍**0/10,000篇**，全域唯一總數待跨檔機器去重；僅研究與GitHub，Notion/正式系統零修改、不開始設計。
+
+
+## 2026-10-26｜Notion 深度學習 AUTO-24：My Tasks 任務彙整／Enterprise Search（僅研究）
+- [AUTO-24 原始閱讀、逐節反例及限制](research/notion-deep-study-automation-run-24-2026-10-26.md)；trace `AUTO-24-20261026-1544-RESEARCH`。本輪核對當期main研究索引、首批、批次02–04、十面向、MANUAL-01及AUTO-01～23，暫列兩篇未登錄官方獨立 canonical 來源：
+  - `AUTO24-S01` [Give your to-dos a home with Task databases](https://www.notion.com/en-gb/help/guides/give-your-to-dos-a-home-with-task-databases)；`notion-help:guides/give-your-to-dos-a-home-with-task-databases`；R1主文字與首次反例。Task DB必需欄位及My Tasks最多10來源；外部夥伴的篩選View不是頁面權限。
+  - `AUTO24-S02` [Enterprise Search](https://www.notion.com/en-gb/help/enterprise-search)；`notion-help:enterprise-search`；R1主文字與首次反例。Business/Enterprise限制、跨來源查詢及模型選擇造成資料範圍差異；AI引用不等於核定數值或權限正確。
+- **嚴格計數**：本輪暫列新去重來源2、主文字研讀2、獨立首次反例2、完整十次深讀0；**累積可稽核 FULL_DEEP_PASS 仍0／10,000**。尚未逐圖/影片/實帳驗證，全域唯一總數待完整去重。只改GitHub研究記錄，未改Notion或正式系統、未開始重新設計。
