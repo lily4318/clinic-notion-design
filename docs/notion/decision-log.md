@@ -605,3 +605,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - trace `AUTO-26-20261026-1742-RESEARCH`；[完整研究證據](research/notion-deep-study-automation-run-26-2026-10-26.md)。新增候選 canonical 來源2篇（Notion官方 customizable layouts、NN/g applying filters），各完成一次可取得主要文字閱讀與獨立反例；另對已登錄 Data Tables、Information Scent 做2次針對性文字閱讀，不重複計來源。
 - **新反證**：Details panel 可降低頁面雜訊，但將常用補助額度／待核對藏起來違反「同頁開啟即見」；多條件批次篩選不必然優於探索式即時篩選，畫面跳動及零結果可能誤導工作者。篩選/隱藏是顯示層，不等於權限、核定或資料不存在。NN/g表格文獻提醒單列編輯不能遮斷跨列參照；資訊氣味取決於角色任務而非標籤長度。
 - **決策狀態 RESEARCH_ONLY／NO_IMPLEMENTATION**：不據此新增側欄、Layout、View、篩選、欄位或操作流程。原有同頁直見、多方案多期別與未知/待核/確認0區分均保留。圖片、互動、真人、權限、效能與公式未驗。嚴格10/10累積0/10,000，未經使用者確認不得進入Notion重新設計。
+
+## 2026-10-26｜AUTO-27 研究假說：Table彙總與空狀態語義（非實作決議）
+- trace `AUTO-27-20261026-1841-RESEARCH`；[逐篇原文與反例](research/notion-deep-study-automation-run-27-2026-10-26.md)。新候選 canonical 來源2篇，各1次可取得主要文字閱讀及獨立反例；完整10次深讀新增0、累積0/10,000。
+- **未採用的研究假說**：Notion Table 支援 inline 直見及欄底計算，但篩選後的視圖彙總不能直接當作政府方案跨期核定餘額；Bulk edit 有跨期批次誤改風險。NN/g 空狀態原則提醒載入中、篩選0筆、權限不足與真正無資料須分辨，但不可推定 Notion 原生支援自訂空狀態。
+- **RESEARCH_ONLY／NO_IMPLEMENTATION**：保留已確認同頁直接看資料、多方案期別、未知／待核對／確認0分別處理原則；不新增或更動 Notion 頁、View、欄位、公式、權限、正式 GAS/Cloud Run/Session；不開始重新設計。圖片/影片/真人/速度/權限/原生數值未驗。
