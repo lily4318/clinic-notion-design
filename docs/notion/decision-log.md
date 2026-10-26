@@ -582,3 +582,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - [獨立研究原始證據](research/notion-deep-study-automation-run-22-2026-10-26.md)，trace `AUTO-22-20261026-1335`；本輪在當期 main 清冊去重後暫列3篇官方新文章：Manage your Library、People profiles、Notion Agent。每篇僅一輪可讀正文（Agent含FAQ）與獨立反例，未完成圖片、影片、實帳或10次完整深讀。
 - **研究所得，尚未採用新設計**：Library側欄隱藏≠內容刪除，Library批次刪除不可取代精確授權；member profile展示≠臨床資料權限且手機/guest功能有別；個人Notion Agent沿用提問者權限，不能與共享Custom Agent的權限主體混同，也不能當成補助核准或複合唯一性保證。官方Notion Agent同篇公式建立能力措辭有歧義，標 `SOURCE_INTERNAL_AMBIGUITY`，待獨立驗證。
 - **嚴格進度**：新增候選3、文字閱讀/反例各3、嚴格完整10/10新增0、累積0/10,000。這是研究知識而非使用者對介面修改的核准；Notion、權限、公式、View、GAS/Cloud Run/Session均未變更，不開始重新設計。雙軌續作共享GitHub main，先Fetch與SHA條件寫入。
+
+## 2026-10-26｜AUTO-23 Notion深度學習：內容驗證與跨裝置UX（研究紀錄，非實作核准）
+- [研究原始紀錄](research/notion-deep-study-automation-run-23-2026-10-26.md)，trace `AUTO-23-20261026-1436`。兩篇新候選來源各一次可讀主要正文及反例；AUTO-07 Wiki文章僅一次針對性文字複讀，不重複計數。
+- **研究結論（HOLD）**：已驗證頁面的藍勾/無期限狀態不保證新年度補助規則與公式值正確，文件Owner/可編輯者亦不等於正式政府核准者；手機應優先讓短任務可完成，但不得將未知/未確認0/超額壓縮成單一誤導徽章。Wiki驗證與一般DB驗證的方案限制不同。
+- **決策狀態：RESEARCH ONLY**。無使用者授權修改現有Notion頁、資料庫、View、Formula、Relation、權限或業務流程；亦無GAS/Cloud Run/Session變更。累積可稽核10/10仍0/10,000；未完成不得開始重新設計。
