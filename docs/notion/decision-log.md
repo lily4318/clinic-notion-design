@@ -651,3 +651,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - trace `AUTO-33-20261027-0038-RESEARCH`；[原始研究](research/notion-deep-study-automation-run-33-2026-10-27.md)。兩篇新canonical候選完成一次主要文字與獨立反例；另對既有 Progressive Disclosure、Recognition and Recall 針對性重讀，沒有重算新增URL或完整R2。
 - **觀察，非設計決策**：導覽分類的命名應可預測內容且彼此區分；資訊密度須按同時比較需求、誤判風險及真實操作任務取捨。NN/g 研究原型的內容元素/空白比例不能變成治療所 Notion 硬規則；跨期額度與資格狀態不可為追求緊湊而混同。
 - **邊界**：未進行真人命名測試、密度對照測試、Notion操作或權限/效能驗證；無Notion頁/DB/View/Formula/權限、GAS/Cloud Run/Session寫入；仍須10,000篇各10次完整深讀及使用者確認後方能進入重新設計。
+
+
+## 2026-10-27｜AUTO-34 複雜應用 UX 文獻研究（非改版決議）
+- trace `AUTO-34-20261027-0138-RESEARCH`；[原始研究與反例](research/notion-deep-study-automation-run-34-2026-10-27.md)。NN/g 8項複雜應用設計指引及10項啟發法在已查研究目錄45份初步去重後列新候選2；正文R1 2篇，反例2次，非逐篇10遍。
+- **僅研究假說**：保留同頁重要數據、核定期別及「未知／待核／已確認0」語意；不能將試錯式學習、快捷鍵、回復示例或同步完成當成 Notion 已具備或補助資格已核准。所有介面與Schema方案待完成目標並經使用者確認，**沒有核准任何改版**。
+- `FULL_DEEP_PASS_10_OF_10` 本輪0、累積0/10000；圖片／互動／真人角色／權限／速度／公式未測。僅 GitHub 研究紀錄；Notion/正式系統無本輪寫入。
