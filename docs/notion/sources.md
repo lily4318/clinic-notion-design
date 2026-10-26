@@ -357,3 +357,10 @@
 - `AUTO28-S02` [Make work more efficient with database button properties](https://www.notion.com/en-gb/help/guides/make-work-more-efficient-database-button-property)；`notion-help:guides/make-work-more-efficient-database-button-property`；R1主要正文＋反例。按鈕可多步驟、編輯其他頁、顯示確認，但確認點擊≠核定資格；跨期filter與批次誤改需防範。
 - `AUTO28-S03` [Create streamlined project management workflows using database automations](https://www.notion.com/en-gb/help/guides/create-streamlined-project-management-workflow-using-database-automations)；`notion-help:guides/create-streamlined-project-management-workflow-using-database-automations`；R1主要正文＋反例。多觸發條件為OR，不能冒充跨方案多條件同時核准；付費限制及部分失敗未實測。
 - 本輪初步去重新來源3、主要文字R1 3、首次獨立反例3、完整十次深讀0；**累積嚴格10/10仍0／10,000篇**。圖片/影片/互動/實帳/真人UX/權限/效能/公式未驗證。僅GitHub研究記錄，不修改Notion或正式系統，不開始重新設計。
+
+
+## 2026-10-26｜AUTO-29：Connected properties／避免認知型操作錯誤（僅研究）
+- [AUTO-29原始閱讀與反例](research/notion-deep-study-automation-run-29-2026-10-26.md)；trace `AUTO-29-20261026-2044-RESEARCH`。本輪依main來源索引、研究目錄及首批／批次02–04／十面向／MANUAL-01查重，暫列2個尚未登錄的canonical URL（全域完整機器去重尚未完成）：
+  - `AUTO29-S01` [Connected properties](https://www.notion.com/help/connected-properties)；`notion-help:connected-properties`；`R1_MAIN_TEXT_ALL_FOUR_CONNECTORS+COUNTEREXAMPLE`。Google Drive屬性限Plus以上，Figma／Zendesk／GitHub PR限Business以上；外部連結可見不代表內容權限或資料核定，GitHub PR屬性可能新增Unique ID。
+  - `AUTO29-S02` [Preventing User Errors: Avoiding Conscious Mistakes](https://www.nngroup.com/articles/user-mistakes/)；`nngroup:articles/user-mistakes`；Page Laubheimer，2015-09-07；`R1_MAIN_TEXT_ALL_HEADINGS+COUNTEREXAMPLE`。過量確認造成疲乏，應辨別高風險跨期批次動作；UX所倡Undo/預覽不可冒稱Notion原生支援。
+- 本輪新canonical候選2、正文R1閱讀2、首次獨立反例2、完整10/10達標0；**累積嚴格達標仍0/10,000篇**。未逐圖、影片、實帳、跨角色、效能與真實補助核對；僅GitHub研究，不修改Notion／正式系統、不開始重新設計。
