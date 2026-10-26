@@ -634,3 +634,8 @@
 ## 2026-10-26｜AUTO-18：Custom Agents/分享權限研究取證（非業務驗收）
 - **[PASS: research increment only; NOT_DONE: global learning]** [AUTO-18閱讀與反例證據](research/notion-deep-study-automation-run-18-2026-10-26.md)（`AUTO-18-20261026-0938`）：新增2個目前研究清冊未登錄官方canonical來源，主要正文與FAQ閱讀2篇、獨立反例2次。未完整檢查圖片/影片、未進行Business/Enterprise付費帳戶、Guest、跨角色、資料列存取或真人操作測試，故**FULL_DEEP_PASS=0**；累積每篇10次完整深讀達標仍**0/10,000篇**。全域精確去重總數仍待跨檔核驗。
 - **[UNCHANGED]** 本輪只新增GitHub研究檔與來源/決策/驗收索引；未改Notion正式/TEST頁面、資料庫、Views、Formula、Relation、Share/權限、業務資料，也未改GAS/Cloud Run/Session/部署。沒有開始重新設計；不影響手動與每小時排程雙軌續作。
+
+## 2026-10-26｜AUTO-19 Notion 深度學習研究增量（非業務驗收）
+- [研究完整紀錄](research/notion-deep-study-automation-run-19-2026-10-26.md)（`AUTO-19-20261026-1042`）：新增3個經已知研究清冊去重的Notion官方來源（Map view、Task databases & sprints、Style & customize your page），完成可讀文字主節/FAQ首次反例3次；舊Synced blocks獨立針對性R3複讀1次。初選重複來源排除，不冒稱新增；未完整驗圖/影片/實帳/手機/真人權限/效能，**FULL_DEEP_PASS=0**。
+- **總目標 NOT_DONE**：累積可稽核每篇10次獨立完整深讀通過**0／10,000篇**；全域唯一URL精確總數待跨檔機器去重。此批官方文件研究不是現行系統或公式數值驗收。
+- **SCOPE PASS**：僅公開資料閱讀與GitHub研究/索引/決策/驗收記錄；Notion正式及TEST Page、Database、Data Source、View、Formula、Relation、Share/權限、業務資料及GAS/Cloud Run/Session/部署均未修改；未開始重新設計。手動與排程可並行續作。
