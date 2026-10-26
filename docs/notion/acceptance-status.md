@@ -712,3 +712,8 @@
 - IAB確認Sessions應收金額_帶入直接依主／附加方案的補助與金額重算；最終應收金額_自動優先取手動調整再取帶入。其餘候選與直接Rollup分列[依賴報告](audits/price-plan-period-dependency-audit-2026-10-26.md)。
 - 使用者指定只用內部瀏覽器，不控制其電腦；後續依此執行。IAB已可讀上述公式，不能再稱所有公式讀取皆受阻。
 - 尚缺最新00.config_notion、必要公式／按鈕完整依賴、歷史映射及隔離測試。Notion零寫入，遷移BLOCKED／NOT_TESTED，不聲稱修改完成。不更動GAS、Cloud Run或Session登入系統。
+
+## 2026-10-26｜AUTO-30 Notion 深度學習取證驗收（僅GitHub研究）
+- trace `AUTO-30-20261026-2235-RESEARCH`；[逐篇研究原始紀錄](research/notion-deep-study-automation-run-30-2026-10-26.md)。已查sources.md所連36份研究文件，兩篇NN/g來源暫列新canonical URL，主要正文R1 2、首次獨立反例2；既有Notion Property access針對性複讀1，不重算新來源/完整R2。
+- **PASS：本輪文字研究與GitHub記錄；FULL_DEEP_PASS_10_OF_10 = 0；累積嚴格達標仍0／10,000篇**。圖片、影片、外部示範、真實Notion權限、角色、手機、操作速度、公式與政府額度均未實測；全庫唯一URL總數未完成全面稽核。
+- **SCOPE：NO NOTION/SYSTEM WRITE**。僅GitHub研究/來源/決策/驗收文檔；未修改任何Notion正式或TEST頁、DB、Data Source、View、Formula、Relation、Share/權限、業務資料，也未修改正式GAS/Cloud Run/Session/部署。尚未開始重新設計，手動與自動研究仍可獨立並行。
