@@ -300,3 +300,10 @@
 - [既有來源針對性複讀] 首批N02 `/help/views-filters-and-sorts` 新增 `AUTO20-R01/TARGETED_BODY_REVIEW_R2`：未選`Save for everyone`的個人篩選/排序與共享View不同；使用者當前看到的篩選畫面不等於全員同樣設定或底層資料已被隔離。**不算新增URL或第二次完整深讀**。
 - [交叉反證] 日曆/Timeline拖曳可能寫回日期，不能視為純美化；模板預填不保證核定期/複合唯一；圖表指南列4種布局而目前Charts Help另列Number chart，需標版本差異；圖表自動更新不等於額度核對通過，且Free圖表限制仍需按官方現行文件核實。
 - [嚴格進度及安全] 本輪新來源3、首次文字閱讀/反例各3、既有來源針對性複讀1、完整10/10新增0；**累積可核實10次獨立完整深讀仍0/10,000**，全域唯一來源總數待完整去重。只改GitHub研究/索引/決策/驗收，Notion及正式GAS/Cloud Run/Session均0變更，未開始重新設計。
+
+## 2026-10-26｜AUTO-21：行動工作區／API連線權限／UX警示設計（研究來源索引）
+- [研究原始證據](research/notion-deep-study-automation-run-21-2026-10-26.md)；trace `AUTO-21-20261026-1237`。以下三篇依main清冊與GitHub slug搜尋暫列不同新文章（搜尋索引有延遲，精確全域累計待全檔稽核）：
+  - `AUTO21-S01` [Workspaces on mobile](https://www.notion.com/en-gb/help/workspaces-on-mobile)；canonical `notion-help:workspaces-on-mobile`；`R1/BODY_MAIN_AND_COUNTEREXAMPLE`。
+  - `AUTO21-S02` [Add & manage connections](https://www.notion.com/help/add-and-manage-connections-with-the-api)；canonical `notion-help:add-and-manage-connections-with-the-api`；`R1/BODY_MAIN_AND_COUNTEREXAMPLE`。
+  - `AUTO21-S03` [Hostile Patterns in Error Messages](https://www.nngroup.com/articles/hostile-error-messages/)；canonical `nngroup:articles/hostile-error-messages`；`R1/BODY_MAIN_AND_COUNTEREXAMPLE`；原文發表2022-10-30。
+- 三篇各完成一次可取得主要文字分節閱讀與獨立反例；圖片/影片/真人手機操作/跨角色權限/實際整合未驗。不得計為任何一篇完整10次深讀；**嚴格累積0/10,000**。本輪不改Notion或正式系統，不進入重新設計。
