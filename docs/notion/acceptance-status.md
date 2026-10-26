@@ -755,3 +755,9 @@
 - trace `AUTO-37-20261027-0438-RESEARCH`；[原文閱讀及反例](research/notion-deep-study-automation-run-37-2026-10-27.md)。已查 main 主要規範、來源索引、研究目錄48份檔名與GitHub slug搜尋；暫列2篇新canonical候選（NN/g快捷操作、NN/g字母排序），主要正文R1 2、首次獨立反例2。全庫未索引文件仍未完成精確去重。
 - **研究文字 PASS（僅已讀正文與圖說）／FULL_DEEP_PASS_10_OF_10 本輪0、累積嚴格0/10,000篇**；未完成逐張原圖、影音、互動、實際 Notion 操作、真人/手機/角色權限、載入效能、跨期金額與公式真值。兩篇均不算完整十次深讀。
 - **NO NOTION / SYSTEM WRITE**：只更新 GitHub 研究、來源、決策、驗收文件；Notion正式/TEST Page、DB、Data Source、View、Formula、Relation、Share/權限、業務資料、正式 GAS/Cloud Run/Session/部署皆未修改；未開始重新設計。每小時與手動研究可並行，以最新main SHA條件避免覆寫。
+
+
+## 2026-10-27｜AUTO-38 研究證據驗收（非Notion業務驗收）
+- trace `AUTO-38-20261027-0543-RESEARCH`；[完整閱讀、去重、反例及限制](research/notion-deep-study-automation-run-38-2026-10-27.md)。main七項規範已查；研究目錄49份已逐檔比對候選slug與標題。新canonical候選1篇、既有DS-025/N15由SUMMARY_ONLY升級本輪主要正文1篇，首次獨立反例2；**不是兩篇新來源**。
+- **PASS限原文主要文字可讀與研究記錄；FULL_DEEP_PASS_10_OF_10 本輪0，累積可核實仍0/10,000篇**。全儲存庫同文異址去重、原始圖片、影片、互動、實際Notion帳戶、手機、角色權限、效能、補助期別公式/金額均NOT_TESTED。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究檔、來源、決策、驗收；未改Notion正式/TEST Page、DB、Data Source、View、Formula、Relation、Share/權限、業務資料，亦未改正式GAS/Cloud Run/Session/部署。未開始Notion重新設計；每小時與手動研究可並行，寫入衝突以SHA安全合併。
