@@ -587,3 +587,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - [研究原始紀錄](research/notion-deep-study-automation-run-23-2026-10-26.md)，trace `AUTO-23-20261026-1436`。兩篇新候選來源各一次可讀主要正文及反例；AUTO-07 Wiki文章僅一次針對性文字複讀，不重複計數。
 - **研究結論（HOLD）**：已驗證頁面的藍勾/無期限狀態不保證新年度補助規則與公式值正確，文件Owner/可編輯者亦不等於正式政府核准者；手機應優先讓短任務可完成，但不得將未知/未確認0/超額壓縮成單一誤導徽章。Wiki驗證與一般DB驗證的方案限制不同。
 - **決策狀態：RESEARCH ONLY**。無使用者授權修改現有Notion頁、資料庫、View、Formula、Relation、權限或業務流程；亦無GAS/Cloud Run/Session變更。累積可稽核10/10仍0/10,000；未完成不得開始重新設計。
+
+
+## 2026-10-26｜AUTO-24：研究性判斷（尚未核准實作）
+- trace `AUTO-24-20261026-1544-RESEARCH`；[原始來源、閱讀與反例](research/notion-deep-study-automation-run-24-2026-10-26.md)。研究兩篇官方來源（My Tasks 任務彙整、Enterprise Search），每篇僅1次主文字R1及首次反例；不等於十次完整深讀。
+- **D1（研究假說，不是設計決議）**：My Tasks 僅適合作為符合Task資料型別與授權的任務彙整候選；不能把政府方案額度/個案資格/收款紀錄強行改成Task DB，也不能以filtered view代替外部夥伴頁面權限。My Tasks最多10個任務來源。
+- **D2（研究假說，不是設計決議）**：Enterprise Search限Business/Enterprise；跨來源AI搜尋引用不能保證政府補助核定真值、即時性或資料授權；模型選擇可能改變搜尋資料範圍。不得用它替代同頁可見的業務資料或原始查核。
+- **執行界線**：未核准任何新Notion設計或變更。保持原有Notion頁面、資料庫、View、Formula、Relation、權限、正式GAS/Cloud Run/Session不變；待10,000篇各10次可稽核完整深讀及使用者確認後才能討論重新設計。FULL_DEEP_PASS累積0/10,000。
