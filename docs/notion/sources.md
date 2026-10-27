@@ -500,3 +500,10 @@
 - `AUTO48-S01` [Progressive Disclosure](https://www.nngroup.com/articles/progressive-disclosure/)；canonical `nngroup:articles/progressive-disclosure`；Jakob Nielsen，2006-12-03；`AUTO48-S01-R1-MAIN-TEXT-C1`。已讀正文各節、progressive/staged比較及案例，首次反例：不能因「漸進揭露」把同頁核對的Session日期、方案期別、金額移到二級入口；但低頻內部設定也不宜淹沒首屏。
 - `AUTO48-S02` [Preventing User Errors: Avoiding Unconscious Slips](https://www.nngroup.com/articles/slips/)；canonical `nngroup:articles/slips`；Page Laubheimer，2015-08-23；`AUTO48-S02-R1-MAIN-TEXT-C1`。已讀正文各節、slip/mistake差異與四種預防策略；首次反例：預設最近使用的方案可能讓補登歷史Session套錯期別，硬性禁止所有不同方案也可能阻礙合法例外。
 - **本輪已查索引新候選2、主要正文文字R1 2、首次獨立反例2篇、完整十次深讀新增0；累積`FULL_DEEP_PASS_10_OF_10`仍0／10,000篇**。原圖/延伸全文/實際Notion角色、手機、公式、效能未驗；僅GitHub研究記錄，Notion/正式系統零寫入，不開始重新設計。
+
+
+## 2026-10-27｜AUTO-49：Accordion 展開成本與系統狀態回饋（純研究）
+- [AUTO-49 完整文字閱讀軌跡、反例與限制](research/notion-deep-study-automation-run-49-2026-10-27.md)；trace `AUTO-49-20261027-1637-RESEARCH`。main七項規範已重新讀取，sources索引研究文件引用抽得57個不同路徑；批次逐檔全文Fetch遇工具呼叫上限，未完成57/57查重。以下兩篇在已查sources及GitHub code search未見同slug；全庫同文異址精確去重未完成，僅列已查索引新來源候選。
+- `AUTO49-S01` [Accordions Are Not Always the Answer for Complex Content on Desktops](https://www.nngroup.com/articles/accordions-complex-content/)；canonical `nngroup:articles/accordions-complex-content`；Hoa Loranger，2014-05-18；`AUTO49-S01-R1-MAIN-TEXT-C1`。摺疊增加開啟成本，不能把同頁交叉核對的補助/歷史收費資料藏起；低頻長文則可能適合局部摺疊。
+- `AUTO49-S02` [Visibility of System Status (Usability Heuristic #1)](https://www.nngroup.com/articles/visibility-system-status/)；canonical `nngroup:articles/visibility-system-status`；Aurora Harley，2018-06-03；`AUTO49-S02-R1-MAIN-TEXT-C1`。操作已收到、資料已存、後續自動化完成、資格已核准不可用同一成功狀態混淆。
+- 本輪已查索引新候選2、主要正文文字R1各1、獨立反例2、完整10/10新增0；累積嚴格 `FULL_DEEP_PASS_10_OF_10` 仍**0／10,000篇**。原圖/影片/外連全文/真實Notion角色/手機/公式/效能未驗。僅GitHub研究紀錄，Notion及正式系統零寫入，不開始重新設計。
