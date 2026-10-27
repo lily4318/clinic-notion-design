@@ -580,3 +580,10 @@
 - `AUTO60-S01` [Accordion – GOV.UK Design System](https://design-system.service.gov.uk/components/accordion/)；canonical `govuk-design-system:components/accordion`；GOV.UK Design System team；首發日未核；`AUTO60-S01-R1-MAIN-TEXT-C1`。官方主文/範例/無 JS 行為/記憶展開/讀屏已知問題文字已讀；反例：補助待核與期別矛盾不宜藏在收合區，且折疊同頁不等於開啟即見。
 - `AUTO60-S02` [Tabs – GOV.UK Design System](https://design-system.service.gov.uk/components/tabs/)；canonical `govuk-design-system:components/tabs`；GOV.UK Design System team；首發日未核；`AUTO60-S02-R1-MAIN-TEXT-C1`。官方主文/範例/小螢幕/URL hash/研究缺口文字已讀；反例：Session/Billing/補助跨 Tab 比對需反覆切換，第一 Tab 若非高頻任務可能遮蔽待處理案件。
 - **本輪候選2、主要正文文字閱讀2、首次反例2篇（各2情境）、完整 R1–R10 均0；`FULL_DEEP_PASS_10_OF_10` 新增0、累積可核實0／10,000篇**。原圖/互動/鍵盤/讀屏/真人Notion/效能/權限未驗。僅 GitHub 研究紀錄，不改 Notion/正式系統、不開始重新設計。
+
+
+## 2026-10-28｜AUTO-61：Inset text 與 Panel（純研究；非 Notion 驗收）
+- [AUTO-61 逐篇閱讀證據與反例](research/notion-deep-study-automation-run-61-2026-10-28.md)；trace `AUTO-61-20261028-0437-RESEARCH`。已查 main 主要規範、研究目錄及 sources 全文；兩個 canonical 在 sources 與 repo code search 未命中，**僅為已查索引新候選，尚未完成全儲存庫逐檔與同文異址精確去重**。
+- `AUTO61-S01` [Inset text – GOV.UK Design System](https://design-system.service.gov.uk/components/inset-text/)；canonical `govuk-design-system:components/inset-text`；維護者 GOV.UK Design System team，首發日未核；`AUTO61-S01-R1-MAIN-TEXT-C1`。主要正文、HTML/Nunjucks、更新紀錄、獨立範例一次文字閱讀。反例：重要的資格待核/期別衝突可能被低顯著度補充文字掩蓋；過多補充又妨礙同頁核對。
+- `AUTO61-S02` [Panel – GOV.UK Design System](https://design-system.service.gov.uk/components/panel/)；canonical `govuk-design-system:components/panel`；維護者 GOV.UK Design System team，首發日未核；`AUTO61-S02-R1-MAIN-TEXT-C1`。主要正文、確認/中斷型態、HTML/Nunjucks、更新紀錄與獨立例子一次文字閱讀。反例：Notion資料儲存≠補助核准或款項入帳；每次修改都強制中斷可能增加高頻操作負擔。
+- 輔助交叉查核 GOV.UK Confirmation pages、Interruption pages **不另計篇數/複讀**。本輪候選2、正文文字閱讀2、首次獨立反例2篇；完整R1–R10皆0，`FULL_DEEP_PASS_10_OF_10`新增0，累積可核實 **0／10,000篇**。未驗原圖、真實互動、讀屏、手機、Notion/權限/公式/效能；僅 GitHub 研究記錄，不改 Notion/正式系統、不開始重新設計。
