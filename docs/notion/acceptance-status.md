@@ -865,3 +865,10 @@
 - **PARTIAL／研究**：GOV.UK Table、Pagination 各一次主要正文文字、HTML/Nunjucks及獨立示例閱讀，各有首次反例。已查來源索引/早期清冊/code search未見重複，暫列新canonical候選2。沒有完整R1或獨立R2–R10；`FULL_DEEP_PASS_10_OF_10`本輪0，累積嚴格仍**0／10,000篇**。
 - **NOT_TESTED**：原始圖逐張、真實互動/鍵盤/讀屏/手機、Notion Linked View 分頁/篩選/角色權限/載入速度、補助資格/Session歷史金額/公式真值。研究推論不是 Notion 元件能力或業務PASS。
 - **NO NOTION/SYSTEM WRITE**：只更新GitHub研究與進度；未改Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務資料，亦未改正式GAS/Cloud Run/Session/部署；未開始重新設計。雙軌研究獨立並行，寫入採最新blob SHA條件。
+
+
+## 2026-10-27｜AUTO-55 公開研究取證（非Notion業務驗收）
+- Trace `AUTO-55-20261027-2238-RESEARCH`；[閱讀軌跡及反例](https://github.com/lily4318/clinic-notion-design/blob/main/docs/notion/research/notion-deep-study-automation-run-55-2026-10-27.md)。開始前讀main七項規範、研究README與最近研究紀錄；兩個URL在sources與GitHub搜尋未命中，但研究目錄全量逐檔去重受工具呼叫上限中斷，**不宣稱已完成全庫精確去重**。
+- **PARTIAL**：GOV.UK Navigate a service 與 Step by step navigation 各一次主要正文文字閱讀、各一組獨立反例；前者多任務反覆導覽、後者有順序的跨服務旅程。Step by step 僅供官方 prototype，不代表 Notion 原生功能。輔助閱讀不另計篇數。
+- **嚴格計量**：本輪新候選2、主要文字閱讀2、完整R1/R2–R10均0；`FULL_DEEP_PASS_10_OF_10`新增0，累積**0／10,000篇**。原圖/互動/手機/讀屏、Notion實帳/角色/權限/公式/效能/跨期金額均NOT_TESTED。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究及進度紀錄；Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務資料與正式GAS/Cloud Run/Session/部署均未修改。研究未達門檻，不進入重新設計；雙軌研究可並行。
