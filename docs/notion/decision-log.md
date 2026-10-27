@@ -839,3 +839,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-63-20261028-0641-RESEARCH`；[逐篇研究紀錄](research/notion-deep-study-automation-run-63-2026-10-28.md)。官方 [Fieldset](https://design-system.service.gov.uk/components/fieldset/) 以 legend 說明相關輸入，官方 [Textarea](https://design-system.service.gov.uk/components/textarea/) 用於需要多行敘述的問題；兩篇各一次主要正文文字閱讀及首次反例，**非完整 R1，更非 R2–R10**。
 - **研究推論**：同區視覺群組≠跨 Session/Billing/方案期別 Relation 或歷史金額正確；自由文字備註≠可核對的補助資格、已確認0、實際收款狀態。反過來，過度群組與過度選項化也可能增加操作負擔或遺失必要行政例外脈絡。是否適用需真實 Notion/真人 UX/權限/公式/效能驗證；不授權新增或修改欄位、版面。
 - 已從既有清冊排除 Warning text/Notification banner 兩個重複候選；本輪新候選2（全庫同文異址去重未完）、主要正文閱讀2、首次反例2組，`FULL_DEEP_PASS_10_OF_10`本輪0、累積 **0／10,000篇**。**僅 GitHub 研究紀錄，Notion/正式系統零寫入，不開始重新設計。**
+
+## 2026-10-28｜AUTO-64：服務導航與鍵盤捷徑的衝突反證（研究推論，非設計核准）
+- Trace `AUTO-64-20261028-0735-RESEARCH`；[完整研究及反例](research/notion-deep-study-automation-run-64-2026-10-28.md)；官方 [Service navigation](https://design-system.service.gov.uk/components/service-navigation/) 與 [Skip link](https://design-system.service.gov.uk/components/skip-link/) 主要正文各一次閱讀及獨立反例。已查索引未見兩篇canonical；全庫語義去重未完，僅候選。
+- **研究推論**：清楚的頂層導覽不能代替使用者已確認的「同類資料同頁、開啟即見」；頁面同時顯示多張Linked Views不保證鍵盤/讀屏可快速抵達主內容。Skip link為GOV.UK HTML元件，不可假設Notion原生可插入；導覽active狀態不代表有權存取資料，跳過導航也不應遮蔽補助待核/期別矛盾。
+- **非核准**：不據此新增導覽、跳轉、重排Notion頁面、修改View/Formula/Relation/權限或任何業務資料；需真人鍵盤/讀屏/權限/效能驗證及使用者另行確認。候選2、正文閱讀2、嚴格10/10新增0，累積`FULL_DEEP_PASS_10_OF_10`仍0／10,000；僅GitHub研究紀錄，Notion/正式系統零寫入。
