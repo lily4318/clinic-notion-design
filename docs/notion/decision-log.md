@@ -792,3 +792,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-55-20261027-2238-RESEARCH`；[研究全文](https://github.com/lily4318/clinic-notion-design/blob/main/docs/notion/research/notion-deep-study-automation-run-55-2026-10-27.md)。GOV.UK Navigate a service 用於反覆、多任務且無固定順序的導覽；Step by step navigation 用於起終點明確且順序有助完成的跨服務旅程。兩者不同，不能以任一原則推翻使用者已確認的「同類資料同頁直接看」或把高頻 Session 作業拆成不必要步驟。
 - 補助文件核對與政府核准/Session歷史金額/收款為不同狀態；步驟完成不等於業務通過。此處是未實作研究推論，未核准 Notion View、Formula、Relation、頁面或正式系統變更。全庫精確去重、真人UX/權限/效能均待驗。
 - 新來源候選2、主要正文文字閱讀2、嚴格完整十次深讀0；累積 `FULL_DEEP_PASS_10_OF_10` 仍0／10,000篇；**只允許GitHub研究記錄，禁止提前重新設計**。
+
+## 2026-10-27｜AUTO-56：多選與單選的語義風險（研究結論，非設計核准）
+- trace `AUTO-56-20261027-2337-RESEARCH`；[閱讀紀錄](research/notion-deep-study-automation-run-56-2026-10-27.md)。GOV.UK Checkboxes/Radios 主要正文文字各讀一次，未完成圖片與互動、不是完整深讀。
+- 研究反證：未勾選不能當已確認零；多選可能允許互斥資格狀態同時成立；單選雖可避免互斥，預選最新方案期別仍會誤導歷史Session；正式資格判定與資料蒐集階段對「未知」的容許不同。**不因本研究新增欄位、改狀態、預設值或流程**；需要實際 Notion/業務證據及使用者另行授權。
+- 僅GitHub研究紀錄；Notion/正式GAS/Cloud Run/Session/部署零寫入。十萬次嚴格閱讀門檻未達，未進入重新設計。
