@@ -554,3 +554,9 @@
 - `AUTO56-S01` [Checkboxes – GOV.UK Design System](https://design-system.service.gov.uk/components/checkboxes/)；canonical `govuk-design-system:components/checkboxes`；維護者 GOV.UK Design System team；首發日未核；`AUTO56-S01-R1-MAIN-TEXT-C1`。多選/單一開關、明確 none、互斥、條件揭露及 WCAG 已知問題；反例：未勾選≠已確認他處使用0，單一 checkbox 無法同時表達待核/不適用/拒絕。
 - `AUTO56-S02` [Radios – GOV.UK Design System](https://design-system.service.gov.uk/components/radios/)；canonical `govuk-design-system:components/radios`；維護者 GOV.UK Design System team；首發日未核；`AUTO56-S02-R1-MAIN-TEXT-C1`。互斥選一、不預選、有效未知選項、條件揭露限制；反例：預選最新方案期別會誤套歷史Session，只有符合/不符合可能迫使尚待核對者填錯。
 - 本輪新候選2、主要正文文字R1各一次、首次獨立反例2篇；完整R1/R2–R10均0，`FULL_DEEP_PASS_10_OF_10`新增0，累積仍 **0／10,000篇**。原圖/互動/鍵盤/讀屏/真實Notion/權限/效能/公式未驗；僅GitHub研究，不改Notion/正式系統，不開始重新設計。
+
+## 2026-10-28｜AUTO-57：日期輸入與長選單（純研究）
+- [AUTO-57 逐篇原文、閱讀覆蓋與反例](research/notion-deep-study-automation-run-57-2026-10-28.md)；trace `AUTO-57-20261028-0045-RESEARCH`。開始前 main 八項規範/研究入口已重新讀取，research 目錄68份Markdown路徑；sources全文及 repo code search 未見兩個 canonical。**未完成68份歷史文件逐檔全文及同文異址精確去重**，僅列已查索引新來源候選。
+- `AUTO57-S01` [Date input – GOV.UK Design System](https://design-system.service.gov.uk/components/date-input/)；canonical `govuk-design-system:components/date-input`；維護者 GOV.UK Design System team，首發日未核，2026-07有元件更新；`AUTO57-S01-R1-MAIN-TEXT-C1`。已讀主文、HTML/Nunjucks、錯誤與變更；反例：歷史Session日期格式有效≠符合核定期或真實服務時序，民國/西元/時區與跨午夜不可直接照搬英國日期元件。
+- `AUTO57-S02` [Select – GOV.UK Design System](https://design-system.service.gov.uk/components/select/)；canonical `govuk-design-system:components/select`；維護者 GOV.UK Design System team，首發日未核，2025-03有元件更新；`AUTO57-S02-R1-MAIN-TEXT-C1`。已讀主文、HTML/Nunjucks、錯誤/已知問題；反例：僅列現行方案會隱藏合法歷史期別，預設最新方案/金額可能誤收歷史Session。
+- **本輪候選2、主要正文文字閱讀各1、首次反例各1；完整R1/R2–R10均0，`FULL_DEEP_PASS_10_OF_10`新增0、累積仍0／10,000篇**。原圖/互動/鍵盤/讀屏/Notion實帳/權限/效能/公式未驗。只記GitHub，不改Notion/正式系統，不開始重新設計。
