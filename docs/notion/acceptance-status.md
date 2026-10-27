@@ -912,3 +912,10 @@
 - **PARTIAL／公開文字**：GOV.UK Inset text、Panel 各一次主要正文、HTML/Nunjucks、更新紀錄及獨立示例閱讀，並對治療所同頁可見性、歷史方案期別、補助資格、Session/Billing 狀態作獨立反例。Confirmation/Interruption pages 為輔助，不另計來源。**完整R1及R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實0／10,000篇。**
 - **NOT_TESTED**：原始圖片與互動、鍵盤/讀屏/手機、Notion原生Callout/資料庫/角色權限、真人UX、載入秒數、公式、歷史金額、補助資格與實際收款；不能當業務或 UX PASS。
 - **NO NOTION/SYSTEM WRITE**：僅 GitHub 研究紀錄；未改 Notion 正式/TEST 頁面、DB、View、Formula、Relation、權限、業務資料，或正式 GAS/Cloud Run/Session/部署；不開始重新設計，雙軌研究可並行。
+
+
+## 2026-10-28｜AUTO-62：File upload／Character count 研究取證 PARTIAL（非 Notion 驗收）
+- Trace `AUTO-62-20261028-0537-RESEARCH`；[研究紀錄](research/notion-deep-study-automation-run-62-2026-10-28.md)。開始前重新讀取 main 主要規範、sources、研究 README 與 AUTO-61；兩個 canonical 在 sources / GitHub code search 未命中，**未完成歷史全文及同文異址精確去重**。
+- **PARTIAL**：GOV.UK File upload、Character count 各一次主要正文文字/HTML/Nunjucks/獨立示例/限制與更新紀錄閱讀及獨立反例。重用檔案的便利性≠跨個案權限安全；上傳成功≠核准；字數限制不應截斷必要記錄；中文字元/emoji 的計數與保存須真實驗證。完整 R1/R2–R10 均0。
+- **嚴格進度**：新來源候選2、正文文字閱讀2、首次反例2組（4情境）、本輪 `FULL_DEEP_PASS_10_OF_10` 0，累積可核實 **0／10,000篇**。原圖、真實上傳/鍵盤/讀屏/手機、Notion權限/檔案、Unicode儲存、公式/效能/歷史金額/資格均 **NOT_TESTED**。
+- **NO NOTION/SYSTEM WRITE**：僅 GitHub 研究與進度紀錄；未改 Notion 正式/TEST 頁、DB、Data Source、View、Formula、Relation、權限、業務資料或正式 GAS/Cloud Run/Session/部署；未開始重新設計，手動與自動研究保持獨立並行。
