@@ -486,3 +486,10 @@
 - `AUTO46-R01` [Database buttons](https://www.notion.com/help/database-buttons)；canonical `notion-help:database-buttons`；**既有十面向N12／batch-03**，不算新URL。官方明列 `Show confirmation`，Full access／Can edit 可設定，Can edit content 可點擊；目標資料庫仍須相應寫入權。確認動作≠資格核准、原子交易或回滾保證；`TARGETED_REREAD_TEXT_CROSS_COUNTEREXAMPLE`，非完整R2。
 - `AUTO46-R02` [Database automations](https://www.notion.com/help/database-automations)；canonical `notion-help:database-automations`；**既有MANUAL-01-02**，不算新URL。Button action可觸發automation，但automation不能再觸發另一automation；View篩選可能改變作用對象，公式/Webhook錯誤可能不通知。Free Slack權益的官方文字張力仍未實帳核實；`TARGETED_REREAD_TEXT_CROSS_COUNTEREXAMPLE`，非完整R2。
 - 本輪新增canonical **0**、既有來源針對性文字複讀 **2**、新交叉反例 **2組**；`FULL_DEEP_PASS_10_OF_10`本輪新增**0**，累積仍**0／10,000篇**。原圖、影音、互動、實帳角色/付費權益/公式/效能未驗；僅GitHub研究紀錄，**Notion／正式系統零寫入，不進入重新設計**。
+
+
+## 2026-10-27｜AUTO-47：分步輸入、重設與取消的交叉反例（僅研究）
+- [AUTO-47 可讀原文、逐節閱讀軌跡、反例與限制](research/notion-deep-study-automation-run-47-2026-10-27.md)；trace `AUTO-47-20261027-1436-RESEARCH`。開始前重讀 main 七項規範與 research README，並逐份取得 sources.md 索引的 **53/53 份研究 Markdown**，比對兩個候選 canonical URL／標題均未見重複；其他未索引路徑與同文異址的全庫精確去重仍待完成。
+- `AUTO47-S01` [Wizards: Definition and Design Recommendations](https://www.nngroup.com/articles/wizards/)；canonical `nngroup:articles/wizards`；Raluca Budiu，2017-06-25；`AUTO47-S01-R1-MAIN-TEXT-C1`。已讀主要正文與八項建議、缺點、結論：Wizard 可減低低頻設定負擔，但高頻 Session／歷史期別核對的跨步切換可能增加錯誤與操作成本；上次選擇不能取代服務日期判定。
+- `AUTO47-S02` [Reset and Cancel Buttons](https://www.nngroup.com/articles/reset-and-cancel-buttons/)；canonical `nngroup:articles/reset-and-cancel-buttons`；Jakob Nielsen，2000-04-15；`AUTO47-S02-R1-MAIN-TEXT-C1`。已讀主要全文與例外：Reset 容易誤清資料，Cancel／Back 不保證已寫入的 Session／補助資料回滾；舊文需現代產品驗證。
+- **本輪已查清冊新候選2、主要正文文字R1各1次、首次獨立反例2組、完整R2–R10 0；`FULL_DEEP_PASS_10_OF_10`新增0，累積嚴格仍0／10,000篇**。未逐張驗原圖、外部研究、實帳 Notion／手機／權限／效能／公式；只寫GitHub研究，Notion與正式系統零寫入，不開始重新設計。
