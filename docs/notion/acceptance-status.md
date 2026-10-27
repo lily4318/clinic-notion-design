@@ -824,3 +824,10 @@
 - **R1_MAIN_TEXT（僅文字）**：Progressive Disclosure及Avoiding Unconscious Slips各一次主要正文閱讀、各一組首次獨立反例；沒有完整R1深讀，也沒有R2–R10獨立完整閱讀。**`FULL_DEEP_PASS_10_OF_10`新增0，累積0／10,000篇**。
 - **NOT_TESTED**：原圖/影音/外連研究、Notion真實頁面/角色/手機/權限/公式/跨期收費真值/效能；研究原則不可當成正式方案判定或實作驗收。
 - **NO NOTION/SYSTEM WRITE**：本輪只寫GitHub研究及進度；Notion正式或TEST頁、資料庫、Data Source、View、Formula、Relation、權限、個案/財務資料、GAS、Cloud Run、Session、部署均未修改。研究門檻未達，不進入重新設計；雙軌研究維持獨立並行。
+
+
+## 2026-10-27｜AUTO-49 研究取證驗收（非業務功能驗收）
+- trace `AUTO-49-20261027-1637-RESEARCH`；[研究紀錄](research/notion-deep-study-automation-run-49-2026-10-27.md)。main主要規範及研究索引已讀；sources研究文件引用抽得57條不同路徑，但批次全文核查遇工具上限，**未宣稱57/57全文去重**。兩個候選canonical在已查索引及repo code search未見重複；其他路徑/同文異址未驗。
+- **PARTIAL 研究文字**：Accordions complex content（2014）及 Visibility of System Status（2018）各一次主要正文文字閱讀、獨立反例各1；原圖、影片、外部研究、真實Notion角色/手機/自動化/公式/效能均NOT_TESTED。
+- **嚴格進度**：本輪完整10/10新增0、累積 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。正文R1文字≠完整R1深讀，亦不冒稱R2–R10。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度記錄，Notion正式/TEST頁、資料庫、View、Formula、Relation、權限、業務資料及GAS/Cloud Run/Session/部署均未修改；未開始重新設計。
