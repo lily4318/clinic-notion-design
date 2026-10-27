@@ -898,3 +898,10 @@
 - **PARTIAL**：Notion 官方 Dashboard view 主要正文一次文字閱讀；Business/Enterprise、widget 上限、global filter 作用條件、個人/共用篩選、底層 View、權限與效能的反例已記錄。原圖、影片、實帳 Dashboard 操作、手機、角色權限、跨來源母體一致性、原生公式、速度均 **NOT_TESTED**。非完整R1，R2–R10均0。
 - **嚴格計數**：本輪新候選1、主要正文文字閱讀1、首次獨立反例1篇/4情境；`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實仍 **0／10,000篇**。
 - **NO NOTION/SYSTEM WRITE**：僅 GitHub 研究與進度記錄；Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務列及正式 GAS/Cloud Run/Session/部署均未修改。未達門檻、不進入重新設計；自動與手動研究可並行。
+
+
+## 2026-10-28｜AUTO-60｜Accordion/Tabs 官方正文研究：非 UX/系統驗收
+- Trace `AUTO-60-20261028-0345-RESEARCH`；[本輪研究紀錄](research/notion-deep-study-automation-run-60-2026-10-28.md)。來源：[Accordion](https://design-system.service.gov.uk/components/accordion/)、[Tabs](https://design-system.service.gov.uk/components/tabs/)；各一次主要正文文字閱讀，兩篇首次反例（各2情境），均未達完整深讀 R1。
+- **研究證據範圍**：官方文字對 Accordion 的多段展開、隱藏內容、session storage/無 JS 行為與讀屏問題；對 Tabs 的單段顯示、跨頁比對風險、URL fragment、小螢幕退化與尚待使用者研究的限制。對治療所而言，「折疊/切頁」未必符合同頁開啟即見、跨 Session/Billing/補助核對的已確認需求。
+- **本輪未測／不得標 PASS**：原始互動與圖片、Notion 原生 Toggle/View tabs、真人 UX、鍵盤/讀屏、手機、角色權限、載入秒數、公式/歷史金額/資格及補助用量。全庫同文異址去重未完。
+- **嚴格計數**：新候選2、主要正文閱讀2、完整 R1–R10 0、`FULL_DEEP_PASS_10_OF_10` 新增0、累積可核實 **0／10,000篇**。僅 GitHub 研究紀錄；Notion/正式系統零寫入，不開始重新設計。
