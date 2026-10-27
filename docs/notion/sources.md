@@ -527,3 +527,10 @@
 - `AUTO52-S01` [Details – GOV.UK Design System](https://design-system.service.gov.uk/components/details/)；canonical `govuk-design-system:components/details`；維護者 GOV.UK Design System team，首發日未核；`AUTO52-S01-R1-MAIN-TEXT-C1`。閱讀用途／不適用、與Accordion/Tabs選擇、HTML/Nunjucks、可讀標籤、官方提及的語音操作問題、變更紀錄與獨立例子。反例：補助資格待核與跨期金額異常不能因版面精簡藏在預設收合區。
 - `AUTO52-S02` [Warning text – GOV.UK Design System](https://design-system.service.gov.uk/components/warning-text/)；canonical `govuk-design-system:components/warning-text`；維護者 GOV.UK Design System team，首發日未核；`AUTO52-S02-R1-MAIN-TEXT-C1`。閱讀重要後果警示、HTML/Nunjucks、圖示與非視覺文字、修訂紀錄及獨立例子。反例：待人工核對不可被紅色警示誤表述成已判定資格失效，所有欄位都強警示也可能造成警示疲勞。
 - **本輪候選2、主要正文文字R1各1、首次反例各1；完整R1/R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`新增0、累積嚴格0／10,000篇。** 原圖/互動/外連討論全文/真實Notion/手機/讀屏/權限/公式/效能均未驗；僅GitHub研究紀錄，Notion/正式系統零寫入，不開始重新設計。
+
+
+## 2026-10-27｜AUTO-53：提交前核對與任務清單（純研究，未進入 Notion 設計）
+- [AUTO-53 完整閱讀軌跡、反例與限制](research/notion-deep-study-automation-run-53-2026-10-27.md)；trace `AUTO-53-20261027-2041-RESEARCH`。main七項規範、research README、首批清冊、batch-02/03/04、MANUAL-01、十面向及 AUTO-52 已查。research 目錄開始時列64份Markdown；逐檔全文查重遭工具呼叫上限中斷，**不能宣稱64/64全文去重**；sources全文及GitHub code search對下列URL未命中，仍僅列已查索引新候選。
+- `AUTO53-S01` [Check answers – GOV.UK Design System](https://design-system.service.gov.uk/patterns/check-answers/)；canonical `govuk-design-system:patterns/check-answers`；GOV.UK Design System team；首次發表日未核；`AUTO53-S01-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks/範例已讀，核對與送出需分開；**Notion自動儲存不保證送出前仍未寫入或能回滾**，歷史金額也不能只靠瞬時公式顯示保證。
+- `AUTO53-S02` [Task list – GOV.UK Design System](https://design-system.service.gov.uk/components/task-list/)；canonical `govuk-design-system:components/task-list`；GOV.UK Design System team；2023-12元件引入，頁面首發日未核；`AUTO53-S02-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks/範例/已知缺口已讀；適合可自由順序的長流程，不應把高頻Session操作拆成冗長步驟；**Completed不等於政府資格核准或收款完成**。
+- **本輪已查索引新候選2、主要正文文字R1各1、首次獨立反例2；完整R1及R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0、累積嚴格仍0／10,000篇。** 原圖/互動/讀屏/實帳Notion/權限/效能/跨期金額公式真值未驗。只更新GitHub研究，Notion與正式系統零寫入，不開始重新設計。
