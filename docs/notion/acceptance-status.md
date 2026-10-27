@@ -838,3 +838,10 @@
 - **R1_MAIN_TEXT_PARTIAL**：GOV.UK Summary list 與 Tag 各一次可讀正文與獨立反例；已查sources未見兩篇完整URL，暫列新canonical候選2。原始圖/影音/互動、真人Notion/手機/角色權限/效能/跨期歷史金額/補助Formula真值均NOT_TESTED。
 - **嚴格計量**：本輪完整10/10新增0；累積可核實`FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。文字閱讀不等於完整深讀。
 - **NO NOTION/SYSTEM WRITE**：只更新GitHub研究及進度；未改Notion正式/TEST頁、資料庫、Data Source、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；不開始重新設計，雙軌研究繼續獨立並行。
+
+
+## 2026-10-27｜AUTO-51 研究取證驗收（非Notion業務驗收）
+- trace `AUTO-51-20261027-1841-RESEARCH`；[研究逐篇紀錄](research/notion-deep-study-automation-run-51-2026-10-27.md)。main七項規範與sources索引已重新讀取；sources內57個研究Markdown引用，但批次逐檔全文查重遭工具呼叫上限中斷，**未完成57/57全量比對或同文異址去重**。
+- **PARTIAL：公開正文研究** GOV.UK Error summary、Notification banner 各一次主要正文文字閱讀及獨立反例。兩個canonical在已查sources與GitHub code search未見重複，暫列候選2。沒有完整R1/R2–R10；原圖、完整示例互動、輔助技術、Notion原生操作、角色/手機/效能/跨期歷史金額及補助公式均NOT_TESTED。
+- **嚴格計量**：本輪`FULL_DEEP_PASS_10_OF_10`新增0；累積可核實仍**0／10,000篇**。研究文字取證不是 Notion 功能 PASS，不以文字設計建議直接宣稱可核准補助。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度；未改Notion正式/TEST頁面、資料庫、Data Source、View、Formula、Relation、權限、業務資料，亦未改正式GAS/Cloud Run/Session/部署。未開始重新設計；手動與自動續作獨立並行。
