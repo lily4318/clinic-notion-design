@@ -594,3 +594,10 @@
 - `AUTO62-S01` [File upload – GOV.UK Design System](https://design-system.service.gov.uk/components/file-upload/)；canonical `govuk-design-system:components/file-upload`；官方維護者 GOV.UK Design System team，本文首發日未核；`AUTO62-S01-R1-MAIN-TEXT-C1`。讀取用途、上傳/重用、錯誤分類、改良元件/可及性與版本更新、HTML/Nunjucks、獨立示例。反例：重用文件可減少重傳卻可能造成共用裝置/跨個案誤附；上傳成功≠內容有效或資格核准。
 - `AUTO62-S02` [Character count – GOV.UK Design System](https://design-system.service.gov.uk/components/character-count/)；canonical `govuk-design-system:components/character-count`；官方維護者 GOV.UK Design System team，本文首發日未核；`AUTO62-S02-R1-MAIN-TEXT-C1`。讀取適用/不適用、即時計數、字數/字元、閾值、錯誤、研究/已知問題/2026-10更新、HTML/Nunjucks與示例。反例：過小字數限制可能截斷必要行政紀錄；中英/emoji 的 UI 計數與實際儲存可能不一致。
 - **本輪候選2、主要正文文字閱讀各1、首次獨立反例各1組（共4情境）；完整R1/R2–R10均0，`FULL_DEEP_PASS_10_OF_10`新增0、累積可核實0／10,000篇**。原圖/互動/手機/鍵盤/讀屏、Notion實帳權限/檔案、Unicode輸入/保存、公式/效能未驗。只寫GitHub研究，不改Notion/正式系統，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-63：表單群組與長文字欄位（純研究）
+- [AUTO-63 原文閱讀軌跡與反例](research/notion-deep-study-automation-run-63-2026-10-28.md)；trace `AUTO-63-20261028-0641-RESEARCH`。已重新讀 main 規範、sources、research README、AUTO-62。先查得 Warning text/Notification banner 已分別列 AUTO-52/AUTO-51，**排除2篇重複候選**，不重複計篇或複讀。
+- `AUTO63-S01` [Fieldset – GOV.UK Design System](https://design-system.service.gov.uk/components/fieldset/)；canonical `govuk-design-system:components/fieldset`；GOV.UK Design System team；首發日未核；`AUTO63-S01-R1-MAIN-TEXT-C1`。主要正文/HTML/Nunjucks/legend/aria-describedby/分組/示例文字一次閱讀；反例：視覺分組不等於跨 Session/Billing/方案期別關聯正確；過度群組不一定符合開頁即見與高頻操作。
+- `AUTO63-S02` [Textarea – GOV.UK Design System](https://design-system.service.gov.uk/components/textarea/)；canonical `govuk-design-system:components/textarea`；GOV.UK Design System team；首發日未核；`AUTO63-S02-R1-MAIN-TEXT-C1`。主要正文/標籤/開放式問題/rows/貼上/錯誤/字數限制/示例文字一次閱讀；反例：自由文字不能代替互斥可稽核的資格/收款狀態；過度選項化又可能遺失必要行政例外脈絡。
+- 兩 canonical 在本次讀回的 sources 全文未見，GitHub code search（fieldset/textarea）未命中；**全研究目錄逐檔與同文異址語義去重仍未完成**，僅列新候選。新候選2、正文文字閱讀2、首次反例2組（4情境）；完整 R1/R2–R10 均0，`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實 **0／10,000篇**。原圖/互動/讀屏/手機/真人Notion/角色權限/公式/效能均未測。僅 GitHub 研究記錄，不改 Notion/正式系統，不開始重新設計。
