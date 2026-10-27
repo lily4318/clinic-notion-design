@@ -762,3 +762,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-27｜AUTO-50｜GOV.UK Summary list / Tag 的研究反例（非設計決策）
 - trace `AUTO-50-20261027-1738-RESEARCH`；[研究證據](research/notion-deep-study-automation-run-50-2026-10-27.md)。官方 Summary list 適用 key/value 摘要，不應取代跨 Session 表格；Tag 應為非互動狀態，文字語意不能只靠顏色。反例：卡片化可能使服務日/方案期別/歷史金額無法同時比較；把「待核」「不合格」「同步未驗」混成一種色標或把標籤當核准按鈕可能誤導。
 - **僅研究假說，不授權任何 Notion 改版**。本輪主要正文各讀1次、反例各1組；未完成原圖/互動/實帳/權限/公式驗證。全庫精確去重未完成，兩篇僅為已查索引新候選。嚴格10/10累積0／10,000；Notion/GAS/Cloud Run/Session/部署零寫入。
+
+
+## 2026-10-27｜AUTO-51 公開 UX 研究紀錄（非實作決策）
+- trace `AUTO-51-20261027-1841-RESEARCH`；[研究原文與反例](research/notion-deep-study-automation-run-51-2026-10-27.md)。已重讀main七項規範及研究清冊；sources.md抽得57個研究Markdown引用，批次逐檔查重受工具上限阻擋，**不宣稱全庫精確去重**。
+- 已查索引新候選2：GOV.UK Error summary、Notification banner；各一次主要正文文字閱讀、首次反例各1，非完整R1或R2–R10。前者區分欄位驗證錯誤與人工資格待核，後者區分跨頁通知與本頁關鍵狀態；Session儲存成功不可冒稱補助核准成功。
+- **研究推論，不是新設計核可**：Notion原生是否可實現焦點、錨點、驗證阻擋與橫幅仍未實測；不得據此修改Notion任何頁面/DB/View/Formula/Relation/權限。完整10/10新增0、累積`FULL_DEEP_PASS_10_OF_10`仍0／10,000篇。
+- NO NOTION/SYSTEM WRITE：只GitHub研究及進度記錄，GAS、Cloud Run、Session、部署均未改；研究未達標，不開始重新設計。
