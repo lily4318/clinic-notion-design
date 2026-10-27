@@ -831,3 +831,10 @@
 - **PARTIAL 研究文字**：Accordions complex content（2014）及 Visibility of System Status（2018）各一次主要正文文字閱讀、獨立反例各1；原圖、影片、外部研究、真實Notion角色/手機/自動化/公式/效能均NOT_TESTED。
 - **嚴格進度**：本輪完整10/10新增0、累積 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。正文R1文字≠完整R1深讀，亦不冒稱R2–R10。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度記錄，Notion正式/TEST頁、資料庫、View、Formula、Relation、權限、業務資料及GAS/Cloud Run/Session/部署均未修改；未開始重新設計。
+
+
+## 2026-10-27｜AUTO-50 研究取證驗收（非Notion業務驗收）
+- trace `AUTO-50-20261027-1738-RESEARCH`；[逐篇原始研究](research/notion-deep-study-automation-run-50-2026-10-27.md)。重讀main七項規範/來源索引，research tree列62份Markdown；逐檔全文去重工具呼叫上限中斷，**不可宣稱62/62查重或同文異址查核完成**。
+- **R1_MAIN_TEXT_PARTIAL**：GOV.UK Summary list 與 Tag 各一次可讀正文與獨立反例；已查sources未見兩篇完整URL，暫列新canonical候選2。原始圖/影音/互動、真人Notion/手機/角色權限/效能/跨期歷史金額/補助Formula真值均NOT_TESTED。
+- **嚴格計量**：本輪完整10/10新增0；累積可核實`FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。文字閱讀不等於完整深讀。
+- **NO NOTION/SYSTEM WRITE**：只更新GitHub研究及進度；未改Notion正式/TEST頁、資料庫、Data Source、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；不開始重新設計，雙軌研究繼續獨立並行。
