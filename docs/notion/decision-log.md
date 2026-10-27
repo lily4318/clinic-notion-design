@@ -736,3 +736,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **研究校正／HOLD-2**：人員點擊Button可觸發Database automation，但後者不能串觸發另一automation；View篩選改變作用對象，部分公式/Webhook錯誤未必通知。不得將一鍵流程想像成完整、原子、可回滾的補助計數／核准鏈；沒有錯誤通知也不是成功證據。
 - **限制**：Free Slack方案描述仍有官方文件內部張力，實帳/角色/付費方案/原圖影音/互動/手機/速度/公式真值均未驗；全研究目錄逐檔讀取遇工具上限，不能稱全庫去重完成。僅研究假說，不授權新增Button/Automation、改View/欄位/權限或調整歷史Session。
 - `FULL_DEEP_PASS_10_OF_10`新增0、累積仍**0／10,000篇**；Notion與正式GAS／Cloud Run／Session零寫入，不進入重新設計。自動與手動研究可並行。
+
+
+## 2026-10-27｜AUTO-47：Wizard／Reset／Cancel UX 研究假說（非設計決定）
+- trace `AUTO-47-20261027-1436-RESEARCH`；[逐篇研究證據](research/notion-deep-study-automation-run-47-2026-10-27.md)。已查索引新候選2：NN/g `wizards`（2017）與 `reset-and-cancel-buttons`（2000）；兩篇各完成一次主要正文文字閱讀與獨立反例，**不是完整深讀**。
+- **假說（未核可、未實作）**：低頻核定期別設定可能適合分步協助；高頻 Session 建立／補登歷史金額需保留同頁核對，避免多步切換遮蔽日期與期別；重用上次選項可能誤帶當期價格。Reset／Cancel／Back 的介面語意不等於資料庫交易回滾，不能作為歷史帳務更正或補助資格證據。
+- **反證與限制**：需真人角色、工作頻率、錯誤率、操作時間、中斷恢復、原生 Notion 能力及期別／公式真值驗證；2000 年舊網頁行為不可直接套用 2026 Notion。沒有決定新增 Wizard／按鈕／欄位／View。
+- **嚴格進度**：`FULL_DEEP_PASS_10_OF_10`本輪0、累積仍0／10,000篇。**NO NOTION/SYSTEM WRITE**：只GitHub研究紀錄；不改Notion正式／TEST頁、DB、View、Formula、Relation、權限、業務資料或GAS／Cloud Run／Session／部署；不開始重新設計。
