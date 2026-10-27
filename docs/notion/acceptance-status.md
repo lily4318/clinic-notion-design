@@ -817,3 +817,10 @@
 - **NOT_TESTED**：全部原始圖片／延伸文獻、真人 Notion 操作、原生 Wizard／Undo 功能、不同角色、手機、效能、跨期歷史金額與補助 Formula 真值；2000 年文章的現代適用性未實證。
 - **嚴格計量**：本輪已查索引新候選2、主要正文文字R1各一次、完整10/10新增0；累積 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。不把不同章節或反例當多次深讀。
 - **NO NOTION/SYSTEM WRITE**：只GitHub研究及進度記錄；未改Notion正式/TEST頁面、資料庫、Data Source、View、Formula、Relation、權限、業務資料，亦未改正式GAS／Cloud Run／Session／部署；研究門檻未達、未進入重新設計，雙軌研究仍獨立並行。
+
+
+## 2026-10-27｜AUTO-48 研究證據驗收（非Notion業務驗收）
+- trace `AUTO-48-20261027-1537-RESEARCH`；[研究原始紀錄](research/notion-deep-study-automation-run-48-2026-10-27.md)。已讀 main 七項規範、研究README及既有批次；sources.md與GitHub code search未見兩個新候選slug，已識別 `errors-forms-design-guidelines` 在AUTO-28登錄而不重複計數。研究目錄59份清單已取得，**59/59逐檔全文去重未完成**，全庫同文異址仍待查。
+- **R1_MAIN_TEXT（僅文字）**：Progressive Disclosure及Avoiding Unconscious Slips各一次主要正文閱讀、各一組首次獨立反例；沒有完整R1深讀，也沒有R2–R10獨立完整閱讀。**`FULL_DEEP_PASS_10_OF_10`新增0，累積0／10,000篇**。
+- **NOT_TESTED**：原圖/影音/外連研究、Notion真實頁面/角色/手機/權限/公式/跨期收費真值/效能；研究原則不可當成正式方案判定或實作驗收。
+- **NO NOTION/SYSTEM WRITE**：本輪只寫GitHub研究及進度；Notion正式或TEST頁、資料庫、Data Source、View、Formula、Relation、權限、個案/財務資料、GAS、Cloud Run、Session、部署均未修改。研究門檻未達，不進入重新設計；雙軌研究維持獨立並行。
