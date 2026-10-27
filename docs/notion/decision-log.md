@@ -714,3 +714,12 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **HOLD-1**：固定標頭與快速定位的利益須和手機/桌面內容可視面積權衡；不可讓補助額度、歷史Session日期及適用期別因導航佔位而失去同頁可比性；也不能因占位便一律移除定位入口。
 - **HOLD-2**：左側可見、具體命名的導航可能較易掃視，但長選單與側欄占寬、重複入口及圖示無文字都可能造成新負擔。需先測真實任務、角色與視窗尺寸，且不得把NN/g一般網站建議冒稱Notion原生功能。
 - **RESEARCH ONLY**：原圖/互動/Notion真人UX/權限/效能/公式未測；嚴格FULL_DEEP_PASS_10_OF_10本輪0、累積仍0／10,000。未修改Notion頁/DB/View/Formula/Relation/權限/業務資料，未改正式GAS/Cloud Run/Session/部署；未進入重新設計。雙軌研究維持、GitHub共用文件用最新blob SHA條件寫入。
+
+
+## 2026-10-27｜AUTO-44：資料庫層設定／View層色彩及權限之研究假說（HOLD，非設計核准）
+- trace `AUTO-44-20261027-1140-RESEARCH`；[兩篇既有官方文件的本輪獨立複讀與反例](research/notion-deep-study-automation-run-44-2026-10-27.md)。來源為既有DS-023「Database settings」及DS-022/N11「Database properties」；55/55份研究Markdown已逐檔核對；新增URL **0**、針對性複讀 **2**，不算完整第二遍。
+- **HOLD-1**：Database settings的Lock/頁面Layout是資料庫層級，Lock不能阻止資料內容變動；View的Conditional color/可見性不能代替全庫權限、歷史Session金額保存或補助核准。
+- **HOLD-2**：色彩是每View設定，複製View會繼承；不同View顏色不一致時，「沒有警示色」不能當作「已核准」。重要未知/待核/確認0/不適用須以業務語意明示。
+- **HOLD-3**：官方資料顯示Formula/Rollup/unique ID不支援Property comments；不能要求在計算欄位留言當作正式人工審核。500欄上限是每單一資料庫，不能將歷史稽核23個來源合計636欄視為超限。
+- **PENDING驗證**：Database settings需Can edit而View色彩文件允許Can edit content的具體權限邊界、Lock互動、各角色/方案/手機行為，皆未實帳測試。研究不授權新增欄位、改View或調整權限。
+- `FULL_DEEP_PASS_10_OF_10`本輪0、累積仍**0/10,000篇**。只更新GitHub研究證據，未修改Notion任何頁/DB/View/Formula/Relation/權限/業務資料，未修改GAS/Cloud Run/Session/部署；不進入重新設計。
