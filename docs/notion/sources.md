@@ -534,3 +534,10 @@
 - `AUTO53-S01` [Check answers – GOV.UK Design System](https://design-system.service.gov.uk/patterns/check-answers/)；canonical `govuk-design-system:patterns/check-answers`；GOV.UK Design System team；首次發表日未核；`AUTO53-S01-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks/範例已讀，核對與送出需分開；**Notion自動儲存不保證送出前仍未寫入或能回滾**，歷史金額也不能只靠瞬時公式顯示保證。
 - `AUTO53-S02` [Task list – GOV.UK Design System](https://design-system.service.gov.uk/components/task-list/)；canonical `govuk-design-system:components/task-list`；GOV.UK Design System team；2023-12元件引入，頁面首發日未核；`AUTO53-S02-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks/範例/已知缺口已讀；適合可自由順序的長流程，不應把高頻Session操作拆成冗長步驟；**Completed不等於政府資格核准或收款完成**。
 - **本輪已查索引新候選2、主要正文文字R1各1、首次獨立反例2；完整R1及R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0、累積嚴格仍0／10,000篇。** 原圖/互動/讀屏/實帳Notion/權限/效能/跨期金額公式真值未驗。只更新GitHub研究，Notion與正式系統零寫入，不開始重新設計。
+
+
+## 2026-10-27｜AUTO-54：GOV.UK 表格比較與分頁（僅研究）
+- [AUTO-54 原文閱讀軌跡、跨來源反例與限制](research/notion-deep-study-automation-run-54-2026-10-27.md)；trace `AUTO-54-20261027-2141-RESEARCH`。main七項規範、sources與研究目錄已查；研究目錄65份Markdown，已讀12份非AUTO清冊；其餘AUTO全文批次查重遇工具呼叫上限，**未完成65/65與同文異址精確去重**。兩篇在已查sources、早期清冊及GitHub code search未見相同canonical，僅列新來源候選。
+- `AUTO54-S01` [Table – GOV.UK Design System](https://design-system.service.gov.uk/components/table/)；canonical `govuk-design-system:components/table`；GOV.UK Design System team，首次發表日未核；`AUTO54-S01-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks、caption、header scope、數字靠右、欄寬及大量資料限制已讀。反例：同頁跨筆Session日期/期別/金額需要比較，但全量超寬表也可能造成操作與效能負擔；可讀格式≠歷史金額已保護。
+- `AUTO54-S02` [Pagination – GOV.UK Design System](https://design-system.service.gov.uk/components/pagination/)；canonical `govuk-design-system:components/pagination`；GOV.UK Design System team，首次發表日未核；`AUTO54-S02-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks、頁碼、首尾頁、無障礙及全資料集篩選排序已讀。反例：僅看第一頁不能推斷全期無其他Session；分頁/篩選可能使跨頁核對變難，不能以效能為由推翻使用者同頁直接看資料的要求。
+- **本輪已查索引新候選2、主要正文文字R1各1、首次獨立反例2篇、完整R1/R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`新增0、累積嚴格0／10,000篇。** 原圖/互動/Notion真實帳戶/手機/讀屏/權限/效能/公式/歷史金額未驗；只寫GitHub研究，不改Notion或正式系統，不開始重新設計。
