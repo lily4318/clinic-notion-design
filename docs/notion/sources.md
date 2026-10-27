@@ -459,3 +459,10 @@
 - `AUTO42-S01` [Listboxes vs. Dropdown Lists](https://www.nngroup.com/articles/listbox-dropdown/)；canonical `nngroup:articles/listbox-dropdown`；Anna Kaley，2020-04-12；`AUTO42-S01-R1-MAIN-TEXT-C1`。選單節省空間不代表歷史期別預設正確；顯示全部期別也可能過載，選擇控制不能代替服務日判定與歷史金額保存。
 - `AUTO42-S02` [Why So Many Info Tips Are Bad (and How to Make Them Better)](https://www.nngroup.com/articles/info-tips-bad/)；canonical `nngroup:articles/info-tips-bad`；Kate Kaplan，2026-01-23；`AUTO42-S02-R1-MAIN-TEXT-C1`。補助待核/跨期衝突不能藏在可選提示內；但內部AI設計規則也不能因此塞進業務頁。Notion原生自訂提示能力未驗。
 - **本輪**已查清冊新候選2、主要正文R1各一次共2、首次獨立反例2、完整R2–R10 0；`FULL_DEEP_PASS_10_OF_10` 新增0，累積嚴格仍**0／10,000篇**。原始圖片/互動/真人Notion、角色/手機/效能/公式/核定金額未驗。僅GitHub研究，Notion/正式系統零寫入，未開始重新設計。
+
+
+## 2026-10-27｜AUTO-43：固定標頭與左側垂直導覽（僅研究）
+- [AUTO-43逐節正文、獨立反例、去重與限制](research/notion-deep-study-automation-run-43-2026-10-27.md)；trace `AUTO-43-20261027-1041-RESEARCH`。開始及寫入前重新Fetch main七項規範與研究索引，研究目錄54/54份Markdown成功取得並比對兩篇canonical slug及標題，已查清冊無重複；全庫其他路徑與同文異址去重未完成。
+- `AUTO43-S01` [Sticky Headers: 5 Ways to Make Them Better](https://www.nngroup.com/articles/sticky-headers/)；canonical `nngroup:articles/sticky-headers`；Page Laubheimer，2021-04-04；`AUTO43-S01-R1-TEXT-C1`。正文定義/五指引/結論一次＋首次反例：常駐導覽可能壓縮同頁補助/Session關鍵資料；但長頁完全沒有定位也有成本。Notion自訂sticky能力未驗。
+- `AUTO43-S02` [Left-Side Vertical Navigation on Desktop: Scalable, Responsive, and Easy to Scan](https://www.nngroup.com/articles/vertical-nav/)；canonical `nngroup:articles/vertical-nav`；Page Laubheimer，2021-05-16；`AUTO43-S02-R1-TEXT-C1`。正文效益/空間代價/四指引/結論一次＋首次反例：具體可見入口可減少尋找，但側欄占寬可能妨礙歷史期別/日期/金額同時比對。不可把一般網站研究直接套成Notion實作能力。
+- 已識別 `/articles/data-tables/` 與 `/articles/empty-state-interface-design/` 為舊來源，未重算新增/完整複讀。**本輪新候選2、主要正文R1文字閱讀2、首次反例2、嚴格完整十次深讀新增0；累積FULL_DEEP_PASS_10_OF_10仍0／10,000篇**。原圖/影片/互動/真人Notion/權限/效能/公式未驗；只研究與GitHub記錄，不改Notion/正式系統，不進入重新設計。
