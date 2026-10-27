@@ -466,3 +466,10 @@
 - `AUTO43-S01` [Sticky Headers: 5 Ways to Make Them Better](https://www.nngroup.com/articles/sticky-headers/)；canonical `nngroup:articles/sticky-headers`；Page Laubheimer，2021-04-04；`AUTO43-S01-R1-TEXT-C1`。正文定義/五指引/結論一次＋首次反例：常駐導覽可能壓縮同頁補助/Session關鍵資料；但長頁完全沒有定位也有成本。Notion自訂sticky能力未驗。
 - `AUTO43-S02` [Left-Side Vertical Navigation on Desktop: Scalable, Responsive, and Easy to Scan](https://www.nngroup.com/articles/vertical-nav/)；canonical `nngroup:articles/vertical-nav`；Page Laubheimer，2021-05-16；`AUTO43-S02-R1-TEXT-C1`。正文效益/空間代價/四指引/結論一次＋首次反例：具體可見入口可減少尋找，但側欄占寬可能妨礙歷史期別/日期/金額同時比對。不可把一般網站研究直接套成Notion實作能力。
 - 已識別 `/articles/data-tables/` 與 `/articles/empty-state-interface-design/` 為舊來源，未重算新增/完整複讀。**本輪新候選2、主要正文R1文字閱讀2、首次反例2、嚴格完整十次深讀新增0；累積FULL_DEEP_PASS_10_OF_10仍0／10,000篇**。原圖/影片/互動/真人Notion/權限/效能/公式未驗；只研究與GitHub記錄，不改Notion/正式系統，不進入重新設計。
+
+
+## 2026-10-27｜AUTO-44：資料庫設定與欄位色彩權限的交叉複讀（研究，不是實作）
+- [AUTO-44逐篇重新閱讀與跨文件反例](research/notion-deep-study-automation-run-44-2026-10-27.md)；trace `AUTO-44-20261027-1140-RESEARCH`。重新讀main七項規範及研究README，研究目錄55/55份Markdown已逐檔取得比對兩篇URL；兩篇均已於2026-10-25批次02登錄（DS-022/DS-023，前者另見首批N11），**新增去重來源0**，本輪僅各一次針對性複讀（不是完整R2）。
+- `AUTO44-R01` [Database settings](https://www.notion.com/en-gb/help/customize-your-database)；canonical `notion-help:customize-your-database`；原登錄DS-023；`TARGETED_REREAD_R2_TEXT+CROSS_COUNTEREXAMPLE`。Database settings影響整個來源庫、Lock database不禁止輸入資料；調整全庫layout不能誤當只改單View。
+- `AUTO44-R02` [Database properties](https://www.notion.com/help/database-properties)；canonical `notion-help:database-properties`；原登錄N11/DS-022；`TARGETED_REREAD_R2_TEXT+CROSS_COUNTEREXAMPLE`。Conditional color為View層設定且複製View會繼承；Formula/Rollup/unique ID不支援欄位留言；500 properties上限是每庫，不可將23來源合計636欄當作單庫超限。
+- 兩篇權限敘述（Database settings需Can edit；Conditional color可由Can edit content設定）可能屬不同設定層級，需另經隔離角色驗證，**未宣稱矛盾已解或Notion實帳PASS**。新來源0、針對性複讀2、完整10/10新增0；累積嚴格`FULL_DEEP_PASS_10_OF_10`仍**0/10,000篇**。原圖/影音/互動/真實Notion角色/手機/公式/效能未驗；僅GitHub研究，Notion與正式系統零寫入，不進入重新設計。
