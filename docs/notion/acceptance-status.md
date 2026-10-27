@@ -878,3 +878,9 @@
 - **PARTIAL**：GOV.UK Checkboxes 與 Radios 各一次主要正文/HTML/Nunjucks/條件揭露/錯誤/已知 WCAG 問題閱讀，各有首次獨立反例；不是完整R1或R2–R10。未勾選≠已確認0；單選≠按歷史服務日選對期別；未知≠不符合。
 - **嚴格進度**：本輪新候選2、正文文字閱讀2、完整10/10新增0，累積可稽核 `FULL_DEEP_PASS_10_OF_10` 仍 **0／10,000篇**。原圖/互動/鍵盤/讀屏/手機/Notion角色/公式/效能/歷史金額均NOT_TESTED。
 - **NO NOTION/SYSTEM WRITE**：只GitHub研究與進度記錄，未修改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料及正式GAS/Cloud Run/Session/部署；不進入重新設計，雙軌續作可並行。
+
+## 2026-10-28｜AUTO-57 公開研究證據（非 Notion 業務驗收）
+- Trace `AUTO-57-20261028-0045-RESEARCH`；[完整閱讀軌跡與反例](research/notion-deep-study-automation-run-57-2026-10-28.md)。已讀main八項規範/研究入口，research 目錄68份清單；兩個canonical在sources及repo搜尋未命中，但未完成68份全文和同文異址精確去重。
+- **PARTIAL**：GOV.UK Date input、Select各一次主要正文/HTML/Nunjucks/錯誤/已知問題閱讀與首次獨立反例；**不是完整R1，也沒有R2–R10**。日期合法≠歷史補助期別正確；Select預設最新期別≠合法收費。
+- **嚴格進度**：本輪候選2、主要正文閱讀2、完整10/10新增0，累積可核實 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。原圖、互動、手機、鍵盤、讀屏、Notion原生Date/Relation/Formula、歷史金額、權限、效能均NOT_TESTED。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究/進度；未改Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；不進入重新設計，手動/自動可並行。
