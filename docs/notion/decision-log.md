@@ -797,3 +797,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - trace `AUTO-56-20261027-2337-RESEARCH`；[閱讀紀錄](research/notion-deep-study-automation-run-56-2026-10-27.md)。GOV.UK Checkboxes/Radios 主要正文文字各讀一次，未完成圖片與互動、不是完整深讀。
 - 研究反證：未勾選不能當已確認零；多選可能允許互斥資格狀態同時成立；單選雖可避免互斥，預選最新方案期別仍會誤導歷史Session；正式資格判定與資料蒐集階段對「未知」的容許不同。**不因本研究新增欄位、改狀態、預設值或流程**；需要實際 Notion/業務證據及使用者另行授權。
 - 僅GitHub研究紀錄；Notion/正式GAS/Cloud Run/Session/部署零寫入。十萬次嚴格閱讀門檻未達，未進入重新設計。
+
+## 2026-10-28｜AUTO-57：日期與方案選擇的業務驗證邊界（僅研究，非設計決策）
+- Trace `AUTO-57-20261028-0045-RESEARCH`；[閱讀及反例](research/notion-deep-study-automation-run-57-2026-10-28.md)。GOV.UK Date input 與 Select 各一次主要正文文字閱讀、獨立反例各1；未完成圖片/互動/Notion實帳或十次深讀。
+- **研究推論**：日期輸入的格式有效、真實服務日期、補助核定期符合性是三種不同驗證；縮短方案清單與保留歷史期別存在衝突，Select預設值不能保證歷史Session的收費方案與金額正確。英國元件不代表Notion原生Date/Relation能提供同等行為。
+- 本輪候選2、完整10/10新增0，累積嚴格0／10,000；全庫同文異址去重、真人UX/角色/權限/公式/效能未驗。**不核准任何Notion設計或資料更動**；Notion及正式GAS/Cloud Run/Session/部署零寫入。
