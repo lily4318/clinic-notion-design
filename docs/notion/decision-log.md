@@ -827,3 +827,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-28｜AUTO-61｜Inset text/Panel 資訊顯著性與業務狀態研究（非設計核准）
 - Trace `AUTO-61-20261028-0437-RESEARCH`；[研究證據](research/notion-deep-study-automation-run-61-2026-10-28.md)。官方 [Inset text](https://design-system.service.gov.uk/components/inset-text/) 低顯著度補充資訊與 [Panel](https://design-system.service.gov.uk/components/panel/) 確認/中斷交易節點之用途不同。**研究推論**：資格待核與期別矛盾不能藏在容易忽略的補充說明；Session資料已儲存、交易完成、資格核准、Billing入帳不能視為同一狀態；不可為高頻行政操作任意增加中斷步驟。
 - 兩篇各一次官方主要正文文字閱讀及首次反例，**非完整R1/R2–R10**；已查索引新候選2，嚴格10/10新增0、累積0／10,000篇。全庫同文異址去重、原圖互動、真人UX、角色權限、公式及效能未驗。僅 GitHub 研究記錄，**不授權也未修改** Notion/正式系統，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-62：文件重用與文字長度的權限／資料完整性界線（僅研究）
+- Trace `AUTO-62-20261028-0537-RESEARCH`；[逐篇閱讀與反例](research/notion-deep-study-automation-run-62-2026-10-28.md)；官方 [File upload](https://design-system.service.gov.uk/components/file-upload/) 與 [Character count](https://design-system.service.gov.uk/components/character-count/) 各一次主要正文文字閱讀及首次反例，**非完整R1，也沒有R2–R10**。
+- **研究推論，非核准設計**：文件重用可降低重複輸入，但共用設備、跨個案、角色可見性可能引入誤附或洩露；檔案上傳完成≠內容有效、補助核准。文字上限若無證據，可能截斷必要的 Session/行政紀錄；Unicode/emoji 計數與實際儲存限制需在 Notion/GAS 原生驗證。GOV.UK 元件的 HTML/JS/可及性不能推定為 Notion 原生能力。
+- 來源候選2（全庫同文異址去重未完）、正文文字閱讀2、首次反例2組；`FULL_DEEP_PASS_10_OF_10`新增0、累積嚴格**0／10,000篇**。原圖、實際互動、權限、真人UX、效能及業務真值未驗。**不核准也未進行任何 Notion 頁面、資料庫、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署修改；不開始重新設計。**
