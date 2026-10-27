@@ -479,3 +479,10 @@
 - `AUTO45-S01` [Website Forms Usability: Top 10 Recommendations](https://www.nngroup.com/articles/web-form-design/)；canonical `nngroup:articles/web-form-design`；Kathryn Whitenton，2016-05-01；`AUTO45-S01-R1-MAIN-TEXT-C1`：已讀正文10項規則、結論、引用與圖說，未驗原圖/原研究全文；新增候選1，非完整DEEP_PASS。反例：縮減輸入不可誤刪首次服務日期/核定期別等必要資訊，亦不可因顯眼Clear操作破壞歷史Session。
 - `AUTO45-R01` [Memory Recognition and Recall in User Interfaces](https://www.nngroup.com/articles/recognition-and-recall/)；canonical `nngroup:articles/recognition-and-recall`；Raluca Budiu，2024-01-15；既有batch-02 `UX-018`，**不重算新來源**；`AUTO45-R01-TARGETED-REREAD-TEXT-C1`：本輪重新閱讀記憶活化、辨識/回憶、可見選單、近期歷史、結論，新增「最近使用方案不一定適用歷史Session」反例；非完整R2。
 - 本輪已查清冊新候選1、既有來源針對性複讀1、新反例2、完整十次深讀新增0；累積嚴格`FULL_DEEP_PASS_10_OF_10`仍**0／10,000篇**。原圖/影音/互動、Notion真實角色/手機/效能/公式/金額均未測。僅GitHub研究紀錄，Notion及正式系統零寫入，不進入重新設計。
+
+
+## 2026-10-27｜AUTO-46：原生按鈕確認與資料庫自動化的權限／觸發鏈（既有來源複讀；研究限定）
+- [AUTO-46 官方原文重新閱讀、跨文檔反證與限制](research/notion-deep-study-automation-run-46-2026-10-27.md)；trace `AUTO-46-20261027-1339-RESEARCH`。重新Fetch main 七項主要規範、來源索引、研究README及相關批次。sources索引連結52份研究文件；批次全文讀取遇工具呼叫上限，**未宣稱52/52重查完成**。
+- `AUTO46-R01` [Database buttons](https://www.notion.com/help/database-buttons)；canonical `notion-help:database-buttons`；**既有十面向N12／batch-03**，不算新URL。官方明列 `Show confirmation`，Full access／Can edit 可設定，Can edit content 可點擊；目標資料庫仍須相應寫入權。確認動作≠資格核准、原子交易或回滾保證；`TARGETED_REREAD_TEXT_CROSS_COUNTEREXAMPLE`，非完整R2。
+- `AUTO46-R02` [Database automations](https://www.notion.com/help/database-automations)；canonical `notion-help:database-automations`；**既有MANUAL-01-02**，不算新URL。Button action可觸發automation，但automation不能再觸發另一automation；View篩選可能改變作用對象，公式/Webhook錯誤可能不通知。Free Slack權益的官方文字張力仍未實帳核實；`TARGETED_REREAD_TEXT_CROSS_COUNTEREXAMPLE`，非完整R2。
+- 本輪新增canonical **0**、既有來源針對性文字複讀 **2**、新交叉反例 **2組**；`FULL_DEEP_PASS_10_OF_10`本輪新增**0**，累積仍**0／10,000篇**。原圖、影音、互動、實帳角色/付費權益/公式/效能未驗；僅GitHub研究紀錄，**Notion／正式系統零寫入，不進入重新設計**。
