@@ -452,3 +452,10 @@
 - `AUTO41-S01` [Mobile Tables: Comparisons and Other Data Tables](https://www.nngroup.com/articles/mobile-tables/)；canonical `nngroup:articles/mobile-tables`；Amy Schade，2017-09-17；`AUTO41-S01-R1-TEXT-C1`。手機表格可讀性、表頭與首欄、橫向捲動線索及按任務縮減資料；分頁切開必須同時核對的歷史收費期別與Session日期會提高記憶負荷。
 - `AUTO41-S02` [Leverage AI for Mock Tables and Charts When Testing Prototypes](https://www.nngroup.com/articles/ai-data-prototype-testing/)；canonical `nngroup:articles/ai-data-prototype-testing`；Evan Sunwall，2024-09-06；`AUTO41-S02-R1-TEXT-C1`。高擬真虛構資料需約束格式/分布/跨欄計算並以程式驗證；AI自述驗證不等於真值，禁止外傳真實個案/財務資料。
 - **本輪已查索引新候選2、主要正文R1 2、首次獨立反例2、完整十次深讀0；累積嚴格10/10仍0/10,000篇**。原圖/影片/互動、Notion真實手機/權限/效能/公式未測；僅GitHub研究，未改Notion或正式系統，不開始重新設計。
+
+## 2026-10-27｜AUTO-42：選單控制與情境提示（僅研究）
+
+- [AUTO-42主要文字閱讀、獨立反例、去重及限制](research/notion-deep-study-automation-run-42-2026-10-27.md)；trace `AUTO-42-20261027-0944-RESEARCH`。開始前重讀 main 七項主要規範、research README/最近批次及來源索引；research 目錄53/53份 Markdown 均實際 Fetch 並比對兩個候選 slug，兩者在已查索引及研究目錄均未登錄。**全庫其他路徑與同文異址精確去重仍待核實**。
+- `AUTO42-S01` [Listboxes vs. Dropdown Lists](https://www.nngroup.com/articles/listbox-dropdown/)；canonical `nngroup:articles/listbox-dropdown`；Anna Kaley，2020-04-12；`AUTO42-S01-R1-MAIN-TEXT-C1`。選單節省空間不代表歷史期別預設正確；顯示全部期別也可能過載，選擇控制不能代替服務日判定與歷史金額保存。
+- `AUTO42-S02` [Why So Many Info Tips Are Bad (and How to Make Them Better)](https://www.nngroup.com/articles/info-tips-bad/)；canonical `nngroup:articles/info-tips-bad`；Kate Kaplan，2026-01-23；`AUTO42-S02-R1-MAIN-TEXT-C1`。補助待核/跨期衝突不能藏在可選提示內；但內部AI設計規則也不能因此塞進業務頁。Notion原生自訂提示能力未驗。
+- **本輪**已查清冊新候選2、主要正文R1各一次共2、首次獨立反例2、完整R2–R10 0；`FULL_DEEP_PASS_10_OF_10` 新增0，累積嚴格仍**0／10,000篇**。原始圖片/互動/真人Notion、角色/手機/效能/公式/核定金額未驗。僅GitHub研究，Notion/正式系統零寫入，未開始重新設計。
