@@ -809,3 +809,11 @@
 - **研究文字證據 PASS（限官方現行可讀文字）**：Database button的`Show confirmation`確實有官方記載；Button action可能觸發automation，automation本身不會連鎖觸發另一automation；View篩選與部分靜默錯誤可能造成計數/更新未完成。研究結論不等於本所已配置或已驗收。
 - **NOT_TESTED**：全部原圖、影片、互動、真人Notion工作區、不同角色/方案權益、跨期歷史Session金額、政府補助公式、手機與效能。sources索引連結52份研究文件，批次逐檔Fetch遇工具上限；未宣稱52/52全文重新查重，其他路徑/同文異址仍待稽核。
 - **嚴格計量**：本輪`FULL_DEEP_PASS_10_OF_10`新增0，累積可稽核仍**0／10,000篇**。**NO NOTION/SYSTEM WRITE**：僅GitHub研究及進度記錄；未改Notion正式/TEST頁面、資料庫、Data Source、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；未開始重新設計，手動與每小時研究仍可並行。
+
+
+## 2026-10-27｜AUTO-47 研究取證驗收（非Notion業務驗收）
+- trace `AUTO-47-20261027-1436-RESEARCH`；[完整閱讀與反例證據](research/notion-deep-study-automation-run-47-2026-10-27.md)。重讀 main 主要規範及索引；sources.md 所列研究 Markdown **53/53** 成功 Fetch，兩篇新候選 URL／標題在已查清冊無重複。其他未索引路徑、同文異址的全庫精確去重未完成。
+- **PASS 限公開主要正文與研究紀錄**：NN/g `Wizards`（2017）與 `Reset and Cancel Buttons`（2000）各一次正文文字閱讀＋首次反例。分步流程可能適合低頻設定，卻可能妨礙高頻 Session／歷史期別同頁核對；Cancel／Back／Reset 不可視為已寫入資料的回滾保證。這是研究推論，非本所業務或產品功能驗收。
+- **NOT_TESTED**：全部原始圖片／延伸文獻、真人 Notion 操作、原生 Wizard／Undo 功能、不同角色、手機、效能、跨期歷史金額與補助 Formula 真值；2000 年文章的現代適用性未實證。
+- **嚴格計量**：本輪已查索引新候選2、主要正文文字R1各一次、完整10/10新增0；累積 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。不把不同章節或反例當多次深讀。
+- **NO NOTION/SYSTEM WRITE**：只GitHub研究及進度記錄；未改Notion正式/TEST頁面、資料庫、Data Source、View、Formula、Relation、權限、業務資料，亦未改正式GAS／Cloud Run／Session／部署；研究門檻未達、未進入重新設計，雙軌研究仍獨立並行。
