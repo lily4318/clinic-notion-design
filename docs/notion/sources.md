@@ -560,3 +560,10 @@
 - `AUTO57-S01` [Date input – GOV.UK Design System](https://design-system.service.gov.uk/components/date-input/)；canonical `govuk-design-system:components/date-input`；維護者 GOV.UK Design System team，首發日未核，2026-07有元件更新；`AUTO57-S01-R1-MAIN-TEXT-C1`。已讀主文、HTML/Nunjucks、錯誤與變更；反例：歷史Session日期格式有效≠符合核定期或真實服務時序，民國/西元/時區與跨午夜不可直接照搬英國日期元件。
 - `AUTO57-S02` [Select – GOV.UK Design System](https://design-system.service.gov.uk/components/select/)；canonical `govuk-design-system:components/select`；維護者 GOV.UK Design System team，首發日未核，2025-03有元件更新；`AUTO57-S02-R1-MAIN-TEXT-C1`。已讀主文、HTML/Nunjucks、錯誤/已知問題；反例：僅列現行方案會隱藏合法歷史期別，預設最新方案/金額可能誤收歷史Session。
 - **本輪候選2、主要正文文字閱讀各1、首次反例各1；完整R1/R2–R10均0，`FULL_DEEP_PASS_10_OF_10`新增0、累積仍0／10,000篇**。原圖/互動/鍵盤/讀屏/Notion實帳/權限/效能/公式未驗。只記GitHub，不改Notion/正式系統，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-58：欄位錯誤與單行輸入（僅研究；未核准設計）
+- [逐篇閱讀覆蓋、獨立反例與限制](research/notion-deep-study-automation-run-58-2026-10-28.md)；trace `AUTO-58-20261028-0141-RESEARCH`。開始前重讀 main 規範、來源索引、基線/批次清冊、AUTO-57，並檢查 AUTO-01～08；GitHub code search 未命中下列 canonical，但**研究目錄全檔查重因工具上限未完成**，兩篇僅為已查索引新來源候選。
+- `AUTO58-S01` [Error message – GOV.UK Design System](https://design-system.service.gov.uk/components/error-message/)；canonical `govuk-design-system:components/error-message`；維護者 GOV.UK Design System team，首發日未核；`AUTO58-S01-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks、欄位訊息與 Error summary 一致、保留原輸入、不可把資格不符/權限不足/服務故障當成欄位錯誤；反例：補助待核≠使用者可修正的輸入錯誤，歷史Session期別衝突不能強迫改最新期別。
+- `AUTO58-S02` [Text input – GOV.UK Design System](https://design-system.service.gov.uk/components/text-input/)；canonical `govuk-design-system:components/text-input`；維護者 GOV.UK Design System team，首發日未核，2026-06有指引/元件更新；`AUTO58-S02-R1-MAIN-TEXT-C1`。正文主要章節、HTML/Nunjucks、label/placeholder、inputmode/number、前後綴、maxlength/貼上/autocomplete、錯誤與變更；反例：方案名稱文字不等於Price Plan期別ID，識別碼前置零/歷史金額不能任意截斷，共用裝置自動填入可能增加隱私及跨案誤帶風險。
+- 本輪新候選2、主要正文文字閱讀2、首次獨立反例2篇、嚴格完整R1及R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`本輪0、累積仍 **0／10,000篇**。原圖/互動/鍵盤/讀屏/Notion真實操作/權限/效能/公式/歷史金額及全庫同文異址去重未驗；**只寫GitHub研究，不改Notion/正式系統，不開始重新設計**。
