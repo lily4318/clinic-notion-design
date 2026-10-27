@@ -493,3 +493,10 @@
 - `AUTO47-S01` [Wizards: Definition and Design Recommendations](https://www.nngroup.com/articles/wizards/)；canonical `nngroup:articles/wizards`；Raluca Budiu，2017-06-25；`AUTO47-S01-R1-MAIN-TEXT-C1`。已讀主要正文與八項建議、缺點、結論：Wizard 可減低低頻設定負擔，但高頻 Session／歷史期別核對的跨步切換可能增加錯誤與操作成本；上次選擇不能取代服務日期判定。
 - `AUTO47-S02` [Reset and Cancel Buttons](https://www.nngroup.com/articles/reset-and-cancel-buttons/)；canonical `nngroup:articles/reset-and-cancel-buttons`；Jakob Nielsen，2000-04-15；`AUTO47-S02-R1-MAIN-TEXT-C1`。已讀主要全文與例外：Reset 容易誤清資料，Cancel／Back 不保證已寫入的 Session／補助資料回滾；舊文需現代產品驗證。
 - **本輪已查清冊新候選2、主要正文文字R1各1次、首次獨立反例2組、完整R2–R10 0；`FULL_DEEP_PASS_10_OF_10`新增0，累積嚴格仍0／10,000篇**。未逐張驗原圖、外部研究、實帳 Notion／手機／權限／效能／公式；只寫GitHub研究，Notion與正式系統零寫入，不開始重新設計。
+
+
+## 2026-10-27｜AUTO-48：漸進揭露與無意識操作失誤（僅研究）
+- [AUTO-48 主要正文閱讀、反例及限制](research/notion-deep-study-automation-run-48-2026-10-27.md)；trace `AUTO-48-20261027-1537-RESEARCH`。main 七項規範與 research README 已讀，研究目錄清單59份已取得，但批次全文Fetch遇工具呼叫上限，**未完成59/59逐檔全文去重**；sources索引及GitHub code search對以下兩篇slug未命中，僅列「已查索引新來源候選」，全庫其他路徑與同文異址仍待核查。原擬閱讀 `errors-forms-design-guidelines` 已於 AUTO-28 登錄，本輪排除不重算。
+- `AUTO48-S01` [Progressive Disclosure](https://www.nngroup.com/articles/progressive-disclosure/)；canonical `nngroup:articles/progressive-disclosure`；Jakob Nielsen，2006-12-03；`AUTO48-S01-R1-MAIN-TEXT-C1`。已讀正文各節、progressive/staged比較及案例，首次反例：不能因「漸進揭露」把同頁核對的Session日期、方案期別、金額移到二級入口；但低頻內部設定也不宜淹沒首屏。
+- `AUTO48-S02` [Preventing User Errors: Avoiding Unconscious Slips](https://www.nngroup.com/articles/slips/)；canonical `nngroup:articles/slips`；Page Laubheimer，2015-08-23；`AUTO48-S02-R1-MAIN-TEXT-C1`。已讀正文各節、slip/mistake差異與四種預防策略；首次反例：預設最近使用的方案可能讓補登歷史Session套錯期別，硬性禁止所有不同方案也可能阻礙合法例外。
+- **本輪已查索引新候選2、主要正文文字R1 2、首次獨立反例2篇、完整十次深讀新增0；累積`FULL_DEEP_PASS_10_OF_10`仍0／10,000篇**。原圖/延伸全文/實際Notion角色、手機、公式、效能未驗；僅GitHub研究記錄，Notion/正式系統零寫入，不開始重新設計。
