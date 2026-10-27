@@ -769,3 +769,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - 已查索引新候選2：GOV.UK Error summary、Notification banner；各一次主要正文文字閱讀、首次反例各1，非完整R1或R2–R10。前者區分欄位驗證錯誤與人工資格待核，後者區分跨頁通知與本頁關鍵狀態；Session儲存成功不可冒稱補助核准成功。
 - **研究推論，不是新設計核可**：Notion原生是否可實現焦點、錨點、驗證阻擋與橫幅仍未實測；不得據此修改Notion任何頁面/DB/View/Formula/Relation/權限。完整10/10新增0、累積`FULL_DEEP_PASS_10_OF_10`仍0／10,000篇。
 - NO NOTION/SYSTEM WRITE：只GitHub研究及進度記錄，GAS、Cloud Run、Session、部署均未改；研究未達標，不開始重新設計。
+
+## 2026-10-27｜AUTO-52 公開UX研究紀錄（非實作決策）
+- trace `AUTO-52-20261027-1937-RESEARCH`；[研究原文及反例](research/notion-deep-study-automation-run-52-2026-10-27.md)。已讀main規範與研究清冊，63份研究Markdown tree已取得，但未全量逐檔去重；GOV.UK Details、Warning text僅列已查索引新候選各1，主要正文閱讀與反例各1，未達完整深讀。
+- **研究推論，不是設計核可**：大多數工作者需見的跨期金額異常與資格待核狀態不應被收合；重要警示必須有已證實的高後果事實，不能把未知誤呈為不合格；Notion 原生 Toggle、文字警示、ARIA／輔助技術與官方範例不保證等效。
+- 嚴格完整10/10新增0、累積 `FULL_DEEP_PASS_10_OF_10` 仍0／10,000；**只GitHub研究記錄**，不改Notion Page/DB/View/Formula/Relation/權限，也不改GAS/Cloud Run/Session/部署，未開始重新設計。
