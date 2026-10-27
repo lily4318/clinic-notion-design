@@ -815,3 +815,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **研究推論，不是已核准方案**：Notion Dashboard view 的跨來源 global filter 只作用於含相應屬性的 widget，可能導致 Sessions、Billing、補助用量顯示不同母體卻被誤認同一條件；View 模式的個人篩選與共用保存不同，改底層 View 可能傳播；Dashboard 不替代資料權限，且官方僅 Business/Enterprise 可用，最多12 widgets/每列4個，過多資料可能拖慢。
 - **既有使用者要求保持**：同類業務資料應同頁直接可見，不能為追求 Dashboard 外觀把日常核對資料只改為連結。研究不授權改動任何 Notion 介面或資料；正式設計需等10,000篇各10次嚴格深讀完成及使用者確認。
 - 本輪候選1、主要正文文字R1 1、首次反例1篇/4情境、完整10/10新增0、累積嚴格0／10,000。圖片、互動、真人UX、角色/權限、效能、公式均未驗；**GitHub 研究紀錄以外零寫入**。
+
+
+## 2026-10-28｜AUTO-60｜Accordion/Tabs 的遮蔽風險與同頁直接可見（研究結論，非設計核可）
+- Trace `AUTO-60-20261028-0345-RESEARCH`；[研究原文與反例](research/notion-deep-study-automation-run-60-2026-10-28.md)。GOV.UK [Accordion](https://design-system.service.gov.uk/components/accordion/) 與 [Tabs](https://design-system.service.gov.uk/components/tabs/) 各完成一次官方主要正文文字閱讀及獨立反例；未逐張驗原圖、實際互動、鍵盤/讀屏/手機與 Notion 真實操作，非完整 R1，R2–R10 均0。
+- **研究推論，非核准改版**：Accordion 能同時展開多段，但收合可能藏住資格待核與期別矛盾；Tabs 只顯示一段，跨 Session/Billing/補助用量核對可能需記憶切換，並可能混淆不同篩選母體。兩者都不能用「同頁」名義取代使用者要求的「開啟即見日常資料」；也不能直接把 GOV.UK 的 JS/無障礙行為套用到 Notion Toggle/View tabs。
+- 已查來源索引與 code search 未見兩個 canonical；全研究目錄逐檔與同文異址全庫去重未完成。新候選2、主要正文文字閱讀2、首次反例2篇、完整10/10新增0，累積 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。
+- 僅 GitHub 研究紀錄；**不核准修改** Notion 頁面、資料庫、View、Formula、Relation、權限、業務資料或正式 GAS/Cloud Run/Session/部署。研究門檻未達且使用者未確認，不開始重新設計。
