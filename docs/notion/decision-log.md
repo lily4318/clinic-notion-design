@@ -802,3 +802,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-57-20261028-0045-RESEARCH`；[閱讀及反例](research/notion-deep-study-automation-run-57-2026-10-28.md)。GOV.UK Date input 與 Select 各一次主要正文文字閱讀、獨立反例各1；未完成圖片/互動/Notion實帳或十次深讀。
 - **研究推論**：日期輸入的格式有效、真實服務日期、補助核定期符合性是三種不同驗證；縮短方案清單與保留歷史期別存在衝突，Select預設值不能保證歷史Session的收費方案與金額正確。英國元件不代表Notion原生Date/Relation能提供同等行為。
 - 本輪候選2、完整10/10新增0，累積嚴格0／10,000；全庫同文異址去重、真人UX/角色/權限/公式/效能未驗。**不核准任何Notion設計或資料更動**；Notion及正式GAS/Cloud Run/Session/部署零寫入。
+
+
+## 2026-10-28｜AUTO-58：錯誤訊息與文字輸入的業務語義（研究結論，非設計核准）
+- Trace `AUTO-58-20261028-0141-RESEARCH`；[完整研究及反例](research/notion-deep-study-automation-run-58-2026-10-28.md)。GOV.UK Error message 與 Text input 各完成一次主要正文文字閱讀及獨立反例；原圖/互動/輔助技術/真實Notion均未驗，非完整 R1，無 R2–R10。
+- **研究推論**：可由操作者修正的欄位格式/必填錯誤、待人工核實的補助資格與期別矛盾、服務端故障不能用同一種紅色欄位錯誤表示；歷史Session錯期不得以「改成最新方案」強制修正。文字搜尋/輸入不等於Price Plan關聯或唯一鍵；數字、金額、識別碼前置零、剪貼截斷與共用設備自動填入存在不同風險。HTML設計指南不能證實Notion原生元件提供相同驗證或ARIA行為。
+- 新來源候選2、主要正文閱讀2、首次反例2；全庫同文異址去重未完成；完整10/10新增0，累積可核實 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。**不核准任何Notion頁面、資料庫、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署變更；僅GitHub研究紀錄。**
