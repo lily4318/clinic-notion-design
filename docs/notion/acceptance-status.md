@@ -905,3 +905,10 @@
 - **研究證據範圍**：官方文字對 Accordion 的多段展開、隱藏內容、session storage/無 JS 行為與讀屏問題；對 Tabs 的單段顯示、跨頁比對風險、URL fragment、小螢幕退化與尚待使用者研究的限制。對治療所而言，「折疊/切頁」未必符合同頁開啟即見、跨 Session/Billing/補助核對的已確認需求。
 - **本輪未測／不得標 PASS**：原始互動與圖片、Notion 原生 Toggle/View tabs、真人 UX、鍵盤/讀屏、手機、角色權限、載入秒數、公式/歷史金額/資格及補助用量。全庫同文異址去重未完。
 - **嚴格計數**：新候選2、主要正文閱讀2、完整 R1–R10 0、`FULL_DEEP_PASS_10_OF_10` 新增0、累積可核實 **0／10,000篇**。僅 GitHub 研究紀錄；Notion/正式系統零寫入，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-61 研究取證 PARTIAL（不是 Notion 功能驗收）
+- Trace `AUTO-61-20261028-0437-RESEARCH`；[逐篇來源與反例](research/notion-deep-study-automation-run-61-2026-10-28.md)。已查 sources 全文及 repo code search 未見 Inset text/Panel 兩個 canonical；全儲存庫逐檔/同文異址去重尚未完成，故僅列新來源候選。
+- **PARTIAL／公開文字**：GOV.UK Inset text、Panel 各一次主要正文、HTML/Nunjucks、更新紀錄及獨立示例閱讀，並對治療所同頁可見性、歷史方案期別、補助資格、Session/Billing 狀態作獨立反例。Confirmation/Interruption pages 為輔助，不另計來源。**完整R1及R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實0／10,000篇。**
+- **NOT_TESTED**：原始圖片與互動、鍵盤/讀屏/手機、Notion原生Callout/資料庫/角色權限、真人UX、載入秒數、公式、歷史金額、補助資格與實際收款；不能當業務或 UX PASS。
+- **NO NOTION/SYSTEM WRITE**：僅 GitHub 研究紀錄；未改 Notion 正式/TEST 頁面、DB、View、Formula、Relation、權限、業務資料，或正式 GAS/Cloud Run/Session/部署；不開始重新設計，雙軌研究可並行。
