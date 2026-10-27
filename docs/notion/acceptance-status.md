@@ -872,3 +872,9 @@
 - **PARTIAL**：GOV.UK Navigate a service 與 Step by step navigation 各一次主要正文文字閱讀、各一組獨立反例；前者多任務反覆導覽、後者有順序的跨服務旅程。Step by step 僅供官方 prototype，不代表 Notion 原生功能。輔助閱讀不另計篇數。
 - **嚴格計量**：本輪新候選2、主要文字閱讀2、完整R1/R2–R10均0；`FULL_DEEP_PASS_10_OF_10`新增0，累積**0／10,000篇**。原圖/互動/手機/讀屏、Notion實帳/角色/權限/公式/效能/跨期金額均NOT_TESTED。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究及進度紀錄；Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務資料與正式GAS/Cloud Run/Session/部署均未修改。研究未達門檻，不進入重新設計；雙軌研究可並行。
+
+## 2026-10-27｜AUTO-56 研究取證（不是 Notion 業務驗收）
+- trace `AUTO-56-20261027-2337-RESEARCH`；[完整文字閱讀與反例](research/notion-deep-study-automation-run-56-2026-10-27.md)。main規範與sources重新讀取；兩個 canonical 在已查 sources/code search 未命中，**全庫歷史文件逐檔與同文異址精確去重未完成**。
+- **PARTIAL**：GOV.UK Checkboxes 與 Radios 各一次主要正文/HTML/Nunjucks/條件揭露/錯誤/已知 WCAG 問題閱讀，各有首次獨立反例；不是完整R1或R2–R10。未勾選≠已確認0；單選≠按歷史服務日選對期別；未知≠不符合。
+- **嚴格進度**：本輪新候選2、正文文字閱讀2、完整10/10新增0，累積可稽核 `FULL_DEEP_PASS_10_OF_10` 仍 **0／10,000篇**。原圖/互動/鍵盤/讀屏/手機/Notion角色/公式/效能/歷史金額均NOT_TESTED。
+- **NO NOTION/SYSTEM WRITE**：只GitHub研究與進度記錄，未修改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料及正式GAS/Cloud Run/Session/部署；不進入重新設計，雙軌續作可並行。
