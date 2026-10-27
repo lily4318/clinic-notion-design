@@ -833,3 +833,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-62-20261028-0537-RESEARCH`；[逐篇閱讀與反例](research/notion-deep-study-automation-run-62-2026-10-28.md)；官方 [File upload](https://design-system.service.gov.uk/components/file-upload/) 與 [Character count](https://design-system.service.gov.uk/components/character-count/) 各一次主要正文文字閱讀及首次反例，**非完整R1，也沒有R2–R10**。
 - **研究推論，非核准設計**：文件重用可降低重複輸入，但共用設備、跨個案、角色可見性可能引入誤附或洩露；檔案上傳完成≠內容有效、補助核准。文字上限若無證據，可能截斷必要的 Session/行政紀錄；Unicode/emoji 計數與實際儲存限制需在 Notion/GAS 原生驗證。GOV.UK 元件的 HTML/JS/可及性不能推定為 Notion 原生能力。
 - 來源候選2（全庫同文異址去重未完）、正文文字閱讀2、首次反例2組；`FULL_DEEP_PASS_10_OF_10`新增0、累積嚴格**0／10,000篇**。原圖、實際互動、權限、真人UX、效能及業務真值未驗。**不核准也未進行任何 Notion 頁面、資料庫、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署修改；不開始重新設計。**
+
+
+## 2026-10-28｜AUTO-63｜輸入群組與自由文字的責任分界（研究推論，非設計核可）
+- Trace `AUTO-63-20261028-0641-RESEARCH`；[逐篇研究紀錄](research/notion-deep-study-automation-run-63-2026-10-28.md)。官方 [Fieldset](https://design-system.service.gov.uk/components/fieldset/) 以 legend 說明相關輸入，官方 [Textarea](https://design-system.service.gov.uk/components/textarea/) 用於需要多行敘述的問題；兩篇各一次主要正文文字閱讀及首次反例，**非完整 R1，更非 R2–R10**。
+- **研究推論**：同區視覺群組≠跨 Session/Billing/方案期別 Relation 或歷史金額正確；自由文字備註≠可核對的補助資格、已確認0、實際收款狀態。反過來，過度群組與過度選項化也可能增加操作負擔或遺失必要行政例外脈絡。是否適用需真實 Notion/真人 UX/權限/公式/效能驗證；不授權新增或修改欄位、版面。
+- 已從既有清冊排除 Warning text/Notification banner 兩個重複候選；本輪新候選2（全庫同文異址去重未完）、主要正文閱讀2、首次反例2組，`FULL_DEEP_PASS_10_OF_10`本輪0、累積 **0／10,000篇**。**僅 GitHub 研究紀錄，Notion/正式系統零寫入，不開始重新設計。**
