@@ -786,3 +786,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-54-20261027-2141-RESEARCH`；[研究完整證據](research/notion-deep-study-automation-run-54-2026-10-27.md)。官方 GOV.UK Table 與 Pagination 各完成一次主要正文文字閱讀及獨立反例分析；已查索引新候選2，完整10/10新增0、累積嚴格仍0／10,000篇。
 - **暫時研究假說，非實作決定**：同頁表格利於跨筆 Session 日期、方案期別、歷史金額比較；大量資料分頁可改善載入，但分頁可能隱藏歷史記錄、導致只看當頁的錯誤推論。全量篩選/排序與顯示範圍的語義需清楚，且不能因研究建議違背使用者已確認的同頁直接查看需求。
 - **反證限制**：表格對齊不保證歷史金額正確；分頁不是資料完整性驗證；GOV.UK HTML/CSS元件不等於 Notion 原生功能。原始圖、互動、真人 UX、效能、角色權限、公式/業務金額均未驗；沒有新設計核可、沒有Notion或正式系統寫入。
+
+
+## 2026-10-27｜AUTO-55 研究決策（僅證據，不批准改版）
+- Trace `AUTO-55-20261027-2238-RESEARCH`；[研究全文](https://github.com/lily4318/clinic-notion-design/blob/main/docs/notion/research/notion-deep-study-automation-run-55-2026-10-27.md)。GOV.UK Navigate a service 用於反覆、多任務且無固定順序的導覽；Step by step navigation 用於起終點明確且順序有助完成的跨服務旅程。兩者不同，不能以任一原則推翻使用者已確認的「同類資料同頁直接看」或把高頻 Session 作業拆成不必要步驟。
+- 補助文件核對與政府核准/Session歷史金額/收款為不同狀態；步驟完成不等於業務通過。此處是未實作研究推論，未核准 Notion View、Formula、Relation、頁面或正式系統變更。全庫精確去重、真人UX/權限/效能均待驗。
+- 新來源候選2、主要正文文字閱讀2、嚴格完整十次深讀0；累積 `FULL_DEEP_PASS_10_OF_10` 仍0／10,000篇；**只允許GitHub研究記錄，禁止提前重新設計**。
