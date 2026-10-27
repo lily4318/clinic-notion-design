@@ -728,3 +728,11 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - trace `AUTO-45-20261027-1245-RESEARCH`；[研究原文與反例](research/notion-deep-study-automation-run-45-2026-10-27.md)。新候選NN/g `web-form-design` 一次主要正文閱讀，既有 `recognition-and-recall`（batch-02 UX-018）一次獨立針對性複讀；不可將十條設計規則當十篇/十遍。
 - **HOLD / 新反例**：減少不必要人工欄位與保留必要業務證據並不衝突；補助首次服務日、期別、歷史收費快照/資格狀態不能因縮欄而失真。「最近使用的方案」可提高辨識速度，卻可能讓補登歷史Session誤用當期價格。必須區分UX可見性與日期/金額業務正確性。
 - **非授權**：NN/g一般網站/表單研究不保證Notion原生可客製輸入/Reset/Undo，未有本所真人、權限、手機、效能及公式實測；不新增欄位、按鈕、View或重設頁面。完整10/10本輪0、累積可稽核0/10,000；只寫GitHub研究與進度，不動Notion/GAS/Cloud Run/Session/部署。
+
+
+## 2026-10-27｜AUTO-46：原生確認動作與自動化觸發鏈研究校正（HOLD，非設計核准）
+- trace `AUTO-46-20261027-1339-RESEARCH`；[逐篇官方原文複讀與反例](research/notion-deep-study-automation-run-46-2026-10-27.md)。兩篇皆為既有來源（Database buttons：十面向N12／batch-03；Database automations：MANUAL-01-02），本輪**新URL 0**、獨立針對性文字複讀2、新交叉反例2組；不是完整第二遍。
+- **研究校正／HOLD-1**：Notion官方確有 Database button `Show confirmation` 動作；AUTO-40對「不能假設原生自訂確認」的保守敘述須區分**特定按鈕功能存在**與**本所實際可用、任意操作均可確認**兩件事。確認對話框不驗證資格、服務日、方案期別、歷史收費或交易回復。
+- **研究校正／HOLD-2**：人員點擊Button可觸發Database automation，但後者不能串觸發另一automation；View篩選改變作用對象，部分公式/Webhook錯誤未必通知。不得將一鍵流程想像成完整、原子、可回滾的補助計數／核准鏈；沒有錯誤通知也不是成功證據。
+- **限制**：Free Slack方案描述仍有官方文件內部張力，實帳/角色/付費方案/原圖影音/互動/手機/速度/公式真值均未驗；全研究目錄逐檔讀取遇工具上限，不能稱全庫去重完成。僅研究假說，不授權新增Button/Automation、改View/欄位/權限或調整歷史Session。
+- `FULL_DEEP_PASS_10_OF_10`新增0、累積仍**0／10,000篇**；Notion與正式GAS／Cloud Run／Session零寫入，不進入重新設計。自動與手動研究可並行。
