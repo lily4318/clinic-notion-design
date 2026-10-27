@@ -541,3 +541,10 @@
 - `AUTO54-S01` [Table – GOV.UK Design System](https://design-system.service.gov.uk/components/table/)；canonical `govuk-design-system:components/table`；GOV.UK Design System team，首次發表日未核；`AUTO54-S01-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks、caption、header scope、數字靠右、欄寬及大量資料限制已讀。反例：同頁跨筆Session日期/期別/金額需要比較，但全量超寬表也可能造成操作與效能負擔；可讀格式≠歷史金額已保護。
 - `AUTO54-S02` [Pagination – GOV.UK Design System](https://design-system.service.gov.uk/components/pagination/)；canonical `govuk-design-system:components/pagination`；GOV.UK Design System team，首次發表日未核；`AUTO54-S02-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks、頁碼、首尾頁、無障礙及全資料集篩選排序已讀。反例：僅看第一頁不能推斷全期無其他Session；分頁/篩選可能使跨頁核對變難，不能以效能為由推翻使用者同頁直接看資料的要求。
 - **本輪已查索引新候選2、主要正文文字R1各1、首次獨立反例2篇、完整R1/R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`新增0、累積嚴格0／10,000篇。** 原圖/互動/Notion真實帳戶/手機/讀屏/權限/效能/公式/歷史金額未驗；只寫GitHub研究，不改Notion或正式系統，不開始重新設計。
+
+
+## 2026-10-27｜AUTO-55：反覆多任務導覽 vs 有順序的跨步驟旅程（純研究）
+- [AUTO-55 原文閱讀、跨來源反例及限制](https://github.com/lily4318/clinic-notion-design/blob/main/docs/notion/research/notion-deep-study-automation-run-55-2026-10-27.md)；trace `AUTO-55-20261027-2238-RESEARCH`。main 七項規範、研究README、AUTO-54及研究目錄已查；最新 sources.md 與 GitHub code search 未見兩個 canonical，但研究目錄全量逐檔查重遇工具呼叫上限，**僅列已查索引新候選，未完成同文異址精確去重**。
+- `AUTO55-S01` [Help users to Navigate a service](https://design-system.service.gov.uk/patterns/navigate-a-service/)；canonical `govuk-design-system:patterns/navigate-a-service`；GOV.UK Design System team；2024-08 引入模式，首發日期未核；`AUTO55-S01-R1-MAIN-TEXT-C1`。反覆使用、多任務無固定順序適合頂層導覽，但導覽不能取代使用者要求的同頁資料直接核對；搜尋範圍/入口語義應明確。
+- `AUTO55-S02` [Step by step navigation](https://design-system.service.gov.uk/patterns/step-by-step-navigation/)；canonical `govuk-design-system:patterns/step-by-step-navigation`；GOV.UK Design System team，首發日未核；`AUTO55-S02-R1-MAIN-TEXT-C1`。有起終點與有益順序的跨服務旅程適用，官方僅供原型、不提供 govuk-frontend 元件；不能把高頻 Session 硬改線性，也不能將步驟完成視為資格核准。
+- 本輪候選2、主要正文文字R1各1、首次反例各1；**完整R1/R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`本輪0，累積0／10,000篇**。Service navigation 元件及 GDS 延伸文章僅作輔助閱讀不另計篇數；原圖/互動/真人Notion/權限/效能/公式均未驗。只記GitHub，不改Notion或正式系統、不開始重新設計。
