@@ -778,3 +778,8 @@
 - trace `AUTO-41-20261027-0840-RESEARCH`；[逐篇原始證據、反例及限制](research/notion-deep-study-automation-run-41-2026-10-27.md)。main主要規範/來源索引已Fetch，研究目錄清單52份；**未完成52份全文逐檔去重**，GitHub code search與sources索引對兩個slug均無命中，僅暫列新候選2。兩篇NN/g可讀主要正文各一次、首次獨立反例各一次；不算完整深讀。
 - **R1_MAIN_TEXT PASS（僅文字）／FULL_DEEP_PASS_10_OF_10本輪0，累積嚴格0/10,000篇**。全庫同文異址去重、原始圖片/影音/互動、Notion真實手機/桌面/角色權限/效能/公式/政府核定真值均NOT_TESTED。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度記錄；未改Notion正式或TEST Page、DB、Data Source、View、Formula、Relation、權限、業務資料，亦未修改正式GAS/Cloud Run/Session/部署；研究目標未完成，不進入重新設計。雙軌研究繼續共享main並以SHA條件寫入。
+
+## 2026-10-27｜AUTO-42 深度學習研究取證（非 Notion 業務驗收）
+- trace `AUTO-42-20261027-0944-RESEARCH`；[兩篇原文逐節閱讀及獨立反例](research/notion-deep-study-automation-run-42-2026-10-27.md)。開始前重讀 main 七項規範，research 目錄53/53份 Markdown 已逐檔取得並比對兩個候選slug，sources索引亦無命中；本輪新 canonical 候選2、主要正文 R1 各一次、首次獨立反例2。全庫其他路徑/同文異址去重未完成。
+- **PASS 僅限可讀正文與GitHub研究紀錄；FULL_DEEP_PASS_10_OF_10 本輪0，累積嚴格0／10,000篇**。原圖逐張、影音/互動、Notion原生選單與提示能力、真人/手機/角色權限/載入效能、補助期別與歷史收費公式真值均 NOT_TESTED。
+- **NO NOTION / SYSTEM WRITE**：本輪只修改GitHub研究與來源/決策/驗收文件；未改任何Notion正式/TEST Page、DB、Data Source、View、Formula、Relation、權限、個案/財務資料，也未改正式 GAS、Cloud Run、Session、部署。研究門檻未達，未進入重新設計；手動與每小時研究可獨立並行。
