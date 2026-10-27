@@ -919,3 +919,10 @@
 - **PARTIAL**：GOV.UK File upload、Character count 各一次主要正文文字/HTML/Nunjucks/獨立示例/限制與更新紀錄閱讀及獨立反例。重用檔案的便利性≠跨個案權限安全；上傳成功≠核准；字數限制不應截斷必要記錄；中文字元/emoji 的計數與保存須真實驗證。完整 R1/R2–R10 均0。
 - **嚴格進度**：新來源候選2、正文文字閱讀2、首次反例2組（4情境）、本輪 `FULL_DEEP_PASS_10_OF_10` 0，累積可核實 **0／10,000篇**。原圖、真實上傳/鍵盤/讀屏/手機、Notion權限/檔案、Unicode儲存、公式/效能/歷史金額/資格均 **NOT_TESTED**。
 - **NO NOTION/SYSTEM WRITE**：僅 GitHub 研究與進度紀錄；未改 Notion 正式/TEST 頁、DB、Data Source、View、Formula、Relation、權限、業務資料或正式 GAS/Cloud Run/Session/部署；未開始重新設計，手動與自動研究保持獨立並行。
+
+
+## 2026-10-28｜AUTO-63｜Fieldset／Textarea 研究 PARTIAL（非 Notion 驗收）
+- Trace `AUTO-63-20261028-0641-RESEARCH`；[研究軌跡與反例](research/notion-deep-study-automation-run-63-2026-10-28.md)。已重讀 main 規範、sources、research README 與 AUTO-62；先排除 AUTO-51 Notification banner、AUTO-52 Warning text 兩篇已登記來源，不當新篇或複讀。
+- **PARTIAL**：GOV.UK Fieldset、Textarea 各一次主要正文、HTML/Nunjucks 與示例文字閱讀，各一組獨立反例（共4情境）。群組不保證 Relation/金額正確；自由文字不等於業務狀態；過度分組/過度選項化也有成本。非完整 R1，R2–R10皆0。
+- **嚴格進度**：新候選2（未全庫同文異址精確去重）、正文文字閱讀2、首次反例2組；本輪 `FULL_DEEP_PASS_10_OF_10` 0，累積可核實 **0／10,000篇**。原圖、實際輸入/貼上/提交、鍵盤/讀屏/手機、真人 UX、Notion原生功能/角色權限、公式/歷史金額/效能均 **NOT_TESTED**。
+- **NO NOTION/SYSTEM WRITE**：僅 GitHub 研究與進度記錄；不改 Notion 正式/TEST 頁、DB、View、Formula、Relation、權限、業務資料，或正式 GAS/Cloud Run/Session/部署；不進入重新設計，手動/自動續作仍可並行。
