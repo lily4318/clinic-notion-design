@@ -548,3 +548,9 @@
 - `AUTO55-S01` [Help users to Navigate a service](https://design-system.service.gov.uk/patterns/navigate-a-service/)；canonical `govuk-design-system:patterns/navigate-a-service`；GOV.UK Design System team；2024-08 引入模式，首發日期未核；`AUTO55-S01-R1-MAIN-TEXT-C1`。反覆使用、多任務無固定順序適合頂層導覽，但導覽不能取代使用者要求的同頁資料直接核對；搜尋範圍/入口語義應明確。
 - `AUTO55-S02` [Step by step navigation](https://design-system.service.gov.uk/patterns/step-by-step-navigation/)；canonical `govuk-design-system:patterns/step-by-step-navigation`；GOV.UK Design System team，首發日未核；`AUTO55-S02-R1-MAIN-TEXT-C1`。有起終點與有益順序的跨服務旅程適用，官方僅供原型、不提供 govuk-frontend 元件；不能把高頻 Session 硬改線性，也不能將步驟完成視為資格核准。
 - 本輪候選2、主要正文文字R1各1、首次反例各1；**完整R1/R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`本輪0，累積0／10,000篇**。Service navigation 元件及 GDS 延伸文章僅作輔助閱讀不另計篇數；原圖/互動/真人Notion/權限/效能/公式均未驗。只記GitHub，不改Notion或正式系統、不開始重新設計。
+
+## 2026-10-27｜AUTO-56：多選、單選、明確的「無」與條件揭露（僅研究）
+- [AUTO-56 逐篇正文、獨立反例與限制](research/notion-deep-study-automation-run-56-2026-10-27.md)；trace `AUTO-56-20261027-2337-RESEARCH`。開始及寫入前重讀 main 八項規範/研究入口；已查 sources 全文與 repo code search 未見兩篇 canonical，**全庫歷史文件逐檔與同文異址去重未完成**，故僅列新候選。
+- `AUTO56-S01` [Checkboxes – GOV.UK Design System](https://design-system.service.gov.uk/components/checkboxes/)；canonical `govuk-design-system:components/checkboxes`；維護者 GOV.UK Design System team；首發日未核；`AUTO56-S01-R1-MAIN-TEXT-C1`。多選/單一開關、明確 none、互斥、條件揭露及 WCAG 已知問題；反例：未勾選≠已確認他處使用0，單一 checkbox 無法同時表達待核/不適用/拒絕。
+- `AUTO56-S02` [Radios – GOV.UK Design System](https://design-system.service.gov.uk/components/radios/)；canonical `govuk-design-system:components/radios`；維護者 GOV.UK Design System team；首發日未核；`AUTO56-S02-R1-MAIN-TEXT-C1`。互斥選一、不預選、有效未知選項、條件揭露限制；反例：預選最新方案期別會誤套歷史Session，只有符合/不符合可能迫使尚待核對者填錯。
+- 本輪新候選2、主要正文文字R1各一次、首次獨立反例2篇；完整R1/R2–R10均0，`FULL_DEEP_PASS_10_OF_10`新增0，累積仍 **0／10,000篇**。原圖/互動/鍵盤/讀屏/真實Notion/權限/效能/公式未驗；僅GitHub研究，不改Notion/正式系統，不開始重新設計。
