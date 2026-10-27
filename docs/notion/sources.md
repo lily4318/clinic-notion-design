@@ -521,3 +521,9 @@
 - `AUTO51-S01` [Error summary – GOV.UK Design System](https://design-system.service.gov.uk/components/error-summary/)；canonical `govuk-design-system:components/error-summary`；GOV.UK Design System team，首次發表日未核；`AUTO51-S01-R1-MAIN-TEXT-C1`。正文閱讀錯誤總覽、欄位旁訊息、focus、欄位錨點及頁面位置；反例：格式錯誤與人工資格待核不可混為同一種錯誤，總覽不取代資料驗證。
 - `AUTO51-S02` [Notification banner – GOV.UK Design System](https://design-system.service.gov.uk/components/notification-banner/)；canonical `govuk-design-system:components/notification-banner`；GOV.UK Design System team，2020-11 元件引入，首次頁面發表日未核；`AUTO51-S02-R1-MAIN-TEXT-C1`。正文閱讀跨頁通知、非本頁主要任務、成功回饋、位置與警示疲勞；反例：Session 已儲存≠補助核准成功，核心待核資訊不宜只藏在橫幅。
 - **本輪候選2、主要正文文字R1各1、首次反例各1、完整R1與R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`新增0、累積仍0／10,000篇。** 原圖/互動/真人Notion/角色/手機/公式/效能未驗；只記 GitHub，不改 Notion 或正式系統，不開始重新設計。
+
+## 2026-10-27｜AUTO-52：GOV.UK 次要展開說明與重要警示（純研究）
+- [AUTO-52 原文、閱讀覆蓋、反例及限制](research/notion-deep-study-automation-run-52-2026-10-27.md)；trace `AUTO-52-20261027-1937-RESEARCH`。main七項規範、research README、早期研究清冊與sources已查；研究 tree 列63份Markdown，但**未逐檔全文去重或完成同文異址查核**，僅列已查索引新候選。
+- `AUTO52-S01` [Details – GOV.UK Design System](https://design-system.service.gov.uk/components/details/)；canonical `govuk-design-system:components/details`；維護者 GOV.UK Design System team，首發日未核；`AUTO52-S01-R1-MAIN-TEXT-C1`。閱讀用途／不適用、與Accordion/Tabs選擇、HTML/Nunjucks、可讀標籤、官方提及的語音操作問題、變更紀錄與獨立例子。反例：補助資格待核與跨期金額異常不能因版面精簡藏在預設收合區。
+- `AUTO52-S02` [Warning text – GOV.UK Design System](https://design-system.service.gov.uk/components/warning-text/)；canonical `govuk-design-system:components/warning-text`；維護者 GOV.UK Design System team，首發日未核；`AUTO52-S02-R1-MAIN-TEXT-C1`。閱讀重要後果警示、HTML/Nunjucks、圖示與非視覺文字、修訂紀錄及獨立例子。反例：待人工核對不可被紅色警示誤表述成已判定資格失效，所有欄位都強警示也可能造成警示疲勞。
+- **本輪候選2、主要正文文字R1各1、首次反例各1；完整R1/R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`新增0、累積嚴格0／10,000篇。** 原圖/互動/外連討論全文/真實Notion/手機/讀屏/權限/公式/效能均未驗；僅GitHub研究紀錄，Notion/正式系統零寫入，不開始重新設計。
