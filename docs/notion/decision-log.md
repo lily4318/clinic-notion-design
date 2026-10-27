@@ -822,3 +822,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **研究推論，非核准改版**：Accordion 能同時展開多段，但收合可能藏住資格待核與期別矛盾；Tabs 只顯示一段，跨 Session/Billing/補助用量核對可能需記憶切換，並可能混淆不同篩選母體。兩者都不能用「同頁」名義取代使用者要求的「開啟即見日常資料」；也不能直接把 GOV.UK 的 JS/無障礙行為套用到 Notion Toggle/View tabs。
 - 已查來源索引與 code search 未見兩個 canonical；全研究目錄逐檔與同文異址全庫去重未完成。新候選2、主要正文文字閱讀2、首次反例2篇、完整10/10新增0，累積 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。
 - 僅 GitHub 研究紀錄；**不核准修改** Notion 頁面、資料庫、View、Formula、Relation、權限、業務資料或正式 GAS/Cloud Run/Session/部署。研究門檻未達且使用者未確認，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-61｜Inset text/Panel 資訊顯著性與業務狀態研究（非設計核准）
+- Trace `AUTO-61-20261028-0437-RESEARCH`；[研究證據](research/notion-deep-study-automation-run-61-2026-10-28.md)。官方 [Inset text](https://design-system.service.gov.uk/components/inset-text/) 低顯著度補充資訊與 [Panel](https://design-system.service.gov.uk/components/panel/) 確認/中斷交易節點之用途不同。**研究推論**：資格待核與期別矛盾不能藏在容易忽略的補充說明；Session資料已儲存、交易完成、資格核准、Billing入帳不能視為同一狀態；不可為高頻行政操作任意增加中斷步驟。
+- 兩篇各一次官方主要正文文字閱讀及首次反例，**非完整R1/R2–R10**；已查索引新候選2，嚴格10/10新增0、累積0／10,000篇。全庫同文異址去重、原圖互動、真人UX、角色權限、公式及效能未驗。僅 GitHub 研究記錄，**不授權也未修改** Notion/正式系統，不開始重新設計。
