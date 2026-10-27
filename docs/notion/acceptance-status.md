@@ -797,3 +797,8 @@
 - **NOT_TESTED**：原始圖片逐張、嵌入影片、互動操作、真實Notion不同角色權限/Lock交互/手機/速度、歷史Session期別金額公式真值及核定規則。官方不同權限描述尚不能當作實帳PASS。
 - **嚴格計量**：本輪新增canonical 0、針對性複讀2、FULL_DEEP_PASS_10_OF_10新增0；累積可核實仍 **0／10,000篇**。不以多項分析當作多次完整閱讀。
 - **NO NOTION/SYSTEM WRITE**：只更新GitHub研究與來源/決策/驗收記錄，未修改Notion正式/TEST Page、DB、View、Formula、Relation、權限、個案或財務資料，也未修改正式GAS/Cloud Run/Session/部署；未開始重新設計。手動與每小時排程可獨立並行，GitHub更新採最新SHA條件。
+
+## 2026-10-27｜AUTO-45 研究取證驗收（非Notion業務驗收）
+- trace `AUTO-45-20261027-1245-RESEARCH`；[詳細證據](research/notion-deep-study-automation-run-45-2026-10-27.md)。主要正文可讀：NN/g Website Forms Usability（新候選1）；既有UX-018 Recognition and Recall獨立針對性複讀1；新反例2。已查索引及code search未見新候選slug，但全庫同文異址及所有歷史路徑未精確去重。
+- **PASS僅限本輪公開正文/反例與GitHub研究紀錄**；原圖、影音/互動、原始CHI研究全文、Notion真實工作區/角色/手機/效能、跨期Session/補助資格/公式金額真值 **NOT_TESTED**。本輪完整DEEP_PASS 0，累積`FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。
+- **NO NOTION/SYSTEM WRITE**：沒有修改Notion正式或TEST頁面、資料庫、Data Source、View、Formula、Relation、權限、業務資料，也沒有修改正式GAS/Cloud Run/Session/部署；未開始Notion重新設計。自動/手動研究可獨立並行，GitHub更新採最新blob SHA條件。
