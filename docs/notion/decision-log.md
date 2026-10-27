@@ -743,3 +743,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **假說（未核可、未實作）**：低頻核定期別設定可能適合分步協助；高頻 Session 建立／補登歷史金額需保留同頁核對，避免多步切換遮蔽日期與期別；重用上次選項可能誤帶當期價格。Reset／Cancel／Back 的介面語意不等於資料庫交易回滾，不能作為歷史帳務更正或補助資格證據。
 - **反證與限制**：需真人角色、工作頻率、錯誤率、操作時間、中斷恢復、原生 Notion 能力及期別／公式真值驗證；2000 年舊網頁行為不可直接套用 2026 Notion。沒有決定新增 Wizard／按鈕／欄位／View。
 - **嚴格進度**：`FULL_DEEP_PASS_10_OF_10`本輪0、累積仍0／10,000篇。**NO NOTION/SYSTEM WRITE**：只GitHub研究紀錄；不改Notion正式／TEST頁、DB、View、Formula、Relation、權限、業務資料或GAS／Cloud Run／Session／部署；不開始重新設計。
+
+
+## 2026-10-27｜AUTO-48 漸進揭露與防止 slip 的研究假說（非設計決定）
+- trace `AUTO-48-20261027-1537-RESEARCH`；[逐篇原文、反例與限制](research/notion-deep-study-automation-run-48-2026-10-27.md)。主要正文可讀：NN/g Progressive Disclosure（2006）及 Preventing User Errors: Avoiding Unconscious Slips（2015）各1次文字閱讀與新反例；已查sources索引和code search未見兩篇slug，其他歷史路徑/同文異址仍未精確去重。
+- **研究假說，不授權改版**：頻繁需同時核對的 Session 日期、歷史方案期別與金額不可因「進階設定隱藏」而切斷視線；合理預設在補登歷史資料時可能導致誤用現行期別；限制輸入也須考慮有證據的例外。適用性須由真實任務頻率、角色、跨期樣本及操作測試判定，不將一般UX文章當作Notion功能或本所驗收PASS。
+- **嚴格計量**：新候選2、正文文字R1 2、反例2、完整10/10新增0，累積0／10,000篇。原始圖、延伸研究、實際Notion手機/權限/公式/效能未測。
+- **NO NOTION/SYSTEM WRITE**：只更新GitHub研究與進度文件；Notion頁面、DB、Data Source、View、Formula、Relation、權限、業務資料及正式GAS/Cloud Run/Session/部署均未修改；未進入重新設計。自動/手動雙軌繼續以main最新SHA去重與條件寫入。
