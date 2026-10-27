@@ -802,3 +802,10 @@
 - trace `AUTO-45-20261027-1245-RESEARCH`；[詳細證據](research/notion-deep-study-automation-run-45-2026-10-27.md)。主要正文可讀：NN/g Website Forms Usability（新候選1）；既有UX-018 Recognition and Recall獨立針對性複讀1；新反例2。已查索引及code search未見新候選slug，但全庫同文異址及所有歷史路徑未精確去重。
 - **PASS僅限本輪公開正文/反例與GitHub研究紀錄**；原圖、影音/互動、原始CHI研究全文、Notion真實工作區/角色/手機/效能、跨期Session/補助資格/公式金額真值 **NOT_TESTED**。本輪完整DEEP_PASS 0，累積`FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。
 - **NO NOTION/SYSTEM WRITE**：沒有修改Notion正式或TEST頁面、資料庫、Data Source、View、Formula、Relation、權限、業務資料，也沒有修改正式GAS/Cloud Run/Session/部署；未開始Notion重新設計。自動/手動研究可獨立並行，GitHub更新採最新blob SHA條件。
+
+
+## 2026-10-27｜AUTO-46 研究證據回查（不是 Notion 業務驗收）
+- trace `AUTO-46-20261027-1339-RESEARCH`；[原文、閱讀軌跡、反例及限制](research/notion-deep-study-automation-run-46-2026-10-27.md)。已重讀main主要規範/來源索引，確認兩篇既有來源：`database-buttons`（十面向N12／batch-03）及`database-automations`（MANUAL-01-02）。**新canonical 0、獨立針對性複讀2、交叉反例2組**；不是完整第二次深讀。
+- **研究文字證據 PASS（限官方現行可讀文字）**：Database button的`Show confirmation`確實有官方記載；Button action可能觸發automation，automation本身不會連鎖觸發另一automation；View篩選與部分靜默錯誤可能造成計數/更新未完成。研究結論不等於本所已配置或已驗收。
+- **NOT_TESTED**：全部原圖、影片、互動、真人Notion工作區、不同角色/方案權益、跨期歷史Session金額、政府補助公式、手機與效能。sources索引連結52份研究文件，批次逐檔Fetch遇工具上限；未宣稱52/52全文重新查重，其他路徑/同文異址仍待稽核。
+- **嚴格計量**：本輪`FULL_DEEP_PASS_10_OF_10`新增0，累積可稽核仍**0／10,000篇**。**NO NOTION/SYSTEM WRITE**：僅GitHub研究及進度記錄；未改Notion正式/TEST頁面、資料庫、Data Source、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；未開始重新設計，手動與每小時研究仍可並行。
