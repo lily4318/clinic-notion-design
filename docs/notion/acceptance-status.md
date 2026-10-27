@@ -789,3 +789,11 @@
 - trace `AUTO-43-20261027-1041-RESEARCH`；[原始研究紀錄](research/notion-deep-study-automation-run-43-2026-10-27.md)。已重讀main七項主要規範、來源/決策/驗收與研究README；研究目錄54/54份Markdown取得並查兩個候選slug/標題；已查清冊新候選2，主要正文文字R1各一次、首次獨立反例2。全儲存庫同文異址及其他路徑去重未完成。
 - **PASS僅限可讀主要正文與研究記錄；FULL_DEEP_PASS_10_OF_10本輪0、累積嚴格0／10,000篇**。原始圖片逐張、影音/互動、Notion原生sticky/sidebar能力、真人桌面/手機、角色權限、載入時間、補助期別/歷史金額公式真值皆NOT_TESTED。不可將UX原則或此文件記錄視為Notion介面/業務PASS。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究及來源/決策/驗收進度；未修改Notion正式/TEST Page、DB、Data Source、View、Formula、Relation、權限、個案/財務資料，未改正式GAS、Cloud Run、Session或部署；研究門檻未達，未進入重新設計。雙軌研究可並行並採SHA條件寫入。
+
+
+## 2026-10-27｜AUTO-44 既有官方來源交叉複讀：研究取證（非Notion業務驗收）
+- trace `AUTO-44-20261027-1140-RESEARCH`；[完整研究與新反例](research/notion-deep-study-automation-run-44-2026-10-27.md)。本輪重新讀main規範與研究清冊，研究目錄55/55份Markdown逐檔比對；兩篇既有來源為DS-022/DS-023（Database properties另見N11），新增來源0；各完成一次**獨立針對性文字複讀**與新的跨文檔反例分析，非完整R2。
+- **PASS範圍僅為本輪可讀官方文字及GitHub研究紀錄**：核對全庫設定與單View色彩的不同作用層、Lock不等於資料唯讀、Conditional color依View、計算欄位無Property comment、500欄為單庫上限。
+- **NOT_TESTED**：原始圖片逐張、嵌入影片、互動操作、真實Notion不同角色權限/Lock交互/手機/速度、歷史Session期別金額公式真值及核定規則。官方不同權限描述尚不能當作實帳PASS。
+- **嚴格計量**：本輪新增canonical 0、針對性複讀2、FULL_DEEP_PASS_10_OF_10新增0；累積可核實仍 **0／10,000篇**。不以多項分析當作多次完整閱讀。
+- **NO NOTION/SYSTEM WRITE**：只更新GitHub研究與來源/決策/驗收記錄，未修改Notion正式/TEST Page、DB、View、Formula、Relation、權限、個案或財務資料，也未修改正式GAS/Cloud Run/Session/部署；未開始重新設計。手動與每小時排程可獨立並行，GitHub更新採最新SHA條件。
