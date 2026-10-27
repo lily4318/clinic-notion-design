@@ -774,3 +774,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - trace `AUTO-52-20261027-1937-RESEARCH`；[研究原文及反例](research/notion-deep-study-automation-run-52-2026-10-27.md)。已讀main規範與研究清冊，63份研究Markdown tree已取得，但未全量逐檔去重；GOV.UK Details、Warning text僅列已查索引新候選各1，主要正文閱讀與反例各1，未達完整深讀。
 - **研究推論，不是設計核可**：大多數工作者需見的跨期金額異常與資格待核狀態不應被收合；重要警示必須有已證實的高後果事實，不能把未知誤呈為不合格；Notion 原生 Toggle、文字警示、ARIA／輔助技術與官方範例不保證等效。
 - 嚴格完整10/10新增0、累積 `FULL_DEEP_PASS_10_OF_10` 仍0／10,000；**只GitHub研究記錄**，不改Notion Page/DB/View/Formula/Relation/權限，也不改GAS/Cloud Run/Session/部署，未開始重新設計。
+
+
+## 2026-10-27｜AUTO-53：核對頁與任務清單的適用界線（研究假設，不是設計核准）
+- Trace `AUTO-53-20261027-2041-RESEARCH`；[原始研究紀錄](research/notion-deep-study-automation-run-53-2026-10-27.md)。GOV.UK Check answers與Task list各一次可讀主要正文/示例閱讀與獨立反例；已查索引新候選2，完整十次深讀新增0。
+- **研究推論**：提交前核對與跨日任務追蹤分屬不同需求。Notion即時儲存可能使「送出前確認」無法提供真正原子交易/回滾；Task list 的Completed不可等同補助核准、歷史Session金額驗證或款項收訖。對高頻工作避免額外無必要步驟，對跨人員低頻工作先驗證是否需自由排序。
+- **不作決策／不實作**：尚無真實Notion原生能力、真人UX、公式真值、角色權限或完整10,000×10學習驗收；不得據此新增欄位、View、任務頁、確認按鈕或變更資料模型。僅GitHub研究記錄，正式/TEST Notion及GAS/Cloud Run/Session/部署均未修改。
