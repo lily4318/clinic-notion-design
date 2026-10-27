@@ -808,3 +808,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-58-20261028-0141-RESEARCH`；[完整研究及反例](research/notion-deep-study-automation-run-58-2026-10-28.md)。GOV.UK Error message 與 Text input 各完成一次主要正文文字閱讀及獨立反例；原圖/互動/輔助技術/真實Notion均未驗，非完整 R1，無 R2–R10。
 - **研究推論**：可由操作者修正的欄位格式/必填錯誤、待人工核實的補助資格與期別矛盾、服務端故障不能用同一種紅色欄位錯誤表示；歷史Session錯期不得以「改成最新方案」強制修正。文字搜尋/輸入不等於Price Plan關聯或唯一鍵；數字、金額、識別碼前置零、剪貼截斷與共用設備自動填入存在不同風險。HTML設計指南不能證實Notion原生元件提供相同驗證或ARIA行為。
 - 新來源候選2、主要正文閱讀2、首次反例2；全庫同文異址去重未完成；完整10/10新增0，累積可核實 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。**不核准任何Notion頁面、資料庫、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署變更；僅GitHub研究紀錄。**
+
+
+## 2026-10-28｜AUTO-59｜Dashboard view 的篩選與權限邊界：研究結論，非設計核可
+- Trace `AUTO-59-20261028-0240-RESEARCH`；[原文與反例研究](research/notion-deep-study-automation-run-59-2026-10-28.md)；官方來源：https://www.notion.com/help/dashboards 。本輪查 sources + 70份 research Markdown，該 canonical 未見重複；同文異址全庫語義去重未完。
+- **研究推論，不是已核准方案**：Notion Dashboard view 的跨來源 global filter 只作用於含相應屬性的 widget，可能導致 Sessions、Billing、補助用量顯示不同母體卻被誤認同一條件；View 模式的個人篩選與共用保存不同，改底層 View 可能傳播；Dashboard 不替代資料權限，且官方僅 Business/Enterprise 可用，最多12 widgets/每列4個，過多資料可能拖慢。
+- **既有使用者要求保持**：同類業務資料應同頁直接可見，不能為追求 Dashboard 外觀把日常核對資料只改為連結。研究不授權改動任何 Notion 介面或資料；正式設計需等10,000篇各10次嚴格深讀完成及使用者確認。
+- 本輪候選1、主要正文文字R1 1、首次反例1篇/4情境、完整10/10新增0、累積嚴格0／10,000。圖片、互動、真人UX、角色/權限、效能、公式均未驗；**GitHub 研究紀錄以外零寫入**。
