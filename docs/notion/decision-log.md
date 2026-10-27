@@ -723,3 +723,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **HOLD-3**：官方資料顯示Formula/Rollup/unique ID不支援Property comments；不能要求在計算欄位留言當作正式人工審核。500欄上限是每單一資料庫，不能將歷史稽核23個來源合計636欄視為超限。
 - **PENDING驗證**：Database settings需Can edit而View色彩文件允許Can edit content的具體權限邊界、Lock互動、各角色/方案/手機行為，皆未實帳測試。研究不授權新增欄位、改View或調整權限。
 - `FULL_DEEP_PASS_10_OF_10`本輪0、累積仍**0/10,000篇**。只更新GitHub研究證據，未修改Notion任何頁/DB/View/Formula/Relation/權限/業務資料，未修改GAS/Cloud Run/Session/部署；不進入重新設計。
+
+## 2026-10-27｜AUTO-45：表單與辨識研究假說（HOLD，非實作決議）
+- trace `AUTO-45-20261027-1245-RESEARCH`；[研究原文與反例](research/notion-deep-study-automation-run-45-2026-10-27.md)。新候選NN/g `web-form-design` 一次主要正文閱讀，既有 `recognition-and-recall`（batch-02 UX-018）一次獨立針對性複讀；不可將十條設計規則當十篇/十遍。
+- **HOLD / 新反例**：減少不必要人工欄位與保留必要業務證據並不衝突；補助首次服務日、期別、歷史收費快照/資格狀態不能因縮欄而失真。「最近使用的方案」可提高辨識速度，卻可能讓補登歷史Session誤用當期價格。必須區分UX可見性與日期/金額業務正確性。
+- **非授權**：NN/g一般網站/表單研究不保證Notion原生可客製輸入/Reset/Undo，未有本所真人、權限、手機、效能及公式實測；不新增欄位、按鈕、View或重設頁面。完整10/10本輪0、累積可稽核0/10,000；只寫GitHub研究與進度，不動Notion/GAS/Cloud Run/Session/部署。
