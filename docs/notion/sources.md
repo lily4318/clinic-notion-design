@@ -507,3 +507,10 @@
 - `AUTO49-S01` [Accordions Are Not Always the Answer for Complex Content on Desktops](https://www.nngroup.com/articles/accordions-complex-content/)；canonical `nngroup:articles/accordions-complex-content`；Hoa Loranger，2014-05-18；`AUTO49-S01-R1-MAIN-TEXT-C1`。摺疊增加開啟成本，不能把同頁交叉核對的補助/歷史收費資料藏起；低頻長文則可能適合局部摺疊。
 - `AUTO49-S02` [Visibility of System Status (Usability Heuristic #1)](https://www.nngroup.com/articles/visibility-system-status/)；canonical `nngroup:articles/visibility-system-status`；Aurora Harley，2018-06-03；`AUTO49-S02-R1-MAIN-TEXT-C1`。操作已收到、資料已存、後續自動化完成、資格已核准不可用同一成功狀態混淆。
 - 本輪已查索引新候選2、主要正文文字R1各1、獨立反例2、完整10/10新增0；累積嚴格 `FULL_DEEP_PASS_10_OF_10` 仍**0／10,000篇**。原圖/影片/外連全文/真實Notion角色/手機/公式/效能未驗。僅GitHub研究紀錄，Notion及正式系統零寫入，不開始重新設計。
+
+
+## 2026-10-27｜AUTO-50：GOV.UK 摘要列表與狀態標籤（研究限定）
+- [AUTO-50 逐篇文字閱讀、獨立反例與限制](research/notion-deep-study-automation-run-50-2026-10-27.md)；trace `AUTO-50-20261027-1738-RESEARCH`。已重讀 main 主要規範、來源/決策/驗收及 research tree（62份 Markdown 路徑）。sources.md未見下列兩個完整 URL；嘗試研究目錄逐檔查重時遇工具呼叫上限，**未完成62/62全文查重、同文異址精確去重**。
+- `AUTO50-S01` [Summary list – GOV.UK Design System](https://design-system.service.gov.uk/components/summary-list/)；canonical `govuk-design-system:components/summary-list`；GOV.UK Design System team，首次發表日期未核實；`AUTO50-S01-R1-MAIN-TEXT-C1`。Key/value 摘要適合單筆重要資訊，不能取代多筆 Session 的表格比較；卡片化可能遮蔽跨期金額/日期同時核對。
+- `AUTO50-S02` [Tag – GOV.UK Design System](https://design-system.service.gov.uk/components/tag/)；canonical `govuk-design-system:components/tag`；GOV.UK Design System team，首次發表日期未核實，2026-02有樣式更新；`AUTO50-S02-R1-MAIN-TEXT-C1`。Tag 應是非互動狀態顯示，顏色非唯一訊息；「待核」不能被混同「不合格」或「操作完成」，也不能讓點擊標籤直接造成誤核准。
+- **本輪已查索引新候選2、主要文字閱讀各1、首次獨立反例各1、完整R1/R2–R10均0；`FULL_DEEP_PASS_10_OF_10`新增0，累積嚴格0／10,000篇。** 原圖/影音/互動/Notion實帳/角色/手機/效能/公式未驗。只記GitHub，不改Notion或正式系統、不開始重新設計。
