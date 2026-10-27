@@ -567,3 +567,9 @@
 - `AUTO58-S01` [Error message – GOV.UK Design System](https://design-system.service.gov.uk/components/error-message/)；canonical `govuk-design-system:components/error-message`；維護者 GOV.UK Design System team，首發日未核；`AUTO58-S01-R1-MAIN-TEXT-C1`。正文/HTML/Nunjucks、欄位訊息與 Error summary 一致、保留原輸入、不可把資格不符/權限不足/服務故障當成欄位錯誤；反例：補助待核≠使用者可修正的輸入錯誤，歷史Session期別衝突不能強迫改最新期別。
 - `AUTO58-S02` [Text input – GOV.UK Design System](https://design-system.service.gov.uk/components/text-input/)；canonical `govuk-design-system:components/text-input`；維護者 GOV.UK Design System team，首發日未核，2026-06有指引/元件更新；`AUTO58-S02-R1-MAIN-TEXT-C1`。正文主要章節、HTML/Nunjucks、label/placeholder、inputmode/number、前後綴、maxlength/貼上/autocomplete、錯誤與變更；反例：方案名稱文字不等於Price Plan期別ID，識別碼前置零/歷史金額不能任意截斷，共用裝置自動填入可能增加隱私及跨案誤帶風險。
 - 本輪新候選2、主要正文文字閱讀2、首次獨立反例2篇、嚴格完整R1及R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`本輪0、累積仍 **0／10,000篇**。原圖/互動/鍵盤/讀屏/Notion真實操作/權限/效能/公式/歷史金額及全庫同文異址去重未驗；**只寫GitHub研究，不改Notion/正式系統，不開始重新設計**。
+
+
+## 2026-10-28｜AUTO-59：Dashboard view 跨來源篩選與權限反例（純研究）
+- [AUTO-59 完整閱讀軌跡與反例](research/notion-deep-study-automation-run-59-2026-10-28.md)；trace `AUTO-59-20261028-0240-RESEARCH`。main 七項主要規範與 research README 已重新讀取；sources.md + 當期 research 70 個 Markdown（12份非 AUTO、58份 AUTO）全文逐檔檢查，未見本篇 canonical。全儲存庫其他路徑與同文異址語義去重未完成，仍列新來源候選。
+- `AUTO59-S01` [Dashboard view databases in Notion](https://www.notion.com/help/dashboards)；canonical `notion-help:dashboards`；Notion Help，首次發表日未核；`AUTO59-S01-R1-MAIN-TEXT-C1`。閱讀主要正文、12 widgets/每列4個、Business/Enterprise、全域篩選只套用含該屬性的 widget、View 模式本地篩選與共用儲存差異、底層 View 變更傳播、權限、效能及 inline views 對照。四個獨立反例：跨 widget 數據母體可能不一致、個人篩選不等於全員共用、Dashboard 不提供權限隔離、同頁可見性與載入效能互相牽制。
+- 去重排除：Unique ID、Database settings、Forms、Data sources、Layouts 均在既有清冊找到，不當作新來源或複讀。**本輪候選1、主要正文文字R1 1、首次獨立反例1篇/4情境、完整R1與R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`新增0，累積嚴格0／10,000篇。** 原圖、影音、真人 Notion、手機、權限與效能未驗；僅 GitHub 研究紀錄，不改 Notion/正式系統，不進入重新設計。
