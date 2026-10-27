@@ -891,3 +891,10 @@
 - **PARTIAL**：GOV.UK Error message、Text input 各一次主要正文文字/HTML/Nunjucks/限制閱讀與首次獨立反例；不是完整 R1，R2–R10均0。欄位可修正錯誤≠政府資格待核/服務端故障；自由文字≠唯一方案期別；數字截斷與共用設備自動填入可能造成資料及隱私風險。未實測 Notion 原生元件。
 - **嚴格進度**：本輪新候選2、主要正文閱讀2、完整10/10新增0；累積可核實 `FULL_DEEP_PASS_10_OF_10` **0／10,000篇**。原圖/互動/鍵盤/讀屏/真人UX/角色/權限/效能/公式真值/歷史金額均NOT_TESTED。
 - **NO NOTION/SYSTEM WRITE**：僅 GitHub 研究及進度紀錄，未改 Notion 正式/TEST 頁、DB、Data Source、View、Formula、Relation、權限、業務列或正式 GAS/Cloud Run/Session/部署；研究門檻未達，未進入重新設計。
+
+
+## 2026-10-28｜AUTO-59｜Dashboard view 研究證據：PARTIAL，非 Notion 驗收
+- Trace `AUTO-59-20261028-0240-RESEARCH`；[原文閱讀覆蓋及反例](research/notion-deep-study-automation-run-59-2026-10-28.md)。已查 main 規範、sources 及當期 research 70 個 Markdown；本篇 canonical 未命中，其他 repo 路徑及同文異址仍待精確去重。
+- **PARTIAL**：Notion 官方 Dashboard view 主要正文一次文字閱讀；Business/Enterprise、widget 上限、global filter 作用條件、個人/共用篩選、底層 View、權限與效能的反例已記錄。原圖、影片、實帳 Dashboard 操作、手機、角色權限、跨來源母體一致性、原生公式、速度均 **NOT_TESTED**。非完整R1，R2–R10均0。
+- **嚴格計數**：本輪新候選1、主要正文文字閱讀1、首次獨立反例1篇/4情境；`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實仍 **0／10,000篇**。
+- **NO NOTION/SYSTEM WRITE**：僅 GitHub 研究與進度記錄；Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務列及正式 GAS/Cloud Run/Session/部署均未修改。未達門檻、不進入重新設計；自動與手動研究可並行。
