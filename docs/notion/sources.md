@@ -573,3 +573,10 @@
 - [AUTO-59 完整閱讀軌跡與反例](research/notion-deep-study-automation-run-59-2026-10-28.md)；trace `AUTO-59-20261028-0240-RESEARCH`。main 七項主要規範與 research README 已重新讀取；sources.md + 當期 research 70 個 Markdown（12份非 AUTO、58份 AUTO）全文逐檔檢查，未見本篇 canonical。全儲存庫其他路徑與同文異址語義去重未完成，仍列新來源候選。
 - `AUTO59-S01` [Dashboard view databases in Notion](https://www.notion.com/help/dashboards)；canonical `notion-help:dashboards`；Notion Help，首次發表日未核；`AUTO59-S01-R1-MAIN-TEXT-C1`。閱讀主要正文、12 widgets/每列4個、Business/Enterprise、全域篩選只套用含該屬性的 widget、View 模式本地篩選與共用儲存差異、底層 View 變更傳播、權限、效能及 inline views 對照。四個獨立反例：跨 widget 數據母體可能不一致、個人篩選不等於全員共用、Dashboard 不提供權限隔離、同頁可見性與載入效能互相牽制。
 - 去重排除：Unique ID、Database settings、Forms、Data sources、Layouts 均在既有清冊找到，不當作新來源或複讀。**本輪候選1、主要正文文字R1 1、首次獨立反例1篇/4情境、完整R1與R2–R10皆0；`FULL_DEEP_PASS_10_OF_10`新增0，累積嚴格0／10,000篇。** 原圖、影音、真人 Notion、手機、權限與效能未驗；僅 GitHub 研究紀錄，不改 Notion/正式系統，不進入重新設計。
+
+
+## 2026-10-28｜AUTO-60：Accordion 與 Tabs 資料可見性研究（僅研究）
+- [AUTO-60 逐篇正文閱讀與反例](research/notion-deep-study-automation-run-60-2026-10-28.md)；trace `AUTO-60-20261028-0345-RESEARCH`。本輪先讀 main 七項規範與 research README；來源索引與 GitHub code search 未見兩個 canonical，**未重新逐檔檢查所有歷史 research 檔及同文異址全庫語義去重**，只列新來源候選。
+- `AUTO60-S01` [Accordion – GOV.UK Design System](https://design-system.service.gov.uk/components/accordion/)；canonical `govuk-design-system:components/accordion`；GOV.UK Design System team；首發日未核；`AUTO60-S01-R1-MAIN-TEXT-C1`。官方主文/範例/無 JS 行為/記憶展開/讀屏已知問題文字已讀；反例：補助待核與期別矛盾不宜藏在收合區，且折疊同頁不等於開啟即見。
+- `AUTO60-S02` [Tabs – GOV.UK Design System](https://design-system.service.gov.uk/components/tabs/)；canonical `govuk-design-system:components/tabs`；GOV.UK Design System team；首發日未核；`AUTO60-S02-R1-MAIN-TEXT-C1`。官方主文/範例/小螢幕/URL hash/研究缺口文字已讀；反例：Session/Billing/補助跨 Tab 比對需反覆切換，第一 Tab 若非高頻任務可能遮蔽待處理案件。
+- **本輪候選2、主要正文文字閱讀2、首次反例2篇（各2情境）、完整 R1–R10 均0；`FULL_DEEP_PASS_10_OF_10` 新增0、累積可核實0／10,000篇**。原圖/互動/鍵盤/讀屏/真人Notion/效能/權限未驗。僅 GitHub 研究紀錄，不改 Notion/正式系統、不開始重新設計。
