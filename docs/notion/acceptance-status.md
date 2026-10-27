@@ -851,3 +851,10 @@
 - **PARTIAL 公開主要文字**：GOV.UK Details 與 Warning text 各一次主要正文文字閱讀＋獨立反例；已看官方 HTML/Nunjucks、獨立例子與變更紀錄。不是完整R1或R2–R10；**`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實仍0／10,000篇**。
 - **NOT_TESTED**：原始圖像逐張、互動操作、外連討論全文、真實Notion原生元件、手機／讀屏／權限／效能、補助資格／歷史Session金額公式真值。不可把研究建議當Notion功能或業務PASS。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度記錄；未改Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務資料或正式GAS、Cloud Run、Session、部署；未開始重新設計，雙軌研究保持並行。
+
+
+## 2026-10-27｜AUTO-53 研究證據驗收（非 Notion 業務驗收）
+- Trace `AUTO-53-20261027-2041-RESEARCH`；[逐篇閱讀、原文與反例](research/notion-deep-study-automation-run-53-2026-10-27.md)。已重讀main七項規範、sources與相關早期清冊；research目錄64份Markdown清單，批次全文查重遭工具上限中斷，**未完成64/64逐檔全文及同文異址去重**。
+- **PARTIAL 研究文字**：GOV.UK Check answers與Task list各一次主要正文/HTML/Nunjucks/獨立例子閱讀，各新增1組反例；兩個canonical在已查索引與code search未命中，暫列新候選2。沒有完整R1或R2–R10。
+- **嚴格進度**：本輪`FULL_DEEP_PASS_10_OF_10`新增0，累積可核實仍 **0／10,000篇**。未逐張核對原圖、實測互動/讀屏/手機/Notion權限/效能/跨期Session金額或補助公式真值；不能把GOV.UK示例視為Notion功能或業務PASS。
+- **NO NOTION/SYSTEM WRITE**：只GitHub研究與進度；未改Notion正式/TEST Page、DB、Data Source、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；不開始重新設計。自動與手動研究維持獨立並行，寫入採最新SHA條件。
