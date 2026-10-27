@@ -845,3 +845,9 @@
 - **PARTIAL：公開正文研究** GOV.UK Error summary、Notification banner 各一次主要正文文字閱讀及獨立反例。兩個canonical在已查sources與GitHub code search未見重複，暫列候選2。沒有完整R1/R2–R10；原圖、完整示例互動、輔助技術、Notion原生操作、角色/手機/效能/跨期歷史金額及補助公式均NOT_TESTED。
 - **嚴格計量**：本輪`FULL_DEEP_PASS_10_OF_10`新增0；累積可核實仍**0／10,000篇**。研究文字取證不是 Notion 功能 PASS，不以文字設計建議直接宣稱可核准補助。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度；未改Notion正式/TEST頁面、資料庫、Data Source、View、Formula、Relation、權限、業務資料，亦未改正式GAS/Cloud Run/Session/部署。未開始重新設計；手動與自動續作獨立並行。
+
+## 2026-10-27｜AUTO-52 深度學習取證（非Notion業務驗收）
+- trace `AUTO-52-20261027-1937-RESEARCH`；[完整閱讀證據與反例](research/notion-deep-study-automation-run-52-2026-10-27.md)。main七項規範、研究清冊已查；研究 tree 63份Markdown，但未逐檔全文比對，其他路徑與同文異址仍待去重。
+- **PARTIAL 公開主要文字**：GOV.UK Details 與 Warning text 各一次主要正文文字閱讀＋獨立反例；已看官方 HTML/Nunjucks、獨立例子與變更紀錄。不是完整R1或R2–R10；**`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實仍0／10,000篇**。
+- **NOT_TESTED**：原始圖像逐張、互動操作、外連討論全文、真實Notion原生元件、手機／讀屏／權限／效能、補助資格／歷史Session金額公式真值。不可把研究建議當Notion功能或業務PASS。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度記錄；未改Notion正式/TEST頁、DB、Data Source、View、Formula、Relation、權限、業務資料或正式GAS、Cloud Run、Session、部署；未開始重新設計，雙軌研究保持並行。
