@@ -445,3 +445,10 @@
 - `AUTO40-S01` [Error-Message Guidelines](https://www.nngroup.com/articles/error-message-guidelines/)；canonical `nngroup:articles/error-message-guidelines`；Tim Neusesser、Evan Sunwall，2023-05-14；`AUTO40-S01-R1-TEXT-C1`，主要正文四部分＋首次反例。待人工核對是業務狀態而非輸入錯誤；錯誤訊息需明示問題、後果與補救，不能用紅色把待核/確認0/不適用混同。
 - `AUTO40-S02` [Confirmation Dialogs Can Prevent User Errors — If Not Overused](https://www.nngroup.com/articles/confirmation-dialog/)；canonical `nngroup:articles/confirmation-dialog`；Jakob Nielsen，2018-02-18（2026-08-07 review）；`AUTO40-S02-R1-TEXT-C1`，主要正文八項指引＋首次反例。跨期批次變更應能識別具體影響，但例行彈窗會導致警告疲勞，明細揭露也要守角色權限；不假設Notion原生可自訂確認框/Undo。
 - 本輪新canonical候選2、主要正文R1 2、首次反例2、完整10/10達標新增0；**累積嚴格10/10仍0／10,000篇**。原始圖、互動/影音、Notion真實操作/權限/手機/效能/公式/核定真值未測；僅GitHub研究，Notion/正式系統零寫入，未開始重新設計。
+
+
+## 2026-10-27｜AUTO-41：手機寬表與合成原型資料（僅研究）
+- [AUTO-41逐節主要正文、反例、去重及限制](research/notion-deep-study-automation-run-41-2026-10-27.md)；trace `AUTO-41-20261027-0840-RESEARCH`。main七項主要規範已重新Fetch；研究目錄52份Markdown清單已取得，但批次全文核對遇工具呼叫上限，**未完成52/52全文查重**。兩個slug未在sources.md或GitHub code search命中，僅列已查索引新canonical候選，不冒稱全庫精確去重。
+- `AUTO41-S01` [Mobile Tables: Comparisons and Other Data Tables](https://www.nngroup.com/articles/mobile-tables/)；canonical `nngroup:articles/mobile-tables`；Amy Schade，2017-09-17；`AUTO41-S01-R1-TEXT-C1`。手機表格可讀性、表頭與首欄、橫向捲動線索及按任務縮減資料；分頁切開必須同時核對的歷史收費期別與Session日期會提高記憶負荷。
+- `AUTO41-S02` [Leverage AI for Mock Tables and Charts When Testing Prototypes](https://www.nngroup.com/articles/ai-data-prototype-testing/)；canonical `nngroup:articles/ai-data-prototype-testing`；Evan Sunwall，2024-09-06；`AUTO41-S02-R1-TEXT-C1`。高擬真虛構資料需約束格式/分布/跨欄計算並以程式驗證；AI自述驗證不等於真值，禁止外傳真實個案/財務資料。
+- **本輪已查索引新候選2、主要正文R1 2、首次獨立反例2、完整十次深讀0；累積嚴格10/10仍0/10,000篇**。原圖/影片/互動、Notion真實手機/權限/效能/公式未測；僅GitHub研究，未改Notion或正式系統，不開始重新設計。
