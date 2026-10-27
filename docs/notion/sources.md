@@ -473,3 +473,9 @@
 - `AUTO44-R01` [Database settings](https://www.notion.com/en-gb/help/customize-your-database)；canonical `notion-help:customize-your-database`；原登錄DS-023；`TARGETED_REREAD_R2_TEXT+CROSS_COUNTEREXAMPLE`。Database settings影響整個來源庫、Lock database不禁止輸入資料；調整全庫layout不能誤當只改單View。
 - `AUTO44-R02` [Database properties](https://www.notion.com/help/database-properties)；canonical `notion-help:database-properties`；原登錄N11/DS-022；`TARGETED_REREAD_R2_TEXT+CROSS_COUNTEREXAMPLE`。Conditional color為View層設定且複製View會繼承；Formula/Rollup/unique ID不支援欄位留言；500 properties上限是每庫，不可將23來源合計636欄當作單庫超限。
 - 兩篇權限敘述（Database settings需Can edit；Conditional color可由Can edit content設定）可能屬不同設定層級，需另經隔離角色驗證，**未宣稱矛盾已解或Notion實帳PASS**。新來源0、針對性複讀2、完整10/10新增0；累積嚴格`FULL_DEEP_PASS_10_OF_10`仍**0/10,000篇**。原圖/影音/互動/真實Notion角色/手機/公式/效能未驗；僅GitHub研究，Notion與正式系統零寫入，不進入重新設計。
+
+## 2026-10-27｜AUTO-45：表單操作與辨識記憶交叉研究（僅研究）
+- [AUTO-45正文閱讀、既有來源獨立複讀及反例](research/notion-deep-study-automation-run-45-2026-10-27.md)；trace `AUTO-45-20261027-1245-RESEARCH`。開始前重新Fetch main主要規範、來源索引、研究README及batch-02。GitHub code search與已查sources/批次對`web-form-design`未見命中；全庫所有歷史路徑及同文異址精確去重仍未完成。
+- `AUTO45-S01` [Website Forms Usability: Top 10 Recommendations](https://www.nngroup.com/articles/web-form-design/)；canonical `nngroup:articles/web-form-design`；Kathryn Whitenton，2016-05-01；`AUTO45-S01-R1-MAIN-TEXT-C1`：已讀正文10項規則、結論、引用與圖說，未驗原圖/原研究全文；新增候選1，非完整DEEP_PASS。反例：縮減輸入不可誤刪首次服務日期/核定期別等必要資訊，亦不可因顯眼Clear操作破壞歷史Session。
+- `AUTO45-R01` [Memory Recognition and Recall in User Interfaces](https://www.nngroup.com/articles/recognition-and-recall/)；canonical `nngroup:articles/recognition-and-recall`；Raluca Budiu，2024-01-15；既有batch-02 `UX-018`，**不重算新來源**；`AUTO45-R01-TARGETED-REREAD-TEXT-C1`：本輪重新閱讀記憶活化、辨識/回憶、可見選單、近期歷史、結論，新增「最近使用方案不一定適用歷史Session」反例；非完整R2。
+- 本輪已查清冊新候選1、既有來源針對性複讀1、新反例2、完整十次深讀新增0；累積嚴格`FULL_DEEP_PASS_10_OF_10`仍**0／10,000篇**。原圖/影音/互動、Notion真實角色/手機/效能/公式/金額均未測。僅GitHub研究紀錄，Notion及正式系統零寫入，不進入重新設計。
