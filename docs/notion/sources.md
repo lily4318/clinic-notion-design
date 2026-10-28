@@ -607,3 +607,10 @@
 - `AUTO64-S01` [Service navigation – GOV.UK Design System](https://design-system.service.gov.uk/components/service-navigation/)；canonical `govuk-design-system:components/service-navigation`；維護者GOV.UK Design System team；首發日未核，2025-06有品牌更新；`AUTO64-S01-R1-MAIN-TEXT-C1`。官方主要正文、HTML/Nunjucks、服務名稱/導航、aria-current、slots/更新風險已讀。反例：頂層導覽不等於Session/Billing/補助同頁直接可見，active不代表角色有權限。
 - `AUTO64-S02` [Skip link – GOV.UK Design System](https://design-system.service.gov.uk/components/skip-link/)；canonical `govuk-design-system:components/skip-link`；維護者GOV.UK Design System team；首發日未核，2026-01有焦點樣式修正；`AUTO64-S02-R1-MAIN-TEXT-C1`。官方主要正文、HTML/Nunjucks、鍵盤跳至主內容、位置/焦點/錨點限制已讀。反例：同頁22個檢視不代表鍵盤可快速到達常用資料，假文字捷徑不等於真焦點跳轉；跳轉也不應隱藏必要業務異常。
 - 去重排除已在AUTO-50登記的Summary list/Tag兩篇（本輪不計新來源/完整複讀）。**本輪新來源候選2、主要正文文字閱讀2、首次獨立反例2組（4情境）；完整R1/R2–R10皆0，`FULL_DEEP_PASS_10_OF_10`新增0、累積可核實仍0／10,000篇。** 原圖/互動/鍵盤/讀屏/手機/Notion實帳/權限/公式/效能均未驗；僅GitHub研究，不改Notion/正式系統，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-65：操作按鈕／返回路徑（研究限定）
+- Trace `AUTO-65-20261028-0844-RESEARCH`；[完整研究與反例](research/notion-deep-study-automation-run-65-2026-10-28.md)。main規範與研究清冊已讀；76份研究Markdown已列舉，但逐檔全文去重遇工具呼叫上限，**同文異址/全庫精確去重未完成**。
+- `AUTO65-S01` [Button – GOV.UK Design System](https://design-system.service.gov.uk/components/button/)；canonical `govuk-design-system:components/button`；GOV.UK Design System team；2018-06導入（[history](https://design-system.service.gov.uk/components/button/history/)）；`AUTO65-S01-R1-MAIN-TEXT-C1`：主要正文/HTML/Nunjucks/變更史文字一次閱讀，非完整R1。反例：雙擊可能重複收款；前端禁用不等於後端冪等；未知資格不宜只灰化提交。
+- `AUTO65-S02` [Back link – GOV.UK Design System](https://design-system.service.gov.uk/components/back-link/)；canonical `govuk-design-system:components/back-link`；GOV.UK Design System team；2018-06導入（[history](https://design-system.service.gov.uk/components/back-link/history/)）；`AUTO65-S02-R1-MAIN-TEXT-C1`：主要正文/HTML/Nunjucks/變更史文字一次閱讀，非完整R1。反例：返回不保證保留方案期別篩選、草稿與原入口；不能以返回連結取代同頁直接核對。
+- 已查sources全文與GitHub code search未見上述canonical；僅**新來源候選2**，正文文字閱讀2，首次獨立反例2組（5情境）；完整R1/R2–R10均0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實仍**0／10,000篇**。圖片、真實互動、鍵盤/讀屏/手機、Notion/權限/公式/效能均未測；**僅GitHub研究，不改Notion/正式系統，不開始重新設計**。
