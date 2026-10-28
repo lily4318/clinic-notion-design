@@ -856,3 +856,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-66-20261028-0938-RESEARCH`；[研究全文](research/notion-deep-study-automation-run-66-2026-10-28.md)；Notion [Keyboard shortcuts](https://www.notion.com/help/keyboard-shortcuts)、GOV.UK [Breadcrumbs](https://design-system.service.gov.uk/components/breadcrumbs/) 各完成官方主要文字一次閱讀及獨立反例分析，未完成完整深讀R1。
 - **研究推論**：快捷鍵搜尋/返回/peek可能因中文輸入法、情境切換、相似資料造成誤選；Notion /bread 與GOV.UK Breadcrumbs表示頁面階層，不能表示Session/Billing/方案期別多對多業務來源，也不能取代業務流程進度、歷史金額核對或使用者已確認「同類資料同頁、開啟即見」。
 - **非核准**：不得因此新增導覽/快捷鍵/欄位、改Notion頁面/DB/View/公式/Relation/權限或正式系統；需隔離鍵盤/讀屏/手機/真人UX與權限/公式/效能測試。全庫精確去重未完，候選2、嚴格10/10新增0、累積0/10,000；僅GitHub研究紀錄。
+
+
+## 2026-10-28｜AUTO-67：驗證錯誤與多任務模式研究（無設計決策）
+- Trace `AUTO-67-20261028-1042-RESEARCH`；[完整研究](research/notion-deep-study-automation-run-67-2026-10-28.md)。GOV.UK Validation與Complete multiple tasks官方主要正文/範例文字各一次閱讀、獨立反例2組6情境；索引查無相同URL，但全庫同文異址精確去重未完成，僅新候選2。
+- **研究推論／非核准設計**：輸入格式、補助資格、角色授權、系統錯誤不能混用單一驗證訊息；長交易Task list不能直接替代使用者已核定「同類資料同頁、開啟即見」，人工任務完成不等於補助核准或Billing收款。沒有決議新增欄位、拆頁、調整流程或變更權限。
+- **嚴格門檻未達**：完整深讀R1–R10均0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實0/10,000篇；沒有真人/Notion/權限/公式/效能實測。僅GitHub研究進度，不改Notion/正式GAS/Cloud Run/Session/部署；使用者確認前不開始重新設計。
