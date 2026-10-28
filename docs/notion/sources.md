@@ -694,3 +694,10 @@
 - `AUTO77-S01` [Chart view – Notion Help](https://www.notion.com/help/charts)；canonical `notion-help:charts`；維護者Notion Help Center，發表/更新日未核，查核2026-10-28；`AUTO77-S01-R1-MAIN-TEXT-20261028`：L107–L325文字正文一次。200 groups/50 subgroups、Free 1 chart、圖表不可直接編輯、drilldown限制、複雜Formula延遲與軸限制；同頁 `Omit zero values` 文案互相矛盾，待實機驗證。反例：圖表計數≠入帳/核准、跨期Formula≠歷史真值、drilldown≠同頁編輯/授權。
 - `AUTO77-S02` [Search in your workspace – Notion Help](https://www.notion.com/help/search)；canonical `notion-help:search`；維護者Notion Help Center，發表/更新日未核，查核2026-10-28；`AUTO77-S02-R1-MAIN-TEXT-20261028`：L107–L226文字正文一次。DB Search查標題/Property值而非頁內文，Workspace Search查內文但不含評論/討論及Select/Multi-select值；最近編輯排序與CJK支援限制。反例：搜尋不到≠不存在、最近修改≠有效期/付款、方便搜尋≠可複製敏感資料。
 - 本輪 `NEW_CANDIDATE=2`、`MAIN_TEXT_READ=2`、首次反例2組6情境、完整複讀0；**完整R1–R10均0、FULL_DEEP_PASS_10_OF_10新增0、累積可核實0／10,000篇**。原圖/影片/互動/手機/讀屏/權限/真人UX/公式/效能未驗。只寫GitHub研究，不動Notion或正式系統，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-78：服務入口／交易完成頁官方指南（僅研究）
+- Trace `AUTO-78-20261028-2136-RESEARCH`；[逐節文字閱讀、去重與反例](research/notion-deep-study-automation-run-78-2026-10-28.md)。開始前讀取main規範/研究清冊，精確URL與GitHub code search對兩來源未命中；**尚未逐檔全文/同文異址/跨語系語義去重，僅新候選2**。
+- `AUTO78-S01` [Start using a service – GOV.UK Design System](https://design-system.service.gov.uk/patterns/start-using-a-service/)；canonical `govuk-design-system:patterns/start-using-a-service`；維護者GOV.UK Design System team，原始發表/更新日未核；2026-10-28查核；`AUTO78-S01-R1-MAIN-TEXT-20261028` 官方可讀主文L52–L112一次。反例：公眾入口模式不應增加內部高頻工作台跳頁；入口介紹不能取代人工補助資格；開始/繼續混用可能重複建立業務紀錄。
+- `AUTO78-S02` [Confirmation pages – GOV.UK Design System](https://design-system.service.gov.uk/patterns/confirmation-pages/)；canonical `govuk-design-system:patterns/confirmation-pages`；維護者同上，原始發表/更新日未核；2026-10-28查核；`AUTO78-S02-R1-MAIN-TEXT-20261028` 官方主文L51–L158及HTML/Nunjucks示例一次。反例：已存檔≠已入帳/已核准、參考碼/可列印頁≠正式收據與隱私保護、歷史書籤成功頁≠當前交易狀態。
+- 本輪`NEW_CANDIDATE=2`、`MAIN_TEXT_READ=2`、首次獨立反例2組6情境、完整複讀0；**完整R1–R10均0、FULL_DEEP_PASS_10_OF_10本輪0、累積可核實0／10,000篇**。截圖/互動/鍵盤/讀屏/手機/真人Notion/權限/Formula/效能未驗；**只寫GitHub研究，不改Notion或正式系統，不開始重新設計**。
