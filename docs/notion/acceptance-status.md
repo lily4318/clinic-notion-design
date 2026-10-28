@@ -1034,3 +1034,9 @@
 - **PARTIAL**：內部高頻表單可依實際任務同頁分組；未知值不可視為0；返回重送不應造成重複交易；聯絡管道要真實可履行、避免公開洩漏敏感資料。此為外部UX研究，不是Notion原生公式、權限或交易保證實測。
 - **嚴格計量**：`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實**0／10,000篇**。**NOT_TESTED**：原圖/獨立互動、鍵盤/讀屏/手機、Notion真人UX/角色權限、Billing/Session/Price Plan歷史值/防重交易、公式與效能。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究進度；未修改Notion正式/TEST頁面、DB/View/Formula/Relation/權限/業務資料或正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計；雙軌研究仍可並行。
+
+
+## 2026-10-29｜AUTO-82｜外部文獻研究 PARTIAL／Notion實測 NOT_TESTED
+- Trace `AUTO-82-20261029-0143-RESEARCH`；[研究證據](research/notion-deep-study-automation-run-82-2026-10-29.md)。官方linked databases簡短主文閱讀1篇新候選、既有Data sources主文/FAQ針對性複讀1次、6反例；影片/原圖/互動未完成，跨歷史/語義去重未完成。
+- `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實**0／10,000篇**。**NOT_TESTED**：原生Linked View/Source移動權限、角色隔離、Billing/Session歷史快照、跨期Formula、真人同頁UX、載入效能；官方文件移動權限文字衝突待實機核實。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究文件；未動正式/TEST頁、資料庫、View、Formula、Relation、權限、業務列或正式GAS/Cloud Run/Session/部署；不開始重新設計。自動與手動研究可並行。
