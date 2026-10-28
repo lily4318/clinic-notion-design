@@ -895,3 +895,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-73-20261028-1637-RESEARCH`；研究原文與反例見 [AUTO-73](research/notion-deep-study-automation-run-73-2026-10-28.md)，來源與去重限制見 [sources](sources.md)。
 - **僅研究推論**：確認 email/手機可存取，不能推論個案身分、收件授權、Notion角色權限、補助資格或財務紀錄正確；驗證流程阻斷高頻作業與錯誤寄送敏感資料須分別評估。GOV.UK的簡訊範例參數不是本治療所安全規格。
 - 本輪未核准/未執行 email loop、OTP、MFA、登入或Notion改版；嚴格完整十遍閱讀仍0/10,000篇。保留「同類資料同頁、開啟即見」、日常頁不堆AI規則、無使用者核准不得重新設計的既有決策。
+
+
+## 2026-10-28｜AUTO-74：Forms與Layouts文件交叉研究（不構成設計核准）
+- Trace `AUTO-74-20261028-1741-RESEARCH`；[完整研究紀錄](research/notion-deep-study-automation-run-74-2026-10-28.md)。Notion官方Forms工作流程指南為精確URL去重後**新候選1篇**；既有Layouts指南為針對性重讀，不能重算新來源或十遍深讀。
+- **研究中的新反證**：多表單導入同一DB可能混合個案、補助及收款的不同責任與權限；表單自動指派/Slack或Email通知不等於可以傳送敏感資料；匿名回覆、正式核准、Billing入帳必須分離。既有Layouts指南稱最多4個Pinned，但現行Layouts參考手冊稱最多15，屬官方文件間版本/規格衝突，尚未獲授權在Notion TEST實機核對。
+- **不採用／未核准**：不得因此新增Form、合併資料庫、修改Property、調整Layout或通知流程；既有「同類資料同頁、開啟即見」、正式業務資料不擅動與內部規則不貼日常頁等決策不變。完整R1–R10仍未達，累積可核實0/10000篇，未進入重新設計。
