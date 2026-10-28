@@ -877,3 +877,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-70-20261028-1341-RESEARCH`；[研究證據](research/notion-deep-study-automation-run-70-2026-10-28.md)；官方 [Addresses](https://design-system.service.gov.uk/patterns/addresses/)／[Phone numbers](https://design-system.service.gov.uk/patterns/phone-numbers/) 各一次主要正文與HTML/Nunjucks範例文字閱讀，提出6個治療所反例。
 - **僅研究假說**：地址與電話屬可變、可能敏感且非唯一的聯絡資訊；欄位是否必填應由業務用途決定，臺灣/國際格式不得照搬英國規則，電話或地址不能取代穩定個案識別碼。日常同頁可見與跨角色個資最小揭露須並行考量，不能以View收合冒充權限。
 - **未核准、未實作、未驗收**：未決定新增/刪除/調整任何Notion欄位、View、Formula、Relation、頁面或權限；未核實臺灣郵寄/法規、原生Notion權限、真人UX/效能/歷史收據。完整深讀R1–R10=0，累積10/10=0/10,000。雙軌研究維持獨立，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-71：Email／銀行資料欄位模式研究（未核准設計）
+- Trace `AUTO-71-20261028-1438-RESEARCH`；[官方正文閱讀與反例](research/notion-deep-study-automation-run-71-2026-10-28.md)。GOV.UK Email addresses與Bank details各一次主要正文／HTML／Nunjucks文字閱讀；兩組共6個反例，**僅新來源候選2，歷史全庫及同文異址去重未完成**。
+- **研究假說，不是設計決定**：格式有效不等於聯絡／付款身分核實、資料存取授權或款項完成；不同用途Email與銀行資料需分別評估，英國銀行欄位規則不能直接套臺灣。不得據此新增必填、複製UK驗證或改Billing/Staff/個案資料。
+- **PARTIAL**：完整R1–R10均0，`FULL_DEEP_PASS_10_OF_10=0`，累積可核實0／10,000篇；原圖/互動/讀屏/手機、真人Notion、權限/臺灣金融規則/公式/效能未測。**NO NOTION/SYSTEM WRITE**；研究門檻未達，未開始重新設計。
