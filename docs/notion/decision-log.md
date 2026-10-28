@@ -964,3 +964,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-85-20261029-0435-DATETIME-RESEARCH`；[原始研究](research/notion-deep-study-automation-run-85-2026-10-29.md)。閱讀 USWDS Date picker / Time picker 官方主文、選定 HTML 與兩份無障礙測試文字，新增2篇候選、6個反例；未完成全歷史去重與逐篇十次深讀。
 - 研究判斷：預約日與補助首談日／期別日期不可混用；固定時段與實際 Session 執行時間不可混用；日期/時間 UI 選取不代表交易已保存或資格核准。美式日期格式、HTML 的 min/max/step/disabled 不得當作 Notion 原生已驗證能力。
 - 狀態：`RESEARCH_ONLY / NOT_APPROVED / NOT_TESTED`；不改既有 Notion／GAS／Cloud Run／Session；嚴格完整10/10累積0/10,000。
+
+## 2026-10-29｜AUTO-86｜上傳/驗證 UX 研究：不採用過時元件，不構成實作核准
+- Trace `AUTO-86-20261029-0536-FILE-VALIDATION-RESEARCH`；[逐節研究紀錄](research/notion-deep-study-automation-run-86-2026-10-29.md)。官方USWDS File input 與 Validation 主文/選定範例部分閱讀各一次；新來源候選2、六個反例。USWDS Validation 官方明言因無障礙/使用性問題，v3.12.0後停止支援並規劃移除；不能因文件仍有範例就推論適合新設計。File input的選取預覽不等於遠端持久化，前端驗證不等於補助資格/正式入帳。
+- **研究推論，非核准**：未來若評估附件與錯誤提示，須分清必要文件、選取/保存/人工核對/業務核准，並查核手機、鍵盤、讀屏、資料權限與歷史資料；目前`RESEARCH_ONLY / NOT_APPROVED`，未修改任何Notion或正式系統。
+- 嚴格完整R1–R10均0，累積可核實0/10,000；全歷史/同文異址去重仍待完成，不進入重新設計。
