@@ -919,3 +919,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **Chart**：Count/Sum、隱藏群組、累計與零值選項不能當成正式Billing入帳、補助核准或歷史期別快照；圖表不可直接改資料，部分Formula軸型別不支援；官方同頁 `Omit zero values` 解說前後矛盾，待未來授權後的隔離實測。
 - **Search**：DB Search與Workspace Search索引範圍不同，搜尋不到不等於資料不存在；最近修改排序不等於方案有效期；不能為提高可搜尋性複製病歷/收款/聯絡資訊到不適當的共用頁面。
 - **決策狀態**：純研究，無新增Chart、Search工作流或資料複製授權；保留「同類資料同頁、開啟即見」、跨期交易真值與最小必要權限。完整R1–R10仍0、累積10/10可核實0/10000篇。無Notion正式/TEST及GAS/Cloud Run/Session/部署寫入；未開始重新設計。
+
+
+## 2026-10-28｜AUTO-78：入口與完成頁的語意不得替代業務真值（研究推論，非核准）
+- Trace `AUTO-78-20261028-2136-RESEARCH`；[原文與6個反例](research/notion-deep-study-automation-run-78-2026-10-28.md)。GOV.UK「Start using a service」及「Confirmation pages」主要正文各讀一次，精確URL暫未重複；全庫語義去重未完成，僅新來源候選2。
+- **反證**：公眾首次入口的Start/Resume不能直接加到已核可的「同類資料同頁、開啟即見」內部工作台；入口簡述≠補助資格；Notion已存檔/成功訊息≠Billing入帳、Session完成或政府補助核准；可回訪的完成頁≠歷史快照/現況異動稽核；識別碼與收據涉及最小必要個資與正式規範。
+- **未核准、未實作**：不新增入口頁、完成頁、按鈕、狀態、DB、View、Formula、權限或流程；完整R1–R10仍0、累積可核實10/10為0／10,000篇。僅GitHub研究，不改Notion/GAS/Cloud Run/Session，研究門檻未達不開始重新設計。
