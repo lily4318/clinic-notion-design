@@ -972,3 +972,9 @@
 - Trace `AUTO-71-20261028-1438-RESEARCH`；[研究證據與反例](research/notion-deep-study-automation-run-71-2026-10-28.md)。兩篇官方正文與HTML/Nunjucks文字各一次，2組共6情境；來源索引未見重複URL，但全82份研究逐檔與同文異址精確去重未完成，新候選2。
 - **PARTIAL／嚴格計量**：完整R1–R10均0，`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。不將文字閱讀或反例數冒稱10次完整深讀。
 - **NOT_TESTED**：原始圖片/互動/鍵盤/讀屏/手機、真人Notion、臺灣銀行格式/個資/權限、歷史Billing/收款/公式/效能。**NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度；未修改Notion正式或TEST頁面、DB、View、Formula、Relation、權限、業務資料及正式GAS/Cloud Run/Session/部署；未開始重新設計，雙軌並行約定不變。
+
+
+## 2026-10-28｜AUTO-72：階段標示／快速離開官方研究 PARTIAL（非Notion驗收）
+- Trace `AUTO-72-20261028-1544-RESEARCH`；[可稽核閱讀與反例](research/notion-deep-study-automation-run-72-2026-10-28.md)。GOV.UK Phase banner 與 Exit a page quickly 主要正文文字各一次，補充官方 history、Nunjucks及Exit元件內容僅作交叉核對；新來源候選2、獨立反例2組6情境。sources全文/代碼搜尋未見同URL，但全歷史逐檔及同文異址精確去重未完成。
+- **PARTIAL**：完整R1–R10均0，`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。服務階段標籤≠資料隔離/個案資格；快速離開≠登出/清除瀏覽痕跡/交易安全。均為研究假說，不代表正式 UX 或業務 PASS。
+- **NOT_TESTED**：原圖/實際互動、鍵盤/讀屏/手機、真人Notion、角色權限/環境隔離、瀏覽痕跡/session、實際收費/Formula/效能。**NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度記錄；未改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；未開始重新設計，雙軌研究可並行。
