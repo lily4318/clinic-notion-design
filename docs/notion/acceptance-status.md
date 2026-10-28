@@ -1051,3 +1051,8 @@
 - Trace `AUTO-84-20261029-0343-USWDS-RESEARCH`；[研究取證](research/notion-deep-study-automation-run-84-2026-10-29.md)。USWDS 官方 Table 與 In-page navigation 指引主要正文/選定程式碼與版本紀錄各一次、反例2組6情境；新候選2，sources 精確URL先前0筆，全歷史同文異址去重 PENDING。
 - **嚴格計量**：`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0/10,000篇**。尚未逐一操作全部預覽、手機、鍵盤、讀屏；USWDS 的 WCAG 測試摘要不等於 Notion 或本所通過。
 - **NOT_TESTED**：Notion 真實同頁視覺/操作、原生排序與焦點、Billing/Session/Price Plan 歷史金額、跨期公式、個案/角色權限、載入秒數與真人任務效率。**NO NOTION/SYSTEM WRITE**：僅 GitHub 研究紀錄；未修改 Notion 正式/TEST 頁面、DB/View/Formula/Relation/權限/業務列或正式 GAS/Cloud Run/Session/部署；不開始重新設計，手動與排程仍可並行。
+
+## 2026-10-29｜AUTO-85：日期與時間輸入設計研究證據（NOT TESTED）
+- Trace `AUTO-85-20261029-0435-DATETIME-RESEARCH`；[研究紀錄](research/notion-deep-study-automation-run-85-2026-10-29.md)。USWDS Date picker 與 Time picker 兩篇新候選文字部分閱讀；另參照兩份 accessibility test 清單，未作現場測試；反例6情境。
+- `NEW_CANDIDATE=2`、`PARTIAL_READ=2`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000**。去重仍有歷史/跨語系限制；真人 UX、Notion 原生日期時間、角色、資料正確性、效能均 `PENDING`。
+- 僅 GitHub 研究文件；未修改正式／TEST Notion 頁、DB、View、Formula、Relation、權限或業務列；未修改 GAS、Cloud Run、Session、部署；研究門檻未達，禁止進入重設。
