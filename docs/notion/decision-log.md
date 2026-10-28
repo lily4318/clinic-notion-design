@@ -850,3 +850,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-65-20261028-0844-RESEARCH`；[逐篇閱讀/反例](research/notion-deep-study-automation-run-65-2026-10-28.md)。GOV.UK [Button](https://design-system.service.gov.uk/components/button/) 與 [Back link](https://design-system.service.gov.uk/components/back-link/) 各一次主要正文、示例文字與變更史閱讀，非完整R1，R2–R10均0；新來源候選2（全庫語義去重未完）。
 - **研究推論**：UI按鈕防雙擊不等於Notion/GAS後端冪等或Billing不重複；灰化按鈕不能代替未知資格的理由與下一步；返回上一頁不保證恢復個案/方案期別篩選、排序或草稿。過度多頁化亦可能違反使用者已確認「同類資料同頁、開啟即見」。
 - **非核准**：不得因此新增按鈕/跳轉/欄位、調整Notion View/Formula/Relation/權限或正式系統；需另有真人UX、隔離重試/雙擊、歷史金額與權限驗證。嚴格10/10本輪0、累積0／10,000；僅GitHub研究。
+
+
+## 2026-10-28｜AUTO-66：快捷鍵與麵包屑的業務情境反證（研究推論，非設計核准）
+- Trace `AUTO-66-20261028-0938-RESEARCH`；[研究全文](research/notion-deep-study-automation-run-66-2026-10-28.md)；Notion [Keyboard shortcuts](https://www.notion.com/help/keyboard-shortcuts)、GOV.UK [Breadcrumbs](https://design-system.service.gov.uk/components/breadcrumbs/) 各完成官方主要文字一次閱讀及獨立反例分析，未完成完整深讀R1。
+- **研究推論**：快捷鍵搜尋/返回/peek可能因中文輸入法、情境切換、相似資料造成誤選；Notion /bread 與GOV.UK Breadcrumbs表示頁面階層，不能表示Session/Billing/方案期別多對多業務來源，也不能取代業務流程進度、歷史金額核對或使用者已確認「同類資料同頁、開啟即見」。
+- **非核准**：不得因此新增導覽/快捷鍵/欄位、改Notion頁面/DB/View/公式/Relation/權限或正式系統；需隔離鍵盤/讀屏/手機/真人UX與權限/公式/效能測試。全庫精確去重未完，候選2、嚴格10/10新增0、累積0/10,000；僅GitHub研究紀錄。
