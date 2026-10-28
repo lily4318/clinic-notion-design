@@ -1001,3 +1001,10 @@
 - Trace `AUTO-76-20261028-1941-RESEARCH`；[逐篇閱讀證據與反例](research/notion-deep-study-automation-run-76-2026-10-28.md)。新來源候選2、官方主要正文文字閱讀2、首次反例2組6情境、完整複讀0；sources全文/code search未見精確slug，87份研究檔逐檔核對因工具上限未完成，跨語系同文異址去重亦PENDING。
 - **PARTIAL**：完整R1–R10均0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。原圖/影音/實際互動、鍵盤/讀屏/手機、真人Notion/角色權限/歷史Billing/Session/補助方案期別/Formula/效能皆**NOT_TESTED**；商業Portal/Knowledge hub建議不能視為臨床資料授權或正式UX PASS。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究進度；未修改正式/TEST頁面、DB/View/Formula/Relation/權限/業務資料或正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，手動與自動續作維持並行。
+
+
+## 2026-10-28｜AUTO-77｜Chart/Search 文字研究 PARTIAL，非Notion功能驗收
+- Trace `AUTO-77-20261028-2038-RESEARCH`；[研究證據與反例](research/notion-deep-study-automation-run-77-2026-10-28.md)。本輪可核：官方 `/help/charts` 與 `/help/search` 主要正文各讀一次、2組6反例；sources與code search精確canonical未見重複，但全歷史與同文異址語義去重PENDING，僅新來源候選2。
+- **PARTIAL**：Chart圖表母體/期別/Formula/zero-values文案衝突、Search索引/最近編輯排序限制均為公開文件閱讀結論，未實際測Notion。完整R1–R10均0、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`、累積可核實**0／10,000篇**。
+- **NOT TESTED**：原圖/影片、圖表與搜尋互動、中文輸入、手機/鍵盤/讀屏、現行Notion Free/角色權限、歷史Billing/Session/補助期別、Formula原生求值、載入效能與真人UX。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄，未更動正式或TEST頁面/DB/View/Formula/Relation/權限/業務列，也未改正式GAS/Cloud Run/Session/部署；10,000篇各10次未達，不開始重新設計；手動/自動續作維持獨立並行。
