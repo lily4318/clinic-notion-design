@@ -950,3 +950,9 @@
 - **PARTIAL／嚴格計量**：完整R1=0、R2–R10=0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**；文字閱讀不等於完整深讀或真實系統驗收。
 - **NOT_TESTED**：原圖/互動、鍵盤/讀屏/手機、中文輸入法、真人Notion、角色權限、公式/歷史金額/效能、補助資格與收款真值。研究假說不構成改版授權。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄，未修改Notion正式/TEST頁面、DB、View、Formula、Relation、權限、業務資料，亦未修改正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，雙軌研究可並行。
+
+
+## 2026-10-28｜AUTO-68：適用性/帳號 UX 官方研究（非 Notion 驗收）
+- Trace `AUTO-68-20261028-1137-RESEARCH`；[閱讀與反例證據](research/notion-deep-study-automation-run-68-2026-10-28.md)。官方 [Check a service is suitable](https://design-system.service.gov.uk/patterns/check-a-service-is-suitable/) 與 [Create accounts](https://design-system.service.gov.uk/patterns/create-accounts/) 主要正文各一次文字閱讀，反例2組共6情境；來源僅索引新候選2，**全79份歷史研究與同文異址精確去重未完成**。
+- **PARTIAL**：完整深讀R1及R2–R10均0，`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實**0／10,000篇**；文字閱讀不是完整深讀，研究假說不構成業務/UX PASS。
+- **NOT_TESTED**：原圖/實際互動、鍵盤/讀屏/手機、真人Notion、資格核定、角色與權限、Price Plan歷史金額、Session/Billing、公式、效能、跨系統登入。**NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度；未修改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；未開始重新設計。雙軌續作不變。
