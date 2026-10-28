@@ -621,3 +621,10 @@
 - `AUTO66-S01` [Keyboard shortcuts – Notion Help](https://www.notion.com/help/keyboard-shortcuts)；canonical `notion-help:keyboard-shortcuts`；維護者Notion Help Center；發布/更新日未明列；2026-10-28檢索；`AUTO66-S01-R1-MAIN-TEXT-C1` 官方主要文字各章節一次閱讀，含搜尋、返回、peek、/bread、資料庫多選；反例：QWERTY/中文輸入法衝突、快捷鍵依情境改變、跨個案搜尋誤選、頁面路徑不等於業務來源。
 - `AUTO66-S02` [Breadcrumbs – GOV.UK Design System](https://design-system.service.gov.uk/components/breadcrumbs/)；canonical `govuk-design-system:components/breadcrumbs`；維護者GOV.UK Design System team；2018-06導入、2024-07更新語義；2026-10-28檢索；`AUTO66-S02-R1-MAIN-TEXT-C1` 官方主文、HTML/Nunjucks、[options](https://design-system.service.gov.uk/components/breadcrumbs/nunjucks/)、[history](https://design-system.service.gov.uk/components/breadcrumbs/history/)一次文字閱讀；反例：多對多業務關聯不是頁面階層、流程進度不是麵包屑、手機收合可能隱藏情境。
 - **計量**：新候選2、主要正文實讀2、首次獨立反例2組6情境；完整R1=0、R2–R10=0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實仍**0/10,000篇**。圖片/影片/鍵盤/讀屏/手機/真人Notion/權限/公式/效能未測；僅GitHub研究，不改Notion/正式系統，不進入重新設計。
+
+
+## 2026-10-28｜AUTO-67：資料驗證／多任務交易模式（研究限定）
+- Trace `AUTO-67-20261028-1042-RESEARCH`；[完整逐篇正文閱讀與反例](research/notion-deep-study-automation-run-67-2026-10-28.md)。開始及寫入前讀取main規範、sources、research README、audit checklist、AUTO-66；當時sources與GitHub code search未見下列URL；**全庫逐檔/同文異址去重未完成，僅列候選**。
+- `AUTO67-S01` [Recover from validation errors – GOV.UK Design System](https://design-system.service.gov.uk/patterns/validation/)；canonical `govuk-design-system:patterns/validation`；官方維護者GOV.UK Design System team；發布/修訂日未明列；`AUTO67-S01-R1-MAIN-TEXT-C1` 官方主要文字一次閱讀。反例：格式錯誤≠政府資格待核/存取權限；中文輸入法組字與過早驗證；Notion顯示檢查≠後端強制驗證。
+- `AUTO67-S02` [Complete multiple tasks – GOV.UK Design System](https://design-system.service.gov.uk/patterns/complete-multiple-tasks/)；canonical `govuk-design-system:patterns/complete-multiple-tasks`；官方維護者GOV.UK Design System team；發布/修訂日未明列；`AUTO67-S02-R1-MAIN-TEXT-C1` 官方主要文字及HTML/Nunjucks示例一次閱讀。反例：高頻Session/Billing同頁核對不宜未經驗證拆成多頁；任務Completed≠補助核准/收款；待核不等於禁止補件。
+- 本輪新來源候選**2**、主要正文閱讀**2**、首次獨立反例**2組/6情境**；完整R1及R2–R10均**0**，`FULL_DEEP_PASS_10_OF_10`本輪**0**、累積可核實仍**0／10,000篇**。原圖/互動/鍵盤/讀屏/手機/真人Notion/角色/公式/效能均未驗；僅GitHub研究，不改Notion/正式系統，不開始重新設計。
