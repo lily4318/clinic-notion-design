@@ -937,3 +937,9 @@
 - Trace `AUTO-65-20261028-0844-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-65-2026-10-28.md)。GOV.UK Button/Back link各一次主要正文、HTML/Nunjucks、限制與change history文字閱讀，兩組獨立反例（5情境）；新來源候選2，76份研究文件逐檔全文/同文異址精確去重**未完成**。
 - **PARTIAL**：完整R1與R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0、累積**0／10,000篇**。**NOT_TESTED**：圖片/互動/鍵盤/讀屏/手機/真人Notion、雙擊與後端冪等、返回狀態恢復、權限、公式、歷史金額、效能；研究推論不能視為業務或UX PASS。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究進度；未修改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料，或正式GAS/Cloud Run/Session/部署；不開始重新設計，雙軌研究可並行。
+
+
+## 2026-10-28｜AUTO-66：快捷鍵/導航研究 PARTIAL（非Notion驗收）
+- Trace `AUTO-66-20261028-0938-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-66-2026-10-28.md)。Notion Keyboard shortcuts/GOV.UK Breadcrumbs官方主要文字、相關範例文字各一次閱讀，兩組6個獨立反例；研究目錄77份列舉但全庫逐檔全文及同文異址去重因工具上限未完成，僅新來源候選2。
+- **PARTIAL**：完整R1及R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0，累積**0/10,000篇**。**NOT_TESTED**：原始圖片/影片/互動、Windows中文輸入法、鍵盤/讀屏/手機、真人Notion、角色權限、歷史金額/公式、效能。HTML導覽語義不可直接推論Notion原生可實現。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄；未改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料及正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計；雙軌續作不變。
