@@ -1027,3 +1027,10 @@
 - Trace `AUTO-80-20261028-2342-RESEARCH`；[研究紀錄](research/notion-deep-study-automation-run-80-2026-10-28.md)。Task list與Summary list官方主要文字/選定HTML/Nunjucks範例各一次，2組6反例；`NEW_CANDIDATE=2`、`MAIN_TEXT_PARTIAL_READ=2`，精確slug已查但全歷史及同文異址語義去重PENDING。
 - **PARTIAL**：任務清單適用自由順序長流程，不等於行政必備待辦；摘要清單呈現已知事實，不等於真實Billing入帳、補助核准或歷史收費快照。完整`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實**0／10,000篇**。
 - **NOT_TESTED**：全部原圖/獨立示例、鍵盤/讀屏/手機、Notion即時Schema/角色權限、歷史Billing/Session/Price Plan原生Formula、真人UX/效能。**NO NOTION/SYSTEM WRITE**：僅GitHub研究進度，不改正式/TEST頁、DB/View/Formula/Relation/權限/業務列或正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，雙軌研究維持並行。
+
+
+## 2026-10-29｜AUTO-81｜Question pages／Contact team研究 PARTIAL（非Notion驗收）
+- Trace `AUTO-81-20261029-0038-RESEARCH`；[逐節研究與反例](research/notion-deep-study-automation-run-81-2026-10-29.md)。2篇GOV.UK官方可讀主文及選定HTML/Nunjucks範例各一次、2組6反例；`NEW_CANDIDATE=2`、`MAIN_TEXT_PARTIAL_READ=2`；精確canonical來源索引/GitHub搜尋未見重複，但全歷史逐檔及同文異址語義去重PENDING。
+- **PARTIAL**：內部高頻表單可依實際任務同頁分組；未知值不可視為0；返回重送不應造成重複交易；聯絡管道要真實可履行、避免公開洩漏敏感資料。此為外部UX研究，不是Notion原生公式、權限或交易保證實測。
+- **嚴格計量**：`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實**0／10,000篇**。**NOT_TESTED**：原圖/獨立互動、鍵盤/讀屏/手機、Notion真人UX/角色權限、Billing/Session/Price Plan歷史值/防重交易、公式與效能。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究進度；未修改Notion正式/TEST頁面、DB/View/Formula/Relation/權限/業務資料或正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計；雙軌研究仍可並行。
