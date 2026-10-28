@@ -961,3 +961,8 @@
 - Trace `AUTO-69-20261028-1243-RESEARCH`；[逐篇閱讀、反例與缺口](research/notion-deep-study-automation-run-69-2026-10-28.md)。GOV.UK Dates/Names 官方主要正文與獨立示例文字各一次閱讀，2組6個反例；僅來源索引與 GitHub 搜尋去重，**未完成全庫歷史逐檔及同文異址精確去重**。
 - **PARTIAL**：新來源候選2、正文文字閱讀2；完整 R1–R10 均0，`FULL_DEEP_PASS_10_OF_10` 本輪0、累積可核實 **0／10,000篇**。日期輸入/民國西元、姓名/ID/更名與歷史金額只是研究反例，非實測。
 - **NOT_TESTED**：原圖/互動/鍵盤/讀屏/手機、真人Notion、角色權限、實際公式/補助/收費/效能。**NO NOTION/SYSTEM WRITE**：僅 GitHub 研究與進度；未改 Notion 正式/TEST頁、DB、View、Formula、Relation、權限、業務資料及正式 GAS/Cloud Run/Session/部署；未開始重新設計，雙軌續作不變。
+
+## 2026-10-28｜AUTO-70：地址／電話輸入研究 PARTIAL（非Notion驗收）
+- Trace `AUTO-70-20261028-1341-RESEARCH`；[逐篇來源與反例](research/notion-deep-study-automation-run-70-2026-10-28.md)。GOV.UK Addresses與Phone numbers各一次主要正文、HTML/Nunjucks示例文字閱讀，新增2篇來源候選、2組共6個反例。已查sources、code search、81份研究文件目錄與12份非AUTO文件；**69份AUTO歷史全文及同文異址去重未完成**。
+- **PARTIAL／嚴格計量**：完整R1–R10均0，`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實 **0／10,000篇**；不能把文字閱讀、示例數或反例數計為完整深讀。原圖/互動/鍵盤/讀屏/手機、臺灣地址/電話真實驗證、Notion角色權限/公式/效能/歷史文件均**NOT_TESTED**。
+- **NO NOTION/SYSTEM WRITE**：只寫GitHub研究紀錄，未修改Notion正式或TEST頁面、Database、View、Formula、Relation、權限、業務列，或正式GAS、Cloud Run、Session、部署；沒有開始Notion重新設計。雙軌研究並行約定不變。
