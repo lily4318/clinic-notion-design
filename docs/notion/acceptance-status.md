@@ -978,3 +978,8 @@
 - Trace `AUTO-72-20261028-1544-RESEARCH`；[可稽核閱讀與反例](research/notion-deep-study-automation-run-72-2026-10-28.md)。GOV.UK Phase banner 與 Exit a page quickly 主要正文文字各一次，補充官方 history、Nunjucks及Exit元件內容僅作交叉核對；新來源候選2、獨立反例2組6情境。sources全文/代碼搜尋未見同URL，但全歷史逐檔及同文異址精確去重未完成。
 - **PARTIAL**：完整R1–R10均0，`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。服務階段標籤≠資料隔離/個案資格；快速離開≠登出/清除瀏覽痕跡/交易安全。均為研究假說，不代表正式 UX 或業務 PASS。
 - **NOT_TESTED**：原圖/實際互動、鍵盤/讀屏/手機、真人Notion、角色權限/環境隔離、瀏覽痕跡/session、實際收費/Formula/效能。**NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度記錄；未改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；未開始重新設計，雙軌研究可並行。
+
+## 2026-10-28｜AUTO-73 公開研究證據（不是 Notion/資安驗收）
+- Trace `AUTO-73-20261028-1637-RESEARCH`；[完整研究紀錄](research/notion-deep-study-automation-run-73-2026-10-28.md)。官方信箱/手機確認指南正文各閱讀一次；新來源候選2篇、反例2組6情境、既有完整複讀0；全庫逐檔/同文異址去重未完成。嚴格完整 R1–R10 **0**，累積 `FULL_DEEP_PASS_10_OF_10=0/10000`，**研究門檻 NOT MET**。
+- PASS範圍僅限 GitHub 文件同步後可回讀；**NOT TESTED**：原圖/互動、鍵盤/讀屏/手機、真人 UX、實際Notion權限、email/SMS/OTP/登入、敏感資料保護、Session/Billing/政府補助正確性、Formula/效能。研究推論不等於功能已核准或安全驗證通過。
+- NO NOTION WRITE：沒有修改正式或TEST頁、DB/View/Formula/Relation/權限/業務資料，也未動正式GAS/Cloud Run/Session/部署；未開始Notion重新設計。自動/手動研究可並行。
