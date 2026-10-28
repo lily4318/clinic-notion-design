@@ -931,3 +931,9 @@
 - Trace `AUTO-64-20261028-0735-RESEARCH`；[研究軌跡](research/notion-deep-study-automation-run-64-2026-10-28.md)。GOV.UK Service navigation、Skip link 官方主要正文/HTML/Nunjucks/限制各一次閱讀，新增獨立反例各2情境。先排除已登記AUTO-50的Summary list/Tag；兩篇新候選在已查sources/11份非AUTO研究與GitHub code search未命中，**未完成63份AUTO逐檔及同文異址全庫去重**。
 - **PARTIAL／公開文字**：服務導航/active/aria-current不能證明同頁資料核對或權限；Skip link協助鍵盤略過重複導航，但不能由HTML示例推論Notion原生焦點行為，跳轉也不可遮蔽業務異常。**NOT_TESTED**：原圖/實際互動/鍵盤/讀屏/手機/縮放/Notion真實頁面/角色權限/公式/效能/歷史金額。
 - **嚴格計量**：本輪候選2、正文閱讀2、首次反例2組（4情境）、完整R1及R2–R10均0、`FULL_DEEP_PASS_10_OF_10`新增0、累積可核實仍**0／10,000篇**。**NO NOTION/SYSTEM WRITE**：僅GitHub研究/進度，未修改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務列及正式GAS/Cloud Run/Session/部署；不開始重新設計，雙軌續作可並行。
+
+
+## 2026-10-28｜AUTO-65：按鈕與返回路徑研究 PARTIAL（非 Notion 驗收）
+- Trace `AUTO-65-20261028-0844-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-65-2026-10-28.md)。GOV.UK Button/Back link各一次主要正文、HTML/Nunjucks、限制與change history文字閱讀，兩組獨立反例（5情境）；新來源候選2，76份研究文件逐檔全文/同文異址精確去重**未完成**。
+- **PARTIAL**：完整R1與R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0、累積**0／10,000篇**。**NOT_TESTED**：圖片/互動/鍵盤/讀屏/手機/真人Notion、雙擊與後端冪等、返回狀態恢復、權限、公式、歷史金額、效能；研究推論不能視為業務或UX PASS。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究進度；未修改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料，或正式GAS/Cloud Run/Session/部署；不開始重新設計，雙軌研究可並行。
