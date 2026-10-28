@@ -1040,3 +1040,8 @@
 - Trace `AUTO-82-20261029-0143-RESEARCH`；[研究證據](research/notion-deep-study-automation-run-82-2026-10-29.md)。官方linked databases簡短主文閱讀1篇新候選、既有Data sources主文/FAQ針對性複讀1次、6反例；影片/原圖/互動未完成，跨歷史/語義去重未完成。
 - `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實**0／10,000篇**。**NOT_TESTED**：原生Linked View/Source移動權限、角色隔離、Billing/Session歷史快照、跨期Formula、真人同頁UX、載入效能；官方文件移動權限文字衝突待實機核實。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究文件；未動正式/TEST頁、資料庫、View、Formula、Relation、權限、業務列或正式GAS/Cloud Run/Session/部署；不開始重新設計。自動與手動研究可並行。
+
+## 2026-10-29｜AUTO-83｜Interruption／Page not found 研究 PARTIAL；Notion驗收 NOT_TESTED
+- Trace `AUTO-83-20261029-0240-RESEARCH`；[證據與反例](research/notion-deep-study-automation-run-83-2026-10-29.md)。2篇GOV.UK官方頁主要正文/選定HTML-Nunjucks例各一次，6個獨立反例；新來源候選2，精確canonical於sources全文未見，跨歷史與同文異址去重PENDING。
+- `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0／10,000篇**。原圖/互動/鍵盤/讀屏/手機、Notion角色權限、錯誤狀態、Billing/Session/方案期別、Formula、真人UX與效能皆**NOT_TESTED**。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究記錄；未修改Notion正式/TEST頁面、DB/View/Formula/Relation/權限/業務列，亦未修改正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計。手動與自動研究維持並行。
