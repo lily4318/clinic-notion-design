@@ -943,3 +943,10 @@
 - Trace `AUTO-66-20261028-0938-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-66-2026-10-28.md)。Notion Keyboard shortcuts/GOV.UK Breadcrumbs官方主要文字、相關範例文字各一次閱讀，兩組6個獨立反例；研究目錄77份列舉但全庫逐檔全文及同文異址去重因工具上限未完成，僅新來源候選2。
 - **PARTIAL**：完整R1及R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0，累積**0/10,000篇**。**NOT_TESTED**：原始圖片/影片/互動、Windows中文輸入法、鍵盤/讀屏/手機、真人Notion、角色權限、歷史金額/公式、效能。HTML導覽語義不可直接推論Notion原生可實現。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄；未改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料及正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計；雙軌續作不變。
+
+
+## 2026-10-28｜AUTO-67：驗證錯誤／多任務模式研究 PARTIAL（非 Notion 驗收）
+- Trace `AUTO-67-20261028-1042-RESEARCH`；[研究原文、反例與缺口](research/notion-deep-study-automation-run-67-2026-10-28.md)。GOV.UK Validation與Complete multiple tasks主要文字/範例各一次閱讀；兩組獨立反例6情境；已查來源索引URL但全庫/同文異址精確去重未完成，**新候選2**。
+- **PARTIAL／嚴格計量**：完整R1=0、R2–R10=0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**；文字閱讀不等於完整深讀或真實系統驗收。
+- **NOT_TESTED**：原圖/互動、鍵盤/讀屏/手機、中文輸入法、真人Notion、角色權限、公式/歷史金額/效能、補助資格與收款真值。研究假說不構成改版授權。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄，未修改Notion正式/TEST頁面、DB、View、Formula、Relation、權限、業務資料，亦未修改正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，雙軌研究可並行。
