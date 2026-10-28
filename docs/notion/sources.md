@@ -687,3 +687,10 @@
 - `AUTO76-S01` [Manage client work in a flexible project tracker](https://www.notion.com/en-gb/help/guides/manage-client-work-in-a-flexible-project-tracker)；canonical `notion-help:guides/manage-client-work-in-a-flexible-project-tracker`；`AUTO76-S01-R1-MAIN-TEXT-20261028` 官方主要正文L105–L265文字閱讀一次。反例：客戶Portal不等於臨床個資授權、Board拖曳不等於核准/入帳、模板預填方案不等於歷史期別正確。
 - `AUTO76-S02` [Organize, connect, and scale your Notion knowledge management system](https://www.notion.com/help/guides/organize-connect-and-scale-your-notion-knowledge-management-system)；canonical `notion-help:guides/organize-connect-and-scale-your-notion-knowledge-management-system`；`AUTO76-S02-R1-MAIN-TEXT-20261028` 官方主要正文L107–L253文字閱讀一次。反例：全員首頁不宜直接公開敏感業務、長篇內部SOP不應塞入日常頁、Synced blocks不等於歷史財務快照。
 - 本輪`NEW_CANDIDATE=2`、`MAIN_TEXT_READ=2`、反例2組6情境、完整R1/R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。原圖/影音/互動/鍵盤/讀屏/手機/真人Notion/權限/Formula/效能均未驗。**僅GitHub研究記錄，不改Notion或正式系統，不開始重新設計。**
+
+
+## 2026-10-28｜AUTO-77：Chart 與 Search 官方文件研究（僅文字正文，非完整深讀）
+- Trace `AUTO-77-20261028-2038-RESEARCH`；[逐節閱讀與反例](research/notion-deep-study-automation-run-77-2026-10-28.md)。本輪開始讀取main規範/研究清冊；sources全文及GitHub code search對兩個canonical均未命中；**全歷史檔逐檔及同文異址語義去重未完成，僅NEW_CANDIDATE**。
+- `AUTO77-S01` [Chart view – Notion Help](https://www.notion.com/help/charts)；canonical `notion-help:charts`；維護者Notion Help Center，發表/更新日未核，查核2026-10-28；`AUTO77-S01-R1-MAIN-TEXT-20261028`：L107–L325文字正文一次。200 groups/50 subgroups、Free 1 chart、圖表不可直接編輯、drilldown限制、複雜Formula延遲與軸限制；同頁 `Omit zero values` 文案互相矛盾，待實機驗證。反例：圖表計數≠入帳/核准、跨期Formula≠歷史真值、drilldown≠同頁編輯/授權。
+- `AUTO77-S02` [Search in your workspace – Notion Help](https://www.notion.com/help/search)；canonical `notion-help:search`；維護者Notion Help Center，發表/更新日未核，查核2026-10-28；`AUTO77-S02-R1-MAIN-TEXT-20261028`：L107–L226文字正文一次。DB Search查標題/Property值而非頁內文，Workspace Search查內文但不含評論/討論及Select/Multi-select值；最近編輯排序與CJK支援限制。反例：搜尋不到≠不存在、最近修改≠有效期/付款、方便搜尋≠可複製敏感資料。
+- 本輪 `NEW_CANDIDATE=2`、`MAIN_TEXT_READ=2`、首次反例2組6情境、完整複讀0；**完整R1–R10均0、FULL_DEEP_PASS_10_OF_10新增0、累積可核實0／10,000篇**。原圖/影片/互動/手機/讀屏/權限/真人UX/公式/效能未驗。只寫GitHub研究，不動Notion或正式系統，不開始重新設計。
