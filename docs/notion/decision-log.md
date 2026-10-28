@@ -872,3 +872,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 ## 2026-10-28｜AUTO-69：日期/姓名欄位設計原則的反例研究（僅研究，非決策核可）
 - Trace `AUTO-69-20261028-1243-RESEARCH`；[完整證據](research/notion-deep-study-automation-run-69-2026-10-28.md)。GOV.UK Dates/Names 各一次主要正文文字閱讀；反例指出：日期輸入格式正確≠補助期別或資格核定正確，姓名顯示文字≠個案/心理師穩定唯一 ID；改名/紀年轉換需保留必要歷史可稽核性。
 - **未核可**任何新的 Notion 欄位、日期轉換、姓名欄位、Relation、View、公式或業務流程；這是研究假說而非已通過 UX/安全/合規驗收。完整 R1–R10=0，累積可核實 0／10,000 篇；僅 GitHub 研究進度寫入。
+
+## 2026-10-28｜AUTO-70：聯絡欄位資料最小化與輸入容錯研究（**非設計決策**）
+- Trace `AUTO-70-20261028-1341-RESEARCH`；[研究證據](research/notion-deep-study-automation-run-70-2026-10-28.md)；官方 [Addresses](https://design-system.service.gov.uk/patterns/addresses/)／[Phone numbers](https://design-system.service.gov.uk/patterns/phone-numbers/) 各一次主要正文與HTML/Nunjucks範例文字閱讀，提出6個治療所反例。
+- **僅研究假說**：地址與電話屬可變、可能敏感且非唯一的聯絡資訊；欄位是否必填應由業務用途決定，臺灣/國際格式不得照搬英國規則，電話或地址不能取代穩定個案識別碼。日常同頁可見與跨角色個資最小揭露須並行考量，不能以View收合冒充權限。
+- **未核准、未實作、未驗收**：未決定新增/刪除/調整任何Notion欄位、View、Formula、Relation、頁面或權限；未核實臺灣郵寄/法規、原生Notion權限、真人UX/效能/歷史收據。完整深讀R1–R10=0，累積10/10=0/10,000。雙軌研究維持獨立，不開始重新設計。
