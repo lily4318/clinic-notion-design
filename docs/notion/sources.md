@@ -635,3 +635,9 @@
 - `AUTO68-S01` [Check a service is suitable – GOV.UK Design System](https://design-system.service.gov.uk/patterns/check-a-service-is-suitable/)；canonical `govuk-design-system:patterns/check-a-service-is-suitable`；`AUTO68-S01-R1-MAIN-TEXT-C1`：主要正文、圖替代文字及HTML/Nunjucks示例一次文字閱讀；資格初篩≠人工核准，不能為既有青壯流程擅增前置問卷。
 - `AUTO68-S02` [Create accounts – GOV.UK Design System](https://design-system.service.gov.uk/patterns/create-accounts/)；canonical `govuk-design-system:patterns/create-accounts`；`AUTO68-S02-R1-MAIN-TEXT-C1`：主要正文一次文字閱讀；降低帳號門檻≠內部敏感資料可放棄身分驗證，Notion/GAS權限須分別驗證。
 - **嚴格計量**：本輪新候選2、正文閱讀2、首次反例2組/6情境、既有來源完整複讀0；完整R1–R10皆0、`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實**0／10,000篇**。原圖/互動/鍵盤/讀屏/手機/真人UX/Notion角色/權限/歷史金額/公式/效能均NOT_TESTED。僅GitHub研究，未改Notion或正式系統；未開始重新設計。
+
+## 2026-10-28｜AUTO-69：日期與姓名輸入模式（研究限定）
+- Trace `AUTO-69-20261028-1243-RESEARCH`；[本輪閱讀原文、示例與反例](research/notion-deep-study-automation-run-69-2026-10-28.md)。已讀 main 主要規範與當期 sources，GitHub code search 未見以下 canonical；**全庫歷史逐檔及同文異址去重尚未完成，僅新候選**。
+- `AUTO69-S01` [Ask users for Dates – GOV.UK Design System](https://design-system.service.gov.uk/patterns/dates/)；canonical `govuk-design-system:patterns/dates`；維護者 GOV.UK Design System team；首發日未核；`AUTO69-S01-R1-MAIN-TEXT-C1`。主要正文/HTML/Nunjucks/獨立示例一次文字閱讀，非完整 R1；反例：精確計費日期≠約略回憶、有效日期≠補助核准、民國/西元格式誤讀。
+- `AUTO69-S02` [Ask users for Names – GOV.UK Design System](https://design-system.service.gov.uk/patterns/names/)；canonical `govuk-design-system:patterns/names`；維護者 GOV.UK Design System team；首發日未核；`AUTO69-S02-R1-MAIN-TEXT-C1`。主要正文/HTML/Nunjucks/兩種示例一次文字閱讀，非完整 R1；反例：姓名非穩定 ID、中文/複姓/原住民族姓名不宜強拆、改名不應無核對覆寫歷史文件。
+- **計量**：新候選2、主要正文文字閱讀2、首次獨立反例2組6情境；完整 R1–R10 均0，`FULL_DEEP_PASS_10_OF_10` 本輪0、累積可核實 **0／10,000篇**。原圖/互動/讀屏/手機/真人Notion/角色權限/公式/效能均未測。僅 GitHub 研究紀錄，未修改 Notion/正式系統，未開始重新設計。
