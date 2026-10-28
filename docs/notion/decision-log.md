@@ -868,3 +868,7 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-68-20261028-1137-RESEARCH`；[原始研究紀錄](research/notion-deep-study-automation-run-68-2026-10-28.md)。GOV.UK [Check a service is suitable](https://design-system.service.gov.uk/patterns/check-a-service-is-suitable/) 與 [Create accounts](https://design-system.service.gov.uk/patterns/create-accounts/) 官方主要正文各一次閱讀，首次反例各3情境。
 - **研究假說而非核准**：適用性問答只可作初篩，不能推定政府補助人工核准或替代 Price Plan 期別核對；不應擅自為現行青壯流程加必填資格清單。公眾一次性查詢的簡化帳號設計不應直接套用需追責的心理師/行政內部帳號；Notion View 不等於資料授權。
 - 本輪完整深讀10/10新增0、累積0/10,000；原圖、互動、權限、真人UX、公式與效能均未測。**未批准任何 Notion 重新設計／Schema／權限／正式系統變更；只同步研究紀錄。**
+
+## 2026-10-28｜AUTO-69：日期/姓名欄位設計原則的反例研究（僅研究，非決策核可）
+- Trace `AUTO-69-20261028-1243-RESEARCH`；[完整證據](research/notion-deep-study-automation-run-69-2026-10-28.md)。GOV.UK Dates/Names 各一次主要正文文字閱讀；反例指出：日期輸入格式正確≠補助期別或資格核定正確，姓名顯示文字≠個案/心理師穩定唯一 ID；改名/紀年轉換需保留必要歷史可稽核性。
+- **未核可**任何新的 Notion 欄位、日期轉換、姓名欄位、Relation、View、公式或業務流程；這是研究假說而非已通過 UX/安全/合規驗收。完整 R1–R10=0，累積可核實 0／10,000 篇；僅 GitHub 研究進度寫入。
