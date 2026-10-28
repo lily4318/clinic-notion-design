@@ -906,3 +906,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-75-20261028-1842-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-75-2026-10-28.md)；[來源](sources.md)。
 - **來源反證**：Notion官方Board頁主文稱無Status時可用Relation等分組，同頁FAQ又稱Relation/Formula不可分組；不可據此宣稱治療所目前UI支援Relation grouping，須在未來獲授權隔離環境核對。Board的拖曳/分欄/Sum不等於Session完成、Billing入帳或政府補助核准；List隱藏屬性不等於權限隔離，也可能降低跨期資料的同頁可比較性。
 - 保留使用者已確認「同類資料同頁、開啟即見」、內部規則不貼日常頁、跨方案期別獨立核對等既有決策。**本輪不新增/修改任何Board、List、View、Formula、Relation、業務資料或權限**，不修改正式系統；研究門檻嚴格10/10仍0/10000，未進入重新設計。
+
+
+## 2026-10-28｜AUTO-76：一般商業客戶追蹤／知識庫指南不能直接外推治療所（研究推論，非設計核可）
+- Trace `AUTO-76-20261028-1941-RESEARCH`；[完整研究與反例](research/notion-deep-study-automation-run-76-2026-10-28.md)；[來源](sources.md)。官方兩篇正文各一次文字閱讀，2組共6情境，來源索引與code search未見精確slug，但全87份研究檔逐檔去重因工具上限中止，僅新候選2。
+- **研究推論**：一般客戶Portal、Board拖曳、預填模板、公司知識首頁與Synced blocks不能取代治療所的角色權限、歷史交易快照、人工補助核准與「同類資料同頁、開啟即見」。本輪沒有批准任何新功能/Schema/UX改動。
+- 完整R1–R10皆0；`FULL_DEEP_PASS_10_OF_10`新增0、累積可核實**0／10,000篇**。僅GitHub研究，不更動Notion正式/TEST或GAS/Cloud Run/Session/部署；不開始重新設計。
