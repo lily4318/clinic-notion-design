@@ -883,3 +883,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-71-20261028-1438-RESEARCH`；[官方正文閱讀與反例](research/notion-deep-study-automation-run-71-2026-10-28.md)。GOV.UK Email addresses與Bank details各一次主要正文／HTML／Nunjucks文字閱讀；兩組共6個反例，**僅新來源候選2，歷史全庫及同文異址去重未完成**。
 - **研究假說，不是設計決定**：格式有效不等於聯絡／付款身分核實、資料存取授權或款項完成；不同用途Email與銀行資料需分別評估，英國銀行欄位規則不能直接套臺灣。不得據此新增必填、複製UK驗證或改Billing/Staff/個案資料。
 - **PARTIAL**：完整R1–R10均0，`FULL_DEEP_PASS_10_OF_10=0`，累積可核實0／10,000篇；原圖/互動/讀屏/手機、真人Notion、權限/臺灣金融規則/公式/效能未測。**NO NOTION/SYSTEM WRITE**；研究門檻未達，未開始重新設計。
+
+
+## 2026-10-28｜AUTO-72：階段提示與快速離開的界線（研究假說，非設計核准）
+- Trace `AUTO-72-20261028-1544-RESEARCH`；[研究原文、補充頁與反例](research/notion-deep-study-automation-run-72-2026-10-28.md)。GOV.UK [Phase banner](https://design-system.service.gov.uk/components/phase-banner/) 及 [Exit a page quickly](https://design-system.service.gov.uk/patterns/exit-a-page-quickly/) 各一次主要正文文字閱讀；2組6個獨立反例，並核對官方變更史/宏選項/相關元件，不將補充頁另計篇或閱讀次數。
+- **反證一**：全域alpha/beta或[TEST]標示不能證明Notion TEST已與啟用方案/真實Session隔離，也不能替代個案補助資格/期別狀態；不因此重加使用者撤回的黃色提示或長篇AI內部說明。
+- **反證二**：快速離開視覺遮罩/跳轉不等於清除瀏覽歷史、真正登出或保存/回復未完成Billing交易；家暴風險情境元件不能不經真人研究直接套用治療所內部行政工作台。
+- **狀態 PARTIAL**：原圖、互動、鍵盤/讀屏/手機、Notion原生能力/角色/權限、實際Session/Formula/效能未測；全庫同文異址去重未完，僅新候選2、正文文字閱讀2，完整R1–R10皆0、`FULL_DEEP_PASS_10_OF_10`新增0、累積可核實**0／10,000篇**。**無任何Notion或正式系統改版授權／寫入**；研究門檻未達，禁止提前重新設計。
