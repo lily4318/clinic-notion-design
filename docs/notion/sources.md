@@ -707,3 +707,10 @@
 - `AUTO79-S01` [Service unavailable pages – GOV.UK Design System](https://design-system.service.gov.uk/patterns/service-unavailable-pages/)；canonical `govuk-design-system:patterns/service-unavailable-pages`；維護者GOV.UK Design System team，首發/修訂日未核，2026-10-28查核；`AUTO79-S01-R1-MAIN-TEXT-20261028`：官方正文約L51–L516及HTML/Nunjucks範例文字一次。計畫性停用須告知恢復、已填資料是否保存、替代/聯絡方式；反例：局部View失敗≠全域停用、示例30天保存≠Notion真實保證、政府期別到期≠整體服務停用。
 - `AUTO79-S02` [There is a problem with the service pages – GOV.UK Design System](https://design-system.service.gov.uk/patterns/problem-with-the-service-pages/)；canonical `govuk-design-system:patterns/problem-with-the-service-pages`；同維護者，首發/修訂日未核，2026-10-28查核；`AUTO79-S02-R1-MAIN-TEXT-20261028`：官方正文約L51–L319及HTML/Nunjucks範例文字一次。非預期故障須記錄/修復、說明輸入資料狀態與安全替代途徑；反例：逾時重試可能重複Billing寫入、未確認同步≠已保存、資格/權限/輸入錯誤≠服務故障。
 - `MAIN_TEXT_READ=2`、首次獨立反例2組6情境、既有完整複讀0；原圖/互動/讀屏/手機/真人Notion/角色/Formula/故障復原/效能未驗；`FULL_R1=0`、`FULL_R2_TO_R10=0`、本輪`FULL_DEEP_PASS_10_OF_10=0`，累積可核實**0／10,000篇**。**僅GitHub研究記錄，未改Notion或正式系統，未開始重新設計。**
+
+
+## 2026-10-28｜AUTO-80：Task list / Summary list 官方文字研究（PARTIAL）
+- Trace `AUTO-80-20261028-2342-RESEARCH`；[逐節取證與6個反例](research/notion-deep-study-automation-run-80-2026-10-28.md)。開始及寫前重讀main主要規範、來源清冊及研究索引；sources精確路徑及GitHub code search未見相同canonical，仍未完成所有歷史檔與同文異址語義去重，僅新來源候選2。
+- `AUTO80-S01` [Task list – GOV.UK Design System](https://design-system.service.gov.uk/components/task-list/)；canonical `govuk-design-system:components/task-list`；維護者GOV.UK Design System team；2026-10-28取用；`AUTO80-S01-R1-MAIN-TEXT-PARTIAL-20261028`。適用多次、可自由順序的任務，不適用固定順序；先簡化流程。反例：硬性資格前置、同頁直接操作、勾選完成≠已入帳/核准。
+- `AUTO80-S02` [Summary list – GOV.UK Design System](https://design-system.service.gov.uk/components/summary-list/)；canonical `govuk-design-system:components/summary-list`；同維護者；2026-10-28取用；`AUTO80-S02-R1-MAIN-TEXT-PARTIAL-20261028`。適合key/value事實摘要、缺漏資訊、適度summary cards及有語境的更改連結，不適合大量表格或任務清單。反例：歷史費率漂移、未知≠已確認0、跨個案卡片誤選/越權。
+- `NEW_CANDIDATE=2`、`MAIN_TEXT_PARTIAL_READ=2`、首次獨立反例2組6情境；`FULL_R1=0`、`FULL_R2_TO_R10=0`、本輪`FULL_DEEP_PASS_10_OF_10=0`，累積可核實**0／10,000篇**。圖片/獨立互動/鍵盤/讀屏/手機/真人Notion/權限/原生Formula/歷史Billing/Session/效能均未驗。**僅GitHub研究，不改Notion或正式系統，不開始重新設計。**
