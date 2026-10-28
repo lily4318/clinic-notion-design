@@ -844,3 +844,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-64-20261028-0735-RESEARCH`；[完整研究及反例](research/notion-deep-study-automation-run-64-2026-10-28.md)；官方 [Service navigation](https://design-system.service.gov.uk/components/service-navigation/) 與 [Skip link](https://design-system.service.gov.uk/components/skip-link/) 主要正文各一次閱讀及獨立反例。已查索引未見兩篇canonical；全庫語義去重未完，僅候選。
 - **研究推論**：清楚的頂層導覽不能代替使用者已確認的「同類資料同頁、開啟即見」；頁面同時顯示多張Linked Views不保證鍵盤/讀屏可快速抵達主內容。Skip link為GOV.UK HTML元件，不可假設Notion原生可插入；導覽active狀態不代表有權存取資料，跳過導航也不應遮蔽補助待核/期別矛盾。
 - **非核准**：不據此新增導覽、跳轉、重排Notion頁面、修改View/Formula/Relation/權限或任何業務資料；需真人鍵盤/讀屏/權限/效能驗證及使用者另行確認。候選2、正文閱讀2、嚴格10/10新增0，累積`FULL_DEEP_PASS_10_OF_10`仍0／10,000；僅GitHub研究紀錄，Notion/正式系統零寫入。
+
+
+## 2026-10-28｜AUTO-65：提交防重與返回狀態保留（研究推論，非設計核可）
+- Trace `AUTO-65-20261028-0844-RESEARCH`；[逐篇閱讀/反例](research/notion-deep-study-automation-run-65-2026-10-28.md)。GOV.UK [Button](https://design-system.service.gov.uk/components/button/) 與 [Back link](https://design-system.service.gov.uk/components/back-link/) 各一次主要正文、示例文字與變更史閱讀，非完整R1，R2–R10均0；新來源候選2（全庫語義去重未完）。
+- **研究推論**：UI按鈕防雙擊不等於Notion/GAS後端冪等或Billing不重複；灰化按鈕不能代替未知資格的理由與下一步；返回上一頁不保證恢復個案/方案期別篩選、排序或草稿。過度多頁化亦可能違反使用者已確認「同類資料同頁、開啟即見」。
+- **非核准**：不得因此新增按鈕/跳轉/欄位、調整Notion View/Formula/Relation/權限或正式系統；需另有真人UX、隔離重試/雙擊、歷史金額與權限驗證。嚴格10/10本輪0、累積0／10,000；僅GitHub研究。
