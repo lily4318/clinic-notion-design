@@ -1061,3 +1061,8 @@
 - Trace `AUTO-86-20261029-0536-FILE-VALIDATION-RESEARCH`；[研究原始紀錄](research/notion-deep-study-automation-run-86-2026-10-29.md)。USWDS File input、Validation 兩篇官方主要文字/選定程式碼各一次部分閱讀，輔助檔案無障礙測試清單不額外計篇；2組6個反例。精確URL在sources/代碼搜尋未見，但全部歷史及同文異址語義去重PENDING，僅新來源候選2。
 - `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0/10,000篇**。**NOT_TESTED**：檔案實際上傳/持久化、真人Notion附件與權限、讀屏/手機/鍵盤、Session/Billing/補助資格/歷史快照、Formula、載入效能；外部元件測試不等於本所PASS。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究記錄；未修改正式/TEST Notion頁、DB、View、Formula、Relation、權限、業務列，亦未動正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計。雙軌研究維持獨立並行。
+
+## 2026-10-29｜AUTO-87｜Combo box／Character count 研究 PARTIAL；Notion 驗收 NOT_TESTED
+- Trace `AUTO-87-20261029-0643-COMBO-CHAR-RESEARCH`；[原文閱讀與反例](research/notion-deep-study-automation-run-87-2026-10-29.md)。2篇 USWDS 官方主要正文、選定HTML及無障礙說明各一次**部分閱讀**，2組6反例；新候選2（sources精確URL未見，跨歷史語義去重PENDING）。
+- `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。**NOT_TESTED**：原始互動、手機/鍵盤/讀屏、Notion Select/Relation、角色權限、Billing/Session/Price Plan期別、中文字符計數、真人UX、效能。
+- **NO NOTION/SYSTEM WRITE**：只更新GitHub研究紀錄；未動正式/TEST Notion頁、DB/View/Formula/Relation/權限/業務列或 GAS/Cloud Run/Session/部署。未達門檻，不開始重新設計；雙軌研究可並行。
