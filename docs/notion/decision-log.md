@@ -862,3 +862,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-67-20261028-1042-RESEARCH`；[完整研究](research/notion-deep-study-automation-run-67-2026-10-28.md)。GOV.UK Validation與Complete multiple tasks官方主要正文/範例文字各一次閱讀、獨立反例2組6情境；索引查無相同URL，但全庫同文異址精確去重未完成，僅新候選2。
 - **研究推論／非核准設計**：輸入格式、補助資格、角色授權、系統錯誤不能混用單一驗證訊息；長交易Task list不能直接替代使用者已核定「同類資料同頁、開啟即見」，人工任務完成不等於補助核准或Billing收款。沒有決議新增欄位、拆頁、調整流程或變更權限。
 - **嚴格門檻未達**：完整深讀R1–R10均0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實0/10,000篇；沒有真人/Notion/權限/公式/效能實測。僅GitHub研究進度，不改Notion/正式GAS/Cloud Run/Session/部署；使用者確認前不開始重新設計。
+
+
+## 2026-10-28｜AUTO-68：適用性初篩與建立帳號 UX 研究（尚非設計決策）
+- Trace `AUTO-68-20261028-1137-RESEARCH`；[原始研究紀錄](research/notion-deep-study-automation-run-68-2026-10-28.md)。GOV.UK [Check a service is suitable](https://design-system.service.gov.uk/patterns/check-a-service-is-suitable/) 與 [Create accounts](https://design-system.service.gov.uk/patterns/create-accounts/) 官方主要正文各一次閱讀，首次反例各3情境。
+- **研究假說而非核准**：適用性問答只可作初篩，不能推定政府補助人工核准或替代 Price Plan 期別核對；不應擅自為現行青壯流程加必填資格清單。公眾一次性查詢的簡化帳號設計不應直接套用需追責的心理師/行政內部帳號；Notion View 不等於資料授權。
+- 本輪完整深讀10/10新增0、累積0/10,000；原圖、互動、權限、真人UX、公式與效能均未測。**未批准任何 Notion 重新設計／Schema／權限／正式系統變更；只同步研究紀錄。**
