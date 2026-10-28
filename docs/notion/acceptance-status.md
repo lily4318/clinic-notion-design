@@ -995,3 +995,9 @@
 - Trace `AUTO-75-20261028-1842-RESEARCH`；[研究證據與反例](research/notion-deep-study-automation-run-75-2026-10-28.md)。兩篇官方主要文字與FAQ各讀一次，精確來源索引/程式碼搜尋未命中，僅**新來源候選2**，全庫逐檔及同文異址語義去重未完成。
 - **PARTIAL／來源矛盾**：Board 主文/FAQ對Relation分組能力互相衝突；Board拖曳/欄位Sum不能當作正式狀態或跨期金額，List簡潔/隱藏欄位不能當作權限隔離或同頁比較的替代。新反例2組6情境；嚴格完整R1–R10均0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。
 - **NOT TESTED**：圖片/影片/拖曳、鍵盤/讀屏/手機、Notion現行Board/List、角色權限、Formula、歷史Billing/Session/補助期別、效能及真人UX。**NO NOTION/SYSTEM WRITE**：僅GitHub研究記錄，不改正式/TEST頁面、DB、View、Formula、Relation、權限或業務列，不動正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，雙軌研究可並行。
+
+
+## 2026-10-28｜AUTO-76｜客戶追蹤與知識工作台官方研究 PARTIAL（非Notion驗收）
+- Trace `AUTO-76-20261028-1941-RESEARCH`；[逐篇閱讀證據與反例](research/notion-deep-study-automation-run-76-2026-10-28.md)。新來源候選2、官方主要正文文字閱讀2、首次反例2組6情境、完整複讀0；sources全文/code search未見精確slug，87份研究檔逐檔核對因工具上限未完成，跨語系同文異址去重亦PENDING。
+- **PARTIAL**：完整R1–R10均0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。原圖/影音/實際互動、鍵盤/讀屏/手機、真人Notion/角色權限/歷史Billing/Session/補助方案期別/Formula/效能皆**NOT_TESTED**；商業Portal/Knowledge hub建議不能視為臨床資料授權或正式UX PASS。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究進度；未修改正式/TEST頁面、DB/View/Formula/Relation/權限/業務資料或正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，手動與自動續作維持並行。
