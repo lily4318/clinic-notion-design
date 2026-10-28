@@ -974,3 +974,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-87-20261029-0643-COMBO-CHAR-RESEARCH`；[研究紀錄](research/notion-deep-study-automation-run-87-2026-10-29.md)。USWDS Combo box/Character count 各一次主要正文及選定HTML/無障礙部分閱讀，新候選2，反例6，完整十遍達標0。
 - **研究推論（非已核准設計）**：選項搜尋不等於正確 Price Plan 期別；選取不等於已提交或持久化；字數限制不等於臨床紀錄適當或財務備註正確。兩元件官方有輔助科技已知問題，不能視為Notion原生通過。
 - **決策狀態**：RESEARCH ONLY / NOT_APPROVED / NOT_TESTED。不得修改 Notion/TEST、資料庫、View、公式、權限、業務資料或正式 GAS/Cloud Run/Session；未達 10,000×10，暫不重新設計。手動與自動續作並行。
+
+
+## 2026-10-29｜AUTO-88｜流程說明 vs 線性進度（研究推論，非新核准決策）
+- Trace `AUTO-88-20261029-0744-PROCESS-STEP-RESEARCH`；[完整來源與反例](research/notion-deep-study-automation-run-88-2026-10-29.md)；研究來源為USWDS [Process list](https://designsystem.digital.gov/components/process-list/)及[Step indicator](https://designsystem.digital.gov/components/step-indicator/)。
+- **研究區分**：Process list只說明有先後順序的步驟；Step indicator表達跨頁線性表單的當前章節，並非導航本身；已登記GOV.UK Task list適用可分次/非線性任務。三者均不代表 Notion 業務狀態已保存、核定期別已確認或 Billing/Session 已入帳。
+- **反證與保留條件**：將同頁機構/個案/心理師區改成步驟條，可能違反使用者「同類資料同頁、開啟即見」；用步驟完成推論補助核准會混淆介面狀態與資料真值。USWDS Process list文件另疑有Step indicator段落混入，待核。這些只是可供未來比較的UX假設，**不構成採用、設計變更或使用者同意**。
+- 本輪候選2篇、部分閱讀2篇、反例6；完整十遍深讀達標篇數仍 **0/10,000**；完整歷史/語義去重、Notion真人操作/手機/鍵盤/讀屏/權限/效能未驗證。**只寫GitHub研究紀錄，不改Notion正式/TEST或GAS/Cloud Run/Session/部署**。
