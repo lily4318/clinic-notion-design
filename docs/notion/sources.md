@@ -628,3 +628,10 @@
 - `AUTO67-S01` [Recover from validation errors – GOV.UK Design System](https://design-system.service.gov.uk/patterns/validation/)；canonical `govuk-design-system:patterns/validation`；官方維護者GOV.UK Design System team；發布/修訂日未明列；`AUTO67-S01-R1-MAIN-TEXT-C1` 官方主要文字一次閱讀。反例：格式錯誤≠政府資格待核/存取權限；中文輸入法組字與過早驗證；Notion顯示檢查≠後端強制驗證。
 - `AUTO67-S02` [Complete multiple tasks – GOV.UK Design System](https://design-system.service.gov.uk/patterns/complete-multiple-tasks/)；canonical `govuk-design-system:patterns/complete-multiple-tasks`；官方維護者GOV.UK Design System team；發布/修訂日未明列；`AUTO67-S02-R1-MAIN-TEXT-C1` 官方主要文字及HTML/Nunjucks示例一次閱讀。反例：高頻Session/Billing同頁核對不宜未經驗證拆成多頁；任務Completed≠補助核准/收款；待核不等於禁止補件。
 - 本輪新來源候選**2**、主要正文閱讀**2**、首次獨立反例**2組/6情境**；完整R1及R2–R10均**0**，`FULL_DEEP_PASS_10_OF_10`本輪**0**、累積可核實仍**0／10,000篇**。原圖/互動/鍵盤/讀屏/手機/真人Notion/角色/公式/效能均未驗；僅GitHub研究，不改Notion/正式系統，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-68｜資格適用性與帳號建立研究（PARTIAL）
+- Trace `AUTO-68-20261028-1137-RESEARCH`；[原文閱讀、反例與限制](research/notion-deep-study-automation-run-68-2026-10-28.md)。已查main主要規範、sources及首批/批次/手動研究清冊，研究目錄79份列舉；**全79份逐檔全文與同文異址語義去重未完成**，僅列已查索引新候選。
+- `AUTO68-S01` [Check a service is suitable – GOV.UK Design System](https://design-system.service.gov.uk/patterns/check-a-service-is-suitable/)；canonical `govuk-design-system:patterns/check-a-service-is-suitable`；`AUTO68-S01-R1-MAIN-TEXT-C1`：主要正文、圖替代文字及HTML/Nunjucks示例一次文字閱讀；資格初篩≠人工核准，不能為既有青壯流程擅增前置問卷。
+- `AUTO68-S02` [Create accounts – GOV.UK Design System](https://design-system.service.gov.uk/patterns/create-accounts/)；canonical `govuk-design-system:patterns/create-accounts`；`AUTO68-S02-R1-MAIN-TEXT-C1`：主要正文一次文字閱讀；降低帳號門檻≠內部敏感資料可放棄身分驗證，Notion/GAS權限須分別驗證。
+- **嚴格計量**：本輪新候選2、正文閱讀2、首次反例2組/6情境、既有來源完整複讀0；完整R1–R10皆0、`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實**0／10,000篇**。原圖/互動/鍵盤/讀屏/手機/真人UX/Notion角色/權限/歷史金額/公式/效能均NOT_TESTED。僅GitHub研究，未改Notion或正式系統；未開始重新設計。
