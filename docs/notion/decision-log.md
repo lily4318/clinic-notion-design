@@ -942,3 +942,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-81-20261029-0038-RESEARCH`；[研究來源、正文閱讀、6反例與限制](research/notion-deep-study-automation-run-81-2026-10-29.md)。兩篇GOV.UK官方指南各1次主要文字及選定範例閱讀，未達完整R1；新來源候選2、6反例，尚待全歷史及同文異址去重。
 - **反證**：問答頁「一頁一題」有內部高頻多題同頁例外，不得犧牲治療所「同類資料同頁、開啟即見」；未知/不適用/已確認0不混用，返回或重試不能直接造成重複Billing寫入；求助資訊不能承諾不存在的客服時段，公開社群不處理敏感個案資料，急迫求助不應藏在冗長收合內容。
 - **既有決策保留／未核准**：不把外部HTML元件當Notion原生功能，不將研究推論當已實測；未核准新增問答頁、聯絡區塊、Schema/Formula/View/權限或改正式系統。真人UX/角色權限/交易冪等/效能未驗，`FULL_DEEP_PASS_10_OF_10=0/10000`。本輪僅GitHub研究記錄，未修改Notion或正式GAS/Cloud Run/Session。
+
+
+## 2026-10-29｜AUTO-82｜Linked databases與Data sources權限語義研究 PARTIAL
+- Trace `AUTO-82-20261029-0143-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-82-2026-10-29.md)。新候選1篇（短文字指南、影片未看）、既有N04針對性複讀1次；不是完整R1或R2，來源去重仍待跨歷史/語義核驗。
+- **PARTIAL**：Linked View/Source共用底層資料，Filter/Sort/Group配置與來源資料修改的傳播範圍不同；共享容器或隱藏View不等於權限隔離/歷史金額快照。官方Data sources同頁`Can edit`與`Full access`對移動來源的文字不一致，待授權實機核實，不直接採用。
+- **嚴格計量**：反例6情境；`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實**0／10,000篇**。**NO NOTION/SYSTEM WRITE**：未修改Notion頁、DB/View/Formula/Relation/權限/業務資料或正式GAS/Cloud Run/Session/部署；研究未達門檻，不開始重新設計。
