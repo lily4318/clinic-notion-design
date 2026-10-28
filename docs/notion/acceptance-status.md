@@ -983,3 +983,10 @@
 - Trace `AUTO-73-20261028-1637-RESEARCH`；[完整研究紀錄](research/notion-deep-study-automation-run-73-2026-10-28.md)。官方信箱/手機確認指南正文各閱讀一次；新來源候選2篇、反例2組6情境、既有完整複讀0；全庫逐檔/同文異址去重未完成。嚴格完整 R1–R10 **0**，累積 `FULL_DEEP_PASS_10_OF_10=0/10000`，**研究門檻 NOT MET**。
 - PASS範圍僅限 GitHub 文件同步後可回讀；**NOT TESTED**：原圖/互動、鍵盤/讀屏/手機、真人 UX、實際Notion權限、email/SMS/OTP/登入、敏感資料保護、Session/Billing/政府補助正確性、Formula/效能。研究推論不等於功能已核准或安全驗證通過。
 - NO NOTION WRITE：沒有修改正式或TEST頁、DB/View/Formula/Relation/權限/業務資料，也未動正式GAS/Cloud Run/Session/部署；未開始Notion重新設計。自動/手動研究可並行。
+
+
+## 2026-10-28｜AUTO-74｜Forms Guide／Layouts交叉研究：GitHub文件PASS、業務驗收PENDING
+- Trace `AUTO-74-20261028-1741-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-74-2026-10-28.md)。已對研究目錄85份（73 AUTO＋12非AUTO）精確比對新Forms Guide slug，另查main sources與GitHub code search；**精確URL新候選1篇**，原Forms參考手冊已AUTO-01、Layouts指南已AUTO-26，均不重算。跨語系／同文異址語義去重尚未全部完成。
+- **PARTIAL／嚴格計量**：新來源官方文字閱讀1次、舊Layouts獨立針對性複讀1次、新反例6情境；完整R1–R10均未達，`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。官方Layouts Guide pinned 4與參考手冊 pinned 15不一致，僅證據衝突，尚未實測Notion現行UI。
+- **NOT_TESTED**：原始圖片/影片/互動、鍵盤/讀屏/手機、真實Forms/分享/匿名/權限、角色隔離、資料庫欄位、歷史Session/Billing/補助金額/公式/效能；任何官方範例不能視為本治療所已核准功能或法規合規。
+- **NO NOTION/SYSTEM WRITE**：本輪僅公開資料研究與GitHub記錄；未修改Notion正式或TEST頁面、DB、View、Formula、Relation、權限或業務資料，也未修改正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，手動/自動續作仍可獨立並行。
