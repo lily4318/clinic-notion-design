@@ -1066,3 +1066,10 @@
 - Trace `AUTO-87-20261029-0643-COMBO-CHAR-RESEARCH`；[原文閱讀與反例](research/notion-deep-study-automation-run-87-2026-10-29.md)。2篇 USWDS 官方主要正文、選定HTML及無障礙說明各一次**部分閱讀**，2組6反例；新候選2（sources精確URL未見，跨歷史語義去重PENDING）。
 - `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。**NOT_TESTED**：原始互動、手機/鍵盤/讀屏、Notion Select/Relation、角色權限、Billing/Session/Price Plan期別、中文字符計數、真人UX、效能。
 - **NO NOTION/SYSTEM WRITE**：只更新GitHub研究紀錄；未動正式/TEST Notion頁、DB/View/Formula/Relation/權限/業務列或 GAS/Cloud Run/Session/部署。未達門檻，不開始重新設計；雙軌研究可並行。
+
+
+## 2026-10-29｜AUTO-88｜Process list／Step indicator：文獻 PARTIAL、Notion NOT_TESTED
+- Trace `AUTO-88-20261029-0744-PROCESS-STEP-RESEARCH`；[本輪研究證據](research/notion-deep-study-automation-run-88-2026-10-29.md)。2篇USWDS官方指引的主要文字/選定HTML/無障礙清單文字部分閱讀，反例2組6情境；全歷史及同文異址語義去重仍待核，僅候選2篇。無障礙清單作輔助、不另計已深讀篇數。
+- `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_READ=2`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。USWDS官方Process list 6測試2通過/4條件；Step indicator 9測試7通過/2條件，**均非本所Notion實測**。
+- **NOT_TESTED**：Notion原生多步流程/狀態/權限、個案/心理師/機構同頁UX、Billing/Session/補助期別及交易真值、手機/鍵盤/讀屏/實際載入時間；外部元件不等於本所PASS。
+- **NO NOTION/SYSTEM WRITE**：僅公開資料研究及GitHub進度記錄；沒有修改任何正式/TEST Notion頁面、DB、View、Formula、Relation、權限或業務列，也沒有修改正式GAS、Cloud Run、Session、部署。研究門檻未達，不進入重新設計；自動/手動研究保持獨立並行。
