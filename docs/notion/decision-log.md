@@ -959,3 +959,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-84-20261029-0343-USWDS-RESEARCH`；[來源、閱讀範圍、6個反例](research/notion-deep-study-automation-run-84-2026-10-29.md)。新增美國政府 USWDS `Table` 與 `In-page navigation` 兩篇**新候選**，各僅主要指南與選定範例部分閱讀，未達完整 R1 或十遍。
 - **不變的使用者需求**：「同類資料同頁、開啟即見」、少冗文、維持歷史收費/補助期別與個資安全。研究指出表格可改善欄列掃讀、同頁定位可幫助長頁，但超寬表、只有錨點的首屏、動態費率與格式化排序、重度 inline DB 載入與鍵盤焦點都有反例。USWDS HTML/JS 元件不等於 Notion 原生支援。
 - **決策狀態**：`RESEARCH_ONLY / NO NEW DESIGN APPROVAL`。沒有提出/執行 Notion 改版或正式程式修改；原生公式、角色權限、手機、讀屏、真人 UX、效能仍待未來經核准的驗證。完整十遍達標仍 0/10,000，不進入重新設計。
+
+## 2026-10-29｜AUTO-85 日期／時間輸入設計研究（僅文獻，未核准改版）
+- Trace `AUTO-85-20261029-0435-DATETIME-RESEARCH`；[原始研究](research/notion-deep-study-automation-run-85-2026-10-29.md)。閱讀 USWDS Date picker / Time picker 官方主文、選定 HTML 與兩份無障礙測試文字，新增2篇候選、6個反例；未完成全歷史去重與逐篇十次深讀。
+- 研究判斷：預約日與補助首談日／期別日期不可混用；固定時段與實際 Session 執行時間不可混用；日期/時間 UI 選取不代表交易已保存或資格核准。美式日期格式、HTML 的 min/max/step/disabled 不得當作 Notion 原生已驗證能力。
+- 狀態：`RESEARCH_ONLY / NOT_APPROVED / NOT_TESTED`；不改既有 Notion／GAS／Cloud Run／Session；嚴格完整10/10累積0/10,000。
