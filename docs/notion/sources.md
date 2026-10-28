@@ -614,3 +614,10 @@
 - `AUTO65-S01` [Button – GOV.UK Design System](https://design-system.service.gov.uk/components/button/)；canonical `govuk-design-system:components/button`；GOV.UK Design System team；2018-06導入（[history](https://design-system.service.gov.uk/components/button/history/)）；`AUTO65-S01-R1-MAIN-TEXT-C1`：主要正文/HTML/Nunjucks/變更史文字一次閱讀，非完整R1。反例：雙擊可能重複收款；前端禁用不等於後端冪等；未知資格不宜只灰化提交。
 - `AUTO65-S02` [Back link – GOV.UK Design System](https://design-system.service.gov.uk/components/back-link/)；canonical `govuk-design-system:components/back-link`；GOV.UK Design System team；2018-06導入（[history](https://design-system.service.gov.uk/components/back-link/history/)）；`AUTO65-S02-R1-MAIN-TEXT-C1`：主要正文/HTML/Nunjucks/變更史文字一次閱讀，非完整R1。反例：返回不保證保留方案期別篩選、草稿與原入口；不能以返回連結取代同頁直接核對。
 - 已查sources全文與GitHub code search未見上述canonical；僅**新來源候選2**，正文文字閱讀2，首次獨立反例2組（5情境）；完整R1/R2–R10均0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實仍**0／10,000篇**。圖片、真實互動、鍵盤/讀屏/手機、Notion/權限/公式/效能均未測；**僅GitHub研究，不改Notion/正式系統，不開始重新設計**。
+
+
+## 2026-10-28｜AUTO-66：Notion 快捷鍵／Breadcrumbs（研究限定）
+- Trace `AUTO-66-20261028-0938-RESEARCH`；[逐篇閱讀、去重限制與反例](research/notion-deep-study-automation-run-66-2026-10-28.md)。main 規範/研究目錄77份已重新定位；全庫逐檔全文核對因工具呼叫上限未完成，**兩篇僅列新來源候選，不能宣稱全庫去重**。
+- `AUTO66-S01` [Keyboard shortcuts – Notion Help](https://www.notion.com/help/keyboard-shortcuts)；canonical `notion-help:keyboard-shortcuts`；維護者Notion Help Center；發布/更新日未明列；2026-10-28檢索；`AUTO66-S01-R1-MAIN-TEXT-C1` 官方主要文字各章節一次閱讀，含搜尋、返回、peek、/bread、資料庫多選；反例：QWERTY/中文輸入法衝突、快捷鍵依情境改變、跨個案搜尋誤選、頁面路徑不等於業務來源。
+- `AUTO66-S02` [Breadcrumbs – GOV.UK Design System](https://design-system.service.gov.uk/components/breadcrumbs/)；canonical `govuk-design-system:components/breadcrumbs`；維護者GOV.UK Design System team；2018-06導入、2024-07更新語義；2026-10-28檢索；`AUTO66-S02-R1-MAIN-TEXT-C1` 官方主文、HTML/Nunjucks、[options](https://design-system.service.gov.uk/components/breadcrumbs/nunjucks/)、[history](https://design-system.service.gov.uk/components/breadcrumbs/history/)一次文字閱讀；反例：多對多業務關聯不是頁面階層、流程進度不是麵包屑、手機收合可能隱藏情境。
+- **計量**：新候選2、主要正文實讀2、首次獨立反例2組6情境；完整R1=0、R2–R10=0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實仍**0/10,000篇**。圖片/影片/鍵盤/讀屏/手機/真人Notion/權限/公式/效能未測；僅GitHub研究，不改Notion/正式系統，不進入重新設計。
