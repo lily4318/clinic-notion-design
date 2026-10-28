@@ -990,3 +990,8 @@
 - **PARTIAL／嚴格計量**：新來源官方文字閱讀1次、舊Layouts獨立針對性複讀1次、新反例6情境；完整R1–R10均未達，`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。官方Layouts Guide pinned 4與參考手冊 pinned 15不一致，僅證據衝突，尚未實測Notion現行UI。
 - **NOT_TESTED**：原始圖片/影片/互動、鍵盤/讀屏/手機、真實Forms/分享/匿名/權限、角色隔離、資料庫欄位、歷史Session/Billing/補助金額/公式/效能；任何官方範例不能視為本治療所已核准功能或法規合規。
 - **NO NOTION/SYSTEM WRITE**：本輪僅公開資料研究與GitHub記錄；未修改Notion正式或TEST頁面、DB、View、Formula、Relation、權限或業務資料，也未修改正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，手動/自動續作仍可獨立並行。
+
+## 2026-10-28｜AUTO-75｜Board/List 官方研究 PARTIAL（非 Notion 功能驗收）
+- Trace `AUTO-75-20261028-1842-RESEARCH`；[研究證據與反例](research/notion-deep-study-automation-run-75-2026-10-28.md)。兩篇官方主要文字與FAQ各讀一次，精確來源索引/程式碼搜尋未命中，僅**新來源候選2**，全庫逐檔及同文異址語義去重未完成。
+- **PARTIAL／來源矛盾**：Board 主文/FAQ對Relation分組能力互相衝突；Board拖曳/欄位Sum不能當作正式狀態或跨期金額，List簡潔/隱藏欄位不能當作權限隔離或同頁比較的替代。新反例2組6情境；嚴格完整R1–R10均0、`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。
+- **NOT TESTED**：圖片/影片/拖曳、鍵盤/讀屏/手機、Notion現行Board/List、角色權限、Formula、歷史Billing/Session/補助期別、效能及真人UX。**NO NOTION/SYSTEM WRITE**：僅GitHub研究記錄，不改正式/TEST頁面、DB、View、Formula、Relation、權限或業務列，不動正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，雙軌研究可並行。
