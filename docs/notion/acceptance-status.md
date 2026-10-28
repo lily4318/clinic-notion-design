@@ -1021,3 +1021,9 @@
 - **PARTIAL／僅文獻**：預期停用與非預期故障應區分，保存資料/恢復時間須有真實系統證據；逾時重試可能重複寫入Billing，故障提示≠交易冪等或已入帳；政府期別/資格/權限不是平台停用。均為研究推論，非Notion功能PASS。
 - **嚴格計量**：`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實**0／10,000篇**。**NOT_TESTED**：原圖/互動、鍵盤/讀屏/手機、Notion真實故障/同步/資料保留/角色權限、Billing/Session/補助跨期Formula、真人UX與效能。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄；未修改正式/TEST頁、DB/View/Formula/Relation/權限/業務列或正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，雙軌研究仍可獨立並行。
+
+
+## 2026-10-28｜AUTO-80｜Task/Summary list文獻研究 PARTIAL（非Notion驗收）
+- Trace `AUTO-80-20261028-2342-RESEARCH`；[研究紀錄](research/notion-deep-study-automation-run-80-2026-10-28.md)。Task list與Summary list官方主要文字/選定HTML/Nunjucks範例各一次，2組6反例；`NEW_CANDIDATE=2`、`MAIN_TEXT_PARTIAL_READ=2`，精確slug已查但全歷史及同文異址語義去重PENDING。
+- **PARTIAL**：任務清單適用自由順序長流程，不等於行政必備待辦；摘要清單呈現已知事實，不等於真實Billing入帳、補助核准或歷史收費快照。完整`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實**0／10,000篇**。
+- **NOT_TESTED**：全部原圖/獨立示例、鍵盤/讀屏/手機、Notion即時Schema/角色權限、歷史Billing/Session/Price Plan原生Formula、真人UX/效能。**NO NOTION/SYSTEM WRITE**：僅GitHub研究進度，不改正式/TEST頁、DB/View/Formula/Relation/權限/業務列或正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計，雙軌研究維持並行。
