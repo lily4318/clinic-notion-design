@@ -901,3 +901,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-74-20261028-1741-RESEARCH`；[完整研究紀錄](research/notion-deep-study-automation-run-74-2026-10-28.md)。Notion官方Forms工作流程指南為精確URL去重後**新候選1篇**；既有Layouts指南為針對性重讀，不能重算新來源或十遍深讀。
 - **研究中的新反證**：多表單導入同一DB可能混合個案、補助及收款的不同責任與權限；表單自動指派/Slack或Email通知不等於可以傳送敏感資料；匿名回覆、正式核准、Billing入帳必須分離。既有Layouts指南稱最多4個Pinned，但現行Layouts參考手冊稱最多15，屬官方文件間版本/規格衝突，尚未獲授權在Notion TEST實機核對。
 - **不採用／未核准**：不得因此新增Form、合併資料庫、修改Property、調整Layout或通知流程；既有「同類資料同頁、開啟即見」、正式業務資料不擅動與內部規則不貼日常頁等決策不變。完整R1–R10仍未達，累積可核實0/10000篇，未進入重新設計。
+
+## 2026-10-28｜AUTO-75：Board/List 視覺化不取代業務真值（研究推論，非核准）
+- Trace `AUTO-75-20261028-1842-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-75-2026-10-28.md)；[來源](sources.md)。
+- **來源反證**：Notion官方Board頁主文稱無Status時可用Relation等分組，同頁FAQ又稱Relation/Formula不可分組；不可據此宣稱治療所目前UI支援Relation grouping，須在未來獲授權隔離環境核對。Board的拖曳/分欄/Sum不等於Session完成、Billing入帳或政府補助核准；List隱藏屬性不等於權限隔離，也可能降低跨期資料的同頁可比較性。
+- 保留使用者已確認「同類資料同頁、開啟即見」、內部規則不貼日常頁、跨方案期別獨立核對等既有決策。**本輪不新增/修改任何Board、List、View、Formula、Relation、業務資料或權限**，不修改正式系統；研究門檻嚴格10/10仍0/10000，未進入重新設計。
