@@ -734,3 +734,10 @@
 - `AUTO83-S01` [Interruption pages — GOV.UK Design System](https://design-system.service.gov.uk/patterns/interruption-pages/)；canonical `govuk-design-system:patterns/interruption-pages`；GOV.UK Design System team，首發／修訂日未核；`AUTO-83-20261029-0240-RESEARCH-S01-R1-MAIN-TEXT-AND-EXAMPLES-PARTIAL`，主要正文與HTML/Nunjucks文字例一次。反例：高頻編修過度阻斷、UI確認≠補助核准、警告≠不可逆交易防護。
 - `AUTO83-S02` [Page not found pages — GOV.UK Design System](https://design-system.service.gov.uk/patterns/page-not-found-pages/)；canonical `govuk-design-system:patterns/page-not-found-pages`；同維護者，首發／修訂日未核；`AUTO-83-20261029-0240-RESEARCH-S02-R1-MAIN-TEXT-AND-EXAMPLES-PARTIAL`，主要正文與兩組HTML/Nunjucks文字例一次。反例：找不到≠資料已刪、錯誤訊息不可洩漏敏感內容、連結失效≠應重建Billing/Session。
 - `NEW_CANDIDATE=2`、`MAIN_TEXT_PARTIAL_READ=2`、`COUNTEREXAMPLE=6`；`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 `0/10000`。原圖/互動/鍵盤/讀屏/手機/Notion真人UX/權限/公式/效能均未驗。**只更新GitHub研究紀錄，未修改Notion或正式系統，不進入重新設計。**
+
+
+## 2026-10-29｜AUTO-84：USWDS Table／In-page navigation（外部設計研究，非Notion實測）
+- Trace `AUTO-84-20261029-0343-USWDS-RESEARCH`；[原文閱讀、6反例及限制](research/notion-deep-study-automation-run-84-2026-10-29.md)。2026-10-29 查閱 USWDS 官方兩篇，main最新 sources 全文原無兩 canonical；全歷史同文異址/語義去重仍待完成，**新來源候選2**，不稱已確定唯一。
+- `AUTO84-S01` [Table | USWDS](https://designsystem.digital.gov/components/table/)；canonical `uswds:components/table`；維護者 USWDS/GSA；2026-10-29查核，官方列 2026-08-18 v3.14.0 更新（非文章首發日）；事件 `AUTO-84-20261029-0343-USWDS-RESEARCH-S01-R1-MAIN-GUIDANCE-SELECTED-EXAMPLES-PARTIAL`。讀取正文/部分示例/無障礙/變體與更新；未逐一操作預覽。反例：清楚表格≠歷史金額固定、字串格式排序可能錯誤、超寬表的行動/權限/效能風險。
+- `AUTO84-S02` [In-page navigation | USWDS](https://designsystem.digital.gov/components/in-page-navigation/)；canonical `uswds:components/in-page-navigation`；同維護者/查核日，官方列 2026-08-18 v3.14.0 更新；事件 `AUTO-84-20261029-0343-USWDS-RESEARCH-S02-R1-MAIN-GUIDANCE-SELECTED-EXAMPLES-PARTIAL`。讀取正文/部分程式碼/14項無障礙測試摘要及更新；未實際互動 Demo。反例：錨點不取代同頁直顯、導覽不等於減少 DB 載入、USWDS JS/焦點規格不能當作 Notion 原生。
+- `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_READ=2`、反例2組6情境；`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0/10,000篇**。僅 GitHub 研究，未修改 Notion 或正式系統；研究門檻未達，不開始重新設計。
