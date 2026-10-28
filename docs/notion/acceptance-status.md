@@ -1056,3 +1056,8 @@
 - Trace `AUTO-85-20261029-0435-DATETIME-RESEARCH`；[研究紀錄](research/notion-deep-study-automation-run-85-2026-10-29.md)。USWDS Date picker 與 Time picker 兩篇新候選文字部分閱讀；另參照兩份 accessibility test 清單，未作現場測試；反例6情境。
 - `NEW_CANDIDATE=2`、`PARTIAL_READ=2`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000**。去重仍有歷史/跨語系限制；真人 UX、Notion 原生日期時間、角色、資料正確性、效能均 `PENDING`。
 - 僅 GitHub 研究文件；未修改正式／TEST Notion 頁、DB、View、Formula、Relation、權限或業務列；未修改 GAS、Cloud Run、Session、部署；研究門檻未達，禁止進入重設。
+
+## 2026-10-29｜AUTO-86｜檔案上傳／Validation 文獻 PARTIAL，Notion驗收 NOT_TESTED
+- Trace `AUTO-86-20261029-0536-FILE-VALIDATION-RESEARCH`；[研究原始紀錄](research/notion-deep-study-automation-run-86-2026-10-29.md)。USWDS File input、Validation 兩篇官方主要文字/選定程式碼各一次部分閱讀，輔助檔案無障礙測試清單不額外計篇；2組6個反例。精確URL在sources/代碼搜尋未見，但全部歷史及同文異址語義去重PENDING，僅新來源候選2。
+- `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0/10,000篇**。**NOT_TESTED**：檔案實際上傳/持久化、真人Notion附件與權限、讀屏/手機/鍵盤、Session/Billing/補助資格/歷史快照、Formula、載入效能；外部元件測試不等於本所PASS。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究記錄；未修改正式/TEST Notion頁、DB、View、Formula、Relation、權限、業務列，亦未動正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計。雙軌研究維持獨立並行。
