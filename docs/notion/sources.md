@@ -654,3 +654,10 @@
 - `AUTO71-S01` [Ask users for Email addresses – GOV.UK Design System](https://design-system.service.gov.uk/patterns/email-addresses/)；canonical `govuk-design-system:patterns/email-addresses`；維護者GOV.UK Design System team；首發／修訂日期未核；`AUTO71-S01-R1-MAIN-TEXT-C1`。主要正文與HTML/Nunjucks文字一次閱讀：收集用途、貼上、長度、輸入格式、確認、錯誤。反例：聯絡／收據／登入信箱用途不可混同；格式有效≠收件者有權看個資；強制重填/驗證可能阻礙服務。
 - `AUTO71-S02` [Ask users for Bank details – GOV.UK Design System](https://design-system.service.gov.uk/patterns/bank-details/)；canonical `govuk-design-system:patterns/bank-details`；維護者GOV.UK Design System team；首發／修訂日期未核；`AUTO71-S02-R1-MAIN-TEXT-C1`。主要正文、HTML/Nunjucks、分支/國際帳戶、錯誤及研究限制一次文字閱讀；官方明示該模式尚未直接經用研驗證。反例：UK sort code/帳號規格不能照搬臺灣；同頁完整帳號展示有權限風險；格式正確≠款項入帳或歷史金額正確。
 - **本輪新來源候選2、正文文字閱讀2、首次反例2組6情境、完整複讀0、完整R1–R10均0、`FULL_DEEP_PASS_10_OF_10=0`、累積可核實0／10,000篇**。原圖/互動/鍵盤/讀屏/手機、真人Notion/臺灣銀行驗證/角色/Formula/效能均未測。僅GitHub研究，不改Notion或正式系統，不開始重新設計。
+
+
+## 2026-10-28｜AUTO-72：服務階段提示／敏感資訊快速離開（純研究）
+- Trace `AUTO-72-20261028-1544-RESEARCH`；[逐篇正文、官方附件、獨立反例與限制](research/notion-deep-study-automation-run-72-2026-10-28.md)。開始前重讀main規範、sources、decision、acceptance、research README/進度與AUTO-71；sources全文及GitHub code search未見兩個canonical。**全庫逐檔與同文異址精確去重未完成，僅列新來源候選。**
+- `AUTO72-S01` [Phase banner – GOV.UK Design System](https://design-system.service.gov.uk/components/phase-banner/)；canonical `govuk-design-system:components/phase-banner`；維護者GOV.UK Design System team；2018-06元件導入、2026-07指南更新；檢索2026-10-28；`AUTO72-S01-R1-MAIN-TEXT-C1`。主文、history、Nunjucks options文字一次閱讀；反例：Notion TEST 標籤不代表資料隔離、全域階段提示不等於個案補助資格、長篇提示不能擅自加回日常工作台。
+- `AUTO72-S02` [Exit a page quickly – GOV.UK Design System](https://design-system.service.gov.uk/patterns/exit-a-page-quickly/)；canonical `govuk-design-system:patterns/exit-a-page-quickly`；維護者GOV.UK Design System team；首發/修訂日期未核；檢索2026-10-28；`AUTO72-S02-R1-MAIN-TEXT-C1`。主文、HTML/Nunjucks示例及Exit this page元件補充文字一次閱讀；反例：內部Billing/Session不宜直接套用危機退出、遮蔽/跳轉不等於登出或清除瀏覽痕跡、清除草稿與交易完整性存在衝突。
+- **計量**：新來源候選2、主要正文文字閱讀2、首次獨立反例2組6情境、既有完整複讀0；完整R1–R10均0，`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。官方附件/元件不另計篇或輪次；原圖/互動/鍵盤/讀屏/手機/真人Notion/角色權限/歷史金額/Formula/效能未測。僅GitHub研究記錄，不修改Notion/正式系統，不進入重新設計。
