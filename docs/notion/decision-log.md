@@ -936,3 +936,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-80-20261028-2342-RESEARCH`；[證據與反例](research/notion-deep-study-automation-run-80-2026-10-28.md)。GOV.UK Task list適合可自由排序的長任務，Summary list適合key/value事實；前者不是答案摘要，後者不是任務/大量表格。**不把兩種視覺元件直接移植成Notion功能或新需求**。
 - 反證：資格/期別核定有必要前置；使用者已否決把同頁可見資料改成多層任務連結；任務「完成」不等於Billing入帳；摘要必須保留交易時點金額並區分未知/已確認0；卡片操作不可取代權限與個案辨識。均為研究推論，非Notion原生測試。
 - 本輪僅2篇主要文字部分閱讀與6反例，新來源候選待全庫去重；完整R1–R10皆0、累積10/10仍0/10000；**不更動Notion正式/TEST或GAS/Cloud Run/Session，未核准重新設計**。
+
+
+## 2026-10-29｜AUTO-81：Question pages／Contact team UX反證（研究假說，非設計核准）
+- Trace `AUTO-81-20261029-0038-RESEARCH`；[研究來源、正文閱讀、6反例與限制](research/notion-deep-study-automation-run-81-2026-10-29.md)。兩篇GOV.UK官方指南各1次主要文字及選定範例閱讀，未達完整R1；新來源候選2、6反例，尚待全歷史及同文異址去重。
+- **反證**：問答頁「一頁一題」有內部高頻多題同頁例外，不得犧牲治療所「同類資料同頁、開啟即見」；未知/不適用/已確認0不混用，返回或重試不能直接造成重複Billing寫入；求助資訊不能承諾不存在的客服時段，公開社群不處理敏感個案資料，急迫求助不應藏在冗長收合內容。
+- **既有決策保留／未核准**：不把外部HTML元件當Notion原生功能，不將研究推論當已實測；未核准新增問答頁、聯絡區塊、Schema/Formula/View/權限或改正式系統。真人UX/角色權限/交易冪等/效能未驗，`FULL_DEEP_PASS_10_OF_10=0/10000`。本輪僅GitHub研究記錄，未修改Notion或正式GAS/Cloud Run/Session。
