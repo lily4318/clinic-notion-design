@@ -680,3 +680,10 @@
 - `AUTO75-S01` [Board view – Notion Help](https://www.notion.com/help/boards)；canonical `notion-help:boards`；Notion Help Center；發表/更新日未核；2026-10-28 檢索；`AUTO-75-S01-R1-MAIN-TEXT`：官方正文/FAQ約L107–L302一次文字閱讀，非完整深讀。反例：Board 分欄及 Sum≠核准/跨期計費；拖曳卡片可能更動業務狀態；隱藏卡片屬性≠權限。**同一官方頁主文稱可依Relation分組，FAQ卻稱Relation/Formula不能分組，規格矛盾待實機核對。**
 - `AUTO75-S02` [List view – Notion Help](https://www.notion.com/help/lists)；canonical `notion-help:lists`；Notion Help Center；發表/更新日未核；2026-10-28 檢索；`AUTO-75-S02-R1-MAIN-TEXT`：官方正文/FAQ約L107–L185一次文字閱讀，非完整深讀。反例：精簡List可能隱藏Session/Billing/方案期別的同頁比較資訊；Property visibility≠資料權限；同名/相似條目可能誤選。
 - 本輪 `NEW_CANDIDATE=2`、`MAIN_TEXT_READ=2`、首次反例2組6情境；完整R1–R10均0、`FULL_DEEP_PASS_10_OF_10=0`、累積可核實**0／10,000篇**。原圖/影片/拖曳/鍵盤/讀屏/手機/真人Notion/權限/Formula/效能均未驗。**僅GitHub研究，不改Notion或正式系統，不進入重新設計。**
+
+
+## 2026-10-28｜AUTO-76：專案追蹤與知識工作台官方指南（新來源候選，非完整深讀）
+- Trace `AUTO-76-20261028-1941-RESEARCH`；[完整來源逐節與反例](research/notion-deep-study-automation-run-76-2026-10-28.md)。開始前重讀main規範與清冊、列舉research目錄87份；sources全文與GitHub code search未見下列canonical slug。逐檔核對87份研究檔因工具呼叫上限中止、跨語系同文異址語義去重未完成，**僅列新來源候選**。
+- `AUTO76-S01` [Manage client work in a flexible project tracker](https://www.notion.com/en-gb/help/guides/manage-client-work-in-a-flexible-project-tracker)；canonical `notion-help:guides/manage-client-work-in-a-flexible-project-tracker`；`AUTO76-S01-R1-MAIN-TEXT-20261028` 官方主要正文L105–L265文字閱讀一次。反例：客戶Portal不等於臨床個資授權、Board拖曳不等於核准/入帳、模板預填方案不等於歷史期別正確。
+- `AUTO76-S02` [Organize, connect, and scale your Notion knowledge management system](https://www.notion.com/help/guides/organize-connect-and-scale-your-notion-knowledge-management-system)；canonical `notion-help:guides/organize-connect-and-scale-your-notion-knowledge-management-system`；`AUTO76-S02-R1-MAIN-TEXT-20261028` 官方主要正文L107–L253文字閱讀一次。反例：全員首頁不宜直接公開敏感業務、長篇內部SOP不應塞入日常頁、Synced blocks不等於歷史財務快照。
+- 本輪`NEW_CANDIDATE=2`、`MAIN_TEXT_READ=2`、反例2組6情境、完整R1/R2–R10均0；`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。原圖/影音/互動/鍵盤/讀屏/手機/真人Notion/權限/Formula/效能均未驗。**僅GitHub研究記錄，不改Notion或正式系統，不開始重新設計。**
