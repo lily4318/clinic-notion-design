@@ -948,3 +948,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-82-20261029-0143-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-82-2026-10-29.md)。新候選1篇（短文字指南、影片未看）、既有N04針對性複讀1次；不是完整R1或R2，來源去重仍待跨歷史/語義核驗。
 - **PARTIAL**：Linked View/Source共用底層資料，Filter/Sort/Group配置與來源資料修改的傳播範圍不同；共享容器或隱藏View不等於權限隔離/歷史金額快照。官方Data sources同頁`Can edit`與`Full access`對移動來源的文字不一致，待授權實機核實，不直接採用。
 - **嚴格計量**：反例6情境；`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實**0／10,000篇**。**NO NOTION/SYSTEM WRITE**：未修改Notion頁、DB/View/Formula/Relation/權限/業務資料或正式GAS/Cloud Run/Session/部署；研究未達門檻，不開始重新設計。
+
+## 2026-10-29｜AUTO-83｜外部錯誤與中斷頁模式研究（非設計核准）
+- Trace `AUTO-83-20261029-0240-RESEARCH`；[完整閱讀與反例](research/notion-deep-study-automation-run-83-2026-10-29.md)。GOV.UK Interruption pages 與 Page not found pages 各一次主要文字／選定HTML-Nunjucks閱讀，2篇僅列新候選；全部歷史與跨語系去重尚未完成。
+- **研究推論，不是決策變更**：高風險中斷須有證據且少用；404不應代替權限、資料刪除或交易失敗判斷；不能讓錯誤頁暴露敏感個案資訊或引導重複建Billing/Session。GOV.UK元件不是Notion原生功能，既有「同頁直顯」與跨期歷史資料規則不變。
+- **狀態**：RESEARCH_ONLY／NOT_APPROVED／NOT_TESTED；完整R1–R10均0、累積可核實0/10000。只寫GitHub研究紀錄，未動Notion或正式系統，研究門檻未達不開始重新設計。
