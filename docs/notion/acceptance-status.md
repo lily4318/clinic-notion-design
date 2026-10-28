@@ -966,3 +966,9 @@
 - Trace `AUTO-70-20261028-1341-RESEARCH`；[逐篇來源與反例](research/notion-deep-study-automation-run-70-2026-10-28.md)。GOV.UK Addresses與Phone numbers各一次主要正文、HTML/Nunjucks示例文字閱讀，新增2篇來源候選、2組共6個反例。已查sources、code search、81份研究文件目錄與12份非AUTO文件；**69份AUTO歷史全文及同文異址去重未完成**。
 - **PARTIAL／嚴格計量**：完整R1–R10均0，`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實 **0／10,000篇**；不能把文字閱讀、示例數或反例數計為完整深讀。原圖/互動/鍵盤/讀屏/手機、臺灣地址/電話真實驗證、Notion角色權限/公式/效能/歷史文件均**NOT_TESTED**。
 - **NO NOTION/SYSTEM WRITE**：只寫GitHub研究紀錄，未修改Notion正式或TEST頁面、Database、View、Formula、Relation、權限、業務列，或正式GAS、Cloud Run、Session、部署；沒有開始Notion重新設計。雙軌研究並行約定不變。
+
+
+## 2026-10-28｜AUTO-71：電子郵件／銀行資料 UX 官方研究 PARTIAL（非 Notion 驗收）
+- Trace `AUTO-71-20261028-1438-RESEARCH`；[研究證據與反例](research/notion-deep-study-automation-run-71-2026-10-28.md)。兩篇官方正文與HTML/Nunjucks文字各一次，2組共6情境；來源索引未見重複URL，但全82份研究逐檔與同文異址精確去重未完成，新候選2。
+- **PARTIAL／嚴格計量**：完整R1–R10均0，`FULL_DEEP_PASS_10_OF_10`本輪0、累積可核實**0／10,000篇**。不將文字閱讀或反例數冒稱10次完整深讀。
+- **NOT_TESTED**：原始圖片/互動/鍵盤/讀屏/手機、真人Notion、臺灣銀行格式/個資/權限、歷史Billing/收款/公式/效能。**NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度；未修改Notion正式或TEST頁面、DB、View、Formula、Relation、權限、業務資料及正式GAS/Cloud Run/Session/部署；未開始重新設計，雙軌並行約定不變。
