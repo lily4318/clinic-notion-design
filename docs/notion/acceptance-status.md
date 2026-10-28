@@ -1008,3 +1008,10 @@
 - **PARTIAL**：Chart圖表母體/期別/Formula/zero-values文案衝突、Search索引/最近編輯排序限制均為公開文件閱讀結論，未實際測Notion。完整R1–R10均0、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`、累積可核實**0／10,000篇**。
 - **NOT TESTED**：原圖/影片、圖表與搜尋互動、中文輸入、手機/鍵盤/讀屏、現行Notion Free/角色權限、歷史Billing/Session/補助期別、Formula原生求值、載入效能與真人UX。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄，未更動正式或TEST頁面/DB/View/Formula/Relation/權限/業務列，也未改正式GAS/Cloud Run/Session/部署；10,000篇各10次未達，不開始重新設計；手動/自動續作維持獨立並行。
+
+
+## 2026-10-28｜AUTO-78｜Start/Confirmation 官方文字研究 PARTIAL（非Notion功能驗收）
+- Trace `AUTO-78-20261028-2136-RESEARCH`；[研究來源與反例](research/notion-deep-study-automation-run-78-2026-10-28.md)。官方兩頁主要文字與Confirmation HTML/Nunjucks各讀一次；新來源候選2、首次反例2組6情境；精確URL/code search未見重複，但全部歷史逐檔與同文異址語義去重仍PENDING。
+- **PARTIAL**：入口CTA、繼續作業、完成訊息及交易參考碼僅供研究；不能證明Notion自動儲存/正式核准/入帳/歷史快照。完整R1–R10均0、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`、累積可核實**0／10,000篇**。
+- **NOT TESTED**：圖片、外部示例/互動、鍵盤/讀屏/手機、Notion即時Schema、角色權限、Billing/Session/方案期別原生Formula、真人UX及效能。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄；不修改正式/TEST頁面、DB/View/Formula/Relation/權限/業務列，亦不動正式GAS/Cloud Run/Session/部署；研究門檻未達，不進入重新設計，雙軌研究維持並行。
