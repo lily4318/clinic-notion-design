@@ -956,3 +956,8 @@
 - Trace `AUTO-68-20261028-1137-RESEARCH`；[閱讀與反例證據](research/notion-deep-study-automation-run-68-2026-10-28.md)。官方 [Check a service is suitable](https://design-system.service.gov.uk/patterns/check-a-service-is-suitable/) 與 [Create accounts](https://design-system.service.gov.uk/patterns/create-accounts/) 主要正文各一次文字閱讀，反例2組共6情境；來源僅索引新候選2，**全79份歷史研究與同文異址精確去重未完成**。
 - **PARTIAL**：完整深讀R1及R2–R10均0，`FULL_DEEP_PASS_10_OF_10`本輪0，累積可核實**0／10,000篇**；文字閱讀不是完整深讀，研究假說不構成業務/UX PASS。
 - **NOT_TESTED**：原圖/實際互動、鍵盤/讀屏/手機、真人Notion、資格核定、角色與權限、Price Plan歷史金額、Session/Billing、公式、效能、跨系統登入。**NO NOTION/SYSTEM WRITE**：僅GitHub研究與進度；未修改Notion正式/TEST頁、DB、View、Formula、Relation、權限、業務資料或正式GAS/Cloud Run/Session/部署；未開始重新設計。雙軌續作不變。
+
+## 2026-10-28｜AUTO-69：日期/姓名 UX 研究 PARTIAL（非 Notion 驗收）
+- Trace `AUTO-69-20261028-1243-RESEARCH`；[逐篇閱讀、反例與缺口](research/notion-deep-study-automation-run-69-2026-10-28.md)。GOV.UK Dates/Names 官方主要正文與獨立示例文字各一次閱讀，2組6個反例；僅來源索引與 GitHub 搜尋去重，**未完成全庫歷史逐檔及同文異址精確去重**。
+- **PARTIAL**：新來源候選2、正文文字閱讀2；完整 R1–R10 均0，`FULL_DEEP_PASS_10_OF_10` 本輪0、累積可核實 **0／10,000篇**。日期輸入/民國西元、姓名/ID/更名與歷史金額只是研究反例，非實測。
+- **NOT_TESTED**：原圖/互動/鍵盤/讀屏/手機、真人Notion、角色權限、實際公式/補助/收費/效能。**NO NOTION/SYSTEM WRITE**：僅 GitHub 研究與進度；未改 Notion 正式/TEST頁、DB、View、Formula、Relation、權限、業務資料及正式 GAS/Cloud Run/Session/部署；未開始重新設計，雙軌續作不變。
