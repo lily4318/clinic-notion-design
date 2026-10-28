@@ -1045,3 +1045,9 @@
 - Trace `AUTO-83-20261029-0240-RESEARCH`；[證據與反例](research/notion-deep-study-automation-run-83-2026-10-29.md)。2篇GOV.UK官方頁主要正文/選定HTML-Nunjucks例各一次，6個獨立反例；新來源候選2，精確canonical於sources全文未見，跨歷史與同文異址去重PENDING。
 - `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0／10,000篇**。原圖/互動/鍵盤/讀屏/手機、Notion角色權限、錯誤狀態、Billing/Session/方案期別、Formula、真人UX與效能皆**NOT_TESTED**。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究記錄；未修改Notion正式/TEST頁面、DB/View/Formula/Relation/權限/業務列，亦未修改正式GAS/Cloud Run/Session/部署；研究門檻未達，不開始重新設計。手動與自動研究維持並行。
+
+
+## 2026-10-29｜AUTO-84｜USWDS Table／In-page navigation：研究 PARTIAL；Notion 驗收 NOT_TESTED
+- Trace `AUTO-84-20261029-0343-USWDS-RESEARCH`；[研究取證](research/notion-deep-study-automation-run-84-2026-10-29.md)。USWDS 官方 Table 與 In-page navigation 指引主要正文/選定程式碼與版本紀錄各一次、反例2組6情境；新候選2，sources 精確URL先前0筆，全歷史同文異址去重 PENDING。
+- **嚴格計量**：`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0/10,000篇**。尚未逐一操作全部預覽、手機、鍵盤、讀屏；USWDS 的 WCAG 測試摘要不等於 Notion 或本所通過。
+- **NOT_TESTED**：Notion 真實同頁視覺/操作、原生排序與焦點、Billing/Session/Price Plan 歷史金額、跨期公式、個案/角色權限、載入秒數與真人任務效率。**NO NOTION/SYSTEM WRITE**：僅 GitHub 研究紀錄；未修改 Notion 正式/TEST 頁面、DB/View/Formula/Relation/權限/業務列或正式 GAS/Cloud Run/Session/部署；不開始重新設計，手動與排程仍可並行。
