@@ -912,3 +912,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-76-20261028-1941-RESEARCH`；[完整研究與反例](research/notion-deep-study-automation-run-76-2026-10-28.md)；[來源](sources.md)。官方兩篇正文各一次文字閱讀，2組共6情境，來源索引與code search未見精確slug，但全87份研究檔逐檔去重因工具上限中止，僅新候選2。
 - **研究推論**：一般客戶Portal、Board拖曳、預填模板、公司知識首頁與Synced blocks不能取代治療所的角色權限、歷史交易快照、人工補助核准與「同類資料同頁、開啟即見」。本輪沒有批准任何新功能/Schema/UX改動。
 - 完整R1–R10皆0；`FULL_DEEP_PASS_10_OF_10`新增0、累積可核實**0／10,000篇**。僅GitHub研究，不更動Notion正式/TEST或GAS/Cloud Run/Session/部署；不開始重新設計。
+
+
+## 2026-10-28｜AUTO-77：Chart/Search 不取代歷史財務核對或權限（研究推論，非核准）
+- Trace `AUTO-77-20261028-2038-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-77-2026-10-28.md)；[來源索引](sources.md)。兩篇Notion官方正文文字各一次閱讀，新增候選2、反例2組6情境；跨歷史研究檔及同文異址去重未完成，不能宣稱正式全庫唯一或十遍深讀。
+- **Chart**：Count/Sum、隱藏群組、累計與零值選項不能當成正式Billing入帳、補助核准或歷史期別快照；圖表不可直接改資料，部分Formula軸型別不支援；官方同頁 `Omit zero values` 解說前後矛盾，待未來授權後的隔離實測。
+- **Search**：DB Search與Workspace Search索引範圍不同，搜尋不到不等於資料不存在；最近修改排序不等於方案有效期；不能為提高可搜尋性複製病歷/收款/聯絡資訊到不適當的共用頁面。
+- **決策狀態**：純研究，無新增Chart、Search工作流或資料複製授權；保留「同類資料同頁、開啟即見」、跨期交易真值與最小必要權限。完整R1–R10仍0、累積10/10可核實0/10000篇。無Notion正式/TEST及GAS/Cloud Run/Session/部署寫入；未開始重新設計。
