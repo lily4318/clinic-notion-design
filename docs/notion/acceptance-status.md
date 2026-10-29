@@ -1098,3 +1098,9 @@
 ## 2026-10-29｜AUTO-92：Accordion／Breadcrumb 研究取證（未進入Notion驗收）
 - Trace `AUTO-92-20261029-1142-ACCORDION-BREADCRUMB`；[來源與反例紀錄](research/notion-deep-study-automation-run-92-2026-10-29.md)。兩個官方UX來源候選的主文與選定範例部分閱讀、六個反例；**無任何 Notion 正式/TEST 編輯、無原生介面/角色/公式/效能新PASS**。
 - 未完成：所有歷史/跨語系語義去重、互動/手機/鍵盤/螢幕閱讀器、真人 Notion 導覽及「開啟即見」操作驗收。嚴格完整深讀R1=0，累積10/10完成0/10000；不得因研究文件新增而宣稱設計已完成或進入改版。
+
+## 2026-10-29｜AUTO-93｜Notion 備份／刪除／回復：官方文字 PARTIAL、業務 NOT_TESTED
+- Trace `AUTO-93-20261029-1245-BACKUP-DELETE-RESTORE`；[研究原文、段落及六反例](research/notion-deep-study-automation-run-93-2026-10-29.md)。新來源候選2篇，主要文字/FAQ部分閱讀2篇；輔助Enterprise retention/Trust Center不計新篇，歷史語義去重仍PENDING。
+- `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_TEXT_READ=2`、`COUNTEREXAMPLE=6`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。
+- **NOT_TESTED**：本所Notion實際方案/權限、備份匯出包完整性、重新匯入/回復、資料庫頁正文、Deleted Properties依賴、Billing/Session/Price Plan歷史值、真人UX、手機/鍵盤/讀屏、效能及合規。
+- **NO NOTION/SYSTEM WRITE**：僅公開研究及GitHub進度；未修改任何正式/TEST Notion頁、DB/View/Formula/Relation/權限/業務資料，亦未修改GAS/Cloud Run/Session/部署。10,000×10未達，不進入重新設計；雙軌續作維持獨立。
