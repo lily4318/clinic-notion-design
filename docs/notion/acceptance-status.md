@@ -1104,3 +1104,10 @@
 - `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_TEXT_READ=2`、`COUNTEREXAMPLE=6`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。
 - **NOT_TESTED**：本所Notion實際方案/權限、備份匯出包完整性、重新匯入/回復、資料庫頁正文、Deleted Properties依賴、Billing/Session/Price Plan歷史值、真人UX、手機/鍵盤/讀屏、效能及合規。
 - **NO NOTION/SYSTEM WRITE**：僅公開研究及GitHub進度；未修改任何正式/TEST Notion頁、DB/View/Formula/Relation/權限/業務資料，亦未修改GAS/Cloud Run/Session/部署。10,000×10未達，不進入重新設計；雙軌續作維持獨立。
+
+
+## 2026-10-29｜AUTO-94｜W3C WCAG 2.2 重複輸入／焦點遮擋：官方文字 PARTIAL；Notion NOT_TESTED
+- Trace `AUTO-94-20261029-1336-WCAG-REDUNDANT-FOCUS`；[本輪可稽核來源、六個反例及限制](research/notion-deep-study-automation-run-94-2026-10-29.md)。新候選2篇（W3C 3.3.7 A、2.4.11 AA），官方 Understanding 主要文字各節查核及規範/技巧交叉核對；跨歷史/跨語系同文異址去重 PENDING。理解文件屬非規範性解說，WCAG 2.2 Recommendation 為規範依據。
+- `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_TEXT_READ=2`、`COUNTEREXAMPLE=6`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。輔助規範／技巧不額外計數。
+- **NOT_TESTED**：真人 Notion／手機／鍵盤／螢幕閱讀器、浮動介面焦點可見、角色權限、跨期 Billing/Session/補助方案金額與公式、實際效能。外部 WCAG 說明不等於本所 Notion 通過 WCAG。
+- **NO NOTION/SYSTEM WRITE**：僅公開資料研究及 GitHub 研究進度；沒有更動正式／TEST Notion 頁面、DB、View、Formula、Relation、權限、業務資料或 GAS／Cloud Run／Session／部署。未達10,000×10，不進入重新設計；雙軌續作維持獨立。
