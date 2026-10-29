@@ -1000,3 +1000,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-91-20261029-1042-DB-SETTINGS-PROPERTY-ACCESS`；[研究來源、正文位置與六個反例](research/notion-deep-study-automation-run-91-2026-10-29.md)。新候選 [Database settings](https://www.notion.com/help/customize-your-database) 官方主要正文部分閱讀一次；既有 N07 [Manage database property access](https://www.notion.com/help/database-property-access) 由原僅搜尋摘錄升級為正文逐節查核，不重算新篇或完整R2。
 - **研究反證**：`Lock database` 仍可輸入資料，並非 Session/Billing 列的寫入封鎖；Database settings 作用全庫而非單一 View。欄位權限僅 Business/Enterprise，Full access 不受限、多例外採最寬鬆，受限欄位可能影響 View、Formula、Rollup、Button、Automation 及效能。Linked View 隱藏欄位不等於存取隔離。
 - **決策狀態 `RESEARCH_ONLY / NOT_APPROVED / NOT_TESTED`**：沒有核准或執行任何 Notion 正式/TEST 頁面、DB、View、Formula、Relation、權限、業務列或 GAS/Cloud Run/Session/部署變更。仍需實際方案、角色、權限、原生行為與效能核驗；嚴格10/10達標累積0/10,000，不進入重新設計。
+
+
+## 2026-10-29｜AUTO-92：折疊資訊與階層導覽研究（非設計核准）
+- Trace `AUTO-92-20261029-1142-ACCORDION-BREADCRUMB`；[研究原文與六個反例](research/notion-deep-study-automation-run-92-2026-10-29.md)。USWDS Accordion 指引指出當大部分內容都必讀時，收合增加操作成本；Breadcrumb 是階層定位而非線性業務流程，淺層首頁/側欄可能不需要。
+- 本所既有「同頁開啟即見」的高頻個案/額度/心理師資料要求不因外部模板被推翻；收合不等於權限隔離，Breadcrumb不等於補助核准/交易保存。**僅研究推論，不採納新設計，不修改任何 Notion/GAS/Cloud Run/Session**。
+- 兩篇新候選各部分閱讀一次，六反例；跨歷史語義去重、真人UX/鍵盤/讀屏/手機/權限/效能未驗；完整10/10累積仍0/10000。
