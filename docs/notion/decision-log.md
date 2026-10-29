@@ -1030,3 +1030,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **研究事實**：Managed sync是外部→Notion單向同步；短歷史窗可使同步頁及Notion自建欄位一起移除；來源權限不逐位繼承到Notion讀者；Healthy或近期同步時間不代表全部紀錄已同步。僅owner限制誰能建立同步，並**不會停用既有同步**；連線列表與逐筆sync列表不同。2026-10-30 legacy GitHub/Jira/Asana/GitLab sync停止更新，**但本所是否使用legacy sync未核，不能推定受影響**。
 - **反證／未核准設計假設**：不得將同步資料庫當作 Billing／Session／Price Plan 跨期歷史的唯一權威來源或備份；不得把連線健康狀態當對帳通過；不得以來源權限或「僅owner可建立」代替Notion分享/角色隔離。若未來評估任何同步，應獨立查來源帳號、Notion分享、保留窗、同步健康及已存在同步；**本次不授權查改本所實際設定或建立新同步**。
 - **決策狀態：RESEARCH ONLY / NOT APPROVED / NO NOTION DESIGN**。`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實0/10,000篇。保留現有同頁直顯、跨期模型與歷史紀錄；本輪只寫GitHub研究，未動任何正式/TEST Notion或GAS/Cloud Run/Session/部署；雙軌研究獨立並行。
+
+
+## 2026-10-29｜AUTO-97：效能、同頁直顯與最小權限的交叉反證（RESEARCH ONLY）
+- Trace `AUTO-97-20261029-1636-PERF-SHARING`；[來源及反例](research/notion-deep-study-automation-run-97-2026-10-29.md)。新候選 Notion 分享權限正文部分閱讀1篇，既有 Notion 資料庫效能英文官方正文獨立針對性複讀1次；**不將繁中/英文同篇重算新來源，也不將複讀冒稱完整R2**。
+- **反證**：資料庫 View filter/隱藏欄位與分享權限不同；Notion多路授權採最寬鬆，父頁移Private不自動撤銷子頁既有授權；Business/Enterprise的Can create不等於可看既有Session。官方效能建議減少同頁inline或切單一linked view，不得直接推翻使用者已確認的「同頁開啟即見」；任何刪除舊期Price Plan/Billing/Session以換速度都可能損害歷史正確性與回復。
+- **狀態**：研究推論、非設計核准，無真人UX、載入秒數、角色/權限、原生公式或跨期交易新PASS。嚴格10/10累積可核實 **0/10,000篇**；只記錄GitHub，不修改正式/TEST Notion或GAS/Cloud Run/Session/部署，雙軌續作維持獨立。
