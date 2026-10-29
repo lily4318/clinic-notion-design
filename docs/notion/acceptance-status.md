@@ -1118,3 +1118,10 @@
 - `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0／10,000篇**。規範與解說交叉核對不另計一篇，部分閱讀不冒充完整複讀。
 - **NOT_TESTED**：原圖/外鏈技巧全部內容、Notion原生提示/ARIA/可撤回、鍵盤/螢幕閱讀器/手機、真人UX、角色權限、Billing/Session歷史收費/補助跨期Formula/實際入帳/效能。外部WCAG解說不等於本所或Notion無障礙/交易安全PASS。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄；未改任何正式/TEST Notion頁、資料庫、View、Formula、Relation、權限、業務列，亦未改GAS、Cloud Run、Session或部署；10,000篇各10次未達，不進入重新設計；雙軌研究可繼續並行。
+
+
+## 2026-10-29｜AUTO-96｜Notion managed sync／建立權限：文獻 PARTIAL；本所同步與權限 NOT_TESTED
+- Trace `AUTO-96-20261029-1539-MANAGED-SYNC-GOVERNANCE`；[兩篇官方來源與六反例](research/notion-deep-study-automation-run-96-2026-10-29.md)。新來源候選2篇，主要文字各節部分閱讀2篇，獨立反例6個；當期來源索引精確URL未重複，完整歷史同文異址/跨語系語義去重仍PENDING。
+- `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_MAIN_TEXT_READ=2`、`COUNTEREXAMPLE=6`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0／10,000篇**。10/30 legacy同步停止更新是官方條件性風險，**未確認本所使用該功能，不宣稱已受影響**。
+- **NOT_TESTED**：本所Notion方案、是否存在legacy/managed sync、實際來源帳號與Connections/Your syncs、owner/心理師/行政角色、資料庫分享、同步健康、歷史窗與欄位保存、Billing/Session/Price Plan/補助期別實際資料、原生Formula、真人UX、手機/鍵盤/讀屏及效能。外部官方說明不等於本所驗收PASS。
+- **NO NOTION/SYSTEM WRITE**：本輪僅GitHub研究文件與進度；沒有更動任何Notion正式/TEST頁面、DB/View/Formula/Relation/權限或業務列，也沒有修改GAS、Cloud Run、Session或部署。未達10,000×10且未取得使用者完成確認，不開始重新設計；手動與排程仍可獨立並行。
