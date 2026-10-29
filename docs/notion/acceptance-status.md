@@ -1080,3 +1080,9 @@
 - `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_READ=2`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。官方Alert 9測試3 PASS/6 CONDITIONAL、Modal 14測試13 PASS/1 CONDITIONAL；**非本所或Notion實測**。
 - **NOT_TESTED**：Notion原生警示/確認行為、手機/鍵盤/讀屏、真人任務、角色權限、Billing/Session/Price Plan歷史資料真值、原生Formula、載入效能及交易持久化。
 - **NO NOTION/SYSTEM WRITE**：僅GitHub研究文件；未更動正式/TEST Notion頁、DB/View/Formula/Relation/權限/業務資料或正式GAS/Cloud Run/Session/部署。門檻未達，不開始重新設計；自動與手動續作可並行。
+
+
+## 2026-10-29｜AUTO-90：研究證據與嚴格閱讀驗收（NOT DESIGN / NOT LIVE）
+- Trace `AUTO-90-20261029-0939-NOTION-AGENT-FORMS-RESEARCH`；[完整研究檔](research/notion-deep-study-automation-run-90-2026-10-29.md)。公開官方資料**文字部分閱讀**：新候選 Notion Agent 1篇、既有 Forms 針對性獨立複讀1次、六個反例。Notion Agent canonical 在 sources 全文未見，但全歷史語義去重尚未PASS；Forms已在AUTO-01，不重計新篇。
+- `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實完成 **0／10,000篇**；全部圖片、影片、互動、手機、鍵盤／讀屏、真人UX、角色權限、實際公式、資料持久化及效能均未驗收。
+- **RESEARCH DOCUMENT ONLY**：本輪沒有 Notion 正式／TEST 頁面、DB、View、Formula、Relation、權限或業務資料寫入；沒有 GAS、Cloud Run、Session 或部署變更。GitHub 寫入需以 Commit／blob SHA／內容讀回為準，不能把文件PASS當成業務PASS。未達門檻不進入重新設計；手動與排程繼續並行。
