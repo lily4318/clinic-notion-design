@@ -1125,3 +1125,10 @@
 - `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_MAIN_TEXT_READ=2`、`COUNTEREXAMPLE=6`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0／10,000篇**。10/30 legacy同步停止更新是官方條件性風險，**未確認本所使用該功能，不宣稱已受影響**。
 - **NOT_TESTED**：本所Notion方案、是否存在legacy/managed sync、實際來源帳號與Connections/Your syncs、owner/心理師/行政角色、資料庫分享、同步健康、歷史窗與欄位保存、Billing/Session/Price Plan/補助期別實際資料、原生Formula、真人UX、手機/鍵盤/讀屏及效能。外部官方說明不等於本所驗收PASS。
 - **NO NOTION/SYSTEM WRITE**：本輪僅GitHub研究文件與進度；沒有更動任何Notion正式/TEST頁面、DB/View/Formula/Relation/權限或業務列，也沒有修改GAS、Cloud Run、Session或部署。未達10,000×10且未取得使用者完成確認，不開始重新設計；手動與排程仍可獨立並行。
+
+
+## 2026-10-29｜AUTO-97｜Notion 分享權限／資料庫效能：文獻 PARTIAL；本所 NOT_TESTED
+- Trace `AUTO-97-20261029-1636-PERF-SHARING`；[可稽核閱讀事件、原文段落、六個反例](research/notion-deep-study-automation-run-97-2026-10-29.md)。新候選分享權限1篇部分文字閱讀；既有效能來源英文版本針對性獨立複讀1次（同slug不計新篇、不計完整R2）；跨歷史語義去重 PENDING。
+- `NEW_SOURCE_CANDIDATE=1`、`PARTIAL_READ_NEW=1`、`TARGETED_REREAD_EXISTING=1`、`COUNTEREXAMPLE=6`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實嚴格完成 **0/10,000篇**。
+- **NOT_TESTED**：本所Notion實際方案、心理師/行政/負責人權限、父子頁與linked view、隱藏欄位與filter、真人同頁操作、手機/鍵盤/讀屏、載入秒數、原生Formula/Rollup、Billing/Session/Price Plan歷史資料與備份回復。官方產品上限不是本所已達上限的證據。
+- **NO NOTION/SYSTEM WRITE**：只進行公開文獻研究與GitHub記錄，未修改任何正式/TEST Notion頁、DB、View、Formula、Relation、權限或業務資料，也未修改GAS/Cloud Run/Session/部署；10,000×10未達，不進入重新設計，手動/排程仍可獨立並行。
