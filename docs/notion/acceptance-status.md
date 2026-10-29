@@ -1073,3 +1073,10 @@
 - `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_READ=2`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。USWDS官方Process list 6測試2通過/4條件；Step indicator 9測試7通過/2條件，**均非本所Notion實測**。
 - **NOT_TESTED**：Notion原生多步流程/狀態/權限、個案/心理師/機構同頁UX、Billing/Session/補助期別及交易真值、手機/鍵盤/讀屏/實際載入時間；外部元件不等於本所PASS。
 - **NO NOTION/SYSTEM WRITE**：僅公開資料研究及GitHub進度記錄；沒有修改任何正式/TEST Notion頁面、DB、View、Formula、Relation、權限或業務列，也沒有修改正式GAS、Cloud Run、Session、部署。研究門檻未達，不進入重新設計；自動/手動研究保持獨立並行。
+
+
+## 2026-10-29｜AUTO-89｜Alert／Modal 文獻 PARTIAL；Notion 功能 NOT_TESTED
+- Trace `AUTO-89-20261029-0838-ALERT-MODAL-RESEARCH`；[研究與反例](research/notion-deep-study-automation-run-89-2026-10-29.md)。USWDS兩篇官方主文/選定HTML/無障礙摘要部分閱讀各一次，2組6反例；精確URL在sources與code search未見，歷史/跨語系語義去重PENDING，僅候選2。
+- `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_READ=2`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。官方Alert 9測試3 PASS/6 CONDITIONAL、Modal 14測試13 PASS/1 CONDITIONAL；**非本所或Notion實測**。
+- **NOT_TESTED**：Notion原生警示/確認行為、手機/鍵盤/讀屏、真人任務、角色權限、Billing/Session/Price Plan歷史資料真值、原生Formula、載入效能及交易持久化。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究文件；未更動正式/TEST Notion頁、DB/View/Formula/Relation/權限/業務資料或正式GAS/Cloud Run/Session/部署。門檻未達，不開始重新設計；自動與手動續作可並行。
