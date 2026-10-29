@@ -1093,3 +1093,8 @@
 - `NEW_SOURCE_CANDIDATE=1`、`PARTIAL_READ_NEW=1`、`EXISTING_SOURCE_EVIDENCE_UPGRADE=1`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0/10,000篇**。全歷史同文異址去重、圖片/互動/真人操作/手機/鍵盤/讀屏均待補。
 - **NOT_TESTED**：本所現行 Notion 方案、角色的真實欄位存取、Linked View、受限欄位依賴 Formula/Rollup/Button/Automation、Billing/Session/Price Plan歷史金額、實際載入速度。官方文字不代表本所驗收PASS。
 - **NO NOTION/SYSTEM WRITE**：僅公開文獻研究及 GitHub 研究記錄；沒有修改 Notion 正式/TEST 頁面、DB、View、Formula、Relation、權限、業務列或 GAS、Cloud Run、Session、部署；未達10,000×10，禁止進入重新設計，雙軌續作維持獨立。
+
+
+## 2026-10-29｜AUTO-92：Accordion／Breadcrumb 研究取證（未進入Notion驗收）
+- Trace `AUTO-92-20261029-1142-ACCORDION-BREADCRUMB`；[來源與反例紀錄](research/notion-deep-study-automation-run-92-2026-10-29.md)。兩個官方UX來源候選的主文與選定範例部分閱讀、六個反例；**無任何 Notion 正式/TEST 編輯、無原生介面/角色/公式/效能新PASS**。
+- 未完成：所有歷史/跨語系語義去重、互動/手機/鍵盤/螢幕閱讀器、真人 Notion 導覽及「開啟即見」操作驗收。嚴格完整深讀R1=0，累積10/10完成0/10000；不得因研究文件新增而宣稱設計已完成或進入改版。
