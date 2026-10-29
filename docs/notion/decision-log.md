@@ -1011,3 +1011,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-93-20261029-1245-BACKUP-DELETE-RESTORE`；[原始官方證據與反例](research/notion-deep-study-automation-run-93-2026-10-29.md)。官方文件區分工作區匯出、雲端備份、Trash、版本歷史、Archive、Deleted Properties；**匯出不能直接重建原Workspace**，資料庫版本恢復不會自動恢復每筆資料庫頁正文，Archive非刪除，欄位永久刪除不能直接回復。
 - 本所涉及 Billing/Session/Price Plan/個案歷程的歷史正確性與權限不可僅憑備份宣傳或回復按鈕假定PASS；此處只記錄**研究反證**，未決定任何新設計、未核准清理或匯出。
 - 兩篇官方新來源候選部分文字閱讀、六反例；跨歷史語義去重、真實匯出/回復、角色/權限/效能均待驗。完整十次嚴格深讀累積 **0/10,000**。**未修改任何Notion或GAS/Cloud Run/Session/部署**。
+
+
+## 2026-10-29｜AUTO-94｜WCAG 2.2 跨期輸入與同頁鍵盤焦點（研究推論，非設計決議）
+- Trace `AUTO-94-20261029-1336-WCAG-REDUNDANT-FOCUS`；[研究與六個反例](research/notion-deep-study-automation-run-94-2026-10-29.md)。新來源候選 W3C 3.3.7（同一流程避免不必要重複輸入，例外含資安/失效）及 2.4.11（鍵盤焦點不可被作者內容完全遮住），各為官方文字部分閱讀一次，未達嚴格完整 R1。
+- **設計假設（未核准）**：未來如需改善 Billing／Session／補助管理同頁工作流程，評估同一活動中重複選案/方案的錯誤率、跨期價格不可預填錯套，以及固定欄／浮動警示是否遮擋鍵盤焦點；不得將 WCAG 的最低要求或外部網站示例視為本所 Notion 原生 PASS。
+- **本輪決策**：僅將研究證據與反例存 GitHub；沒有授權更動任何正式或 TEST Notion 頁、DB、View、Formula、Relation、權限、業務資料或正式 GAS／Cloud Run／Session／部署。全歷史語義去重、真人/手機/鍵盤/讀屏及角色/歷史金額測試 PENDING；10,000×10 門檻未達，不進入重新設計；手動／排程仍可並行。
