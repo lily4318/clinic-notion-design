@@ -1023,3 +1023,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-95-20261029-1438-WCAG-STATUS-ERROR-PREVENTION`；[逐節官方證據及六個反例](research/notion-deep-study-automation-run-95-2026-10-29.md)。W3C WCAG 2.2 Understanding 4.1.3 與 3.3.4 兩篇**部分文字閱讀**，W3C Recommendation 作規範交叉核對。狀態訊息應有可被輔助科技理解的完整語境；高風險財務/資料修改需具備可撤回、錯誤檢查後修正、或提交前確認修正的至少一種防錯機制，**不要求每次一般Session編輯都跳確認**。
 - **反證／邊界**：綠色成功提示≠入帳/核准；ARIA狀態可讀≠歷史Billing正確；確認對話框≠可回復已刪資料或符合保留年限；過度提示可能損害高頻操作。研究原則不代表 Notion 原生提供可配置ARIA或本所角色/交易已測通過。
 - **決策狀態：RESEARCH ONLY / NOT APPROVED / NO NOTION DESIGN**。不變更原「同頁開啟即見」、補助跨方案期別、歷史收費、業務資料與任何 Notion/正式系統。完整10/10深讀仍0/10,000，僅可供日後使用者核准後之設計比較與TEST驗收。
+
+
+## 2026-10-29｜AUTO-96：同步新鮮度、歷史保留與資料權限分界（研究推論；未核准設計）
+- Trace `AUTO-96-20261029-1539-MANAGED-SYNC-GOVERNANCE`；[官方原文範圍、六反例、閱讀限制](research/notion-deep-study-automation-run-96-2026-10-29.md)。Notion Help新候選2篇、各主要文字章節部分閱讀1次，未完成完整R1或十次複讀。當期精確URL未見，歷史語義去重PENDING。
+- **研究事實**：Managed sync是外部→Notion單向同步；短歷史窗可使同步頁及Notion自建欄位一起移除；來源權限不逐位繼承到Notion讀者；Healthy或近期同步時間不代表全部紀錄已同步。僅owner限制誰能建立同步，並**不會停用既有同步**；連線列表與逐筆sync列表不同。2026-10-30 legacy GitHub/Jira/Asana/GitLab sync停止更新，**但本所是否使用legacy sync未核，不能推定受影響**。
+- **反證／未核准設計假設**：不得將同步資料庫當作 Billing／Session／Price Plan 跨期歷史的唯一權威來源或備份；不得把連線健康狀態當對帳通過；不得以來源權限或「僅owner可建立」代替Notion分享/角色隔離。若未來評估任何同步，應獨立查來源帳號、Notion分享、保留窗、同步健康及已存在同步；**本次不授權查改本所實際設定或建立新同步**。
+- **決策狀態：RESEARCH ONLY / NOT APPROVED / NO NOTION DESIGN**。`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實0/10,000篇。保留現有同頁直顯、跨期模型與歷史紀錄；本輪只寫GitHub研究，未動任何正式/TEST Notion或GAS/Cloud Run/Session/部署；雙軌研究獨立並行。
