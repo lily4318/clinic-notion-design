@@ -981,3 +981,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - **研究區分**：Process list只說明有先後順序的步驟；Step indicator表達跨頁線性表單的當前章節，並非導航本身；已登記GOV.UK Task list適用可分次/非線性任務。三者均不代表 Notion 業務狀態已保存、核定期別已確認或 Billing/Session 已入帳。
 - **反證與保留條件**：將同頁機構/個案/心理師區改成步驟條，可能違反使用者「同類資料同頁、開啟即見」；用步驟完成推論補助核准會混淆介面狀態與資料真值。USWDS Process list文件另疑有Step indicator段落混入，待核。這些只是可供未來比較的UX假設，**不構成採用、設計變更或使用者同意**。
 - 本輪候選2篇、部分閱讀2篇、反例6；完整十遍深讀達標篇數仍 **0/10,000**；完整歷史/語義去重、Notion真人操作/手機/鍵盤/讀屏/權限/效能未驗證。**只寫GitHub研究紀錄，不改Notion正式/TEST或GAS/Cloud Run/Session/部署**。
+
+
+## 2026-10-29｜AUTO-89｜Alert 與 Modal 的功能界線（研究推論，未核准）
+- Trace `AUTO-89-20261029-0838-ALERT-MODAL-RESEARCH`；[完整證據](research/notion-deep-study-automation-run-89-2026-10-29.md)。USWDS Alert／Modal 官方主文與選定HTML、無障礙摘要各一次部分閱讀；新候選2、六反例，未完成十次完整深讀。
+- **反證結論**：Alert 是傳遞狀態與復原步驟，Modal 是聚焦特定決定；二者均不等於 Price Plan/Session/Billing 的正確保存、補助核准、權限隔離或正式同意。警示過量造成疲乏；高頻操作強制確認增加中斷；成功提示須有業務真值證據，且避免共用頁面暴露敏感資料。官方HTML無障礙修復不等於Notion原生已驗收。
+- `RESEARCH_ONLY / NOT_APPROVED / NOT_TESTED`；完整10/10累積 **0/10,000**，全歷史語義去重/實機/真人UX/角色/效能仍待驗；**不修改Notion或正式系統，不開始重新設計**。
