@@ -1017,3 +1017,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-94-20261029-1336-WCAG-REDUNDANT-FOCUS`；[研究與六個反例](research/notion-deep-study-automation-run-94-2026-10-29.md)。新來源候選 W3C 3.3.7（同一流程避免不必要重複輸入，例外含資安/失效）及 2.4.11（鍵盤焦點不可被作者內容完全遮住），各為官方文字部分閱讀一次，未達嚴格完整 R1。
 - **設計假設（未核准）**：未來如需改善 Billing／Session／補助管理同頁工作流程，評估同一活動中重複選案/方案的錯誤率、跨期價格不可預填錯套，以及固定欄／浮動警示是否遮擋鍵盤焦點；不得將 WCAG 的最低要求或外部網站示例視為本所 Notion 原生 PASS。
 - **本輪決策**：僅將研究證據與反例存 GitHub；沒有授權更動任何正式或 TEST Notion 頁、DB、View、Formula、Relation、權限、業務資料或正式 GAS／Cloud Run／Session／部署。全歷史語義去重、真人/手機/鍵盤/讀屏及角色/歷史金額測試 PENDING；10,000×10 門檻未達，不進入重新設計；手動／排程仍可並行。
+
+
+## 2026-10-29｜AUTO-95：狀態可感知與高風險提交防錯（研究推論；未核准設計）
+- Trace `AUTO-95-20261029-1438-WCAG-STATUS-ERROR-PREVENTION`；[逐節官方證據及六個反例](research/notion-deep-study-automation-run-95-2026-10-29.md)。W3C WCAG 2.2 Understanding 4.1.3 與 3.3.4 兩篇**部分文字閱讀**，W3C Recommendation 作規範交叉核對。狀態訊息應有可被輔助科技理解的完整語境；高風險財務/資料修改需具備可撤回、錯誤檢查後修正、或提交前確認修正的至少一種防錯機制，**不要求每次一般Session編輯都跳確認**。
+- **反證／邊界**：綠色成功提示≠入帳/核准；ARIA狀態可讀≠歷史Billing正確；確認對話框≠可回復已刪資料或符合保留年限；過度提示可能損害高頻操作。研究原則不代表 Notion 原生提供可配置ARIA或本所角色/交易已測通過。
+- **決策狀態：RESEARCH ONLY / NOT APPROVED / NO NOTION DESIGN**。不變更原「同頁開啟即見」、補助跨方案期別、歷史收費、業務資料與任何 Notion/正式系統。完整10/10深讀仍0/10,000，僅可供日後使用者核准後之設計比較與TEST驗收。
