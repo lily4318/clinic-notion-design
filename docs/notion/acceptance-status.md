@@ -1086,3 +1086,10 @@
 - Trace `AUTO-90-20261029-0939-NOTION-AGENT-FORMS-RESEARCH`；[完整研究檔](research/notion-deep-study-automation-run-90-2026-10-29.md)。公開官方資料**文字部分閱讀**：新候選 Notion Agent 1篇、既有 Forms 針對性獨立複讀1次、六個反例。Notion Agent canonical 在 sources 全文未見，但全歷史語義去重尚未PASS；Forms已在AUTO-01，不重計新篇。
 - `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實完成 **0／10,000篇**；全部圖片、影片、互動、手機、鍵盤／讀屏、真人UX、角色權限、實際公式、資料持久化及效能均未驗收。
 - **RESEARCH DOCUMENT ONLY**：本輪沒有 Notion 正式／TEST 頁面、DB、View、Formula、Relation、權限或業務資料寫入；沒有 GAS、Cloud Run、Session 或部署變更。GitHub 寫入需以 Commit／blob SHA／內容讀回為準，不能把文件PASS當成業務PASS。未達門檻不進入重新設計；手動與排程繼續並行。
+
+
+## 2026-10-29｜AUTO-91｜資料庫設定／欄位權限：官方正文 PARTIAL，Notion NOT_TESTED
+- Trace `AUTO-91-20261029-1042-DB-SETTINGS-PROPERTY-ACCESS`；[可稽核來源與反例](research/notion-deep-study-automation-run-91-2026-10-29.md)。官方 Database settings 新候選主要文字部分閱讀1篇；既有 N07 欄位權限文件由「僅搜尋摘錄」提升為正文逐節查核1篇（**不是新來源／完整複讀**）；反例共6情境。
+- `NEW_SOURCE_CANDIDATE=1`、`PARTIAL_READ_NEW=1`、`EXISTING_SOURCE_EVIDENCE_UPGRADE=1`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0/10,000篇**。全歷史同文異址去重、圖片/互動/真人操作/手機/鍵盤/讀屏均待補。
+- **NOT_TESTED**：本所現行 Notion 方案、角色的真實欄位存取、Linked View、受限欄位依賴 Formula/Rollup/Button/Automation、Billing/Session/Price Plan歷史金額、實際載入速度。官方文字不代表本所驗收PASS。
+- **NO NOTION/SYSTEM WRITE**：僅公開文獻研究及 GitHub 研究記錄；沒有修改 Notion 正式/TEST 頁面、DB、View、Formula、Relation、權限、業務列或 GAS、Cloud Run、Session、部署；未達10,000×10，禁止進入重新設計，雙軌續作維持獨立。
