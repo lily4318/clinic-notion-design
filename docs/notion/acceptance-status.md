@@ -1111,3 +1111,10 @@
 - `NEW_SOURCE_CANDIDATE=2`、`PARTIAL_TEXT_READ=2`、`COUNTEREXAMPLE=6`、`FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`；累積可核實 **0/10,000篇**。輔助規範／技巧不額外計數。
 - **NOT_TESTED**：真人 Notion／手機／鍵盤／螢幕閱讀器、浮動介面焦點可見、角色權限、跨期 Billing/Session/補助方案金額與公式、實際效能。外部 WCAG 說明不等於本所 Notion 通過 WCAG。
 - **NO NOTION/SYSTEM WRITE**：僅公開資料研究及 GitHub 研究進度；沒有更動正式／TEST Notion 頁面、DB、View、Formula、Relation、權限、業務資料或 GAS／Cloud Run／Session／部署。未達10,000×10，不進入重新設計；雙軌續作維持獨立。
+
+
+## 2026-10-29｜AUTO-95｜WCAG狀態訊息／財務資料防錯：文獻 PARTIAL，Notion NOT TESTED
+- Trace `AUTO-95-20261029-1438-WCAG-STATUS-ERROR-PREVENTION`；[研究原文與反例](research/notion-deep-study-automation-run-95-2026-10-29.md)。官方 W3C Understanding 4.1.3/3.3.4 主文與選定技巧**部分閱讀2篇**，新候選2篇、反例6情境；兩URL於當期sources全文與GitHub搜尋未見，但跨歷史同文異址/語義去重 PENDING。
+- `FULL_R1=0`、`FULL_R2_TO_R10=0`、`FULL_DEEP_PASS_10_OF_10_THIS_RUN=0`，累積可核實 **0／10,000篇**。規範與解說交叉核對不另計一篇，部分閱讀不冒充完整複讀。
+- **NOT_TESTED**：原圖/外鏈技巧全部內容、Notion原生提示/ARIA/可撤回、鍵盤/螢幕閱讀器/手機、真人UX、角色權限、Billing/Session歷史收費/補助跨期Formula/實際入帳/效能。外部WCAG解說不等於本所或Notion無障礙/交易安全PASS。
+- **NO NOTION/SYSTEM WRITE**：僅GitHub研究紀錄；未改任何正式/TEST Notion頁、資料庫、View、Formula、Relation、權限、業務列，亦未改GAS、Cloud Run、Session或部署；10,000篇各10次未達，不進入重新設計；雙軌研究可繼續並行。
