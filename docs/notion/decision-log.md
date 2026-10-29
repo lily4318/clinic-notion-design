@@ -994,3 +994,9 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - 新候選 Notion Agent 官方說明：可讀/編輯部分頁面、資料庫、View、Relation，卻限制新建 Automation、Layout、Formula／Rollup／Button 等進階屬性及改分享權限；同頁另有「create/edit/evaluate formulas」文字，應區分運算式與屬性建立，**尚未實機確認**。權限繼承、多人可編輯指令不等於臨床資料最小權限、交易核准或正式稽核。
 - 已有 Forms 來源的本次獨立針對性複讀：表單題目預設與來源欄位名稱同步，公開匿名提交與提交後權限須分別核對，複製模板可能保留原作者回應目的地。不得因表單或 Agent 方便，就擅自改 Billing／Session／Price Plan 欄位或收集敏感資料。
 - `NEW_SOURCE_CANDIDATE=1`、`TARGETED_REREAD=1`、六個反例，嚴格10/10達標仍 **0／10,000篇**。研究不等於設計核准；保持同類資料同頁直顯、保留原始資料及正式權限；待10,000篇各10次完成後仍須使用者確認才可進入重新設計。
+
+
+## 2026-10-29｜AUTO-91｜全域資料庫設定與欄位權限的界線（研究推論，非核准改版）
+- Trace `AUTO-91-20261029-1042-DB-SETTINGS-PROPERTY-ACCESS`；[研究來源、正文位置與六個反例](research/notion-deep-study-automation-run-91-2026-10-29.md)。新候選 [Database settings](https://www.notion.com/help/customize-your-database) 官方主要正文部分閱讀一次；既有 N07 [Manage database property access](https://www.notion.com/help/database-property-access) 由原僅搜尋摘錄升級為正文逐節查核，不重算新篇或完整R2。
+- **研究反證**：`Lock database` 仍可輸入資料，並非 Session/Billing 列的寫入封鎖；Database settings 作用全庫而非單一 View。欄位權限僅 Business/Enterprise，Full access 不受限、多例外採最寬鬆，受限欄位可能影響 View、Formula、Rollup、Button、Automation 及效能。Linked View 隱藏欄位不等於存取隔離。
+- **決策狀態 `RESEARCH_ONLY / NOT_APPROVED / NOT_TESTED`**：沒有核准或執行任何 Notion 正式/TEST 頁面、DB、View、Formula、Relation、權限、業務列或 GAS/Cloud Run/Session/部署變更。仍需實際方案、角色、權限、原生行為與效能核驗；嚴格10/10達標累積0/10,000，不進入重新設計。
