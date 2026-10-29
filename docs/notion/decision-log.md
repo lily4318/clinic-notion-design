@@ -987,3 +987,10 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-89-20261029-0838-ALERT-MODAL-RESEARCH`；[完整證據](research/notion-deep-study-automation-run-89-2026-10-29.md)。USWDS Alert／Modal 官方主文與選定HTML、無障礙摘要各一次部分閱讀；新候選2、六反例，未完成十次完整深讀。
 - **反證結論**：Alert 是傳遞狀態與復原步驟，Modal 是聚焦特定決定；二者均不等於 Price Plan/Session/Billing 的正確保存、補助核准、權限隔離或正式同意。警示過量造成疲乏；高頻操作強制確認增加中斷；成功提示須有業務真值證據，且避免共用頁面暴露敏感資料。官方HTML無障礙修復不等於Notion原生已驗收。
 - `RESEARCH_ONLY / NOT_APPROVED / NOT_TESTED`；完整10/10累積 **0/10,000**，全歷史語義去重/實機/真人UX/角色/效能仍待驗；**不修改Notion或正式系統，不開始重新設計**。
+
+
+## 2026-10-29｜AUTO-90：Notion Agent／Forms 研究推論，非改版決策
+- Trace `AUTO-90-20261029-0939-NOTION-AGENT-FORMS-RESEARCH`；[研究紀錄](research/notion-deep-study-automation-run-90-2026-10-29.md)。**本輪只新增研究證據，沒有核准設計、Notion變更或正式系統修改**。
+- 新候選 Notion Agent 官方說明：可讀/編輯部分頁面、資料庫、View、Relation，卻限制新建 Automation、Layout、Formula／Rollup／Button 等進階屬性及改分享權限；同頁另有「create/edit/evaluate formulas」文字，應區分運算式與屬性建立，**尚未實機確認**。權限繼承、多人可編輯指令不等於臨床資料最小權限、交易核准或正式稽核。
+- 已有 Forms 來源的本次獨立針對性複讀：表單題目預設與來源欄位名稱同步，公開匿名提交與提交後權限須分別核對，複製模板可能保留原作者回應目的地。不得因表單或 Agent 方便，就擅自改 Billing／Session／Price Plan 欄位或收集敏感資料。
+- `NEW_SOURCE_CANDIDATE=1`、`TARGETED_REREAD=1`、六個反例，嚴格10/10達標仍 **0／10,000篇**。研究不等於設計核准；保持同類資料同頁直顯、保留原始資料及正式權限；待10,000篇各10次完成後仍須使用者確認才可進入重新設計。
