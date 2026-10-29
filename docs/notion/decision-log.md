@@ -1006,3 +1006,8 @@ Notion 中已將「十模組 B1～B3 TEST 預覽」改版為 [TEST 行政任務�
 - Trace `AUTO-92-20261029-1142-ACCORDION-BREADCRUMB`；[研究原文與六個反例](research/notion-deep-study-automation-run-92-2026-10-29.md)。USWDS Accordion 指引指出當大部分內容都必讀時，收合增加操作成本；Breadcrumb 是階層定位而非線性業務流程，淺層首頁/側欄可能不需要。
 - 本所既有「同頁開啟即見」的高頻個案/額度/心理師資料要求不因外部模板被推翻；收合不等於權限隔離，Breadcrumb不等於補助核准/交易保存。**僅研究推論，不採納新設計，不修改任何 Notion/GAS/Cloud Run/Session**。
 - 兩篇新候選各部分閱讀一次，六反例；跨歷史語義去重、真人UX/鍵盤/讀屏/手機/權限/效能未驗；完整10/10累積仍0/10000。
+
+## 2026-10-29｜AUTO-93：備份與刪除回復研究（僅證據，不批准設計）
+- Trace `AUTO-93-20261029-1245-BACKUP-DELETE-RESTORE`；[原始官方證據與反例](research/notion-deep-study-automation-run-93-2026-10-29.md)。官方文件區分工作區匯出、雲端備份、Trash、版本歷史、Archive、Deleted Properties；**匯出不能直接重建原Workspace**，資料庫版本恢復不會自動恢復每筆資料庫頁正文，Archive非刪除，欄位永久刪除不能直接回復。
+- 本所涉及 Billing/Session/Price Plan/個案歷程的歷史正確性與權限不可僅憑備份宣傳或回復按鈕假定PASS；此處只記錄**研究反證**，未決定任何新設計、未核准清理或匯出。
+- 兩篇官方新來源候選部分文字閱讀、六反例；跨歷史語義去重、真實匯出/回復、角色/權限/效能均待驗。完整十次嚴格深讀累積 **0/10,000**。**未修改任何Notion或GAS/Cloud Run/Session/部署**。
